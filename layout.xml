@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by  () -->
+<span class="remove">
+	<html>
+		<head>
+			<transform xml="title.xml"/>
+			<transform xml="meta.xml"/>
+			<link href="/statmod.css" rel="stylesheet" type="text/css"/>
+			<script language="javascript" src="/_script/toggle_quote.js"/>
+		</head>
+		<body>
+			<table width="800" border="0" cellspacing="0" cellpadding="0">
+				<tbody>
+					<tr valign="top" height="47">
+						<td>
+							<a href="/index.htm" class="imagelink">
+								<img src="_img/statmod.gif" width="161" height="47" alt="Главная"/>
+							</a>
+						</td>
+						<td>
+							<a href="/index.htm" class="imagelink">
+								<img src="_img/sait_stud.gif" width="778" height="47" alt="Главная"/>
+							</a>
+						</td>
+					</tr>
+					<tr valign="middle" height="25">
+						<td>
+								<img src="_img/statmod_matmex.gif" width="161" height="25" alt=""/>
+						</td>
+						<td id="topnav">
+							<transform xml="sitemap.xml" xsl="topnav.xsl"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table width="758" border="0" cellspacing="0" cellpadding="0">
+				<tr vAlign="top" height="3">
+					<td colspan="2">
+						<img src="_img/spacer.gif" width="160" height="3" alt=""/>
+					</td>
+					<td>
+						<img src="_img/spacer.gif" width="11" height="3" alt=""/>
+					</td>
+				</tr>
+				<tr vAlign="top">
+					<td width="157" id="leftmenu">
+						<transform xml="sitemap.xml" xsl="leftnav.xsl"/>
+					</td>
+					<td width="3" id="v_line" rowspan="2">
+						<img src="_img/spacer.gif" width="3" height="420" alt=""/>
+					</td>
+					<td width="100%" id="content_cell" rowspan="2">
+						<table border="0" cellspacing="5" cellpadding="0">
+							<tr>
+								<td>
+									<transform xml="body.xml"/>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr valign="bottom">
+					<td id="copyright">
+						<a href="/sitemap/index.htm">Карта сайта</a>
+						<br/>
+						<spec code="copy"/> статмод, 2006</td>
+				</tr>
+			</table>
+		</body>
+	</html>
+</span>

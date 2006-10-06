@@ -1,0 +1,5 @@
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by dima (epi) -->
+<!ENTITY % HTMLEnt SYSTEM  "htmlent.ent">
+%HTMLEnt;
+<!ENTITY % MYXHTMLEnt SYSTEM  "xhtml.ent">
+%MYXHTMLEnt;

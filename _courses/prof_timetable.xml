@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<timetable xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <weekday id="mon">
+    <two_hours no="1" start_time="09:30" end_time="11:05">
+    </two_hours>
+    <two_hours no="2" start_time="11:15" end_time="12:50">
+    </two_hours>
+    <two_hours no="3" start_time="13:40" end_time="15:15">
+    </two_hours>
+    <two_hours no="4" start_time="15:25" end_time="17:00">
+    </two_hours>
+    <two_hours no="5" start_time="17:10" end_time="18:45">
+    </two_hours>
+  </weekday>
+  <weekday id="tue">
+    <two_hours no="1" start_time="09:30" end_time="11:05">
+      <lesson type="chair" spec="sm,sa">
+				<location>4526</location>
+				<course id="all_statmod" part="pract" />
+				<fortnightly type="2" />
+			</lesson>
+    </two_hours>
+    <two_hours no="2" start_time="11:15" end_time="12:50">
+    </two_hours>
+    <two_hours no="3" start_time="13:40" end_time="15:15">
+    </two_hours>
+    <two_hours no="4" start_time="15:25" end_time="17:00">
+    </two_hours>
+    <two_hours no="5" start_time="17:10" end_time="18:45">
+    </two_hours>
+  </weekday>
+  <weekday id="wed">
+    <two_hours no="1" start_time="09:30" end_time="11:05">
+    </two_hours>
+    <two_hours no="2" start_time="11:15" end_time="12:50">
+    </two_hours>
+    <two_hours no="3" start_time="13:40" end_time="15:15">
+    </two_hours>
+    <two_hours no="4" start_time="15:25" end_time="17:00">
+    </two_hours>
+    <two_hours no="5" start_time="17:10" end_time="18:45">
+    </two_hours>
+  </weekday>
+  <weekday id="thu">
+    <two_hours no="1" start_time="09:30" end_time="11:05">
+    </two_hours>
+    <two_hours no="2" start_time="11:15" end_time="12:50">
+    </two_hours>
+    <two_hours no="3" start_time="13:40" end_time="15:15">
+    </two_hours>
+    <two_hours no="4" start_time="15:25" end_time="17:00">
+    </two_hours>
+    <two_hours no="5" start_time="17:10" end_time="18:45">
+    </two_hours>
+  </weekday>
+  <weekday id="fri">
+    <two_hours no="1" start_time="09:30" end_time="11:05">
+    </two_hours>
+    <two_hours no="2" start_time="11:15" end_time="12:50">
+    </two_hours>
+    <two_hours no="3" start_time="13:40" end_time="15:15">
+    </two_hours>
+    <two_hours no="4" start_time="15:25" end_time="17:00">
+    </two_hours>
+    <two_hours no="5" start_time="17:10" end_time="18:45">
+    </two_hours>
+  </weekday>
+  <weekday id="sat">
+    <two_hours no="1" start_time="09:30" end_time="11:05">
+    </two_hours>
+    <two_hours no="2" start_time="11:15" end_time="12:50">
+    </two_hours>
+    <two_hours no="3" start_time="13:40" end_time="15:15">
+    </two_hours>
+    <two_hours no="4" start_time="15:25" end_time="17:00">
+    </two_hours>
+    <two_hours no="5" start_time="17:10" end_time="18:45">
+    </two_hours>
+  </weekday>
+</timetable>

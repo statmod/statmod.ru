@@ -1,0 +1,3 @@
+<build>
+	<build xml="melas.xml" xsl="index.xsl" output="melas.htm"/>
+</build>

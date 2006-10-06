@@ -1,0 +1,773 @@
+<timetables>
+  <timetable year_no="3">
+    <weekday id="mon">
+      <two_hours no="1">
+        <lesson type="dep" spec="all">
+          <location>03</location>
+          <course>
+            <name>Экстремальные задачи</name>
+            <prof> Малоземов </prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="dep" spec="all">
+          <location>05</location>
+          <course>
+            <name> Теория вероятностей </name>
+            <prof> Мартикайнен </prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="all">
+          <location>3502</location>
+          <course>
+            <name> Функциональный анализ </name>
+            <prof> Александров </prof>
+          </course>
+          <fortnightly type="1" />
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="chair" spec="all">
+          <location>05</location>
+          <course>
+            <name>Математический анализ</name>
+            <prof>Лодкин</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="tue">
+      <two_hours no="1" />
+      <two_hours no="2">
+        <lesson type="chair" spec="sa">
+          <location>3502</location>
+          <course id="sa_graph_theory">
+            <name xml:lang="ru">Структурное представление систем</name>
+            <prof id="ya_sushkov">Сушков Ю.А.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="sm">
+          <location>2522</location>
+          <course id="sm_stat_intro">
+            <name xml:lang="ru">Введение в обработку данных</name>
+            <prof id="ag_bart">Барт А.Г.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>2512</location>
+          <course id="mm_prog_c_lang">
+            <name xml:lang="ru">Теория и практика программирования</name>
+            <prof id="an_pepelyshev">Пепелышев А.Н.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="dep" spec="all">
+          <location>07</location>
+          <course>
+            <name>Охрана труда</name>
+            <prof>Тараканова</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="chair" spec="sm">
+          <location>4526</location>
+          <course id="sm_prog_c_lang">
+            <name xml:lang="ru">Технология программирования</name>
+            <prof id="ne_golyandina">Голяндина Н.Э.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="wed">
+      <two_hours no="1">
+        <lesson type="chair" spec="all">
+          <location>2520</location>
+          <course>
+            <name>Математический анализ</name>
+            <prof>Дубова</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="chair" spec="all">
+          <location>4526</location>
+          <course id="all_teorver_pract">
+            <name xml:lang="ru">Теория вероятностей</name>
+            <prof id="vv_nekrutin">Некруткин В.В.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="sm">
+          <location>2446</location>
+          <course id="sm_prog_c_pract">
+            <name xml:lang="ru">Выч. практика</name>
+            <prof id="ne_golyandina">Голяндина Н.Э.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>2446</location>
+          <course id="mm_prog_c_pract">
+            <name xml:lang="ru">Выч. практика</name>
+            <prof id="an_pepelyshev">Пепелышев А.Н.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4" />
+    </weekday>
+    <weekday id="thu">
+      <two_hours no="1">
+        <lesson type="chair" spec="sa">
+          <location>2518/2406</location>
+          <course id="sa_prog_c_lang">
+            <name xml:lang="ru">Алгоритмические языки</name>
+            <prof id="vb_christinich">Христинич В.Б.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="chair" spec="sa">
+          <location>2410/2514</location>
+          <course id="sa_prog_c_pract">
+            <name xml:lang="ru">Выч. практика</name>
+            <prof id="vb_christinich">Христинич В.Б.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>2518</location>
+          <course id="mm_automaton_base">
+            <name xml:lang="ru">Основы теории автоматных моделей</name>
+            <prof id="ay_ponomareva">Пономарева A.Ю.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="dep" spec="all">
+          <course>
+            <name> Иностранный язык </name>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="dep" spec="all">
+          <location>03</location>
+          <course>
+            <name> Экстремальные задачи </name>
+            <prof> Малоземов </prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="fri">
+      <two_hours no="1">
+        <lesson type="dep" spec="all">
+          <location>Камская ул.</location>
+          <course>
+            <name>Военная подготовка</name>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="dep" spec="all">
+          <location>Камская ул.</location>
+          <course>
+            <name>Военная подготовка</name>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="dep" spec="all">
+          <location>Камская ул.</location>
+          <course>
+            <name>Военная подготовка</name>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4" />
+    </weekday>
+    <weekday id="sat">
+      <two_hours no="1" />
+      <two_hours no="2">
+        <lesson type="dep" spec="all">
+          <location>(01) 3397</location>
+          <course>
+            <name>Защита территории и населения в ЧС</name>
+            <prof>Колесов</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="dep" spec="all">
+          <location>07</location>
+          <course>
+            <name>Функциональный анализ</name>
+            <prof>Дубцов</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="dep" spec="all">
+          <location>07</location>
+          <course>
+            <name>Функциональный анализ</name>
+            <prof>Дубцов</prof>
+          </course>
+          <fortnightly type="1" />
+        </lesson>
+      </two_hours>
+    </weekday>
+  </timetable>
+  <timetable year_no="4">
+    <weekday id="mon">
+      <two_hours no="1">
+        <lesson type="dep" spec="all">
+          <location>Камская ул.</location>
+          <course>
+            <name>Военная подготовка</name>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="dep" spec="all">
+          <location>Камская ул.</location>
+          <course>
+            <name>Военная подготовка</name>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="dep" spec="all">
+          <location>Камская ул.</location>
+          <course>
+            <name>Военная подготовка</name>
+          </course>
+        </lesson>
+s		</two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="all">
+          <location>14-я линия В.О.</location>
+          <course id="all_finance_intro">
+            <prof>Бухвалова</prof>
+            <name xml:lang="ru">Элементы фин.математики</name>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="tue">
+      <two_hours no="1">
+        <lesson type="chair" spec="sm,sa">
+          <location>4526</location>
+          <fortnightly type="2" />
+          <course id="all_statmod" part="pract">
+            <name xml:lang="ru">Мат.модел. и обработка данных</name>
+            <prof id="ka_timofeev">Тимофеев К.А.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>2520</location>
+          <course id="mm_appl_stat">
+            <name xml:lang="ru">Прикладная статистика</name>
+            <prof id="an_pepelyshev">Пепелышев А.Н.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="chair" spec="sa">
+          <location>4526</location>
+          <course id="sa_montecarlo">
+            <name xml:lang="ru">Численные методы Монте-Карло</name>
+            <prof id="ap_sizova">Сизова А.Ф.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="sm">
+          <location>2512</location>
+          <course id="sm_stoch_processes">
+            <name xml:lang="ru">Основы теории случайных процессов</name>
+            <prof id="vv_nekrutin">Некруткин В.В.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>2503</location>
+          <course id="mm_exper_design">
+            <name xml:lang="ru">Анализ регрессионных моделей</name>
+            <prof id="vb_melas">Мелас В.Б.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="dep" spec="all">
+          <location>07</location>
+          <course>
+            <name>Концепции современного естествознания</name>
+            <prof>Юшков</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="dep" spec="all">
+          <location>07</location>
+          <course>
+            <name>Методы вычислений</name>
+            <prof>Рябов</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="wed">
+      <two_hours no="1">
+        <lesson type="dep" spec="all">
+          <location>2518</location>
+          <course>
+            <name>Уравнения математической физики</name>
+            <prof>Назаров</prof>
+          </course>
+          <fortnightly type="1" />
+        </lesson>
+        <lesson type="dep" spec="all">
+          <location>07</location>
+          <course>
+            <name>Уравнения математической физики</name>
+            <prof>Назаров</prof>
+          </course>
+          <fortnightly type="2" />
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="dep" spec="all">
+          <location>07</location>
+          <course>
+            <name>Уравнения математической физики</name>
+            <prof>Назаров</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="sa,mm">
+          <location>3524</location>
+          <course id="sa_finmodel">
+            <name xml:lang="ru">Задачи фин.мат. и стат.мод-ие</name>
+            <prof id="yn_kashtanov">Каштанов Ю.Н.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="sm">
+          <location>4526</location>
+          <course id="sm_montecarlo">
+            <name xml:lang="ru">Теория метода Монте-Карло</name>
+            <prof id="vv_nekrutin">Некруткин В.В.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="chair" spec="sa">
+          <location>3524</location>
+          <location>2446</location>
+          <course id="sa_prog_threads">
+            <name xml:lang="ru">Практикум по совр.прикл.программированию</name>
+            <prof id="yn_kashtanov">Каштанов Ю.Н.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="sm">
+          <location>4526</location>
+          <course id="sm_exper_design">
+            <name xml:lang="ru">Оптимальное планирование эксперимента</name>
+            <prof id="vb_melas">Мелас В.Б.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>3522</location>
+          <location>2446</location>
+          <course id="mm_prog_cpp_pract">
+            <name xml:lang="ru">Практикум по совр.прикл.программированию</name>
+            <prof id="an_pepelyshev">Пепелышев А.Н.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="5">
+        <lesson type="chair" spec="sa">
+          <location>2446</location>
+          <course id="sa_prog_cpp_advanced">
+            <name xml:lang="ru">Спец. выч. практикум</name>
+            <prof id="yn_kashtanov">Каштанов Ю.Н.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="sm">
+          <location>2446</location>
+          <course id="sm_prog_optimization">
+            <name xml:lang="ru">Практикум по совр.прикл.программированию</name>
+            <prof id="ne_golyandina">Голяндина Н.Э.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>2446</location>
+          <course id="mm_prog_cpp_advanced">
+            <name xml:lang="ru">Спец. выч. практикум</name>
+            <prof id="an_pepelyshev">Пепелышев А.Н.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="thu">
+      <two_hours no="1">
+        <lesson type="dep" spec="all">
+          <location>05</location>
+          <course>
+            <name>Методы вычислений</name>
+            <prof>Рябов</prof>
+          </course>
+          <fortnightly type="1" />
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>4526</location>
+          <fortnightly type="2" />
+          <course id="all_statmod" part="pract">
+            <name xml:lang="ru">Методы мат. моделир.</name>
+            <prof id="tm_tovstik">Товстик Т.М.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="chair" spec="sa">
+          <location>4526</location>
+          <course id="sa_system_model">
+            <name xml:lang="ru">Моделирование систем</name>
+            <prof id="ya_sushkov">Сушков Ю.А.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="sm">
+          <location>2512</location>
+          <course id="sm_prog_cpp_advanced">
+            <name xml:lang="ru">Спец. выч. практикум</name>
+            <prof id="ne_golyandina">Голяндина Н.Э.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>3307</location>
+          <course id="mm_fuzzy_sets">
+            <name xml:lang="ru">Теория нечетких мн-в и ее приложения</name>
+            <prof id="mk_chirkov">Чирков М.К.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="all">
+          <location>2506</location>
+          <course id="all_statmod" part="lect">
+            <name xml:lang="ru">Мат.модел. и обработка данных</name>
+            <prof id="sm_ermakov">Ермаков С.М.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="chair" spec="sa">
+          <location>4526</location>
+          <course id="sa_appl_stat">
+            <name xml:lang="ru">Численные методы статистики</name>
+            <prof id="ne_golyandina">Голяндина Н.Э.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="sm">
+          <location>3526</location>
+          <course id="sm_stat_mathstat">
+            <name xml:lang="ru">Стохастич.методы обработки данных</name>
+            <prof id="ag_bart">Барт А.Г.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="fri">
+      <two_hours no="1">
+        <lesson type="dep" spec="all">
+          <location>05</location>
+          <course>
+            <name>ОПД Методика преподавания математики</name>
+            <prof>Флоринский</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="dep" spec="all">
+          <location>05</location>
+          <course>
+            <name>Физика</name>
+            <prof>Мануйлов</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="dep" spec="all">
+          <location>05</location>
+          <course>
+            <name>Базы данных и СУБД</name>
+            <prof>Барашев</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="dep" spec="all">
+          <location>2522</location>
+          <course>
+            <name>Физика</name>
+            <prof>Мануйлов</prof>
+          </course>
+          <fortnightly type="1" />
+        </lesson>
+        <lesson type="dep" spec="all">
+          <location>2410</location>
+          <course>
+            <name>Базы данных и СУБД</name>
+            <prof>Барашев</prof>
+          </course>
+          <fortnightly type="2" />
+        </lesson>
+      </two_hours>
+      <two_hours no="5">
+        <lesson type="dep" spec="all">
+          <location>2410</location>
+          <course>
+            <name>Базы данных и СУБД</name>
+            <prof>Барашев</prof>
+          </course>
+          <fortnightly type="1" />
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="sat">
+      <two_hours no="1">
+        <lesson type="dep" spec="all">
+          <location>?</location>
+          <course>
+            <name>ЭД Русский язык и культура речи</name>
+            <prof>Буре</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="dep" spec="all">
+          <location>3315</location>
+          <course>
+            <name>ОПД Информационные технологии</name>
+            <prof>Графеева</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="dep" spec="all">
+          <location>01</location>
+          <course>
+            <name>Правоведение</name>
+            <prof>Старцев</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="dep" spec="all">
+          <location>01</location>
+          <course>
+            <name>Правоведение</name>
+            <prof>Старцев</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+  </timetable>
+  <timetable year_no="5">
+    <weekday id="mon" />
+    <weekday id="tue">
+      <two_hours no="1">
+        <lesson type="chair" spec="sa">
+          <location>2512</location>
+          <course id="sa_simul_stoch_proc">
+            <name xml:lang="ru">Моделирование случайных процессов</name>
+            <prof id="tm_tovstik">Товстик Т.М.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>3532</location>
+          <course id="mm_fuzzy_models">
+            <name xml:lang="ru">Нечеткие модели и системы</name>
+            <prof id="ay_ponomareva">Пономарева A.Ю.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="chair" spec="sa">
+          <location>2507</location>
+          <course id="sa_automaton_model">
+            <name xml:lang="ru">Автоматное моделирование</name>
+            <prof id="ay_ponomareva">Пономарева A.Ю.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>3536</location>
+          <course id="mm_idemp_algebra">
+            <name xml:lang="ru">Алгебр.методы моделирования систем</name>
+            <prof id="nk_krivulin">Кривулин Н.К.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="sa">
+          <location>2507</location>
+          <course id="sa_automaton_model">
+            <name xml:lang="ru">Автоматное моделирование</name>
+            <prof id="ay_ponomareva">Пономарева A.Ю.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>2518</location>
+          <course id="mm_exper_design2">
+            <name xml:lang="ru">Модельно-ориентированный анализ данных</name>
+            <prof id="vb_melas">Мелас В.Б.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="4">
+        <lesson type="chair" spec="sa">
+          <location>каф</location>
+          <course id="sa_decision_make">
+            <name xml:lang="ru">Принятие решений</name>
+            <prof id="ya_sushkov">Сушков Ю.А.
+</prof>
+          </course>
+        </lesson>
+        <lesson type="chair" spec="mm">
+          <location>2507</location>
+          <course id="mm_petri_nets">
+            <name xml:lang="ru">Сети Петри и моделирование систем</name>
+            <prof id="mk_chirkov">Чирков М.К.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="5">
+        <lesson type="chair" spec="mm">
+          <location>2507</location>
+          <course id="mm_petri_nets">
+            <name xml:lang="ru">Сети Петри и моделирование систем</name>
+            <prof id="mk_chirkov">Чирков М.К.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="wed">
+      <two_hours no="1">
+        <lesson type="chair" spec="sm">
+          <location>3506</location>
+          <course id="sm_timeseries_ssa">
+            <name xml:lang="ru">Главные компоненты временных  рядов</name>
+            <prof id="ne_golyandina">Голяндина Н.Э.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="2">
+        <lesson type="chair" spec="sm">
+          <location>3506</location>
+          <course id="sm_stat_timeseries">
+            <name xml:lang="ru">Стат.анализ временных рядов</name>
+            <prof id="ne_golyandina">Голяндина Н.Э.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="sm">
+          <location>3506</location>
+          <course id="sm_queueing_theory">
+            <name xml:lang="ru">Системы массового обслуживания</name>
+            <prof id="vb_melas">Мелас В.Б.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="thu">
+      <two_hours no="1" />
+      <two_hours no="2">
+        <lesson type="chair" spec="sm">
+          <location>4385</location>
+          <course id="sm_stat_stoch_processes">
+            <name xml:lang="ru">Статистика случайных процессов</name>
+            <prof id="ag_bart">Барт А.Г.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="sm">
+          <location>4385</location>
+          <course id="sm_stat_stoch_processes">
+            <name xml:lang="ru">Статистика случайных процессов</name>
+            <prof id="ag_bart">Барт А.Г.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="fri">
+      <two_hours no="1" />
+      <two_hours no="2">
+        <lesson type="dep" spec="all">
+          <location>03</location>
+          <course>
+            <name>Философия</name>
+            <prof>Ломовицкая</prof>
+          </course>
+        </lesson>
+      </two_hours>
+      <two_hours no="3">
+        <lesson type="chair" spec="sa">
+          <location>4526</location>
+          <course id="sa_simul_stoch_proc_pract">
+            <name xml:lang="ru">Моделирование случайных процессов</name>
+            <prof id="tm_tovstik">Товстик Т.М.
+</prof>
+          </course>
+        </lesson>
+      </two_hours>
+    </weekday>
+    <weekday id="sat" />
+  </timetable>
+</timetables>

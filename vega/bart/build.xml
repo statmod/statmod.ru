@@ -1,0 +1,3 @@
+<build>
+	<build xml="bart.xml" xsl="index.xsl" output="bart.htm"/>
+</build>

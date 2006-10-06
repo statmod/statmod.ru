@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<build>
+	<build xml="index.xml" xsl="index.xsl" course="3" xsl_glob="reslinks.xsl" output="timetable3.htm"/>
+	<build xml="index.xml" xsl="index.xsl" course="4" xsl_glob="reslinks.xsl" output="timetable4.htm"/>
+	<build xml="index.xml" xsl="index.xsl" course="5" xsl_glob="reslinks.xsl" output="timetable5.htm"/>
+
+</build>

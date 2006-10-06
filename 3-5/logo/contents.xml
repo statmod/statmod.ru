@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html SYSTEM "/contents.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Конкурс логотипов, связанных с кафедрой Статистического Моделирования</title>
+		<link href="/statmod.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<h2>Конкурс логотипов, связанных с кафедрой Статистического Моделирования</h2>
+		<p>Сайт студентов и выпускников кафедры статистического моделирования объявляет конкурс на лучший рисунок, связанный с кафедрой Статистического Моделирования.</p>
+		<h3 align="center">Условия конкурса:</h3>
+		<table width="500" border="0" cellspacing="0" cellpadding="5" align="center" class="proftable">
+			<tr>
+				<td width="150" align="right" bgcolor="#E5CC99">
+					<b>Главный приз </b>
+				</td>
+				<td bgcolor="#E5E5E5">Футболка с лучшим изображением и, по желанию, подписью преподавателя (пока есть договоренность с Голяндиной Ниной Эдуардовной и Некруткиным Владимиром Викторовичем) </td>
+			</tr>
+			<tr>
+				<td width="150" align="right" bgcolor="#E5CC99">
+					<b>Задание</b>
+				</td>
+				<td bgcolor="#F5F5F5">нарисовать изображение, ассоциирующееся с кафедрой статистического моделирования. Пока приоритетным направлением деятельности является создание логотипа на футболку </td>
+			</tr>
+			<tr>
+				<td width="150" align="right" bgcolor="#E5CC99">
+					<b>Сроки</b>
+				</td>
+				<td bgcolor="#E5E5E5">конкурс проводится с первого сентября до десятого декабря 2006 года </td>
+			</tr>
+			<tr>
+				<td width="150" align="right" bgcolor="#E5CC99">
+					<b>Выбор победителя</b>
+				</td>
+				<td bgcolor="#F5F5F5">осуществляется ведущим дизайнером сайта Осиповым Евгением с учетом пожеланий посетителей форума </td>
+			</tr>
+			<tr>
+				<td width="150" align="right" bgcolor="#E5CC99">
+					<b>Награждение</b>
+				</td>
+				<td bgcolor="#EEEEEE">фотографии процедуры награждения будут опубликованы на сайте, даты выбора победителя и вручения приза будут уточнены</td>
+			</tr>
+			<tr>
+				<td width="150" align="right" bgcolor="#E5CC99">
+					<b>Подача заявок на конкурс</b>
+				</td>
+				<td bgcolor="#F5F5F5">публикуйте свои предложения на форуме в <a href="http://statmod.ru/forum/viewtopic.php?t=55">этой</a> ветке или рисуйте их на листе, висящем на доске объявлений кафедры.</td>
+			</tr>
+		</table>
+		<p>Изображения, появляющиеся на листе, висящем на доске, объявлений будут сканироваться и публиковаться на форуме.</p>
+		<p>Некоторые логотипы, предложенные авторами сайта во время его разработки: </p>
+		<table width="600" border="1" cellspacing="0" cellpadding="0" align="center">
+			<tr>
+				<td width="300" height="200" align="center" valign="middle">
+					<p>
+						<img src="/_logo/cm1_102.gif" alt="Логотип №1" width="158" height="195" />
+					</p>
+				</td>
+				<td width="300" height="200" align="center" valign="middle">
+					<p>
+						<img src="/_logo/cm2_231.gif" alt="Логотип №2" width="188" height="128" />
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="300" height="200" align="center" valign="middle">
+					<p>
+						<img src="/_logo/logo.gif" alt="Логотип №3" width="221" height="245" />
+					</p>
+				</td>
+				<td width="300" height="200" align="center" valign="middle">
+				<p>
+					<img src="/_logo/cm2_834_inv_tka_207.gif" alt="Логотип №4" width="188" height="128" />
+				</p>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

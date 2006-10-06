@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<week>
+	<day id="mon">Понедельник</day>
+	<day id="tue">Вторник</day>
+	<day id="wed">Среда</day>
+	<day id="thu">Четверг</day>
+	<day id="fri">Пятница</day>
+	<day id="sat">Суббота</day>
+</week>

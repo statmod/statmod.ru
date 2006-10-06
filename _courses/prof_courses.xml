@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<courses prof_id="ka_timofeev" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <course spec_id="sa" semester="7" year="4" class="общ." extras="" hours="3" exam="зачет" year_equiv="0.5" alias="all_statmod">
+    <name xml:lang="ru">Методы мат. моделир.</name>
+    <part type="lect" hours="2">
+      <prof id="sm_ermakov" />
+    </part>
+    <part type="pract" hours="1">
+      <prof id="ka_timofeev" />
+    </part>
+  </course>
+  <course spec_id="sm" sem="7" year="4" class="общ." extras="" hours="3" exam="экз." yr_eq="0.5" alias="all_statmod">
+    <name xml:lang="ru">Мат.модел. и обработка данных</name>
+    <part type="lect" hours="2">
+      <prof id="sm_ermakov" />
+    </part>
+    <part type="pract" hours="1">
+      <prof id="ka_timofeev" />
+    </part>
+  </course>
+</courses>

@@ -1,0 +1,14 @@
+﻿<specs>
+	<spec id="sa">
+		<name>САПР</name>
+		<transform xml="sa_spec.xml"/>
+	</spec>
+	<spec id="sm">
+		<name>СМ</name>
+		<transform xml="sm_spec.xml"/>
+	</spec>
+	<spec id="mm">
+		<name>ММ</name>
+		<transform xml="mm_spec.xml"/>
+	</spec>
+</specs>
