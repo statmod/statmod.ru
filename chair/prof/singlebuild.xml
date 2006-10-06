@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+<build xml="/_staff/prof.xml" xsl="/_staff/profbuild.xsl" output="build.xml"/>
+</build>

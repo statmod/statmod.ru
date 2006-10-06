@@ -1,0 +1,3 @@
+<build>
+	<build xml="tchirkov.xml" xsl="index.xsl" output="tchirkov.htm"/>
+</build>

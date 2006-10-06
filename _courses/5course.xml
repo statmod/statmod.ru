@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
+<timetable>
+	<weekday id="mon">
+	</weekday>
+	<weekday id="tue">
+		<two_hours no="1">
+			<lesson type="chair" spec="sa">
+				<location>2512</location>
+				<course id="sa_simul_stoch_proc"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>3532</location>
+				<course id="mm_fuzzy_models"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="chair" spec="sa">
+				<location>2507</location>
+				<course id="sa_automaton_model"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>3536</location>
+				<course id="mm_idemp_algebra"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="chair" spec="sa">
+				<location>2507</location>
+				<course id="sa_automaton_model"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>2518</location>
+				<course id="mm_exper_design2"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="4">
+			<lesson type="chair" spec="sa">
+				<location>каф</location>
+				<course id="sa_decision_make"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>2507</location>
+				<course id="mm_petri_nets"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="5">
+			<lesson type="chair" spec="mm">
+				<location>2507</location>
+				<course id="mm_petri_nets"/>
+			</lesson>
+		</two_hours>
+	</weekday>
+	<weekday id="wed">
+		<two_hours no="1">
+			<lesson type="chair" spec="sm">
+				<location>3506</location>
+				<course id="sm_timeseries_ssa"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="chair" spec="sm">
+				<location>3506</location>
+				<course id="sm_stat_timeseries"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="chair" spec="sm">
+				<location>3506</location>
+				<course id="sm_queueing_theory"/>
+			</lesson>
+		</two_hours>
+	</weekday>
+	<weekday id="thu">
+		<two_hours no="1">
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="chair" spec="sm">
+				<location>4385</location>
+				<course id="sm_stat_stoch_processes"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="chair" spec="sm">
+				<location>4385</location>
+				<course id="sm_stat_stoch_processes"/>
+			</lesson>
+		</two_hours>
+	</weekday>
+	<weekday id="fri">
+		<two_hours no="1">
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="dep" spec="all">
+				<location>03</location>
+				<course>
+					<name>Философия</name>
+					<prof>Ломовицкая</prof>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="chair" spec="sa">
+				<location>4526</location>
+				<course id="sa_simul_stoch_proc_pract"/>
+			</lesson>
+		</two_hours>
+	</weekday>
+	<weekday id="sat">
+	</weekday>
+</timetable>

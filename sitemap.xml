@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by dima (epi) -->
+<item href="">
+	<name>Главная</name>
+	<item href="chair">
+		<name>О кафедре</name>
+		<item href="spec">
+			<name>Специализации</name>
+			<item href="sm">
+				<name>СМ</name>
+			</item>
+			<item href="sapr">
+				<name>САПР</name>
+			</item>
+			<item href="mm">
+				<name>ММ</name>
+			</item>
+		</item>
+		<item href="tasks">
+			<name>Задачи</name>
+			<item href="general">
+				<name>Применение статистики</name>
+			</item>
+			<item href="biometrica">
+				<name>Биометрия</name>
+			</item>
+			<item href="exper_design">
+				<name>Планирование эксперимента</name>
+			</item>
+		</item>
+		<item href="prof">
+			<name>Преподаватели</name>
+		</item>
+	</item>
+	<item href="1-2">
+		<name>Студентам I-II</name>
+		<item href="why">
+			<name>Обращение к 2-курснику</name>
+		</item>
+		<item href="term-papers">
+			<name>Курсовые работы</name>
+		</item>
+	</item>
+	<item href="3-5">
+		<name>Студентам III-V</name>
+		<item href="logo">
+			<name>Конкурс логотипов</name>
+		</item>
+	</item>
+	<item href="graduates">
+		<name>Выпускникам</name>
+		<item href="quotes">
+			<name>Цитаты из анкет</name>
+			<item href="profit">
+				<name>Что дал СТАТМОД</name>
+			</item>
+			<item href="work">
+				<name>Работа</name>
+			</item>
+			<item href="advices">
+				<name>Советы молодому поколению</name>
+			</item>
+			<item href="moments">
+				<name>Яркие моменты</name>
+			</item>
+			<item href="legends">
+				<name>Кто нас учил</name>
+			</item>
+			<item href="mixquotes">
+				<name>Разное</name>
+			</item>
+		</item>
+		<item href="stories">
+			<name>Истории</name>
+			<item href="zaslavsky">
+				<name>Учеба во Франции</name>
+			</item>			
+		</item>
+	</item>
+	<item href="http://statmod.ru/forum/" hreftype="special">
+		<name>Форум</name>
+	</item>
+</item>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
+<timetable>
+	<weekday id="mon">
+		<two_hours no="1">
+			<lesson type="dep" spec="all">
+				<location>03</location>
+				<course>
+					<name>Экстремальные задачи</name>
+					<prof> Малоземов </prof>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="dep" spec="all">
+				<location>05</location>
+				<course>
+					<name> Теория вероятностей </name>
+					<prof> Мартикайнен </prof>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="chair" spec="all">
+				<location>3502</location>
+				<course>
+					<name> Функциональный анализ </name>
+					<prof> Александров </prof>
+				</course>
+				<fortnightly type="1"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="4">
+			<lesson type="chair" spec="all">
+				<location>05</location>
+				<course>
+					<name>Математический анализ</name>
+					<prof>Лодкин</prof>
+				</course>
+			</lesson>
+		</two_hours>
+	</weekday>
+	<weekday id="tue">
+		<two_hours no="1"/>
+		<two_hours no="2">
+			<lesson type="chair" spec="sa">
+				<location>3502</location>
+				<course id="sa_graph_theory"/>
+			</lesson>
+			<lesson type="chair" spec="sm">
+				<location>2522</location>
+				<course id="sm_stat_intro"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>2512</location>
+				<course id="mm_prog_c_lang"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="dep" spec="all">
+				<location>07</location>
+				<course>
+					<name>Охрана труда</name>
+					<prof>Тараканова</prof>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="4">
+			<lesson type="chair" spec="sm">
+				<location>4526</location>
+				<course id="sm_prog_c_lang"/>
+			</lesson>
+		</two_hours>
+	</weekday>
+	<weekday id="wed">
+		<two_hours no="1">
+			<lesson type="chair" spec="all">
+				<location>2520</location>
+				<course>
+					<name>Математический анализ</name>
+					<prof>Дубова</prof>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="chair" spec="all">
+				<location>4526</location>
+				<course id="all_teorver_pract"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="chair" spec="sm">
+				<location>2446</location>
+				<course id="sm_prog_c_pract"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>2446</location>
+				<course id="mm_prog_c_pract"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="4"/>
+	</weekday>
+	<weekday id="thu">
+		<two_hours no="1">
+			<lesson type="chair" spec="sa">
+				<location>2518/2406</location>
+				<course id="sa_prog_c_lang"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="chair" spec="sa">
+				<location>2410/2514</location>
+				<course id="sa_prog_c_pract"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>2518</location>
+				<course id="mm_automaton_base"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="dep" spec="all">
+				<course>
+					<name> Иностранный язык </name>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="4">
+			<lesson type="dep" spec="all">
+				<location>03</location>
+				<course>
+					<name> Экстремальные задачи </name>
+					<prof> Малоземов </prof>
+				</course>
+			</lesson>
+		</two_hours>
+	</weekday>
+	<weekday id="fri">
+		<two_hours no="1">
+			<lesson type="dep" spec="all">
+				<location>Камская ул.</location>
+				<course>
+					<name>Военная подготовка</name>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="dep" spec="all">
+				<location>Камская ул.</location>
+				<course>
+					<name>Военная подготовка</name>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="dep" spec="all">
+				<location>Камская ул.</location>
+				<course>
+					<name>Военная подготовка</name>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="4"/>
+	</weekday>
+	<weekday id="sat">
+		<two_hours no="1">
+		</two_hours>
+		<two_hours no="2">
+			<lesson type="dep" spec="all">
+				<location>(01) 3397</location>
+				<course>
+					<name>Защита территории и населения в ЧС</name>
+					<prof>Колесов</prof>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="3">
+			<lesson type="dep" spec="all">
+				<location>07</location>
+				<course>
+					<name>Функциональный анализ</name>
+					<prof>Дубцов</prof>
+				</course>
+			</lesson>
+		</two_hours>
+		<two_hours no="4">
+			<lesson type="dep" spec="all">
+				<location>07</location>
+				<course>
+					<name>Функциональный анализ</name>
+					<prof>Дубцов</prof>
+				</course>
+				<fortnightly type="1"/>
+			</lesson>
+		</two_hours>
+	</weekday>
+</timetable>

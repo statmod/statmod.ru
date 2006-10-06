@@ -1,0 +1,3 @@
+<build>
+	<build xml="krivulin.xml" xsl="index.xsl" output="krivulin.htm"/>
+</build>
