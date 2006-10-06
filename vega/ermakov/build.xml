@@ -1,3 +1,0 @@
-<build>
-	<build xml="ermakov.xml" xsl="index.xsl" output="ermakov.htm"/>
-</build>

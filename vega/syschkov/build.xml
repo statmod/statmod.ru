@@ -1,3 +1,0 @@
-<build>
-	<build xml="syschkov.xml" xsl="index.xsl" output="syschkov.htm"/>
-</build>

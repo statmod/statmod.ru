@@ -1,3 +1,0 @@
-<build>
-	<build xml="solntcev.xml" xsl="index.xsl" output="solntcev.htm"/>
-</build>
