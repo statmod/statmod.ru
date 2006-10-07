@@ -1,147 +1,146 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<courses>
-  <course sem="5" year="3" class="общ." extras="" hours="2" exam="зачет" yr_eq="0.5" alias="all_teorver_pract">
-    <name xml:lang="ru">Теория вероятностей</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="5" year="3" class="общ." extras="" hours="2" exam="зачет" yr_eq="0.5" alias="sm_prog_c_pract">
-    <name xml:lang="ru">Выч. практика</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="5" year="3" class="с/к " extras="(1)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_stat_intro">
-    <name xml:lang="ru">Введение в обработку данных</name>
-    <prof id="ag_bart" />
-  </course>
-  <course sem="5" year="3" class="с/с  " extras="(1)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_prog_c_lang">
-    <name xml:lang="ru">Технология программирования</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="6" year="3" class="общ." extras="" hours="2" exam="доп." yr_eq="0.5" alias="all_teorver_pract">
-    <name xml:lang="ru">Теория вероятностей</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="6" year="3" class="общ." extras="" hours="" exam="доп." yr_eq="" alias="all_teorver_kurs">
-    <name xml:lang="ru">Курсовая работа по теор. вер.</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="6" year="3" class="общ." extras="" hours="4" exam="зачет" yr_eq="1" alias="sm_prog_cpp_statmod">
-    <name xml:lang="ru">Спец. выч. практикум</name>
-    <part type="prog" hours="2">
-      <prof id="ne_golyandina" />
-    </part>
-    <part type="statmod" hours="2">
-      <prof id="vv_nekrutin" />
-    </part>
-  </course>
-  <course sem="6" year="3" class="с/к " extras="" hours="2" exam="" yr_eq="" alias="sm_statmod">
-    <name xml:lang="ru">Статистическое моделирование</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="6" year="3" class="с/с  " extras="(1)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_stat_intro_timeseries">
-    <name xml:lang="ru">Первичная обработка данных</name>
-    <prof id="ag_bart" />
-  </course>
-  <course sem="7" year="4" class="общ." extras="" hours="3" exam="экз." yr_eq="0.5" alias="all_statmod">
-    <name xml:lang="ru">Мат.модел. и обработка данных</name>
-    <part type="lect" hours="2">
-      <prof id="sm_ermakov" />
-    </part>
-    <part type="pract" hours="1">
-      <prof id="ka_timofeev" />
-    </part>
-  </course>
-  <course sem="7" year="4" class="общ." extras="" hours="2" exam="зачет" yr_eq="0.5" alias="sm_prog_cpp_advanced">
-    <name xml:lang="ru">Спец. выч. практикум</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="7" year="4" class="общ." extras="ф." hours="2" exam="зачет" yr_eq="0.5" alias="sm_prog_optimization">
-    <name xml:lang="ru">Практикум по совр.прикл.программированию</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="7" year="4" class="общ." extras="выб." hours="2" exam="зачет" yr_eq="0.5" alias="all_finance_intro">
-    <name xml:lang="ru">Элементы фин.математики</name>
-    <prof>
-    </prof>
-  </course>
-  <course sem="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" yr_eq="0.5" alias="sm_montecarlo">
-    <name xml:lang="ru">Теория метода Монте-Карло</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="7" year="4" class="с/к" extras="(1a)" hours="0" exam="экз." yr_eq="0.5" alias="sm_statmod">
-    <name xml:lang="ru">Статистическое моделирование</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="7" year="4" class="с/к " extras="(1b)" hours="2" exam="экз." yr_eq="0.5" alias="sm_stat_mathstat">
-    <name xml:lang="ru">Стохастич.методы обработки данных</name>
-    <prof id="ag_bart" />
-  </course>
-  <course sem="7" year="4" class="с/к  " extras="" hours="2" exam="" yr_eq="" alias="sm_stoch_processes">
-    <name xml:lang="ru">Основы теории случайных процессов</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="7" year="4" class="с/с " extras="(1)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_exper_design">
-    <name xml:lang="ru">Оптимальное планирование эксперимента</name>
-    <prof id="vb_melas" />
-  </course>
-  <course sem="8" year="4" class="общ." extras="" hours="2" exam="зачет" yr_eq="0.5" alias="all_stat">
-    <name xml:lang="ru">Мат.модел. и обработка данных</name>
-    <prof id="ms_ermakov" />
-  </course>
-  <course sem="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" yr_eq="0.5" alias="sm_prog_stock_modelling">
-    <name xml:lang="ru">Практикум по совр.прикл.программированию</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="8" year="4" class="общ." extras="выб." hours="2" exam="зачет" yr_eq="0.5" alias="all_finance_insurance">
-    <name xml:lang="ru">Элементы фин.математики</name>
-    <prof id="tm_tovstik" />
-  </course>
-  <course sem="8" year="4" class="ОПД" extras="выб." hours="5" exam="экз." yr_eq="0.75" alias="all_prog_matlab">
-    <name xml:lang="ru">Выч.методы и пакеты в стат.исследованиях</name>
-    <part type="lect" hours="3">
-      <prof id="an_pepelyshev" />
-    </part>
-    <part type="pract" hours="2">
-      <prof id="np_alekseeva" />
-    </part>
-  </course>
-  <course sem="8" year="4" class="с/к  " extras="(1a)" hours="2" exam="экз." yr_eq="0.5" alias="sm_markov_processes">
-    <name xml:lang="ru">Марковские процессы</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="8" year="4" class="с/к  " extras="(1b)" hours="0" exam="экз." yr_eq="0.5" alias="sm_stoch_processes">
-    <name xml:lang="ru">Основы теории случайных процессов</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="8" year="4" class="с/к  " extras="(2)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_stat_analysis">
-    <name xml:lang="ru">Многомерная статистика</name>
-    <prof id="ag_bart" />
-  </course>
-  <course sem="8" year="4" class="с/к" extras="(3)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_marketing_models">
-    <name xml:lang="ru">Стох.модели покупат.поведения</name>
-    <prof id="vv_nekrutin" />
-  </course>
-  <course sem="8" year="4" class="с/с  " extras="(1)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_stat_pract">
-    <name xml:lang="ru">Анализ  данных на компьютере</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="9" year="5" class="с/к" extras="(1)" hours="4" exam="экз." yr_eq="1" alias="sm_stat_stoch_processes">
-    <name xml:lang="ru">Статистика случайных процессов</name>
-    <prof id="ag_bart" />
-  </course>
-  <course sem="9" year="5" class="с/к " extras="(2)" hours="2" exam="экз." yr_eq="0.5" alias="sm_timeseries_ssa">
-    <name xml:lang="ru">Главные компоненты временных  рядов</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="9" year="5" class="с/к " extras="(3)" hours="2" exam="экз." yr_eq="0.5" alias="sm_queueing_theory">
-    <name xml:lang="ru">Системы массового обслуживания</name>
-    <prof id="vb_melas" />
-  </course>
-  <course sem="9" year="5" class="с/с " extras="(1)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_stat_timeseries">
-    <name xml:lang="ru">Стат.анализ временных рядов</name>
-    <prof id="ne_golyandina" />
-  </course>
-  <course sem="10" year="5" class="с/с  " extras="(1)" hours="2" exam="зачет" yr_eq="0.5" alias="sm_stoch_models">
-    <name xml:lang="ru">Вероятностные модели</name>
-    <prof id="vv_nekrutin" />
-  </course>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="spec.xsd">
+	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
+		<name xml:lang="ru">Теория вероятностей</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_c_pract">
+		<name xml:lang="ru">Выч. практика</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="5" year="3" class="с/к" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_intro">
+		<name xml:lang="ru">Введение в обработку данных</name>
+		<prof id="ag_bart"/>
+	</course>
+	<course semester="5" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_c_lang">
+		<name xml:lang="ru">Технология программирования</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="6" year="3" class="общ." extras="" hours="2" exam="доп." year_equiv="0.5" alias="all_teorver_pract">
+		<name xml:lang="ru">Теория вероятностей</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="all_teorver_kurs">
+		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="6" year="3" class="общ." extras="" hours="4" exam="зачет" year_equiv="1" alias="sm_prog_cpp_statmod">
+		<name xml:lang="ru">Спец. выч. практикум</name>
+		<part type="prog" hours="2">
+			<prof id="ne_golyandina"/>
+		</part>
+		<part type="statmod" hours="2">
+			<prof id="vv_nekrutin"/>
+		</part>
+	</course>
+	<course semester="6" year="3" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sm_statmod">
+		<name xml:lang="ru">Статистическое моделирование</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="6" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_intro_timeseries">
+		<name xml:lang="ru">Первичная обработка данных</name>
+		<prof id="ag_bart"/>
+	</course>
+	<course semester="7" year="4" class="общ." extras="" hours="3" exam="экз." year_equiv="0.5" alias="all_statmod">
+		<name xml:lang="ru">Мат.модел. и обработка данных</name>
+		<part type="lect" hours="2">
+			<prof id="sm_ermakov"/>
+		</part>
+		<part type="pract" hours="1">
+			<prof id="ka_timofeev"/>
+		</part>
+	</course>
+	<course semester="7" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_cpp_advanced">
+		<name xml:lang="ru">Спец. выч. практикум</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="7" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_optimization">
+		<name xml:lang="ru">Практикум по совр.прикл.программированию</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="7" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_intro">
+		<name xml:lang="ru">Элементы фин.математики</name>
+	</course>
+	<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_montecarlo">
+		<name xml:lang="ru">Теория метода Монте-Карло</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="7" year="4" class="с/к" extras="(1a)" hours="0" exam="экз." year_equiv="0.5" alias="sm_statmod">
+		<name xml:lang="ru">Статистическое моделирование</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="7" year="4" class="с/к" extras="(1b)" hours="2" exam="экз." year_equiv="0.5" alias="sm_stat_mathstat">
+		<name xml:lang="ru">Стохастич.методы обработки данных</name>
+		<prof id="ag_bart"/>
+	</course>
+	<course semester="7" year="4" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sm_stoch_processes">
+		<name xml:lang="ru">Основы теории случайных процессов</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="7" year="4" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_exper_design">
+		<name xml:lang="ru">Оптимальное планирование эксперимента</name>
+		<prof id="vb_melas"/>
+	</course>
+	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_stat">
+		<name xml:lang="ru">Мат.модел. и обработка данных</name>
+		<prof id="ms_ermakov"/>
+	</course>
+	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_stock_modelling">
+		<name xml:lang="ru">Практикум по совр.прикл.программированию</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="8" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_insurance">
+		<name xml:lang="ru">Элементы фин.математики</name>
+		<prof id="tm_tovstik"/>
+	</course>
+	<course semester="8" year="4" class="ОПД" extras="выб." hours="5" exam="экз." year_equiv="0.75" alias="all_prog_matlab">
+		<name xml:lang="ru">Выч.методы и пакеты в стат.исследованиях</name>
+		<part type="lect" hours="3">
+			<prof id="an_pepelyshev"/>
+		</part>
+		<part type="pract" hours="2">
+			<prof id="np_alekseeva"/>
+		</part>
+	</course>
+	<course semester="8" year="4" class="с/к" extras="(1a)" hours="2" exam="экз." year_equiv="0.5" alias="sm_markov_processes">
+		<name xml:lang="ru">Марковские процессы</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="8" year="4" class="с/к" extras="(1b)" hours="0" exam="экз." year_equiv="0.5" alias="sm_stoch_processes">
+		<name xml:lang="ru">Основы теории случайных процессов</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="8" year="4" class="с/к" extras="(2)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_analysis">
+		<name xml:lang="ru">Многомерная статистика</name>
+		<prof id="ag_bart"/>
+	</course>
+	<course semester="8" year="4" class="с/к" extras="(3)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_marketing_models">
+		<name xml:lang="ru">Стох.модели покупат.поведения</name>
+		<prof id="vv_nekrutin"/>
+	</course>
+	<course semester="8" year="4" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_pract">
+		<name xml:lang="ru">Анализ  данных на компьютере</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="9" year="5" class="с/к" extras="(1)" hours="4" exam="экз." year_equiv="1" alias="sm_stat_stoch_processes">
+		<name xml:lang="ru">Статистика случайных процессов</name>
+		<prof id="ag_bart"/>
+	</course>
+	<course semester="9" year="5" class="с/к" extras="(2)" hours="2" exam="экз." year_equiv="0.5" alias="sm_timeseries_ssa">
+		<name xml:lang="ru">Главные компоненты временных  рядов</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="9" year="5" class="с/к" extras="(3)" hours="2" exam="экз." year_equiv="0.5" alias="sm_queueing_theory">
+		<name xml:lang="ru">Системы массового обслуживания</name>
+		<prof id="vb_melas"/>
+	</course>
+	<course semester="9" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_timeseries">
+		<name xml:lang="ru">Стат.анализ временных рядов</name>
+		<prof id="ne_golyandina"/>
+	</course>
+	<course semester="10" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stoch_models">
+		<name xml:lang="ru">Вероятностные модели</name>
+		<prof id="vv_nekrutin"/>
+	</course>
 </courses>
