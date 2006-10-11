@@ -1,0 +1,14 @@
+# use glob syntax.
+syntax: glob
+
+# ignore output files
+**.htm
+*/index.php
+**.exe
+**.bat
+**.cmd
+/chair/prof/build.xml
+
+# ignore __folders
+__**
+RECYCLER/**

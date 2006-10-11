@@ -1,0 +1,3 @@
+<build>
+<build xml="voidbuild.xml" output=".hg/build.xml"/>
+</build>
