@@ -1,5 +1,5 @@
 <timetables>
-	<transform xml="3course.xml" xsl="resolve_courses.xsl" prof_required="no"/>
-	<transform xml="4course.xml" xsl="resolve_courses.xsl" prof_required="no"/>
-	<transform xml="5course.xml" xsl="resolve_courses.xsl" prof_required="no"/>
+	<transform xmlfrom="parent" xml="3course.xml" xsl="/_courses/resolve_courses.xsl" prof_required="no"/>
+	<transform xmlfrom="parent" xml="4course.xml" xsl="/_courses/resolve_courses.xsl" prof_required="no"/>
+	<transform xmlfrom="parent" xml="5course.xml" xsl="/_courses/resolve_courses.xsl" prof_required="no"/>
 </timetables>

@@ -46,7 +46,7 @@
 	<xsl:template match="person" mode="list_noimage">
 		<xsl:variable name="short_name"><xsl:value-of select="ln/text()"/>&#32;<xsl:value-of select="substring(fn/text(),1,1)"/>.<xsl:value-of select="substring(mn/text(),1,1)"/>.</xsl:variable>
 		<li>
-			<a href="/chair/prof/{@id}.htm">
+			<a href="/_courses/prof/{@id}.htm">
 				<xsl:value-of select="$short_name"/>
 			</a>
 		</li>
@@ -61,20 +61,20 @@
 				<xsl:when test="duty/@academic_rank = 'senior_rf'">Cт.научн.сотр.</xsl:when>
 			</xsl:choose>
 			<br/>
-			<a href="/chair/prof/{@id}.htm">
+			<a href="/_courses/prof/{@id}.htm">
 				<xsl:value-of select="$short_name"/>
 			</a>
 			<br/>
 			<xsl:value-of select="duty/shortname/text()"/>
 			<br/>
-			<a href="/chair/prof/{@id}.htm">
+			<a href="/_courses/prof/{@id}.htm">
 				<img src="{substring-before(image/@name, '.')}_t.{substring-after(image/@name, '.')}" alt="{$short_name}" border="0" width="{image/@tw}" height="{image/@th}"/>
 			</a>
 		</td>
 	</xsl:template>
 	
 	<xsl:template match="person" mode="single">
-<xsl:variable name="long_name"><xsl:value-of select="ln/text()"/>&#32;<xsl:value-of select="fn/text()"/>&#32;<xsl:value-of select="mn/text()"/></xsl:variable>
+<xsl:variable name="long_name"><xsl:value-of select="ln/text()"/>&#32;<xsl:value-of select="fn/text()"/>&#32;<xsl:value-of select="mn/text()"/>.</xsl:variable>
 
 	<h2>
 					<xsl:choose>
@@ -128,7 +128,7 @@
       </p>
       <br/>
       <br/>
-      <a href="/chair/prof/index.htm">Вернуться к списку сотрудников</a> 
+      <a href="/_courses/prof/index.htm">Вернуться к списку сотрудников</a> 
       </td>
     </tr>
   </tbody>

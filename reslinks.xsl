@@ -51,9 +51,9 @@
 </xsl:template>
 	
 <!-- Match everything else -->
-<xsl:template match="*|@*|text()|comment()">
+<xsl:template match="*|@*|text()|comment()|processing-instruction()">
 	<xsl:copy>
-		<xsl:apply-templates select="*|@*|text()|comment()"/>
+		<xsl:apply-templates select="*|@*|text()|comment()|processing-instruction()"/>
 	</xsl:copy>
 </xsl:template>
 

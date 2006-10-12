@@ -86,6 +86,18 @@
 	<!-- 								 -->
 	<!-- Convert text  and attributes -->
 	<!-- 								 -->
+<!-- Match everything else -->
+<xsl:template match="processing-instruction()">
+	<xsl:text disable-output-escaping="yes"><![CDATA[<?
+]]></xsl:text><xsl:value-of select="name()"/>
+<xsl:value-of select="."/>
+
+	<xsl:text disable-output-escaping="yes"><![CDATA[
+?>]]></xsl:text>
+
+</xsl:template>
+
+
 <!--	<xsl:template match="text()">
 		<xsl:value-of select="."/>
 	</xsl:template>
