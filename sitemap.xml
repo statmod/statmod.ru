@@ -47,14 +47,12 @@
 		<item href="logo">
 			<name>Конкурс логотипов</name>
 		</item>
-<!--
 		<item href="programming">
 			<name>Программирование</name>
 				<item href="csharp_potapov">
 					<name>C#: первое впечатление</name>
 				</item>
 		</item>
--->
 	</item>
 	<item href="graduates">
 		<name>Выпускникам</name>
@@ -81,7 +79,7 @@
 		</item>
 		<item href="stories">
 			<name>Истории</name>
-			<item href="Zaslavsky">
+			<item href="zaslavsky">
 				<name>Учеба во Франции</name>
 			</item>
 		</item>

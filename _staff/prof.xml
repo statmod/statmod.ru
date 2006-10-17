@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE staff SYSTEM "/htmlentities.dtd">
 <staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="S:\_staff\staff.xsd">
 	<person id="sm_ermakov" degree="phd_d" academic_rank="prof">
@@ -105,7 +105,10 @@
 		</field>
 		<about>
 			<p>"В математике я стараюсь быть поэтом, композитором и мастером
-спорта одновременно, а иногда и немножко философом".</p>
+			спорта одновременно, а иногда и немножко философом".</p>
+			<p>В.Б.Мелас &ndash; автор четырех монографий и более 110 статей. Под его руководством успешно защитили кандидатские диссертации Т.В.Фомина (1998), 
+			Л.А.Крылова (2000), А.Н. Пепелышев (2002). Является членом редколлегии журнала Journal of Statistical Planning and Inference (с 1996). 
+			Один из главных организаторов серии международных конференций в Санкт-Петербурге (St.Petersburg Workshops on Simulation).</p>
 		</about>
 		<extlink href="/vega/melas/melas.htm">Статья в юбилейном сборнике кафедры и лаборатории </extlink>
 	</person>
@@ -453,14 +456,14 @@
 		<field/>
 		<about/>
 	</person>
-    <person id="ay_ponomareva" degree="" academic_rank="">
+	<person id="ay_ponomareva" degree="" academic_rank="">
 		<fn>Aлександра</fn>
 		<mn>Юрьевна</mn>
 		<ln>Пономарева</ln>
 		<field/>
 		<about/>
 	</person>
-<!-- <person id="" degree="" academic_rank="">
+	<!-- <person id="" degree="" academic_rank="">
 		< ! - id: идентификатор - >
 		<! - degree: ученая степень  (доктор/кандидат) ->  (phd_d/phd)- ->
 		<! - academic_rank: ученое звание  (доцент/профессор/ст.научн. сотрудник) ->  (accos_prof/prof/senior_rf)- ->
