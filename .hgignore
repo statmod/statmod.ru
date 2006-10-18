@@ -6,6 +6,7 @@ syntax: glob
 */index.php
 **.exe
 **.log
+**.spp
 **.bat
 **.cmd
 /chair/prof/build.xml
