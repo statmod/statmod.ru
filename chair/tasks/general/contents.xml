@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/index.xsl"?>
 <!DOCTYPE html SYSTEM "/contents.dtd">
 <html>
 	<head>
@@ -8,7 +9,7 @@
 </head><body>
 <!-- Последнее изменение: 16 августа 2006 года -->
 
-<h2><a name="top"/>Реальные примеры применения статистики</h2>
+<h2>Реальные примеры применения статистики</h2>
 
 <ul>
 	<li><a href="#1">Исследование рынка продаж товаров</a> </li>

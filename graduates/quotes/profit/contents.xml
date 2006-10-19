@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/index.xsl"?>
 <!DOCTYPE html SYSTEM "/contents.dtd">
 <html>
 	<head>
@@ -7,8 +8,7 @@
 		<link href="/statmod.css" rel="stylesheet" type="text/css"/>
 	</head>
 	<body>
-		<h2>
-			<a name="top"/>ЧТО нам дал СТАТМОД и КАК  это может пригодиться?</h2>
+		<h2>ЧТО нам дал СТАТМОД и КАК  это может пригодиться?</h2>
 		<p>Мы все учились понемногу чему-нибудь и как-нибудь... И все-таки,</p>
 		<h2> Чему СТАТМОД НАУЧИЛ?</h2>
 		<ul>

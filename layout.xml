@@ -13,7 +13,7 @@
 				<tbody>
 					<tr valign="top" height="47">
 						<td>
-							<a href="/index.htm" class="imagelink">
+							<a name="top" href="/index.htm" class="imagelink">
 								<img src="_img/statmod.gif" width="161" height="47" alt="Главная"/>
 							</a>
 						</td>
