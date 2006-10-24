@@ -18,7 +18,7 @@
 						<two_hours no="{$two_hours_no}">
 							<xsl:for-each select="$this/timetable">
 								<xsl:apply-templates select="weekday[@id=$weekday_id]/two_hours[@no=$two_hours_no]/lesson">
-									<xsl:with-param name="year_no"  select="@year_no"/>
+									<xsl:with-param name="year_no"  select="ceiling(@semester div 2)"/>
 								</xsl:apply-templates>
 							</xsl:for-each>
 						</two_hours>

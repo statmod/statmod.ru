@@ -53,6 +53,21 @@
 					<name>C#: первое впечатление</name>
 				</item>
 		</item>
+		<item href="timetable">
+			<name>Расписание</name>
+			<item href="3">
+				<name>3-й курс</name>
+			</item>
+			<item href="4">
+				<name>4-й курс</name>
+			</item>
+
+			<item href="5">
+				<name>5-й курс</name>
+			</item>
+
+
+		</item>
 	</item>
 	<item href="graduates">
 		<name>Выпускникам</name>

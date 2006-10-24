@@ -108,6 +108,13 @@ img {
 }
 
 .timetable td.two_hours_no {
+  BACKGROUND-COLOR: #9FB5C3; 
+  font-weight: bold;
+}
+
+.timetable td.weekday {
+BACKGROUND-COLOR: #7FC5E3; 
+
   font-weight: bold;
 }
 

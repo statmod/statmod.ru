@@ -41,6 +41,18 @@
 	<!-- Match the root node -->
 	<xsl:template match="/timetable">
 		<span class="remove">
+<h2><xsl:value-of select="ceiling(@semester div 2)"/>-й курс,
+<xsl:choose>
+<xsl:when test="@semester mod 2 = 0">
+весенний семестр 
+<xsl:value-of select="@year - 1"/>-<xsl:number value="@year mod 100" format="01"/>
+</xsl:when>
+<xsl:otherwise>
+осенний семестр 
+<xsl:value-of select="@year"/>-<xsl:number value="(@year + 1) mod 100" format="01"/>
+</xsl:otherwise>
+</xsl:choose>
+</h2>
 		<table class="timetable" width="{$no_width + count(msxsl:node-set($specs)/specs/spec)*$spec_width}" align="center" border="1">
 			<tr>
 				<td class="head" width="{$no_width}">	<spec code="nbsp"/></td>
@@ -51,14 +63,14 @@
 					</td>
 				</xsl:for-each>
 			</tr>
-			<xsl:apply-templates select="weekday"/>
+			<xsl:apply-templates select="weekday[two_hours]"/>
 		</table>
 		</span>
 	</xsl:template>
 	
 	<xsl:template match="weekday">
 		<tr>
-			<td colspan="{$specs_count + 1}">
+			<td colspan="{$specs_count + 1}" class="weekday">
 				<xsl:value-of select="msxsl:node-set($weekdays)/week/day[@id=current()/@id]/text()"/>
 			</td>
 		</tr>
@@ -124,7 +136,7 @@
 			<i>
 			<xsl:choose>
 				<xsl:when test="course/prof/@id">
-					<a href="/_courses/prof/{course/prof/@id}.htm">
+					<a href="/chair/prof/{course/prof/@id}.htm">
 						<xsl:copy-of select="course/prof/node()"/>
 					</a>
 				</xsl:when>

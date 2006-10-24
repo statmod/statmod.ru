@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year_no="3">
+<timetable year="2006" semester="5">
 	<weekday id="mon">
 		<two_hours no="1">
 			<lesson type="dep" spec="all">
