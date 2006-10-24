@@ -114,13 +114,12 @@ img {
 
 .timetable td {
   font: 10pt Tahoma;
-  background-color: white;
 
+  padding: 5px;
   border-width: 1px;
   border-color: gray;
   border-style: solid;
   margin: 0; 
-  padding: 5px;
   text-align: left;
   vertical-align: top;
 }

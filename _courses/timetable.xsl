@@ -5,6 +5,10 @@
 	<xsl:import href="mergecells.xsl"/>
 	<xsl:include href="gen_lesson_table.xsl"/>
 	<xsl:include href="resolve_prof.xsl"/>
+	<xsl:variable name="no_width" select="10"/>
+	<xsl:variable name="spec_width" select="176"/>
+	<xsl:variable name="cell_height" select="36"/>
+
 	<xsl:variable name="profs" select="document('../_staff/prof.xml')"/>
 	<xsl:variable name="specs">
 		<specs>
@@ -36,8 +40,6 @@
 
 	<!-- Match the root node -->
 	<xsl:template match="/timetable">
-		<xsl:variable name="no_width" select="10"/>
-		<xsl:variable name="spec_width" select="200"/>
 		<span class="remove">
 		<table class="timetable" width="{$no_width + count(msxsl:node-set($specs)/specs/spec)*$spec_width}" align="center" border="1">
 			<tr>
@@ -103,7 +105,11 @@
 		<xsl:param name="lessons_with_ref"/>
 		<xsl:for-each select="cell">
 			<td><xsl:copy-of select="@colspan"/><xsl:copy-of select="@rowspan"/>
-<xsl:if test="@dataref=0"><br/><br/><br/></xsl:if>
+<xsl:if test="@dataref!=0"><xsl:attribute name="bgcolor">lightgrey</xsl:attribute></xsl:if>
+				<xsl:variable name="rows" select="number(concat('0',@rowspan)) + number(not(@rowspan))"/>
+				<img src="/_img/spacer.gif" alt="" width="1" height="{$cell_height * $rows}" align="left"/>
+			
+<xsl:if test="@dataref=0"><br/></xsl:if>
 				<xsl:apply-templates select="msxsl:node-set($lessons_with_ref)/lesson[@dataref = current()/@dataref]"/>
 
 			</td>
@@ -113,20 +119,21 @@
 	<xsl:template match="lesson">
 		<b>
 			<xsl:for-each select="location"><xsl:value-of select="text()"/><xsl:if test="position()!=last()">,<spec code="nbsp"/></xsl:if></xsl:for-each>
-		</b><br/>
-		<xsl:value-of select="course/name/text()"/><br/>
-		<i>
-		<xsl:choose>
-			<xsl:when test="course/prof/@id">
-				<a href="/_courses/prof/{course/prof/@id}.htm">
+		</b>
+ <spec code="#32"/>
+			<i>
+			<xsl:choose>
+				<xsl:when test="course/prof/@id">
+					<a href="/_courses/prof/{course/prof/@id}.htm">
+						<xsl:copy-of select="course/prof/node()"/>
+					</a>
+				</xsl:when>
+				<xsl:otherwise>
 					<xsl:copy-of select="course/prof/node()"/>
-				</a>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:copy-of select="course/prof/node()"/>
-			</xsl:otherwise>
-		</xsl:choose>
-		</i>
+				</xsl:otherwise>
+			</xsl:choose>
+		</i><br/>
+		<xsl:value-of select="course/name/text()"/>
 	</xsl:template>
 		
 	
