@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:import href="file://s:/_quot/singlequote.xsl"/>
+<xsl:import href="_quot/singlequote.xsl"/>
 
 <xsl:variable name="mixquotes" select="document('/_quot/mixquotes.xml')"
 />

@@ -9,7 +9,7 @@ syntax: glob
 **.spp
 **.bat
 **.cmd
-/chair/prof/build.xml
+chair/prof/build.xml
 
 # ignore __folders
 __**
