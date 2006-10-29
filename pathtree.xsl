@@ -5,7 +5,7 @@
 	<xsl:strip-space elements="item"/>
 	<!-- Match the root node -->
 	<xsl:template match="/item">
-		<xsl:variable name="path_parent" select="'/'"/>
+		<xsl:variable name="path_parent" select="$path_xml"/>
 		<xsl:variable name="cut_path" select="substring-after($current_folder, $path_parent)"/>
 		<xsl:choose>
 			<xsl:when test="$cut_path != ''">
