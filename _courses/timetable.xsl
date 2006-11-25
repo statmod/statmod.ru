@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt">
@@ -6,7 +6,7 @@
 	<xsl:include href="gen_lesson_table.xsl"/>
 	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:variable name="no_width" select="10"/>
-	<xsl:variable name="spec_width" select="176"/>
+	<xsl:variable name="spec_width" select="164"/>
 	<xsl:variable name="cell_height" select="36"/>
 
 	<xsl:variable name="profs" select="document('../_staff/prof.xml')"/>

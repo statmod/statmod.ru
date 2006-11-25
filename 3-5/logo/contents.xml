@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/index.xsl"?>
 <!DOCTYPE html SYSTEM "/contents.dtd">
 <html>
@@ -11,7 +11,7 @@
 		<h2>Конкурс логотипов, связанных с кафедрой Статистического Моделирования</h2>
 		<p>Сайт студентов и выпускников кафедры статистического моделирования объявляет конкурс на лучший рисунок, связанный с кафедрой Статистического Моделирования.</p>
 		<h3 align="center">Условия конкурса:</h3>
-		<table width="500" border="0" cellspacing="0" cellpadding="5" align="center" class="proftable">
+		<table width="500" border="0" cellspacing="0" cellpadding="5" align="center" class="misctable">
 			<tr>
 				<td width="150" align="right" bgcolor="#E5CC99">
 					<b>Главный приз </b>
@@ -51,26 +51,26 @@
 		</table>
 		<p>Изображения, появляющиеся на листе, висящем на доске, объявлений будут сканироваться и публиковаться на форуме.</p>
 		<p>Некоторые логотипы, предложенные авторами сайта во время его разработки: </p>
-		<table width="600" border="1" cellspacing="0" cellpadding="0" align="center">
+		<table width="500" border="1" cellspacing="0" cellpadding="0" align="center">
 			<tr>
-				<td width="300" height="200" align="center" valign="middle">
+				<td width="250" height="200" align="center" valign="middle">
 					<p>
 						<img src="/_logo/cm1_102.gif" alt="Логотип №1" width="158" height="195" />
 					</p>
 				</td>
-				<td width="300" height="200" align="center" valign="middle">
+				<td width="250" height="200" align="center" valign="middle">
 					<p>
 						<img src="/_logo/cm2_231.gif" alt="Логотип №2" width="188" height="128" />
 					</p>
 				</td>
 			</tr>
 			<tr>
-				<td width="300" height="200" align="center" valign="middle">
+				<td width="250" height="200" align="center" valign="middle">
 					<p>
 						<img src="/_logo/logo.gif" alt="Логотип №3" width="221" height="245" />
 					</p>
 				</td>
-				<td width="300" height="200" align="center" valign="middle">
+				<td width="250" height="200" align="center" valign="middle">
 				<p>
 					<img src="/_logo/cm2_834_inv_tka_207.gif" alt="Логотип №4" width="188" height="128" />
 				</p>

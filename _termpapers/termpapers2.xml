@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="termpapers.xsl"?>
+<termpapers year="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="termpapers.xsd">
+	<prof id="vv_nekrutin" comments="yes">
+		<paper>
+			<title>Дискретная теория вероятностей</title>
+			<biblitem>
+				<author>А.Н. Ширяев</author>
+				<title>Вероятность</title>
+				<publisher>М., Наука, 1989.</publisher>
+				<pages>1-я глава</pages>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Испытания Бернулли на отрезке [0,1].</title>
+			<biblitem>
+				<author>М. Кац</author>
+				<title>Статистичекая независимость в теории вероятностей, анализе и теории чисел</title>
+				<publisher>М., 1963.</publisher>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Теория меры и теория вероятностей.</title>
+			<biblitem>
+				<author>К. Партасарати</author>
+				<title> Введение в теорию вероятностей и теорию меры		</title>
+				<publisher>Москва, Мир, 1983.</publisher>
+			</biblitem>
+		</paper>
+		<comment>Все темы являются учебными, необходимо прочитать
+соответствующий материал и решить задачи.</comment>
+	</prof>
+	<prof id="ap_sizova">
+		<paper>
+			<title>Простейший метод Монте-Карло.</title>
+			<biblitem>
+				<author>И.М.Соболь</author>
+				<title>Численные методы Монте-Карло</title>
+				<pages>с. 93-94.</pages>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Решение линейных алгебраических систем методом Монте-Карло.</title>
+			<biblitem>
+				<pages>Там же, с. 193-201.</pages>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Моделирование систем массового обслуживания.</title>
+			<biblitem>
+				<pages>Там же, с. 215-218.</pages>
+			</biblitem>
+		</paper>
+	</prof>
+	<prof id="vb_melas" comments="yes">
+		<paper>
+			<title>Разложение положительных многочленов и их применение в статистике.</title>
+			<biblitem>
+				<author>С.Карлин, В.Стадден.</author>
+				<title>Чебышевские системы и их применение
+в анализе и статистике</title>
+				<publisher>М., Наука, 1976.</publisher>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Неравенства для матриц.</title>
+		</paper>
+	</prof>
+	<prof id="ag_bart" comments="yes">
+		<paper>
+			<title>Частично обратные функции.</title>
+		</paper>
+		<paper>
+			<title>Комбинаторные задачи, связанные с обобщенными биномиальными распределениями.</title>
+		</paper>
+		<paper>
+			<title>Параметризация обобщенных обратных матриц.</title>
+		</paper>
+		<paper>
+			<title>Комбинаторные представления платоновых тел.</title>
+		</paper>
+		<comment>Все темы связаны с реальными медико-биологическими задачами.
+		</comment>
+	</prof>
+	<prof id="ne_golyandina">
+		<paper>
+			<title>Анализ главных компонент как метод "разглядывания" многомерных данных и сингулярное разложение матриц.
+			</title>
+		</paper>
+		<paper>
+			<title>Марковские цепи и моделирование случайных сценариев.
+			</title>
+		</paper>
+		<comment> Во всех темах предполагается как теоретическая часть, так и программистская.
+		</comment>
+	</prof>
+	<prof id="sm_ermakov">
+		<paper>
+			<title>Построение числовых последовательностей с хорошими свойствами равномерности (с применением к планированию экспериментов).
+			</title>
+		</paper>
+		<paper>
+			<title>Статистические методы решения разностных уравнений.
+			</title>
+		</paper>
+		<paper>
+			<title>Построение отображений отрезка на гиперкуб.</title>
+		</paper>
+	</prof>
+	<prof id="yn_kashtanov">
+		<paper>
+			<title>Вероятностные модели рынка.</title>
+		</paper>
+		<paper>
+			<title>Стохастические оценки для собственных значений
+			</title>
+		</paper>
+	</prof>
+	<prof id="np_alekseeva" comments="yes">
+		<paper>
+			<title>Задача классификации популяций по дихотомическим признакам на основе конечных геометрий.
+			</title>
+		</paper>
+		<paper>
+			<title>Законы формы Спенсер-Брауна, реинтрантный бином в исследовании влияния жесткого облучения на клетки.
+			</title>
+		</paper>
+		<paper>
+			<title>Статистический анализ распределения индекса депрессии с использованием аппарата специальных функций.</title>
+		</paper>
+		<paper>
+			<title>Выявление скрытой периодичности в категориальных последовательностях (спектральное разложение над конечными полями).
+			</title>
+		</paper>
+	</prof>
+	<prof id="an_pepelyshev">
+		<paper>
+			<title>Численные методы решения минимаксных задач.
+			</title>
+		</paper>
+	</prof>
+	<prof id="tm_tovstik">
+		<paper>
+			<title>Выделение сезонных компонент ихз исходных данных (на примере экономических задач).
+			</title>
+		</paper>
+	</prof>
+	<prof id="ya_sushkov" comments="yes">
+		<paper>
+			<title>Оптимизация в комбинаторных задачах.</title>
+		</paper>
+		<paper>
+			<title>Вычисление графовых характеристик статистическими методами.
+			</title>
+		</paper>
+		<paper>
+			<title>Перечисление дискретных структур и оценка их числа.
+			</title>
+		</paper>
+	</prof>
+	<prof id="ay_ponomareva">
+		<paper>
+			<title>Специальные задачи оптимизации дискретных систем с переменной структурой.</title>
+		</paper>
+	</prof>
+	<prof id="mk_chirkov">
+		<paper>
+			<title>Автоматные модели принятия решений в нечетких условиях.
+			</title>
+		</paper>
+	</prof>
+	<prof id="vb_christinich" comments="yes">
+		<paper>
+			<title>Решение линейных интегральных уравнений методом статистических испытаний и компьютерная визуализация решения. Задачи: временной и пространственной релаксации, взрыв, течение в канале. </title>
+		</paper>
+		<paper>
+			<title>Разработка алгоритмов и программ визуализации прямого статистического моделирования процессов переноса.
+			</title>
+		</paper>
+		<paper>
+			<title>Разработка графического интерфейса для задач статистического имитационного моделирования.
+			</title>
+		</paper>
+	</prof>
+	<prof id="nk_krivulin">
+		<paper>
+			<title>Алгебраические методы исследования систем с очередями.
+			</title>
+		</paper>
+		<paper>
+			<title>Стохастические модели и (MAX,+) алгебра.</title>
+		</paper>
+		<paper>
+			<title>Имитационное моделирование бизнес-процессов.
+			</title>
+		</paper>
+		<paper>
+			<title>Статистические методы в маркетинге.</title>
+		</paper>
+	</prof>
+	<prof id="ms_ermakov">
+		<paper>
+			<title>Моделирование редких событий.</title>
+		</paper>
+		<paper>
+			<title>Бутстреп-метод.</title>
+		</paper>
+	</prof>
+</termpapers>

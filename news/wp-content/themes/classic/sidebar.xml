@@ -1,0 +1,12 @@
+﻿<span class="remove">
+<!-- begin sidebar -->
+<?php require('sidebar_tree.php'); ?>
+<div style="padding-left: 20px">
+<label for="s"><p style="font: 15px Tahoma">Поиск в новостях</p></label>
+   <speclt/>form id="searchform" method="get" action="<?php echo $_SERVER['PHP_SELF']; ?>"<specgt/>
+		<input type="text" name="s" id="s" size="15" /><br />
+		<speclt/>input type="submit" value="<?php _e('Найти'); ?>" /<specgt/>
+  <speclt/>/form<specgt/>
+</div>
+<!-- end sidebar -->
+</span>

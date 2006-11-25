@@ -20,7 +20,7 @@ COLOR: #012693;
 }
 
 H4 {
-FONT-SIZE: 10 pt;
+FONT-SIZE: 13px;
 text-align: left;
 font-family:  Tahoma;
 COLOR: #012693;
@@ -29,11 +29,9 @@ COLOR: #012693;
 BODY {
 font-family: Tahoma;
 }
-.notice {
-	FONT-SIZE: small; COLOR: #999999; FONT-STYLE: italic
-}
+
 p{
-FONT-SIZE: 10pt; 
+FONT-SIZE: 13px; 
 text-align:justify;
 font-family: Tahoma;
 }
@@ -46,31 +44,24 @@ body {
   margin-bottom: 12pt;
 }
 
-.interesting { 
-COLOR: #00861B; 
-font-weight: bold;
-border-bottom-width: thin; 
-border-bottom-color: #2A6E9C; 
+span.interesting { 
+background-color: #E1F4FF; 
+padding-left: 0.3em;
+padding-right: 0.3em;
 } 
 
 .veryinteresting {
-	color: #990033;
-	border-bottom-width: thin;
-	border-bottom-style: dashed;
-	border-bottom-color: #E9B9D3;
 }
 
 A:link 
 { 
 COLOR: #2A6E9C; 
-FONT-SIZE: 10pt; 
 TEXT-DECORATION: underline;
 font-weight: normal;
 } 
 A:visited 
 { 
 COLOR: #2A6E9C; 
-FONT-SIZE: 10pt; 
 font-weight: normal;
 TEXT-DECORATION: underline;
 } 
@@ -78,22 +69,15 @@ TEXT-DECORATION: underline;
 A:hover 
 { 
 COLOR: #FE942B; 
-FONT-SIZE: 10pt; 
 font-weight: normal;
 TEXT-DECORATION: underline;
 } 
-
-a.imagelink:visited,  a.imagelink:hover, a.imagelink:link
- {
-  border-bottom-width: 0;
-}
 
 img {
   border: 0;
 }
 
 .proftable td {
-  font: 10pt Tahoma;
 }
 
 .timetable table {
@@ -108,13 +92,12 @@ img {
 }
 
 .timetable td.two_hours_no {
-  BACKGROUND-COLOR: #9FB5C3; 
+  background-color: #C0D2DD;
   font-weight: bold;
 }
 
 .timetable td.weekday {
-BACKGROUND-COLOR: #7FC5E3; 
-
+ background-color: #C0D2DD;
   font-weight: bold;
 }
 
@@ -131,36 +114,14 @@ BACKGROUND-COLOR: #7FC5E3;
   vertical-align: top;
 }
 
+
 /* Списки */
 ul{
 }
 
 .links{
-FONT-SIZE: 10pt; 
-font-family: Tahoma;
-margin-left:12pt
 }
 
-li{
-FONT-SIZE: 10pt; 
-font-family: Tahoma;
-}
-
-/***
- * Цитаты 
- ***/
-/* Раскрывающаяся цитата - текст */
-.quotform div {
-	background-color: #F0F0F0;
-	margin-left: 120pt;
-	margin-right: 30pt;
-	text-align:justify;
-	COLOR: #005C13;
-}
-
-.quotform a {/* Раскрывающаяся цитата - ссылка */
-text-indent:470px;
-}
 
 q { /* Цитата в тексте */
 	FONT-STYLE: italic;
@@ -168,11 +129,28 @@ q { /* Цитата в тексте */
 
 }
 
-blockquote { /* Цитаты в разделе "Цитаты -> Разное" */
+blockquote, li, a, div.quote, .proftable td, .misctable td, .timetable td, .body_text { 
 font: 10pt Tahoma;
-font-weight: bold;
-color: #005C13;
 }
+
+div.quote { 
+padding-top: 0.5em;
+padding-bottom: 0.5em;
+text-
+/*font: 10pt Tahoma;*/
+}
+
+td.topnav {
+  background-color: #36739A;
+}
+
+td.topnav a,  td.topnav a:visited, td.topnav img {
+  font: 5px Tahoma;
+  padding: 0;
+
+  color:white;
+}
+
 
 span.hl { /* Подсвеченные цитаты в разделе "Цитаты -> Разное" */
 background-color: #E1F0F0;
@@ -182,64 +160,127 @@ background-color: #E1F0F0;
 /***
  * Стили для горизонтального меню
  ***/
-td#topnav {
-  background-color: #356F9A;
-  padding-left: 14px; /* Первый отступ */
-}
-
-/* Ссылки */
-#topnav a {
-  color: white;
-  border-bottom-width: 0;
-  TEXT-DECORATION: none;
-}
-
-/* Рамочки */
-td#topnav span {
-  border: 1px solid white;  /* Стиль самой рамочки */
-
-  padding-top: 0px;
-  padding-bottom: 0px;
-
-  /* Отступы внутри рамочки */
-  padding-left: 2px; 
-  padding-right: 2px;
-
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-}
-
-
-/* Выделенный пункт меню */
-td#topnav span.tn_sel {
-  border: 1px solid #FE942B; 
-}
-td#topnav span.tn_sel a {
-  color: #FE942B;
-}
 
 
 /***
  * Стили для содержимого 
  ***/
 td#content_cell { 
-  padding-left: 16px; /* Отступ от вертикальной линии */
-  padding-top: 12px; /* Отступ от гориз. меню */
+  padding-left: 43px; /* Отступ от вертикальной линии */
+  padding-top: 14px; /* Отступ от гориз. меню */
+}
+
+td.left_pane {
+  background-color: #C0D2DD;
+}
+
+td.path_pane {
+  background-color: #C0D2DD;
+}
+
+td#arrow_cell { 
+  padding-left:0px;
+}
+td#path_cell {
+  font: 10px Tahoma;
+  color: #727272;
+  padding-right: 115px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 8px;
+}
+
+td#path_cell a {
+  color: rgb(114,114,114);
+  font: 10px Tahoma;
+  line-height: 8px;
+text-decoration: none;
+}
+td#path_cell a:hover {
+text-decoration: underline;
+
+}
+
+td#menu_cell {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+#menu_cell .l1active {
+  font: 15px Sans Serif;
+  line-height: 3em;
+}
+
+#menu_cell td.l1 {
+/*  list-style: outside none;*/
+  font: 15px Sans Serif;
+/*  margin-left: 0px; */
+ /* padding-top: 5px;*/
+  padding-bottom: 0px;
+  padding-left: 2px;
+  line-height: 20px;
+
+}
+
+#menu_cell td.l1 a {
+  text-decoration:none;
+color:black;
+/*  font: 13px Verdana bold;*/
+  font: 13px Sans Serif bold;
+font-weight: bold;
+  
+}
+
+#menu_cell ul {
+  margin: 0px;
+  padding: 0px;
+}
+#menu_cell td.l2 {
+ /* list-style: outside none;*/
+  font: 10px Sans Serif;
+/*  margin-left: 0px;*/
+  padding-left: 6px;
+  line-height: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#menu_cell td.l2 a {
+text-decoration:none;
+color:black;
+  line-height: 15px;
+  font: 11px Sans Serif;
+}
+
+#menu_cell td.l2 a:hover {
+  color: rgb(114,114,114);
+}
+
+#menu_cell td.l1 a:hover {
+  color: rgb(114,114,114);
 }
 
 /***
  * Копирайт
  ***/
-td#copyright {
-  text-align: center;
-  font: 8pt Tahoma;
+td#left_bottom_links {
+/*  padding-left: 31px; */
+text-align: center;
+vertical-alignment: bottom;
+}
+
+td#left_bottom_links a {
+font: 11px Tahoma; 
   font-weight: bold;
 }
 
+
+td#copyright_cell {
+padding-right:10px;
+text-align: right;  font: 11px Tahoma; 
+ /* font-weight: bold;*/
+}
+
 td#copyright a {
-  font-weight: normal;
 }
 
 
@@ -248,63 +289,11 @@ td#copyright a {
  * Стили для левого меню 
  ***/
 
-td#v_line { /* Вертикальная линия */
-background-image: url(_img/v_line.gif);
-background-repeat: repeat-y;
-}
-
  
-#leftmenu a { /* Стиль для ссылок */
-COLOR: #012693; 
-FONT-SIZE: 10pt; 
-font-weight: bold;
-text-decoration: none;
-line-height: 1em;
-border: 0;
-}
-
 #leftmenu td { /* Отступы внутри ячеек таблицы */
-  padding-left: 4px;  
+  /*padding-left: 4px;  
   padding-right: 2px;
   padding-bottom: 2px;
-  padding-top: 6px;
+  padding-top: 6px;*/
 }
 
-#leftmenu img.leftmenu_indents {
-  width: 10px; // Минимальное значение - ширина картинки с точкой
-  height: 1px; // Минимальное значение - 1px
-}
-
-#leftmenu img.leftmenu_firstindent {
-  height: 11px; // Минимальное значение - 1px
-}
-
-/*
-Вертикальный отступ начала меню от черной черты =
-(#leftmenu img.leftmenu_indents)->height +
-(#leftmenu td)->padding-top;
-
-Горизонтальный отступ пунктов меню =
-(#leftmenu img.leftmenu_indents)->width +
-(#leftmenu td)->padding-left +
-(#leftmenu td)->padding-right;
-
-Расстояние по вертикали между пунктами меню = 
-(#leftmenu td)->padding-bottom +
-(#leftmenu td)->padding-top;
-
-Расстояние по вертикали между первым пунктами (О кафедре) и
-остальными = 
-(#leftmenu td)->padding-bottom +
-(#leftmenu td)->padding-top + 
-(#leftmenu img.leftmenu_firstindent)->height;
-
-
-Лучше, чтобы:
-padding-left = padding-right
-padding-top = padding-bottom 
-
-
-
-
-*/

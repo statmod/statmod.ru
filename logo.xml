@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<span class="remove"> 
+<img src="/_img/statmod_logo.gif" alt="Statmod.Ru" width="207" height="79" usemap="#statmod_logo" />
+
+<map id="statmod_logo" name="statmod_logo">
+<area shape="poly" alt="СтатМод" coords="2,3,26,3,26,12,57,12,57,8,89,8,89,2,117,2,117,21,151,21,151,9,180,9,180,26,207,26,207,77,150,77,150,79,89,79,89,78,27,78,27,77,2,77" href="/index.htm" title="СтатМод" />
+<area shape="poly" alt="" coords="0,0,206,0,206,78,0,78" nohref="nohref" title=""/>
+</map>
+</span>

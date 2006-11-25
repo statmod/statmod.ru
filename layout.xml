@@ -1,69 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by  () -->
 <span class="remove">
 	<html>
 		<head>
-			<transform xml="title.xml"/>
-			<transform xml="meta.xml"/>
-			<link href="/statmod.css" rel="stylesheet" type="text/css"/>
-			<script language="javascript" src="/_script/toggle_quote.js"/>
+			<transform xml="head.xml"/>
 		</head>
-		<body>
-			<table width="800" border="0" cellspacing="0" cellpadding="0">
-				<tbody>
-					<tr valign="top" height="47">
-						<td>
-							<a name="top" href="/index.htm" class="imagelink">
-								<img src="_img/statmod.gif" width="161" height="47" alt="Главная"/>
-							</a>
-						</td>
-						<td>
-							<a href="/index.htm" class="imagelink">
-								<img src="_img/sait_stud.gif" width="778" height="47" alt="Главная"/>
-							</a>
-						</td>
-					</tr>
-					<tr valign="middle" height="25">
-						<td>
-							<img src="_img/statmod_matmex.gif" width="161" height="25" alt=""/>
-						</td>
-						<td id="topnav">
-							<transform xml="sitemap.xml" xsl="topnav.xsl"/>
-						</td>
-					</tr>
-				</tbody>
+		<body style="margin: 0">
+			<div style="z-index: 4; position: absolute">
+				<a name="top"><transform xml="logo.xml"/></a>
+			</div>
+			<transform xml="buttons.xml"/>
+			<table valign="top" border="0" cellspacing="0" cellpadding="0" height="63">
+				<tr valign="top">
+					<td rowspan="3"><img src="/_img/spacer.gif" alt="" width="197" height="1"/></td>
+					<td colspan="3"><img src="/_img/matmex_spbgu.gif" alt="МатМех СпбГУ" width="121" height="23"/></td>
+					<td><img src="/_img/spacer.gif" alt="" width="59" height="56"/></td>
+					<td rowspan="2"><img src="/_img/header_big.gif" alt="" width="554" height="61"/></td>
+					<td rowspan="2"><img src="/_img/header_tail.gif" alt="" width="64" height="61"/></td>
+					<td rowspan="2"><img src="/_img/header_tail_residual.gif" alt="" width="8" height="61"/></td>
+				</tr>
+				<tr>
+					<td><img src="/_img/spacer.gif" alt="" width="23" height="1"/></td>
+					<td><img src="/_img/header_line_start.gif" alt="" width="1" height="5"/></td>
+					<td><img src="/_img/header_line.gif" alt="" width="97" height="5"/></td>
+					<td><img src="/_img/header_line.gif" alt="" width="59" height="5"/></td>
+				</tr>
+				<tr>
+					<td><img src="/_img/spacer.gif" alt="" width="23" height="2"/></td>
+					<td><img src="/_img/header_line_bottom_start.gif" alt="" width="1" height="2"/></td>
+					<td colspan="5"><img src="/_img/header_line_bottom.gif" alt="" width="782" height="2"/>
+					</td>
+				</tr>
 			</table>
-			<table width="758" border="0" cellspacing="0" cellpadding="0">
-				<tr vAlign="top" height="3">
-					<td colspan="2">
-						<img src="_img/spacer.gif" width="160" height="3" alt=""/>
+			<table height="23" border="0" cellspacing="0" cellpadding="0">
+				<tr valign="top">
+					<td><img src="/_img/spacer.gif" alt="" width="234" height="1"/></td>
+					<td bgcolor="#AFC7D7" colspan="3">
+						<img src="/_img/spacer.gif" alt="" width="670" height="1"/>
+					</td>
+					<td bgcolor="#AFC7D7">
+						<img src="/_img/spacer.gif" alt="" width="99" height="1"/>
+					</td>
+				</tr>
+				<tr valign="middle">
+					<td><img src="/_img/spacer.gif" alt="" width="1" height="21"/></td>
+					<td colspan="3" class="topnav">
+						<transform xml="sitemap.xml" xsl="topnav.xsl"/>
+					</td>
+					<td class="topnav">
+						<img src="/_img/spacer.gif" alt="" width="99" height="21"/>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td><img src="/_img/spacer.gif" alt="" width="1" height="3"/></td>
+					<td><img src="/_img/spacer.gif" alt="" width="23" height="3"/></td>
+					<td><img src="/_img/spacer.gif" alt="" width="1" height="3"/></td>
+					<td><img src="/_img/spacer.gif" alt="" width="646" height="3"/></td>
+					<td><img src="/_img/spacer.gif" alt="" width="99" height="3"/></td>
+				</tr>
+				<tr valign="top">
+					<td><img src="/_img/spacer.gif" alt="" width="234" height="11"/></td>
+					<td><img src="/_img/spacer.gif" alt="" width="23" height="11"/></td>
+					<td bgcolor="#E1EAEF">
+						<img src="/_img/spacer.gif" alt="" width="1" height="11"/>
+					</td>
+					<td class="path_pane" id="path_cell" align="right">
+						<transform xml="sitemap.xml" xsl="pathnavtree.xsl,pathnavview.xsl"/>
+					</td>
+					<td class="path_pane">
+						<img src="/_img/spacer.gif" alt="" width="99" height="11"/>
+					</td>
+				</tr>
+			</table>
+			<table border="0" cellspacing="0" cellpadding="0" width="790">
+				<tr valign="top">
+					<td><img alt="" src="/_img/spacer.gif" width="4" height="2"/></td>
+					<td><img alt="" src="/_img/spacer.gif" width="5" height="1"/></td>
+					<td><img alt="" src="/_img/spacer.gif" width="169" height="1"/></td>
+					<td><img alt="" src="/_img/spacer.gif" width="600" height="1"/></td>
+				</tr>
+				<tr>
+					<td colspan="3" class="left_pane">
+						<img alt="" src="/_img/spacer.gif" width="1" height="9"/>
+					</td>
+					<td><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
+				</tr>
+				<tr>
+					<td class="left_pane">
+						<img alt="" src="/_img/spacer.gif" width="1" height="1"/>
+					</td>
+					<td class="left_pane">
+						<img alt="" src="/_img/vline_top.gif" width="5" height="3"/>
+					</td>
+					<td class="left_pane">
+						<img alt="" src="/_img/spacer.gif" width="1" height="1"/>
 					</td>
 					<td>
-						<img src="_img/spacer.gif" width="11" height="3" alt=""/>
+						<img alt="" src="/_img/spacer.gif" width="1" height="1"/>
 					</td>
 				</tr>
-				<tr vAlign="top">
-					<td width="157" id="leftmenu">
-						<transform xml="sitemap.xml" xsl="pathtree.xsl,leftnav.xsl"/>
+				<tr valign="top" height="100%">
+					<td rowspan="2" class="left_pane">
+						<img alt="" src="/_img/spacer.gif" width="1" height="1"/>
 					</td>
-					<td width="3" id="v_line" rowspan="2">
-						<img src="_img/spacer.gif" width="3" height="420" alt=""/>
+					<td rowspan="2" class="left_pane" background="/_img/vline_tile.gif">
+						<img alt="" src="/_img/spacer.gif" width="5" height="463"/>
 					</td>
-					<td width="100%" id="content_cell" rowspan="2">
-						<table border="0" cellspacing="5" cellpadding="0">
-							<tr>
-								<td>
-									<transform xml="body.xml"/>
-								</td>
-							</tr>
-						</table>
+					<td class="left_pane" id="menu_cell" align="left" height="100%">
+						<transform xml="leftmenu.xml"/>
+					</td>
+					<td rowspan="2" id="content_cell">
+<table border="0" cellspacing="0" cellpadding="5">					
+				<tr>
+					<td>
+						<transform xml="body.xml"/>
 					</td>
 				</tr>
-				<tr valign="bottom">
-					<td id="copyright">
-						<a href="/sitemap/index.htm">Карта сайта</a>
+</table>
+					</td>
+				</tr>
+				<tr valign="bottom" height="50">
+					<td class="left_pane" height="50" id="left_bottom_links">
 						<br/>
-						<spec code="copy"/> статмод, 2006</td>
+						<a href="/sitemap/index.htm">Карта сайта</a>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" class="left_pane">
+						<img alt="" src="/_img/spacer.gif" width="1" height="8"/>
+					</td>
+					<td><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
+				</tr>
+				<tr>
+					<td><img alt="" src="/_img/spacer.gif" width="1" height="25"/></td>
+					<td colspan="2" id="copyright_cell">
+						<spec code="copy"/> статмод, 2006
+                    </td>
+					<td><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
 				</tr>
 			</table>
 		</body>

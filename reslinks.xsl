@@ -33,7 +33,7 @@
 </xsl:template>
 
 <!-- Correct 'href' attribute of 'a' tag -->
-<xsl:template match="a|A">
+<xsl:template match="a|A|link|LINK">
 	<xsl:copy>
 <xsl:apply-templates select="@*"/>
 <xsl:if test="$need_resolve_links and boolean(@href) and not (starts-with(@href, '/') or 

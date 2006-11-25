@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<span class="remove"> 
+<div style="z-index: 2; position: absolute; left:89px; top: 89px">
+<img src="/_img/button_news.gif" usemap="#button_news" alt="Новости" width="80" height="80"/> 
+<map id="button_news" name="button_news">
+<area shape="poly" alt="Новости" coords="80,52,28,80,0,28,52,0" href="http://statmod.ru/news/" title="Новости" />
+<area shape="poly" alt="" coords="0,0,80,0,80,80,0,80"  nohref="nohref" title=""/>
+</map>
+</div>
+<div style="z-index: 3; position: absolute; left:141px; top: 153px">
+<img src="/_img/button_forum.gif" usemap="#button_forum" alt="Форум" width="64" height="64"/> 
+<map id="button_forum" name="button_forum">
+<area shape="poly" alt="Форум" coords="64,47,17,64,0,17,47,0" href="http://statmod.ru/forum/" title="Форум" />
+<area shape="poly" alt="" coords="0,0,64,0,64,64,0,64"  nohref="nohref" title=""/>
+</map>
+</div>
+</span>

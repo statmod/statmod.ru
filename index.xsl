@@ -88,12 +88,12 @@
 	<!-- 								 -->
 <!-- Match everything else -->
 <xsl:template match="processing-instruction()">
-	<xsl:text disable-output-escaping="yes"><![CDATA[<?
-]]></xsl:text><xsl:value-of select="name()"/>
-<xsl:value-of select="."/>
+	<xsl:text disable-output-escaping="yes"><![CDATA[<?]]></xsl:text>
+<xsl:value-of select="name()"/>
+<xsl:text disable-output-escaping="yes"> </xsl:text>
+<xsl:value-of disable-output-escaping="yes" select="."/>
 
-	<xsl:text disable-output-escaping="yes"><![CDATA[
-?>]]></xsl:text>
+	<xsl:text disable-output-escaping="yes"><![CDATA[?>]]></xsl:text>
 
 </xsl:template>
 

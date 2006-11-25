@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build>
+<build xml="index.xml" xsl="index.xsl" xsl_glob="reslinks.xsl" output="index.php"/>
+<!-- <build xml="php_item_tree.xml" xsl="category_item.xsl" output="category_item.php"/>
+<build xml="php_item_tree.xml" xsl="archive_item.xsl" output="archive_item.php"/>
+<build xml="category_list_tree.xml" xsl="php_list.xsl" output="category_list.php"/> -->
+<build xml="sidebar_tree.xml" xsl="sidebar_tree.xsl" output="sidebar_tree.php"/>
+<build xml="treetemplate.xml" xsl="category_level_1.xsl" output="category_level_1.php"/>
+<build xml="treetemplate.xml" xsl="category_level_2.xsl" output="category_level_2.php"/>
+<build xml="treetemplate_archive.xml" xsl="archive_level_1.xsl" output="archive_level_1.php"/>
+<build xml="treetemplate.xml" xsl="archive_level_2.xsl" output="archive_level_2.php"/>
+<build xml="sidebar.xml" xsl="index.xsl" output="sidebar.php"/>
+<build xml="category_func.xml" xsl="index.xsl" output="category_func.php"/>
+<build xml="messages.xml" xsl="index.xsl" output="messages.php"/>
+</build>

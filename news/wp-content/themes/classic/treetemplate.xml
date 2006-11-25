@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Note: you should'nt use symbols ",& in php sections if you want them to appear as attributes -->
+<tree>
+	<item active_point="false"  item_in_path="false">
+<name>
+<![CDATA[<?php print $name; ?>]]>
+</name>
+<title>
+<![CDATA[<?php print $title;?>]]>
+</title>
+<full_href>
+<![CDATA[<?php print $full_href; ?>]]>
+</full_href>
+<extra>
+<![CDATA[<?php print $extra; ?>]]>
+</extra>
+<item/>
+	</item>
+	<item active_point="false" item_in_path="true">
+<name>
+<![CDATA[<?php print $name; ?>]]>
+</name>
+<title>
+<![CDATA[<?php print $title;?>]]>
+</title>
+<full_href>
+<![CDATA[<?php print $full_href; ?>]]>
+</full_href>
+<extra>
+<![CDATA[<?php print $extra; ?>]]>
+</extra>
+<item/>
+	</item>
+	<item active_point="true" item_in_path="true">
+<name>
+<![CDATA[<?php print $name; ?>]]>
+</name>
+<title>
+<![CDATA[<?php print $title;?>]]>
+</title>
+<full_href>
+<![CDATA[<?php print $full_href; ?>]]>
+</full_href>
+<extra>
+<![CDATA[<?php print $extra; ?>]]>
+</extra>
+<item/>
+	</item>
+
+</tree>

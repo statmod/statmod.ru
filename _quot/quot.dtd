@@ -10,9 +10,5 @@
 >
 <!ELEMENT group_title %Inline;>
 
-<!ELEMENT quote %Inline;>
-<!ATTLIST quote
-	year CDATA #REQUIRED
-	spec CDATA #REQUIRED
->
+
 <!ELEMENT quotes (title, group+)>

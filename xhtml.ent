@@ -204,7 +204,7 @@
 
 <!ENTITY % heading "h1|h2|h3|h4|h5|h6">
 <!ENTITY % lists "ul | ol | dl | menu | dir">
-<!ENTITY % blocktext "pre | hr | blockquote | address | center | noframes">
+<!ENTITY % blocktext "pre | hr | blockquote | quote | address | center | noframes">
 
 <!ENTITY % block
     "p | %heading; | div | %lists; | %blocktext; | isindex |fieldset | table">
@@ -570,6 +570,12 @@
 <!ATTLIST blockquote
   %attrs;
   cite        %URI;          #IMPLIED
+  >
+
+<!ELEMENT quote %Flow;>
+<!ATTLIST quote
+  year        %Number;       #IMPLIED
+  spec        %Text;          #IMPLIED
   >
 
 <!--=================== Text alignment ===================================-->

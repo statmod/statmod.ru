@@ -1,0 +1,55 @@
+﻿<span class="remove">
+<?php
+
+function my_category_get_full_href($category) {
+  return get_category_link($category->cat_ID);
+}
+
+function my_category_get_title($category) {
+  $title = 0;
+  if ( empty($category->category_description) )
+    $title =  sprintf(__("Показать все записи в %s"),
+    wp_specialchars($category->cat_name));
+  else
+   $title = wp_specialchars(apply_filters('category_description',$category->			
+                          category_description,$category)) ;
+  return $title;
+}
+
+
+function my_category_get_name($category) {
+  return apply_filters('list_cats', $category->cat_name, $category);
+}
+			
+function my_category_get_extra($category) {
+/*  if (! ($category->category_class === 'general') )
+    return ' ('.intval($category->category_count).')';*/
+  return '';
+}
+
+function my_get_root_toshow($categories, $cats_by_id, $selectedItem) {
+  // Detect parent 
+  if ($selectedItem > 0) {
+    $selectedParent = $cats_by_id[$selectedItem]->category_parent;
+    if ($selectedParent > 0) {
+      foreach ($categories as $category)	{
+        if (!$category->category_count)
+          continue;
+
+        $parent_id = $category->category_parent;
+
+        if (!$parent_id)
+          continue;
+
+        $parent =  $cats_by_id[$parent_id];
+
+        if ($parent->category_parent == $selectedParent) 
+	    return $selectedParent;
+      }
+      return $cats_by_id[$selectedParent]->category_parent;
+    }
+  }
+  return 0;
+}
+?>
+</span>

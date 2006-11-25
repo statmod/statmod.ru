@@ -17,18 +17,13 @@
 <xsl:template match="group">
 	<a name="{@id}"/>
 	<h4><xsl:copy-of select="group_title/node()"/></h4>
-	<span id="qa_{@id}">
-<!--	<ul>
-		<xsl:for-each select="quote">
-		<li><xsl:apply-templates select="." mode="insert_quote"/></li>
-		</xsl:for-each>
-	</ul> -->
-	<xsl:for-each select="quote"><blockquote>
-	<xsl:apply-templates select="." mode="insert_quote"/>
-</blockquote>
+	<div id="qa_{@id}">
+	<xsl:for-each select="quote">
+		<xsl:apply-templates select="." mode="insert_quote"/>
 	</xsl:for-each>
+	
+</div>
 
-     </span>
 </xsl:template>
 
 

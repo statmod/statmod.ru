@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<span class="remove">
+<?php require('messages.php'); ?>
+<p><!--<?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. --> 
+<cite>
+<?php echo sprintf(__('Работает на <a href="http://wordpress.org" title="%s"><strong>WordPress</strong></a>'), __('Работает на WordPress - современной системе персональных публикаций.')); ?>
+</cite></p>
+
+
+</span>

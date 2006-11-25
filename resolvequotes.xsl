@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:import href="_quot/singlequote.xsl"/>
@@ -21,7 +21,19 @@
 	</xsl:choose>
 </xsl:template>
 
+<xsl:template match="blockquote">
+	<blockquote>
+	<i><spec code="quot"/><xsl:copy-of select="node()"/><spec code="quot"/></i>
+	</blockquote>
+</xsl:template>
 
+<xsl:template match="quote">
+	<xsl:apply-templates mode="insert_quote" select="."/>
+</xsl:template>
+
+<xsl:template match="quote" mode="insert_quote">
+	<xsl:apply-imports/>
+</xsl:template>
 	
 <!-- Match everything else -->
 <xsl:template match="*|@*|text()|comment()|processing-instruction()">

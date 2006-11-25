@@ -41,6 +41,9 @@
 		<item href="term-papers">
 			<name>Курсовые работы</name>
 		</item>
+		<item href="term-papers-comments">
+			<name>Комментарии по выбору курсовой</name>
+		</item>
 	</item>
 	<item href="3-5">
 		<name>Студентам III-V</name>

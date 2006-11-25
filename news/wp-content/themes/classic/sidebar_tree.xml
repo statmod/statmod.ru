@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Note: you should'nt use symbols ",& in php sections if you want them to appear as attributes -->
+<tree>
+	<init_code>
+<?php require_once('category_level_1.php'); ?>
+<?php require_once('category_func.php'); ?>
+
+
+<?php
+global $wpdb, $wp_query;
+$file = get_settings('home') . '/';
+	
+// Получить список категорий, отсортированный по cat_ID
+$query = "SELECT cat_ID, cat_name, category_nicename, category_description, category_parent, category_count, category_class, cat_menu_order  
+			FROM $wpdb->categories
+			WHERE cat_ID > 0
+			ORDER BY cat_ID asc";
+
+$categories = $wpdb->get_results($query);
+
+$cats_by_id = array();
+
+foreach ($categories as $category) {
+  $cats_by_id[$category->cat_ID] = $category;
+}
+
+$selectedItem = -1; // Default value
+if (is_home())
+  $selectedItem = 0;
+elseif (is_category())
+  $selectedItem = $wp_query->get_queried_object_id();
+
+$rootToShow = my_get_root_toshow($categories, $cats_by_id, $selectedItem);
+$show_arrow = $rootToShow != 0 || !is_home();
+if ($show_arrow) {
+  if ($rootToShow != 0)  {
+	$full_href = my_category_get_full_href($cats_by_id[$rootToShow]);
+	$title = my_category_get_title($cats_by_id[$rootToShow]);
+	$extra = '';
+  } else {
+	$full_href = 'http://statmod.ru/news/';
+	$title = 'Все новости';
+	$extra = '';
+  }
+}
+
+?>
+</init_code>
+
+<list_code>
+	<?php
+	   foreach ($categories as $category){
+			 if ($category->category_parent == $rootToShow) {
+				my_category_level_1($categories,$category, $selectedItem, ($selectedItem > 0 ? $cats_by_id[$selectedItem]->category_parent : 0));
+			}
+		}
+		require('archive_level_1.php');
+	?>
+</list_code>
+<item id="arrow">
+<name>
+<![CDATA[<?php print $name; ?>]]>
+</name>
+<title>
+<![CDATA[<?php print $title;?>]]>
+</title>
+<full_href>
+<![CDATA[<?php print $full_href; ?>]]>
+</full_href>
+<extra>
+<![CDATA[<?php print $extra; ?>]]>
+</extra>
+	<item/>
+</item>
+<item>
+	<item/>
+</item>
+</tree>
