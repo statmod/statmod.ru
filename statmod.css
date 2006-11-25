@@ -1,5 +1,6 @@
 <!--  StatMod.ru CSS build 02a -->
 
+/*
 H1 {
 FONT-SIZE: 16 pt; 
 text-align: center;
@@ -24,6 +25,33 @@ FONT-SIZE: 13px;
 text-align: left;
 font-family:  Tahoma;
 COLOR: #012693;
+}
+*/
+
+H1 {
+FONT-SIZE: 16 pt; 
+text-align: center;
+font-family: Arial;
+COLOR: #023768;
+}
+H2 {
+FONT-SIZE: 14 pt; 
+text-align: left;
+font-family: Tahoma;
+COLOR: #023768;
+}
+H3 {
+FONT-SIZE: 12 pt;
+text-align: left;
+font-family: Arial;
+COLOR: #023768;
+}
+
+H4 {
+FONT-SIZE: 13px;
+text-align: left;
+font-family:  Tahoma;
+COLOR: #023768;
 }
 
 BODY {
