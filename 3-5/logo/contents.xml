@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/index.xsl"?>
 <!DOCTYPE html SYSTEM "/contents.dtd">
 <html>
@@ -95,7 +95,7 @@
 				</td>
 				<td width="250"  align="center" valign="middle">
 					<p>
-						<img src="/_logo/logo_erm.jpg" alt="Потапов Павел, 2003 СМ" width="240"  />
+						<img src="/_logo/logo_erm.gif" alt="Потапов Павел, 2003 СМ" width="250"  />
 					</p>
 				</td>
 			</tr>

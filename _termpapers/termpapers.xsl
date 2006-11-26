@@ -6,13 +6,11 @@
 <xsl:template match="/termpapers">
    <html>
       <head>
-         <title>Список курсовых работ</title>
+         <title>Список курсовых работ (2-й курс)</title>
       </head>
       <body>
-         <h1 align="center">Курсовые работы для второго курса</h1>
-         <h4 align="center">Кафедра статистического моделирования</h4>
-         <h4 align="center"> 2006-2007 гг.</h4>
-		<xsl:apply-templates select="prof"/>
+         <h2>Курсовые работы для второго курса (2006-2007 гг.)</h2>
+	   <xsl:apply-templates select="prof"/>
       </body>
    </html>
 </xsl:template>
