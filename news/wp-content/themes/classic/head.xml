@@ -5,9 +5,6 @@
 	<speclt/>meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /<specgt/> 
 
 	<style type="text/css" media="screen">
-		@import url( <?php bloginfo('stylesheet_url'); ?> );
-	</style>
-	<style type="text/css" media="screen">
 		@import url( http://statmod.ru/_newdesign/statmod.css );
 	</style>
 

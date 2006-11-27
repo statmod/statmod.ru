@@ -8,7 +8,7 @@ font-family: Arial;
 COLOR: #012693;
 }
 H2 {
-FONT-SIZE: 14 pt; 
+FONT-SIZE: 13 pt; 
 text-align: left;
 font-family: Tahoma;
 COLOR: #012693;
@@ -21,7 +21,7 @@ COLOR: #012693;
 }
 
 H4 {
-FONT-SIZE: 13px;
+FONT-SIZE: 11px;
 text-align: left;
 font-family:  Tahoma;
 COLOR: #012693;
@@ -29,13 +29,13 @@ COLOR: #012693;
 */
 
 H1 {
-FONT-SIZE: 16 pt; 
+FONT-SIZE: 14 pt; 
 text-align: center;
 font-family: Arial;
 COLOR: #023768;
 }
 H2 {
-FONT-SIZE: 14 pt; 
+FONT-SIZE: 13 pt; 
 text-align: left;
 font-family: Tahoma;
 COLOR: #023768;
@@ -48,7 +48,7 @@ COLOR: #023768;
 }
 
 H4 {
-FONT-SIZE: 13px;
+FONT-SIZE: 11px;
 text-align: left;
 font-family:  Tahoma;
 COLOR: #023768;
@@ -106,6 +106,8 @@ img {
 }
 
 .proftable td {
+ padding-top: 6px;
+ padding-bottom: 6px;
 }
 
 .timetable table {
@@ -157,7 +159,7 @@ q { /* Цитата в тексте */
 
 }
 
-blockquote, li, a, div.quote, .proftable td, .misctable td, .timetable td, .body_text { 
+blockquote, li, a, div.quote, .proftable td, .misctable td, .timetable td, .body_text, , .body_text a { 
 font: 10pt Tahoma;
 }
 
@@ -326,3 +328,30 @@ td#copyright a {
   padding-top: 6px;*/
 }
 
+.msg_info {
+	font-size: 8pt;
+}
+
+.msg_info, .msg_info a {
+	color: #808080;
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+.msg_date {
+	font-size: 8pt;
+	color: #808080;
+	font-weight: bolder;
+	letter-spacing: 0;
+}
+.signature, .signature a {
+	font-size: 8pt;
+}
+
+.msg_title {
+FONT-SIZE: 12 pt;
+text-align: left;
+font-family: Arial;
+COLOR: #012693;
+font-weight: bold;
+}

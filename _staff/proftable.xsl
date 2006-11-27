@@ -55,6 +55,10 @@
 	<xsl:template match="person" mode="list">
 		<xsl:variable name="short_name" select="concat(ln/text(), ' ',substring(fn/text(),1,1), '.', substring(mn/text(),1,1), '.')"/>
 		<td width="143" align="center" valign="bottom" bgcolor="#eeeeee">
+			<a href="/chair/prof/{@id}.htm">
+				<img src="{substring-before(image/@name, '.')}_t.{substring-after(image/@name, '.')}" alt="{$short_name}" border="0" width="{image/@tw}" height="{image/@th}"/>
+			</a>
+			<br/>
 			<xsl:choose>
 				<xsl:when test="duty/@academic_rank = 'prof'">Профессор</xsl:when>
 				<xsl:when test="duty/@academic_rank = 'assoc_prof'">Доцент</xsl:when>
@@ -67,9 +71,6 @@
 			<br/>
 			<xsl:value-of select="duty/shortname/text()"/>
 			<br/>
-			<a href="/chair/prof/{@id}.htm">
-				<img src="{substring-before(image/@name, '.')}_t.{substring-after(image/@name, '.')}" alt="{$short_name}" border="0" width="{image/@tw}" height="{image/@th}"/>
-			</a>
 		</td>
 	</xsl:template>
 	

@@ -1,16 +1,15 @@
 ﻿<span class="remove">
+<![CDATA[
 <!-- begin messages -->
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-<?php the_date('','<h3>','</h3>'); ?>	
-<speclt/>div class="post" id="post-<?php the_ID(); ?>"<specgt/>
-	<h4><?php the_title(); ?></h4>
-	<div class="msg_info"><?php _e("Рубрика:"); ?> <?php the_category(',') ?> &#8212; <?php the_time() ?> <?php edit_post_link(__('Редактировать')); ?></div>
-	
-	<div>
-		<?php the_content(__('Читать дальше...')); ?>
-	</div>
-<speclt/>/div<specgt/>
+<?php 
+	global $post;
+	if (have_posts()) : while (have_posts()) : the_post();
+	$the_date = mysql2date("d.m.Y", $post->post_date);
+?>
+<div class="post" id="post-<?php the_ID(); ?>">
+<h3><?php the_title(); ?> &#8212; <span class="msg_date"> <?php echo $the_date; ?></span> <span class="msg_info">(<?php the_category(',') ?>)</span> <?php edit_post_link(__('Редактировать')); ?></h3>
+<div><?php the_content(__('Читать дальше...')); ?></div>
+</div><br />
 
 <?php endwhile; else: ?>
 <p><?php _e('Извините, нет записей, удовлетворяющих вашим условиям.'); ?></p>
@@ -18,4 +17,5 @@
 	
 <?php posts_nav_link(' &#8212; ', __('&laquo; Предыдущая страница'), __('Следующая страница &raquo;')); ?>
 <!-- end messages -->
+]]>
 </span>

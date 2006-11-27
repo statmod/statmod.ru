@@ -34,7 +34,6 @@ mode="level_0"/>
 <xsl:value-of disable-output-escaping="yes" select="."/>
 
 	<xsl:text disable-output-escaping="yes"><![CDATA[?>]]></xsl:text>
-
 </xsl:template>
 
 

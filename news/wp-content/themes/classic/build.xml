@@ -9,7 +9,7 @@
 <build xml="treetemplate.xml" xsl="category_level_2.xsl" output="category_level_2.php"/>
 <build xml="treetemplate_archive.xml" xsl="archive_level_1.xsl" output="archive_level_1.php"/>
 <build xml="treetemplate.xml" xsl="archive_level_2.xsl" output="archive_level_2.php"/>
-<build xml="sidebar.xml" xsl="index.xsl" output="sidebar.php"/>
-<build xml="category_func.xml" xsl="index.xsl" output="category_func.php"/>
-<build xml="messages.xml" xsl="index.xsl" output="messages.php"/>
+<build xml="sidebar.xml" xsl="php.xsl" output="sidebar.php"/>
+<build xml="category_func.xml" xsl="php.xsl" output="category_func.php"/>
+<build xml="messages.xml" xsl="php.xsl" output="messages.php"/>
 </build>
