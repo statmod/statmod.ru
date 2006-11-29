@@ -1,56 +1,32 @@
-<!--  StatMod.ru CSS build 02a -->
 
-/*
-H1 {
-FONT-SIZE: 16 pt; 
+h1 {
+font: 16pt Tahoma;
+font-weight: bold;
+
 text-align: center;
-font-family: Arial;
-COLOR: #012693;
-}
-H2 {
-FONT-SIZE: 13 pt; 
-text-align: left;
-font-family: Tahoma;
-COLOR: #012693;
-}
-H3 {
-FONT-SIZE: 12 pt;
-text-align: left;
-font-family: Arial;
-COLOR: #012693;
-}
-
-H4 {
-FONT-SIZE: 11px;
-text-align: left;
-font-family:  Tahoma;
-COLOR: #012693;
-}
-*/
-
-H1 {
-FONT-SIZE: 14 pt; 
-text-align: center;
-font-family: Arial;
 COLOR: #023768;
 }
-H2 {
-FONT-SIZE: 13 pt; 
+h2 {
+font: 14pt Tahoma;
+font-weight: bold;
 text-align: left;
-font-family: Tahoma;
+
 COLOR: #023768;
 }
-H3 {
-FONT-SIZE: 12 pt;
+h3 {
+font: 13pt Arial;
 text-align: left;
-font-family: Arial;
+
+
+font-weight: bold;
+
 COLOR: #023768;
 }
 
-H4 {
-FONT-SIZE: 11px;
+h4 {
+font: 10pt Tahoma;
+font-weight: bold;
 text-align: left;
-font-family:  Tahoma;
 COLOR: #023768;
 }
 
@@ -59,9 +35,8 @@ font-family: Tahoma;
 }
 
 p{
-FONT-SIZE: 13px; 
+font: 10pt Tahoma; 
 text-align:justify;
-font-family: Tahoma;
 }
 
 body {
@@ -145,7 +120,6 @@ img {
 }
 
 
-/* Списки */
 ul{
 }
 
@@ -153,20 +127,23 @@ ul{
 }
 
 
-q { /* Цитата в тексте */
+q {
 	FONT-STYLE: italic;
 
 
 }
 
-blockquote, li, a, div.quote, .proftable td, .misctable td, .timetable td, .body_text, , .body_text a { 
-font: 10pt Tahoma;
+blockquote, ul li, ol li, a, div.quote, 
+.proftable td, .misctable td, 
+.timetable td, .body_text, .body_text a { 
+  font: 10pt Tahoma;
 }
 
 div.quote { 
-padding-top: 0.5em;
-padding-bottom: 0.5em;
-text-
+padding-top: 8px;
+padding-bottom: 8px;
+color: #606060;
+
 /*font: 10pt Tahoma;*/
 }
 
@@ -182,22 +159,14 @@ td.topnav a,  td.topnav a:visited, td.topnav img {
 }
 
 
-span.hl { /* Подсвеченные цитаты в разделе "Цитаты -> Разное" */
+span.hl { 
 background-color: #E1F0F0;
 }
 
 
-/***
- * Стили для горизонтального меню
- ***/
-
-
-/***
- * Стили для содержимого 
- ***/
 td#content_cell { 
-  padding-left: 43px; /* Отступ от вертикальной линии */
-  padding-top: 14px; /* Отступ от гориз. меню */
+  padding-left: 43px; 
+  padding-top: 14px; 
 }
 
 td.left_pane {
@@ -214,7 +183,7 @@ td#arrow_cell {
 td#path_cell {
   font: 10px Tahoma;
   color: #727272;
-  padding-right: 115px;
+  padding-right: 125px;
   padding-top: 0px;
   padding-bottom: 0px;
   line-height: 8px;
@@ -256,7 +225,7 @@ td#menu_cell {
   text-decoration:none;
 color:black;
 /*  font: 13px Verdana bold;*/
-  font: 13px Sans Serif bold;
+  font: 10pt Sans Serif bold;
 font-weight: bold;
   
 }
@@ -290,9 +259,6 @@ color:black;
   color: rgb(114,114,114);
 }
 
-/***
- * Копирайт
- ***/
 td#left_bottom_links {
 /*  padding-left: 31px; */
 text-align: center;
@@ -316,12 +282,8 @@ td#copyright a {
 
 
 
-/***
- * Стили для левого меню 
- ***/
-
  
-#leftmenu td { /* Отступы внутри ячеек таблицы */
+#leftmenu td {
   /*padding-left: 4px;  
   padding-right: 2px;
   padding-bottom: 2px;

@@ -1,5 +1,17 @@
 ﻿<span class="remove">
 <![CDATA[
+<h2>
+<?php 
+  global $wp_query, $month;
+  if (is_home()) 
+    print "Новости";
+  elseif (is_category())
+    print get_the_category_by_ID($wp_query->get_queried_object_id());
+  elseif ($m) 
+    print sprintf('%s %d', $month[substr($m,4, 2)], substr($m,0, 4));
+?>
+</h2>
+
 <!-- begin messages -->
 <?php 
 	global $post;
@@ -15,7 +27,7 @@
 <p><?php _e('Извините, нет записей, удовлетворяющих вашим условиям.'); ?></p>
 <?php endif; ?>
 	
-<?php posts_nav_link(' &#8212; ', __('&laquo; Предыдущая страница'), __('Следующая страница &raquo;')); ?>
+<?php posts_nav_link(' &#8212; ', __('&laquo; Следующие новости'), __('Предыдущие новости &raquo;')); ?>
 <!-- end messages -->
 ]]>
 </span>

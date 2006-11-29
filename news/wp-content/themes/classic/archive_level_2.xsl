@@ -12,9 +12,9 @@
 		
 			$full_href = get_month_link($arcresult->year,	$arcresult->month);
 			$extra = '';
-			if ( $show_post_count ) {
+/*			if ( $show_post_count ) {
 				$extra = '&nbsp;('.$arcresult->posts.')' . $afterafter;
-			} 
+			} */
 			
 			$name = sprintf('%s %d', $month[zeroise($arcresult->month,2)], $arcresult->year);
 			$name = wptexturize($name);

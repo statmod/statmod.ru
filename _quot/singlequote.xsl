@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
 	<xsl:variable name="specs">	
 <specs>		
@@ -11,7 +11,7 @@
 	<xsl:template match="quote" mode="insert_quote">
 	<div class="quote">
 		<xsl:value-of select="@year"/> (<xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=current()/@spec]/node()"/>):
-<i><spec code="quot"/><xsl:copy-of select="node()"/><spec code="quot"/></i>	
+<spec code="quot"/><xsl:copy-of select="node()"/><spec code="quot"/>
 </div>
 	</xsl:template>
 </xsl:stylesheet>

@@ -5,7 +5,7 @@
 	<speclt/>meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /<specgt/> 
 
 	<style type="text/css" media="screen">
-		@import url( http://statmod.ru/_newdesign/statmod.css );
+		@import url( http://statmod.ru/statmod.css );
 	</style>
 
 	<speclt/>link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" /<specgt/>
