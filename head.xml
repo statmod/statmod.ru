@@ -2,5 +2,6 @@
 	<transform xml="title.xml"/>
 	<transform xml="meta.xml"/>
 	<link href="/statmod.css" rel="stylesheet" type="text/css"/>
-	<script language="javascript" src="/_script/toggle_quote.js"/>
+      <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+ 	<script language="javascript" src="/_script/toggle_quote.js"/>
 </span>
