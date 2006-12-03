@@ -13,5 +13,6 @@
 	<speclt/>link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" /<specgt/>
 	
 	<speclt/>link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" /<specgt/>
-    <?php wp_get_archives('type=monthly&format=link'); ?>
+      <link href="http://statmod.ru/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+     <?php wp_get_archives('type=monthly&format=link'); ?>
 </span>
