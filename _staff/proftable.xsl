@@ -75,7 +75,7 @@
 	</xsl:template>
 	
 	<xsl:template match="person" mode="single">
-<xsl:variable name="long_name"><xsl:value-of select="ln/text()"/>&#32;<xsl:value-of select="fn/text()"/>&#32;<xsl:value-of select="mn/text()"/>.</xsl:variable>
+<xsl:variable name="long_name"><xsl:value-of select="ln/text()"/>&#32;<xsl:value-of select="fn/text()"/>&#32;<xsl:value-of select="mn/text()"/></xsl:variable>
 
 	<h2>
 					<xsl:choose>
@@ -116,8 +116,7 @@
       <br/>
 	 <xsl:if test="extlink">
 <p>
-      <b>Ссылки:</b>
-<xsl:apply-templates select="extlink"/>
+      <b>Ссылки:</b> <spec code="#32"/> <xsl:apply-templates select="extlink"/>
       </p>
 	 </xsl:if>
       </td>
