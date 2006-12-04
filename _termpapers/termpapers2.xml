@@ -1,75 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?xml-stylesheet type="text/xsl" href="termpapers.xsl"?>
 <termpapers year="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="termpapers.xsd">
-	<prof id="vv_nekrutin" comments="yes">
-		<location>к. 4502</location>
-		<paper>
-			<title>Дискретная теория вероятностей</title>
-			<biblitem>
-				<author>А.Н. Ширяев</author>
-				<title>Вероятность</title>
-				<publisher>М., Наука, 1989.</publisher>
-				<pages>1-я глава</pages>
-			</biblitem>
-		</paper>
-		<paper>
-			<title>Испытания Бернулли на отрезке [0,1].</title>
-			<biblitem>
-				<author>М. Кац</author>
-				<title>Статистическая независимость в теории вероятностей, анализе и теории чисел</title>
-				<publisher>М., 1963.</publisher>
-			</biblitem>
-		</paper>
-		<paper>
-			<title>Теория меры и теория вероятностей.</title>
-			<biblitem>
-				<author>К. Партасарати</author>
-				<title> Введение в теорию вероятностей и теорию меры		</title>
-				<publisher>Москва, Мир, 1983.</publisher>
-			</biblitem>
-		</paper>
-		<comment>Все темы являются учебными, необходимо прочитать
-соответствующий материал и решить задачи.</comment>
-	</prof>
-	<prof id="ap_sizova">
-		<location>к. 4398</location>
-		<paper>
-			<title>Простейший метод Монте-Карло.</title>
-			<biblitem>
-				<author>И.М.Соболь</author>
-				<title>Численные методы Монте-Карло</title>
-				<pages>с. 93-94.</pages>
-			</biblitem>
-		</paper>
-		<paper>
-			<title>Решение линейных алгебраических систем методом Монте-Карло.</title>
-			<biblitem>
-				<pages>Там же, с. 193-201.</pages>
-			</biblitem>
-		</paper>
-		<paper>
-			<title>Моделирование систем массового обслуживания.</title>
-			<biblitem>
-				<pages>Там же, с. 215-218.</pages>
-			</biblitem>
-		</paper>
-	</prof>
-	<prof id="vb_melas" comments="yes">
-		<location>к. 4395</location>
-		<paper>
-			<title>Разложение положительных многочленов и их применение в статистике.</title>
-			<biblitem>
-				<author>С.Карлин, В.Стадден.</author>
-				<title>Чебышевские системы и их применение
-в анализе и статистике</title>
-				<publisher>М., Наука, 1976.</publisher>
-			</biblitem>
-		</paper>
-		<paper>
-			<title>Неравенства для матриц.</title>
-		</paper>
-	</prof>
 	<prof id="ag_bart" comments="yes">
 		<location>к.4502</location>
 		<paper>
@@ -142,6 +73,21 @@
 			</title>
 		</paper>
 	</prof>
+	<prof id="vb_melas" comments="yes">
+		<location>к. 4395</location>
+		<paper>
+			<title>Разложение положительных многочленов и их применение в статистике.</title>
+			<biblitem>
+				<author>С.Карлин, В.Стадден.</author>
+				<title>Чебышевские системы и их применение
+в анализе и статистике</title>
+				<publisher>М., Наука, 1976.</publisher>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Неравенства для матриц.</title>
+		</paper>
+	</prof>
 	<prof id="an_pepelyshev">
 		<location>к. 4502/4395</location>
 		<paper>
@@ -155,6 +101,59 @@
 			<title>Выделение сезонных компонент из исходных данных (на примере экономических задач).
 			</title>
 		</paper>
+	</prof>
+	<prof id="ap_sizova">
+		<location>к. 4398</location>
+		<paper>
+			<title>Простейший метод Монте-Карло.</title>
+			<biblitem>
+				<author>И.М.Соболь</author>
+				<title>Численные методы Монте-Карло</title>
+				<pages>с. 93-94.</pages>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Решение линейных алгебраических систем методом Монте-Карло.</title>
+			<biblitem>
+				<pages>Там же, с. 193-201.</pages>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Моделирование систем массового обслуживания.</title>
+			<biblitem>
+				<pages>Там же, с. 215-218.</pages>
+			</biblitem>
+		</paper>
+	</prof>
+	<prof id="vv_nekrutin" comments="yes">
+		<location>к. 4502</location>
+		<paper>
+			<title>Дискретная теория вероятностей</title>
+			<biblitem>
+				<author>А.Н. Ширяев</author>
+				<title>Вероятность</title>
+				<publisher>М., Наука, 1989.</publisher>
+				<pages>1-я глава</pages>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Испытания Бернулли на отрезке [0,1].</title>
+			<biblitem>
+				<author>М. Кац</author>
+				<title>Статистическая независимость в теории вероятностей, анализе и теории чисел</title>
+				<publisher>М., 1963.</publisher>
+			</biblitem>
+		</paper>
+		<paper>
+			<title>Теория меры и теория вероятностей.</title>
+			<biblitem>
+				<author>К. Партасарати</author>
+				<title> Введение в теорию вероятностей и теорию меры		</title>
+				<publisher>Москва, Мир, 1983.</publisher>
+			</biblitem>
+		</paper>
+		<comment>Все темы являются учебными, необходимо прочитать
+соответствующий материал и решить задачи.</comment>
 	</prof>
 	<prof id="ya_sushkov" comments="yes">
 		<location>к. 4519б</location>
