@@ -6,8 +6,6 @@
 		<title>Преподаватели</title>
 	</head>
 	<body>
-<transform xml="/_staff/prof.xml" xsl="/_staff/proftable.xsl"/>
-<transform xml="/_courses/all_timetables.xml"
-xsl="/_courses/merge_timetables.xsl,/_courses/timetable_prof_view.xsl" prof_required="yes"/>
+<transform xml="/_staff/profpage.xml" xsl="/_staff/profpage.xsl"/>
 	</body>
 </html>
