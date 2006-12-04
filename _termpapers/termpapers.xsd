@@ -22,6 +22,7 @@
 	<xs:element name="prof">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="location" minOccurs="0" maxOccurs="unbounded"/>
 				<xs:element ref="paper" maxOccurs="unbounded"/>
 				<xs:element name="comment" type="xs:string" minOccurs="0"/>
 			</xs:sequence>
@@ -53,4 +54,5 @@
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="title" type="xs:string"/>
+	<xs:element name="location" type="xs:string"/>
 </xs:schema>

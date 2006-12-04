@@ -32,7 +32,9 @@
 	<h3>
 <xsl:value-of select="$profs/staff/person[@id=current()/@id]/ln"/>&#32;
 <xsl:value-of select="$profs/staff/person[@id=current()/@id]/fn"/>&#32;
-<xsl:value-of select="$profs/staff/person[@id=current()/@id]/mn"/></h3>
+<xsl:value-of select="$profs/staff/person[@id=current()/@id]/mn"/>
+&#32;<span class="msg_info">(<xsl:value-of select="location"/>)</span>
+</h3>
 	<ol>
 	<xsl:for-each select="paper">
 		<li><xsl:copy-of select="title/node()"/></li>

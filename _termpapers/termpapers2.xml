@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?xml-stylesheet type="text/xsl" href="termpapers.xsl"?>
 <termpapers year="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="termpapers.xsd">
 	<prof id="vv_nekrutin" comments="yes">
+		<location>к. 4502</location>
 		<paper>
 			<title>Дискретная теория вероятностей</title>
 			<biblitem>
@@ -31,6 +33,7 @@
 соответствующий материал и решить задачи.</comment>
 	</prof>
 	<prof id="ap_sizova">
+		<location>к. 4398</location>
 		<paper>
 			<title>Простейший метод Монте-Карло.</title>
 			<biblitem>
@@ -53,6 +56,7 @@
 		</paper>
 	</prof>
 	<prof id="vb_melas" comments="yes">
+		<location>к. 4395</location>
 		<paper>
 			<title>Разложение положительных многочленов и их применение в статистике.</title>
 			<biblitem>
@@ -67,6 +71,7 @@
 		</paper>
 	</prof>
 	<prof id="ag_bart" comments="yes">
+		<location>к.4502</location>
 		<paper>
 			<title>Частично обратные функции.</title>
 		</paper>
@@ -83,6 +88,7 @@
 		</comment>
 	</prof>
 	<prof id="ne_golyandina">
+		<location>к. 4502</location>
 		<paper>
 			<title>Анализ главных компонент как метод "разглядывания" многомерных данных и сингулярное разложение матриц.
 			</title>
@@ -95,6 +101,7 @@
 		</comment>
 	</prof>
 	<prof id="sm_ermakov">
+		<location>к. 4503</location>
 		<paper>
 			<title>Построение числовых последовательностей с хорошими свойствами равномерности (с применением к планированию экспериментов).
 			</title>
@@ -108,6 +115,7 @@
 		</paper>
 	</prof>
 	<prof id="yn_kashtanov">
+		<location>к. 4395</location>
 		<paper>
 			<title>Вероятностные модели рынка.</title>
 		</paper>
@@ -117,6 +125,7 @@
 		</paper>
 	</prof>
 	<prof id="np_alekseeva" comments="yes">
+		<location>к. 4502</location>
 		<paper>
 			<title>Задача классификации популяций по дихотомическим признакам на основе конечных геометрий.
 			</title>
@@ -134,18 +143,21 @@
 		</paper>
 	</prof>
 	<prof id="an_pepelyshev">
+		<location>к. 4502/4395</location>
 		<paper>
 			<title>Численные методы решения минимаксных задач.
 			</title>
 		</paper>
 	</prof>
 	<prof id="tm_tovstik">
+		<location>к. 4398</location>
 		<paper>
 			<title>Выделение сезонных компонент из исходных данных (на примере экономических задач).
 			</title>
 		</paper>
 	</prof>
 	<prof id="ya_sushkov" comments="yes">
+		<location>к. 4519б</location>
 		<paper>
 			<title>Оптимизация в комбинаторных задачах.</title>
 		</paper>
@@ -159,17 +171,20 @@
 		</paper>
 	</prof>
 	<prof id="ay_ponomareva">
+		<location>к. 3316</location>
 		<paper>
 			<title>Специальные задачи оптимизации дискретных систем с переменной структурой.</title>
 		</paper>
 	</prof>
 	<prof id="mk_chirkov">
+		<location>к. 3316</location>
 		<paper>
 			<title>Автоматные модели принятия решений в нечетких условиях.
 			</title>
 		</paper>
 	</prof>
 	<prof id="vb_christinich" comments="yes">
+		<location>к. 4395</location>
 		<paper>
 			<title>Решение линейных интегральных уравнений методом статистических испытаний и компьютерная визуализация решения. Задачи: временной и пространственной релаксации, взрыв, течение в канале. </title>
 		</paper>
@@ -183,6 +198,7 @@
 		</paper>
 	</prof>
 	<prof id="nk_krivulin">
+		<location>к. 4395</location>
 		<paper>
 			<title>Алгебраические методы исследования систем с очередями.
 			</title>
@@ -199,6 +215,7 @@
 		</paper>
 	</prof>
 	<prof id="ms_ermakov">
+		<location>тел. 3790588</location>
 		<paper>
 			<title>Моделирование редких событий.</title>
 		</paper>
