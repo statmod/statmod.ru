@@ -50,12 +50,13 @@
     </tr>
     <tr valign="top">
       <td> <p>
-	<xsl:if test="$has_timetable">
-	      <a href="#timetable">К расписанию</a> 
-	      <br/>
-	</xsl:if>
       <a href="/chair/prof/index.htm">К списку сотрудников</a> 
-	</p>
+</p>
+	<xsl:if test="$has_timetable">
+<p>
+      <a href="#timetable">Расписание занятий</a> 
+</p>
+	</xsl:if>
       </td>
       <td>
 	 <xsl:if test="extlink">
