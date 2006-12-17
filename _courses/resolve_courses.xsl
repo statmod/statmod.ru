@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl">
+	xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:co="http://statmod.ru/courses"
+      exclude-result-prefixes="msxsl co">
 	<xsl:output method="xml" omit-xml-declaration="no" indent="yes" encoding="UTF-8"/>
 	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:param name="glob_param"/>
@@ -51,12 +52,12 @@
 					</xsl:choose>
 				</xsl:variable>
 				
-				<xsl:variable name="course_info" select="msxsl:node-set($specs)/specs/spec[@id=$spec_to_select]/courses/course[@alias = $course_id][1]"/>
+				<xsl:variable name="course_info" select="msxsl:node-set($specs)/specs/spec[@id=$spec_to_select]/co:courses/co:course[@alias = $course_id][1]"/>
 				<xsl:if test="not($course_info)">
 					<xsl:message terminate="yes">Unknown course id '<xsl:value-of select="$course_id"/>' for specializaion '<xsl:value-of select="$spec_to_select"/>'. Occured at <xsl:value-of select="$error_location"/>.</xsl:message>
 				</xsl:if>
 				
-				<xsl:variable name="course_part" select="$course_info/part[@type = current()/course/@part]"/>
+				<xsl:variable name="course_part" select="$course_info/co:part[@type = current()/course/@part]"/>
 				<xsl:if test="course/@part and not($course_part)">
 						<xsl:message terminate="yes">Course  '<xsl:value-of select="$course_id"/>' doesn't have part '<xsl:value-of select="course/@part"/>'. Occured at <xsl:value-of select="$error_location"/>
 .</xsl:message>
@@ -64,8 +65,8 @@
 
 				<xsl:variable name="course_prof_id">
 					<xsl:choose>
-						<xsl:when test="$course_part/prof/@id"><xsl:value-of select="$course_part/prof/@id"/></xsl:when>
-						<xsl:otherwise><xsl:value-of select="$course_info/prof/@id"/></xsl:otherwise>
+						<xsl:when test="$course_part/co:prof/@id"><xsl:value-of select="$course_part/co:prof/@id"/></xsl:when>
+						<xsl:otherwise><xsl:value-of select="$course_info/co:prof/@id"/></xsl:otherwise>
 					</xsl:choose>
 				</xsl:variable> 
 				
@@ -78,9 +79,9 @@
 							<xsl:copy-of select="course/name"/>
 							<xsl:copy-of select="course/prof"/>
 							
-							<xsl:copy-of select="$course_info/name"/>
+							<xsl:apply-templates select="$course_info/co:name"/>
 							<xsl:if test="$course_prof_id != ''">
-								<xsl:variable name="course_prof_info"	select="$profs//person[@id = $course_prof_id]"/>
+								<xsl:variable name="course_prof_info" select="$profs//person[@id = $course_prof_id]"/>
 								<xsl:if test="not($course_prof_info)">
 									<xsl:message terminate="yes">Unresolved prof id for course '<xsl:value-of select="$course_id"/>'.</xsl:message>
 								</xsl:if>
@@ -95,6 +96,11 @@
 				</xsl:if> 
 			</xsl:otherwise>
 		</xsl:choose>
+	</xsl:template>
+
+	<!-- Template for namespace removal -->
+	<xsl:template match="co:name">
+		<name><xsl:copy-of select="node()"/></name>
 	</xsl:template>
 
 	<!-- Match everything else -->
