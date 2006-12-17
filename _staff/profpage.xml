@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <profinfo>
-<transform xml="/_staff/prof.xml"/>
+<transform xml="/_staff/prof.xml" xsl="/_staff/removeprofnamespace.xsl"/>
 <transform xml="/_courses/all_timetables.xml" xsl="/_courses/merge_timetables.xsl" prof_required="yes"/>
 </profinfo>

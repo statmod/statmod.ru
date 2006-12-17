@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+  exclude-result-prefixes="msxsl">
 	<xsl:import href="_staff/profsinglepage.xsl"/>
 	<xsl:import href="_staff/proftable.xsl"/>
 	<xsl:import href="_courses/timetable_prof_view.xsl"/>

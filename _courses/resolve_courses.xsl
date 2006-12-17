@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:co="http://statmod.ru/courses"
-      exclude-result-prefixes="msxsl co">
+	xmlns:msxsl="urn:schemas-microsoft-com:xslt" 
+	xmlns:co="http://statmod.ru/courses"
+	xmlns:pr="http://statmod.ru/staff"
+      exclude-result-prefixes="msxsl co pr">
 	<xsl:output method="xml" omit-xml-declaration="no" indent="yes" encoding="UTF-8"/>
 	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:param name="glob_param"/>
@@ -81,7 +83,7 @@
 							
 							<xsl:apply-templates select="$course_info/co:name"/>
 							<xsl:if test="$course_prof_id != ''">
-								<xsl:variable name="course_prof_info" select="$profs//person[@id = $course_prof_id]"/>
+								<xsl:variable name="course_prof_info" select="$profs//pr:person[@id = $course_prof_id]"/>
 								<xsl:if test="not($course_prof_info)">
 									<xsl:message terminate="yes">Unresolved prof id for course '<xsl:value-of select="$course_id"/>'.</xsl:message>
 								</xsl:if>

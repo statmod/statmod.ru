@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+	xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+      xmlns:pr="http://statmod.ru/staff">
 	<xsl:import href="mergecells.xsl"/>
 	<xsl:include href="gen_lesson_table.xsl"/>
 	<xsl:include href="resolve_prof.xsl"/>
@@ -9,20 +10,16 @@
 	<xsl:variable name="spec_width" select="164"/>
 	<xsl:variable name="cell_height" select="36"/>
 
-	<xsl:variable name="profs" select="document('../_staff/prof.xml')"/>
 	<xsl:variable name="specs">
 		<specs>
 			<spec id="sa">
 				<name>САПР</name>
-				<xsl:copy-of select="document('sa_spec.xml')"/>
 			</spec>
 			<spec id="sm">
 				<name>СМ</name>
-				<xsl:copy-of select="document('sm_spec.xml')"/>
 			</spec>
 			<spec id="mm">
 				<name>ММ</name>
-				<xsl:copy-of select="document('mm_spec.xml')"/>
 			</spec>
 		</specs>
 	</xsl:variable>
