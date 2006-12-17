@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 xmlns:msxsl="urn:schemas-microsoft-com:xslt"
   exclude-result-prefixes="msxsl">
@@ -7,6 +7,8 @@ xmlns:msxsl="urn:schemas-microsoft-com:xslt"
 	<xsl:template match="person" mode="single">
 <xsl:param name="has_timetable"/>
 <xsl:variable name="long_name"><xsl:value-of select="ln/text()"/>&#32;<xsl:value-of select="fn/text()"/>&#32;<xsl:value-of select="mn/text()"/></xsl:variable>
+<xsl:variable name="about" select="document(concat('about_', @id,'.xml'))"/>
+
 
 	<h2>
 			<xsl:choose>
@@ -71,9 +73,9 @@ xmlns:msxsl="urn:schemas-microsoft-com:xslt"
     </tr>
     <tr>
       <td colspan="2"> 
-	      <p>
-      	<xsl:copy-of select="about/node()"/>
-		</p>
+		<xsl:if test="$about">
+			<xsl:copy-of select="$about/about/node()"/> 
+		</xsl:if>
       </td>
     </tr>
 </table>
