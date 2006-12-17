@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0'?>
 <xsl:stylesheet version="1.0"
-      xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns:pr="http://statmod.ru/staff">
 <xsl:param name="current_folder"/>
 <xsl:variable name="profs" select="document('../_staff/prof.xml')"/>
 <xsl:template match="/termpapers">
@@ -20,6 +21,12 @@
 		<xsl:apply-templates select="*|node()|text()|comment"/>
 	</xsl:copy>
 </xsl:template>
+
+<xsl:template match="head">
+	<head>
+		<xsl:copy-of select="title"/>
+	</head>
+</xsl:template>
 <xsl:template match="body">
 	<xsl:copy>
 		<xsl:apply-templates select="*|node()|text()|comment"/>
@@ -30,9 +37,9 @@
 
 <xsl:template match="prof">
 	<h3>
-<xsl:value-of select="$profs/staff/person[@id=current()/@id]/ln"/>&#32;
-<xsl:value-of select="$profs/staff/person[@id=current()/@id]/fn"/>&#32;
-<xsl:value-of select="$profs/staff/person[@id=current()/@id]/mn"/>
+<xsl:value-of select="$profs/pr:staff/pr:person[@id=current()/@id]/pr:ln"/>&#32;
+<xsl:value-of select="$profs/pr:staff/pr:person[@id=current()/@id]/pr:fn"/>&#32;
+<xsl:value-of select="$profs/pr:staff/pr:person[@id=current()/@id]/pr:mn"/>
 &#32;<span class="msg_info">(<xsl:value-of select="location"/>)</span>
 </h3>
 	<ol>

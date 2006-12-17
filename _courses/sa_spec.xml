@@ -4,7 +4,7 @@
 xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
-		<prof id="vv_nekrutin"/>
+		<prof id="vv_nekrutkin"/>
 	</course>
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_prog_c_pract">
 		<name xml:lang="ru">Выч. практика</name>
@@ -20,11 +20,11 @@ xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses 
 	</course>
 	<course semester="6" year="3" class="общ." extras="" hours="2" exam="доп." year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
-		<prof id="vv_nekrutin"/>
+		<prof id="vv_nekrutkin"/>
 	</course>
 	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="all_teorver_kurs">
 		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
-		<prof id="vv_nekrutin"/>
+		<prof id="vv_nekrutkin"/>
 	</course>
 	<course semester="6" year="3" class="общ." extras="" hours="4" exam="зачет" year_equiv="1" alias="sa_prog_cpp">
 		<name xml:lang="ru">Спец. выч. практикум</name>
