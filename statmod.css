@@ -1,34 +1,25 @@
-
 h1 {
-     font:               16pt Tahoma;
-     font-weight:        bold;
+     font:               bold 16pt Tahoma;
      text-align:         center;
      color:              #023768;
 }
 
 h2 {
-     font:               13 pt Tahoma;
-     font-weight:        bold;
+     font:               bold 13 pt Tahoma;
      text-align:         left;
      color:              #023768;
 }
 
 h3 {
-     font:               10 pt Tahoma;
-     font-weight:        bold;
+     font:               bold 10 pt Tahoma;
      text-align:         left;
      color:              #023768;
 }
 
 h4 {
-     font:               9pt Arial;
-     font-weight:        bold;
+     font:               bold 9pt Arial;
      text-align:         left;
      color:              #023768;
-}
-
-BODY {
-     font-family:        Tahoma;
 }
 
 p {
@@ -37,6 +28,7 @@ p {
 }
 
 body {
+     font-family:        Tahoma, Sans Serif, Helvetica;
      background-color:   white;
      border:             0px;
      padding:            0px;
