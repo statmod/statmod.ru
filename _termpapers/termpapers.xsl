@@ -56,7 +56,7 @@
 
 <xsl:template match="comment">
 	<div class="body_text">
-Комментарий:<br/>
+<span class="comment">Комментарий:</span><br/>
 <xsl:copy-of select="node()"/>
 	</div>
 </xsl:template>
