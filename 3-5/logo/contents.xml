@@ -1,104 +1,49 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/index.xsl"?>
 <!DOCTYPE html SYSTEM "/contents.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Конкурс рисунков и логотипов, связанных с кафедрой Статистического Моделирования</title>
-		<link href="/statmod.css" rel="stylesheet" type="text/css" />
-	</head>
+		<title>Завершение конкурса рисунков и логотипов, связанных с кафедрой Статистического Моделирования</title>
+		<link href="/statmod.css" rel="stylesheet" type="text/css" /></head>
 	<body>
-		<h2>Конкурс рисунков и логотипов, связанных с кафедрой Статистического Моделирования</h2>
-		<p>Сайт студентов и выпускников кафедры статистического моделирования объявляет конкурс на лучший рисунок, связанный с кафедрой Статистического Моделирования.</p>
-		<h3 align="center">Условия конкурса:</h3>
-		<table width="500" border="0" cellspacing="0" cellpadding="5" align="center" class="misctable">
-			<tr>
-				<td width="150" align="right" bgcolor="#FDE6CF">
-					<b>Главный приз </b>
-				</td>
-				<td bgcolor="#E5E5E5">Футболка с лучшим изображением или логотипом кафедры </td>
-			</tr>
-			<tr>
-				<td width="150" align="right" bgcolor="#DDE7ED">
-					<b>Задание</b>
-				</td>
-				<td bgcolor="#F5F5F5">нарисовать изображение, ассоциирующееся с кафедрой статистического моделирования. Пока приоритетным направлением деятельности является создание логотипа на футболку </td>
-			</tr>
-			<tr>
-				<td width="150" align="right" bgcolor="#FDE6CF">
-					<b>Сроки</b>
-				</td>
-				<td bgcolor="#E5E5E5">конкурс проводится с первого сентября до десятого декабря 2006 года </td>
-			</tr>
-			<tr>
-				<td width="150" align="right" bgcolor="#DDE7ED">
-					<b>Выбор победителя</b>
-				</td>
-				<td bgcolor="#F5F5F5">осуществляется ведущим дизайнером сайта Осиповым Евгением с учетом пожеланий посетителей форума </td>
-			</tr>
-			<tr>
-				<td width="150" align="right" bgcolor="#FDE6CF">
-					<b>Награждение</b>
-				</td>
-				<td bgcolor="#EEEEEE">фотографии процедуры награждения будут опубликованы на сайте, даты выбора победителя и вручения приза будут уточнены</td>
-			</tr>
-			<tr>
-				<td width="150" align="right" bgcolor="#DDE7ED">
-					<b>Подача заявок на конкурс</b>
-				</td>
-				<td bgcolor="#F5F5F5">публикуйте свои предложения на форуме в <a href="http://statmod.ru/forum/viewtopic.php?t=55">этой</a> ветке или приносите их нарисованными на кафедру (к.4502).</td>
-			</tr>
-		</table>
-		<p>Вот набор логотипов, участвующих в конкурсе, на 25 ноября:</p>
-		<table width="500" border="1" cellspacing="0" cellpadding="0" align="center">
-			<tr>
-				<td width="250" height="200" align="center" valign="middle">
-				<p>
-					<img src="/_logo/logo.gif" alt="Тимофеев Константин, 2005 СМ" width="221" height="245" />
-				</p>
-				</td>
-				<td width="250"  align="center" valign="middle">
-				<p>
-					<img src="/_logo/logo_bunny.jpg" alt="Грачева Полина, 2008 СМ" width="250"  />
-				</p>
-				</td>
-			</tr>
-		<tr>
-				<td width="250"  align="center" valign="middle">
-					<p>
-						<img src="/_logo/logo_dragon.jpg" alt="Грачева Полина, 2008 СМ" width="250"  />
-					</p>
-				</td>
-				<td width="250"  align="center" valign="middle">
-				<p>
-					<img src="/_logo/logo_dino.jpg" alt="Грачева Полина, 2008 СМ" width="250"  />
-				</p>
-				</td>
-			</tr>
-			<tr>
-				<td width="250" height="200" align="center" valign="middle">
-					<p>
-						<img src="/_logo/cm1_102.gif" alt="Анисимова Ирина, 2007 САПР" width="158" height="195" />
-					</p>
-				</td>
-				<td width="250" height="200" align="center" valign="middle">
-					<p>
-						<img src="/_logo/cm2_231.gif" alt="Анисимова Ирина, 2007 САПР" width="188" height="128" />
-					</p>
-				</td>
-			</tr>
-			<tr>
-				<td width="250" height="200" align="center" valign="middle">
-					<p>
-						<img src="/_logo/cm2_834_inv_tka_207.gif" alt="Анисимова Ирина, 2007 САПР" width="188" height="128"  />
-					</p>
-				</td>
-				<td width="250"  align="center" valign="middle">
-					<p>
-						<img src="/_logo/logo_erm.gif" alt="Потапов Павел, 2003 СМ" width="250"  />
-					</p>
-				</td>
-			</tr>
-		</table>
+		<h2>Завершение конкурса рисунков и логотипов, связанных с кафедрой Статистического Моделирования</h2>
+		<p>В период с начала сентября по 10 декабря сайтом statmod.ru проводился конкурс на лучший логотип, связанный с кафедрой Статистического Моделирования. Нужно было нарисовать изображение, ассоциирующееся с кафедрой Статистического Моделирования, которое хорошо смотрелось бы на футболке. На конкурс поступило большое количество работ:</p>
+		<table width="280" border="0" cellspacing="5" cellpadding="0" align="center">
+          <tr>
+            <td><img src="/_logo/album_th.jpg" alt="Логотип Грачевой Полины" width="125" height="103" /></td>
+            <td><img src="/_logo/album_tl.jpg" alt="Логотип Анисимовой Ирины" width="125" height="85" /></td>
+            <td><img src="/_logo/album_tj.jpg" alt="Логотип Грачевой Полины" width="116" height="125" /></td>
+          </tr>
+          <tr>
+            <td><img src="/_logo/album_tk.jpg" alt="Логотип Анисимовой Ирины" width="101" height="125"/>&nbsp;</td>
+            <td><img src="/_logo/album_ti.jpg" alt="Логотип Грачевой Полины" width="125" height="81" /></td>
+            <td><img src="/_logo/album_tm.jpg" alt="Логотип Анисимовой Ирины" width="125" height="85" /></td>
+          </tr>
+          <tr>
+            <td><img src="/_logo/album_tn.jpg" alt="Логотип Павла Потапова" width="125" height="125" /></td>
+            <td><img src="/_logo/album_tr.jpg" alt="Логотипы Романа Плеханова" width="124" height="125" /></td>
+            <td><img src="/_logo/album_tp.jpg" alt="Логотип Грачевой Полины" width="125" height="47" /></td>
+          </tr>
+          <tr>
+            <td><img src="/_logo/album_tq.jpg" alt="Логотип Романа Плеханова" width="125" height="64" /></td>
+            <td><img src="/_logo/album_to.jpg" alt="Логотип Голяндиной Алины" width="110" height="125" /></td>
+            <td><img src="/_logo/album_ts.jpg" alt="Логотипы Романа Плеханова" width="101" height="125"/>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><img src="/_logo/album_tg.jpg" alt="Логотип Тимофеева Константина" width="112" height="125" /></td>
+            <td><img src="/_logo/album_tt.jpg" alt="Внеконкурсная работа Александрова Федора" width="125" height="111" /></td>
+            <td><img src="/_logo/album_tu.jpg" alt="Внеконкурсная работа неизвестного автора, обработка Потапова Павла" width="125" height="72" /></td>
+          </tr>
+        </table>
+		<p>Подробнее ознакомиться с ними можно в <a href="http://statmod.ru/forum/album_cat.php?cat_id=6">галерее логотипов</a>.</p>
+		<p align="center"><strong>Спасибо всем принявшим участие в конкурсе! </strong></p>
+		<p>В результате продолжительных дебатов <span class="interesting">победителем была объявлена работа Грачевой Полины:</span></p>
+		<p align="center"><img src="/_logo/statmod_logo.gif" alt="Победитель конкурса логотипов" width="207" height="79" /></p>
+		<p align="center"><b>Поздравляем победителя! </b></p>
+		<p>Победитель будет торжественно награжден футболкой с вышитым на ней логотипом-победителем. У победителя также есть возможность оставить на футболке автографы некоторых преподавателей кафедры. Можно расчитывать на получение нескольких автографов, так как некоторые преподаватели уже дали свое согласие его оставить и никто еще не высказал своего отказа . Награждение состоится в январе 2007 года, фотографии процесса награждения будут опубликованы на сайте. </p>
+		<h3>Внимание</h3>
+		<p>У вас есть возможность заказать футболку с вышитым на ней логотипом. Для этого нужно отправить письмо на адрес info[at]statmod.ru, в котором будет указано, как с вами связаться, а также приведен размер футболки. Можно также обратиться с этим вопросом лично к любому представителю команды разработчиков сайта (см. <a href="http://statmod.ru/forum/viewtopic.php?t=127" target="_BLANK">на форуме</a>). Сроки и условия получения футболки с логотипом будут уточнены чуть позже. </p>
+		<p>Несмотря на то, что подача заявок уже завершена, мы ждем ваших новых творческих работ - публикуйте в <a href="http://statmod.ru/forum/viewtopic.php?t=55" target="_BLANK">этой</a> ветке форума!</p>
 	</body>
 </html>
