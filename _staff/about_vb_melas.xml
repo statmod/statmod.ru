@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE staff SYSTEM "/htmlentities.dtd">
+<about xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="about.xsd">
+			<p>"В математике я стараюсь быть поэтом, композитором и мастером
+			спорта одновременно, а иногда и немножко философом".</p>
+			<p>В.Б.Мелас &ndash; автор четырех монографий и более 110 статей. Под его руководством успешно защитили кандидатские диссертации Т.В.Фомина (1998), 
+			Л.А.Крылова (2000), А.Н. Пепелышев (2002). Является членом редколлегии журнала Journal of Statistical Planning and Inference (с 1996). 
+			Один из главных организаторов серии международных конференций в Санкт-Петербурге (St.Petersburg Workshops on Simulation).</p>
+</about>
