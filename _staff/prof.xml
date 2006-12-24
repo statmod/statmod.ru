@@ -281,6 +281,15 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
  		</field>
 		<extlink href="/vega/solntcev/solntcev.htm">Статья в юбилейном сборнике кафедры и лаборатории </extlink>
 	</person>
+	<person id="ay_ponomareva" degree="phd" academic_rank="assoc_prof">
+<fn>Aлександра</fn>
+<mn>Юрьевна</mn>
+<ln>Пономарева</ln>
+<duty academic_rank="assoc_prof"><name/><shortname/></duty>
+<image name="ponomareva.jpg" w="178" h="205" tw="89" th="103"/>
+<field>дискретная математика, математическое моделирование дискретных систем, теория и приложения автоматных моделей, сети Петри и параллельные алгоритмы, нечеткая логика и системы нечеткого вывода</field>
+</person>
+
 	<person id="ka_timofeev" degree="" academic_rank="">
 		<fn>Константин</fn>
 		<mn>Алексеевич</mn>
@@ -288,12 +297,7 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 		<field/>
 		
 	</person>
-	<person id="ay_ponomareva" degree="" academic_rank="">
-		<fn>Aлександра</fn>
-		<mn>Юрьевна</mn>
-		<ln>Пономарева</ln>
-		<field/>
-	</person>
+
 	<!-- <person id="" degree="" academic_rank="">
 		< ! - id: идентификатор - >
 		<! - degree: ученая степень  (доктор/кандидат) ->  (phd_d/phd)- ->
