@@ -1,8 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
-<?mso-infoPathSolution solutionVersion="1.0.0.9" productVersion="11.0.8034" PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" ?><?mso-application progid="InfoPath.Document"?>
-<courses spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.10" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -62,7 +58,9 @@ xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses 
 	<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sa_finmodel">
 		<name xml:lang="ru">Задачи фин.мат. и стат.мод-ие</name>
 		<prof id="yn_kashtanov"/>
-	</course>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sa_finmodel.pdf">
+									<co:file_name>2006/2007</co:file_name>
+								</co:questions></course>
 	<course semester="7" year="4" class="с/к" extras="(1)" hours="2" exam="экз." year_equiv="1" alias="sa_montecarlo">
 		<name xml:lang="ru">Численные методы Монте-Карло</name>
 		<prof id="ap_sizova"/>
@@ -115,7 +113,9 @@ xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses 
 	<course semester="9" year="5" class="с/к" extras="(1)" hours="4" exam="экз." year_equiv="1" alias="sa_automaton_model">
 		<name xml:lang="ru">Автоматное моделирование</name>
 		<prof id="ay_ponomareva"/>
-	</course>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="5_99_sa_automaton_model.pdf">
+									<co:file_name>2006/2007</co:file_name>
+								</co:questions></course>
 	<course semester="9" year="5" class="с/к" extras="(2)" hours="2" exam="экз." year_equiv="0.5" alias="sa_simul_stoch_proc">
 		<name xml:lang="ru">Моделирование случайных процессов</name>
 		<prof id="tm_tovstik"/>
