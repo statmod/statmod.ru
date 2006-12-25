@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution solutionVersion="1.0.0.9" PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution solutionVersion="1.0.0.9" PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.8034" ?><?mso-application progid="InfoPath.Document"?><courses spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -84,9 +84,7 @@
 	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_stat">
 		<name xml:lang="ru">Мат.модел. и обработка данных</name>
 		<prof id="ms_ermakov"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__all_matmod.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="mm_prog_timeser">
 		<name xml:lang="ru">Практикум по совр.прикл.программированию</name>
 		<prof id="an_pepelyshev"/>
