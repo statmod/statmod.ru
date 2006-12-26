@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
 xmlns:msxsl="urn:schemas-microsoft-com:xslt"
   exclude-result-prefixes="msxsl">
@@ -62,6 +62,10 @@ xmlns:msxsl="urn:schemas-microsoft-com:xslt"
       <a href="#timetable">Расписание занятий</a> 
 </p>
 	</xsl:if>
+<p>
+      <a href="http://statmod.ru/wiki/staff:list:{@id}">Расписание в сессию</a>
+	<sup><font color="red"> NEW</font></sup>
+</p>
       </td>
       <td>
 	 <xsl:if test="extlink">
