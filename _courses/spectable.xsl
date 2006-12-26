@@ -60,10 +60,18 @@
    </html>
 </xsl:template>
 
+<xsl:key name="semester_key" match="@semester" use="."/>
 
 <xsl:template match="co:courses">
 		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=current()/@spec]/name/node()"/></h2>
-		<xsl:apply-templates select="co:course"/>
+		
+		<!-- This 'for-each' selects unique semester attribute -->
+		<xsl:for-each select="co:course/@semester[generate-id() = generate-id(key('semester_key', .))]">
+			<tr>
+				<td colspan="10"><xsl:value-of select="."/> семестр</td>
+			</tr>
+	   		<xsl:apply-templates select="../../co:course[@semester=current()]"/>
+		</xsl:for-each>
 </xsl:template>
 
 <xsl:template match="co:course">
@@ -108,7 +116,7 @@
 </xsl:template>
 
 <xsl:template match="co:questions">
-	<a href="/_files/questions/{@file}">
+	<a href="/_files/questions/{@file}" target="_blank">
 		<img alt="{co:file_name}" src="/_img/pdf.png">
 			<xsl:variable name="ext" select="substring-after(@file, '.')"/>
 			<xsl:attribute name="src">/_img/
