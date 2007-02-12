@@ -62,10 +62,12 @@ xmlns:msxsl="urn:schemas-microsoft-com:xslt"
       <a href="#timetable">Расписание занятий</a> 
 </p>
 	</xsl:if>
+<!--
 <p>
       <a href="http://statmod.ru/wiki/staff:list:{@id}">Расписание в сессию</a>
 	<sup><font color="red"> NEW</font></sup>
 </p>
+-->
       </td>
       <td>
 	 <xsl:if test="extlink">
