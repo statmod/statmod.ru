@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.10" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.10" productVersion="11.0.8034" ?><?mso-application progid="InfoPath.Document"?><courses spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -41,7 +41,7 @@
 		<prof id="ag_bart"/>
 	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="3" exam="экз." year_equiv="0.5" alias="all_statmod">
-		<name xml:lang="ru">Мат.модел. и обработка данных</name>
+		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<part type="lect" hours="2">
 			<prof id="sm_ermakov"/>
 		</part>
@@ -75,7 +75,7 @@
 									<co:file_name>2006/2007</co:file_name>
 								</co:questions></course>
 	<course semester="7" year="4" class="с/к" extras="(1b)" hours="2" exam="экз." year_equiv="0.5" alias="sm_stat_mathstat">
-		<name xml:lang="ru">Стохастич.методы обработки данных</name>
+		<name xml:lang="ru">Стохастич. методы обработки данных</name>
 		<prof id="ag_bart"/>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_stat_mathstat.pdf">
 									<co:file_name>2006/2007</co:file_name>
@@ -91,11 +91,11 @@
 									<co:file_name>2006/2007</co:file_name>
 								</co:questions></course>
 	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_stat">
-		<name xml:lang="ru">Мат.модел. и обработка данных</name>
+		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<prof id="ms_ermakov"/>
 	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_stock_modelling">
-		<name xml:lang="ru">Практикум по совр.прикл.программированию</name>
+		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
 		<prof id="ne_golyandina"/>
 	</course>
 	<course semester="8" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_insurance">
@@ -103,7 +103,7 @@
 		<prof id="tm_tovstik"/>
 	</course>
 	<course semester="8" year="4" class="ОПД" extras="выб." hours="5" exam="экз." year_equiv="0.75" alias="all_prog_matlab">
-		<name xml:lang="ru">Выч.методы и пакеты в стат.исследованиях</name>
+		<name xml:lang="ru">Выч. методы и пакеты в стат. исследованиях</name>
 		<part type="lect" hours="3">
 			<prof id="an_pepelyshev"/>
 		</part>
@@ -128,7 +128,7 @@
 		<prof id="ag_bart"/>
 	</course>
 	<course semester="8" year="4" class="с/к" extras="(3)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_marketing_models">
-		<name xml:lang="ru">Стох.модели покупат.поведения</name>
+		<name xml:lang="ru">Стох. модели покупат. поведения</name>
 		<prof id="vv_nekrutkin"/>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="old_4_8__sm_marketing_models.pdf">
 									<co:file_name>2005/2006</co:file_name>
@@ -156,7 +156,7 @@
 									<co:file_name>2006/2007</co:file_name>
 								</co:questions></course>
 	<course semester="9" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_timeseries">
-		<name xml:lang="ru">Стат.анализ временных рядов</name>
+		<name xml:lang="ru">Стат. анализ временных рядов</name>
 		<prof id="ne_golyandina"/>
 	</course>
 	<course semester="10" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stoch_models">
