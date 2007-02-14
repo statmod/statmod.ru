@@ -98,8 +98,14 @@
 			</lesson>
 		</two_hours>
 		<two_hours no="3">
+			<lesson type="chair" spec="all">
+				<location>3502</location>
+				<course id="all_prog_matlab" part="lect"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="4">
 			<lesson type="chair" spec="sa">
-				<location/>
+				<location>Самост.работа (без А.Ф. Сизовой)</location>
 				<course id="sa_montecarlo_pract"/>
 			</lesson>
 			<lesson type="chair" spec="sm">
@@ -111,12 +117,6 @@
 				<course id="mm_prog_timeser"/>
 			</lesson>
 		</two_hours>
-		<two_hours no="4">
-			<lesson type="chair" spec="all">
-				<location>3502</location>
-				<course id="all_prog_matlab" part="lect"/>
-			</lesson>
-		</two_hours>
 		<two_hours no="5">
 			<lesson type="chair" spec="all">
 				<location>3502</location>
@@ -126,6 +126,7 @@
 		</two_hours>
 	</weekday>
 	<weekday id="thu">
+		<two_hours no="1"/>
 		<two_hours no="2">
 			<lesson type="chair" spec="all">
 				<location>3506</location>
