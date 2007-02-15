@@ -57,14 +57,27 @@
 				<course id="mm_reliab_automaton"/>
 			</lesson>
 		</two_hours>
-		<two_hours no="3"/>
-		<two_hours no="4">
+		<two_hours no="3">
 			<lesson type="chair" spec="sa">
-				<location>3506</location>
+				<location>2516 (кроме 1-го и 3-го вторника)</location>
 				<course id="sa_parallel_comp"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
-				<location>3506</location>
+				<location>2516 (кроме 1-го и 3-го вторника)</location>
+				<course id="mm_parallel_comp"/>
+			</lesson>
+			<lesson type="chair" spec="sm">
+				<location>4399 (кроме 1-го и 3-го вторника)</location>
+				<course id="sm_stat_pract"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="4">
+			<lesson type="chair" spec="sa">
+				<location>3506 (кроме 1-го и 3-го вторника)</location>
+				<course id="sa_parallel_comp"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>3506 (кроме 1-го и 3-го вторника)</location>
 				<course id="mm_parallel_comp"/>
 			</lesson>
 			<lesson type="chair" spec="sm">
@@ -109,7 +122,7 @@
 				<course id="sa_montecarlo_pract"/>
 			</lesson>
 			<lesson type="chair" spec="sm">
-				<location>2446</location>
+				<location>2444-II</location>
 				<course id="sm_prog_stock_modelling"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
