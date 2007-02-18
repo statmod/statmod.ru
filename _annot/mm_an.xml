@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE staff SYSTEM "/htmlentities.dtd">
-<annotations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="annot.xsd">
+<annotations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/annotations" xsi:schemaLocation="http://statmod.ru/annotations annot.xsd" spec="mm">
+
 	<notes>
 Структура образования на специализации Математическое Моделирование (кафедра статистического моделирования, отделение Прикладной математики и информатики мат-меха).	
 	

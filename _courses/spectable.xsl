@@ -25,6 +25,7 @@
 	</specs>
 </xsl:variable>
 
+<xsl:variable name="spec" select="/co:courses/@spec"/>
 
 <xsl:template match="/">
    <html>
@@ -106,7 +107,7 @@
 			<xsl:if test="not(.//co:prof)"><spec code="nbsp"/></xsl:if>
 			<xsl:apply-templates select=".//co:prof"/>
 		</td>
-		<td><xsl:value-of select="co:name"/></td>
+		<td><a href="/3-5/annotations/{$spec}/index.htm#{@alias}"><xsl:value-of select="co:name"/></a></td>
 	</tr>	
 </xsl:template>
 
