@@ -11,6 +11,9 @@ syntax: glob
 **.cmd
 chair/prof/build.xml
 1-2/term-papers/build.xml
+_staff/timetable_list/tt_*.xml
+_staff/timetable_list/build.xml
+
 
 
 # ignore __folders
