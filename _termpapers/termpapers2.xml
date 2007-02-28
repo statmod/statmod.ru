@@ -176,11 +176,27 @@
 		</paper>
 	</prof>
 	<prof id="mk_chirkov">
-		<location>к. 3316</location>
+		<location>к. 3307, 3310 - лаборатория  математических проблем информатики</location>
 		<paper>
-			<title>Автоматные модели принятия решений в нечетких условиях.
+			<title>Моделирование «нечетких» (fuzzy) языков стохастическими дискретными моделями.
 			</title>
 		</paper>
+		<paper>
+			<title>Надежность сетей Петри и реализуемых ими алгоритмов.
+			</title>
+		</paper>
+		<paper>
+			<title>«Нечеткие» (fuzzy) методы в теории ролей (анализа и оптимизации коллективов).
+			</title>
+		</paper>
+		<paper>
+			<title>Системы «нечеткого» вывода в задачах оптимального управления.
+			</title>
+		</paper>
+		<paper>
+			<title>«Нечеткие» нейронные сети и их приложения. 
+			</title>
+		</paper>		
 	</prof>
 	<prof id="vb_christinich" comments="yes">
 		<location>к. 4395</location>
