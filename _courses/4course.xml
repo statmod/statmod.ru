@@ -45,7 +45,7 @@
 		</two_hours>
 		<two_hours no="2">
 			<lesson type="chair" spec="sa">
-				<location>2507</location>
+				<location>4399</location>
 				<course id="sa_system_model_pract"/>
 			</lesson>
 			<lesson type="chair" spec="sm">
