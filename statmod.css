@@ -297,3 +297,47 @@ td#copyright a {
      font-weight:        bold;
      text-decoration:    underline;
 }
+
+#right_pane td.news {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background: url(/_img/news_edge.gif); 
+  background-repeat: repeat-y;
+}
+
+#right_pane td.news {
+  vertical-align:top;
+  height: 34px;
+  font: 8pt Tahoma;
+}
+
+#right_pane td.news a {
+  font: 8pt Tahoma;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.date {
+  font: 8pt Tahoma;
+  color: gray;
+  font-weight: normal;
+}
+
+td.quote_edge {
+  font: 10pt Verdana;
+  font-weight: bold;
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 93px;
+  background: url(/_img/quote_edge.gif);
+  background-repeat: repeat-none;
+  vertical-align: middle;
+}
+
+td.quote_edge a {
+  font: 10pt Verdana;
+  font-weight: bold;
+}

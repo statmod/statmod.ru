@@ -77,13 +77,15 @@
 					<td><img alt="" src="/_img/spacer.gif" width="4" height="2"/></td>
 					<td><img alt="" src="/_img/spacer.gif" width="5" height="1"/></td>
 					<td><img alt="" src="/_img/spacer.gif" width="169" height="1"/></td>
-					<td><img alt="" src="/_img/spacer.gif" width="594" height="1"/></td>
+					<td><img alt="" src="/_img/spacer.gif" width="604" height="1"/></td>
+					<td><img alt="" src="/_img/spacer.gif" width="24" height="1"/></td>
+					<td><img alt="" src="/_img/spacer.gif" width="196" height="1"/></td>
 				</tr>
 				<tr>
 					<td colspan="3" class="left_pane">
 						<img alt="" src="/_img/spacer.gif" width="1" height="9"/>
 					</td>
-					<td><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
+					<td colspan="3"><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
 				</tr>
 				<tr>
 					<td class="left_pane">
@@ -95,7 +97,7 @@
 					<td class="left_pane">
 						<img alt="" src="/_img/spacer.gif" width="1" height="1"/>
 					</td>
-					<td>
+					<td colspan="3">
 						<img alt="" src="/_img/spacer.gif" width="1" height="1"/>
 					</td>
 				</tr>
@@ -118,6 +120,12 @@
 				</tr>
 </table>
 					</td>
+					<td rowspan="2">
+						<img alt="" src="/_img/spacer.gif" width="1" height="1"/>
+					</td>
+					<td rowspan="2">
+						<transform xml="rightpane.xml" xsl="rightpane.xsl"/>
+					</td>
 				</tr>
 				<tr valign="bottom" height="50">
 					<td class="left_pane" height="50" id="left_bottom_links">
@@ -129,14 +137,14 @@
 					<td colspan="3" class="left_pane">
 						<img alt="" src="/_img/spacer.gif" width="1" height="8"/>
 					</td>
-					<td><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
+					<td colspan="3"><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
 				</tr>
 				<tr>
 					<td><img alt="" src="/_img/spacer.gif" width="1" height="25"/></td>
 					<td colspan="2" id="copyright_cell">
 						<spec code="copy"/> статмод, 2006
                     </td>
-					<td><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
+					<td colspan="3"><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
 				</tr>
 			</table>
 		</body>
