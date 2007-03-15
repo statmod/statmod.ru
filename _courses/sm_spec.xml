@@ -125,7 +125,7 @@
 								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="(2)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_analysis">
 		<name xml:lang="ru">Многомерная статистика</name>
-		<prof id="ag_bart"/>
+		<prof id="ne_golyandina"/>
 	</course>
 	<course semester="8" year="4" class="с/к" extras="(3)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_marketing_models">
 		<name xml:lang="ru">Стох. модели покупат. поведения</name>

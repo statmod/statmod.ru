@@ -124,7 +124,7 @@
 			</title>
 		</paper>
 	</prof>
-	<prof id="ag_bart" comments="yes">
+	<!--<prof id="ag_bart" comments="yes">
 		<location>к.4502</location>
 		<paper>
 			<title>Частично обратные функции.</title>
@@ -141,6 +141,7 @@
 		<comment>Все темы связаны с реальными медико-биологическими задачами.
 		</comment>
 	</prof>
+-->
 	<prof id="ne_golyandina">
 		<location>к. 4502</location>
 		<paper>

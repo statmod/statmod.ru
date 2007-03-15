@@ -34,10 +34,11 @@
 	</weekday>
 	<weekday id="tue">
 		<two_hours no="1">
-			<lesson type="chair" spec="sm">
+			<!--<lesson type="chair" spec="sm">
 				<location>2503 (начнется с апреля)</location>
 				<course id="sm_stat_intro_timeseries"/>
 			</lesson>
+            -->
 			<lesson type="chair" spec="sa">
 				<location>4526</location>
 				<course id="sa_montecarlo"/>
