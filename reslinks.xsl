@@ -46,6 +46,9 @@
                                            starts-with(@href, '?'))">
   <xsl:attribute name="href"><xsl:value-of select="concat(translate($path_xml, '\','/'),@href)"/></xsl:attribute>
 </xsl:if>
+<xsl:if test="@href='/index.htm'">
+  <xsl:attribute name="href">/index.php</xsl:attribute>
+</xsl:if>
 <xsl:apply-templates select="*|text()|comment()"/>
 	</xsl:copy>
 </xsl:template>
