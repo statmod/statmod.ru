@@ -327,8 +327,8 @@ td#copyright a {
 }
 
 td.quote_edge {
-  font: 8pt Verdana;
-  font-weight: bold;
+  font: 8pt Tahoma;
+  font-weight: normal;
   padding-left: 18px;
   padding-right: 18px;
   height: 93px;
@@ -338,6 +338,6 @@ td.quote_edge {
 }
 
 td.quote_edge a {
-  font: 8pt Verdana;
-  font-weight: bold;
+  font: 8pt Tahoma;
+  font-weight: normal;
 }
