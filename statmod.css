@@ -1,17 +1,20 @@
 h1 {
-     font:               bold 16pt Tahoma;
+     font:               16pt Tahoma;
+     font-weight:        bold;
      text-align:         center;
      color:              #023768;
 }
 
 h2 {
-     font:               bold 13 pt Tahoma;
+     font:               13pt Tahoma;
+     font-weight:        bold;
      text-align:         left;
      color:              #023768;
 }
 
 h3 {
-     font:               bold 10 pt Tahoma;
+     font:               10pt Tahoma;
+     font-weight:        bold;
      text-align:         left;
      color:              #023768;
 }
@@ -207,7 +210,7 @@ td#menu_cell {
 #menu_cell td.l1 a {
      text-decoration:    none;
      color:              black;
-     font:               10pt Sans Serif bold;
+     font:               10pt Sans Serif;
      font-weight:        bold;  
 }
 
