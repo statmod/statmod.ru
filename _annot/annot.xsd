@@ -8,21 +8,20 @@
 				<xs:element ref="an:notes"/>
 				<xs:element ref="an:cycle"/>
 			</xs:choice>
-			<xs:attribute name="spec" use="required" type="xs:string"/>
+			<xs:attribute name="spec" type="xs:string" use="required"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="cycle">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="an:name" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="an:annot"   minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="an:annot" minOccurs="0" maxOccurs="unbounded"/>
 			</xs:sequence>
+			<xs:attribute name="style" type="an:styleType" use="optional"/>
 		</xs:complexType>
 	</xs:element>
-
 	<xs:element name="notes" type="an:stringWithLang"/>
 	<xs:element name="name" type="an:stringWithLang"/>
-
 	<xs:element name="annot">
 		<xs:complexType mixed="true">
 			<xs:sequence>
@@ -31,7 +30,6 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	
 	<xs:element name="header">
 		<xs:complexType mixed="false">
 			<xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -39,10 +37,9 @@
 			</xs:choice>
 		</xs:complexType>
 	</xs:element>
-
 	<xs:element name="course">
 		<xs:complexType>
-			<xs:attribute name="id" use="required" type="an:courseId"/>
+			<xs:attribute name="id" type="an:courseId" use="required"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:complexType name="stringWithLang" mixed="true">
@@ -56,11 +53,15 @@
 			<xs:attribute name="code" type="xs:string" use="required"/>
 		</xs:complexType>
 	</xs:element>
-
 	<xs:simpleType name="courseId">
 		<xs:restriction base="xs:string">
 			<xs:pattern value="/[a-z]+[_[a-z]]+/"/>
 		</xs:restriction>
 	</xs:simpleType>
-
+	
+	<xs:simpleType name="styleType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="no_duration"/>
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema>

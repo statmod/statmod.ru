@@ -1,4 +1,4 @@
-﻿<?xml version='1.0'?>
+<?xml version='1.0'?>
 <xsl:stylesheet version="1.0"
       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt" 
@@ -30,18 +30,7 @@
 <xsl:template match="/">
    <html>
       <body>
-<style>
-.spectable td, .spectable th {
-     font:               8pt Tahoma;
-     padding:            3px;
-     border-width:       1px;
-     border-color:       gray;
-     border-style:       solid;
-     margin:             0; 
-     text-align:         left;
-     vertical-align:     top;
-}
-</style>
+
 		<table width="100%" border="1" cellspacing="0" class="spectable">
          		<tr>
 				<th>сем.</th>
@@ -69,7 +58,7 @@
 		<!-- This 'for-each' selects unique semester attribute -->
 		<xsl:for-each select="co:course/@semester[generate-id() = generate-id(key('semester_key', .))]">
 			<tr>
-				<td colspan="10"><xsl:value-of select="."/> семестр</td>
+				<td class="semname" colspan="10"><xsl:value-of select="."/> семестр</td>
 			</tr>
 	   		<xsl:apply-templates select="../../co:course[@semester=current()]"/>
 		</xsl:for-each>
@@ -107,12 +96,14 @@
 			<xsl:if test="not(.//co:prof)"><spec code="nbsp"/></xsl:if>
 			<xsl:apply-templates select=".//co:prof"/>
 		</td>
-		<td><a href="/3-5/annotations/{$spec}/index.htm#{@alias}"><xsl:value-of select="co:name"/></a></td>
+		<td class="specname"><a href="/3-5/annotations/{$spec}/index.htm#{@alias}"><xsl:value-of select="co:name"/></a></td>
 	</tr>	
 </xsl:template>
 
 <xsl:template match="co:prof">
+	<a href="/chair/prof/{@id}.htm">
 	<xsl:apply-templates select="$profs//pr:person[@id = current()/@id]" mode="short_name"/>
+	</a>
 	<xsl:if test="position() != last()">, </xsl:if>
 </xsl:template>
 

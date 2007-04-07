@@ -344,3 +344,46 @@ td.quote_edge a {
   font: 8pt Tahoma;
   font-weight: normal;
 }
+
+.annotations li {
+  padding-bottom: 10px;
+}
+
+li.cycle {
+     font:               10pt Tahoma;
+     font-weight:        bold;
+     text-align:         left;
+     color:              #023768;
+}
+
+.annotations li ul {
+     list-style-type:    square;
+     margin-left:        20px;
+     text-align:         left;
+     color:              black;
+}
+
+.spectable td, .spectable th {
+     font:               8pt Tahoma;
+     padding:            5px;
+     border-width:       1px;
+     border-color:       gray;
+     border-style:       solid;
+     margin:             0; 
+     text-align:         left;
+     vertical-align:     top;
+}
+
+.spectable td a {
+     font:               8pt Tahoma;
+     font-weight:        normal;
+}
+
+.spectable td.specname {
+     padding-left: 8px;
+}
+
+.spectable td.semname {
+     color:              #023768;
+}
+

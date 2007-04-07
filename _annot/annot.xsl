@@ -37,7 +37,7 @@
 		<p>
 			<xsl:apply-templates select="an:notes/node()"/>
 		</p>
-		<ol>
+		<ol class="annotations">
 			<xsl:apply-templates select="an:cycle"/>
 		</ol>
 		
@@ -46,16 +46,21 @@
 </xsl:template>
 
 <xsl:template match="an:cycle">
-	<li><h3><xsl:value-of select="an:name"/></h3>
+	<li class="cycle"><span><xsl:value-of select="an:name"/></span>
 		<ul>
-			<xsl:apply-templates select="an:annot"/>
+			<xsl:apply-templates select="an:annot">
+				<xsl:with-param name="style" select="@style"/>
+			</xsl:apply-templates>
 		</ul>
 	</li>
 </xsl:template>
 
 <xsl:template match="an:annot">
+	<xsl:param name="style"/>
 	<li>
-		<xsl:apply-templates select="node()"/>
+		<xsl:apply-templates select="node()">
+			<xsl:with-param name="style" select="$style"/>
+		</xsl:apply-templates>
 	</li>
 </xsl:template>
 
@@ -63,10 +68,12 @@
 
 
 <xsl:template match="an:header">
+	<xsl:param name="style"/>
 		<xsl:for-each select="an:course">
 <xsl:call-template name="format_course">
 		<xsl:with-param name="courses" select="msxsl:node-set($specs)/specs/spec[@id=$spec]/co:courses/co:course[(@alias=current()/@id) and(@hours != 0)]"/>
 		<xsl:with-param name="pos" select="position()"/>
+		<xsl:with-param name="style" select="$style"/>
 </xsl:call-template>
 
 <xsl:choose>
@@ -80,7 +87,7 @@
 
 <xsl:template name="format_course">
 	<xsl:param name="courses"/>
-	<xsl:param name="style" select="1"/>
+	<xsl:param name="style" select="''"/>
 	<xsl:param name="pos"/>
 	
 	<xsl:if test="$courses">
@@ -89,7 +96,7 @@
 		<xsl:variable name="c_info">
 			<xsl:choose>
 				<xsl:when test="sum($courses/@hours) &lt; 4">полугодовой </xsl:when>
-				<xsl:when test="sum($courses/@hours) = 4">годовой </xsl:when>
+				<xsl:when test="sum($courses/@hours) &gt;= 4">годовой </xsl:when>
 			</xsl:choose>
 			
 			<xsl:choose>
@@ -99,7 +106,7 @@
 			</xsl:choose>
 		</xsl:variable>	
 		
-		<xsl:if test="$style = 1">
+		<xsl:if test="not($style = 'no_duration')">
 			<xsl:choose>
 				<xsl:when test="$pos = 1">
 					<xsl:value-of select="concat(translate(substring($c_info, 1, 1), 'спгк', 'СПГК'), substring($c_info,2))"/>

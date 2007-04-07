@@ -16,6 +16,7 @@
 			</table>
 		</span>
 	</xsl:template>
+
 	<xsl:template match="item" mode="single">
 		<xsl:variable name="real_href" select="concat($path_xml, @href, '/')"/>
 		<xsl:variable name="img_src_suffix">
