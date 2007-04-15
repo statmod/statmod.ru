@@ -29,16 +29,16 @@
 			<prof id="ne_golyandina"/>
 		</part>
 		<part type="statmod" hours="2">
-			<prof id="vv_nekrutkin"/>
+			<prof id="ne_golyandina"/>
 		</part>
 	</course>
 	<course semester="6" year="3" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sm_statmod">
 		<name xml:lang="ru">Статистическое моделирование</name>
 		<prof id="vv_nekrutkin"/>
 	</course>
-	<course semester="6" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_intro_timeseries">
-		<name xml:lang="ru">Первичная обработка данных</name>
-		<prof id="ag_bart"/>
+	<course semester="6" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_simulation">
+		<name xml:lang="ru">Моделирование распределений</name>
+		<prof id="vv_nekrutkin"/>
 	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="3" exam="экз." year_equiv="0.5" alias="all_statmod">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>

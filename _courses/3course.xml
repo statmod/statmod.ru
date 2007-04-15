@@ -54,7 +54,7 @@
 				<course id="sa_statmod"/>
 			</lesson>
 			<lesson type="chair" spec="sm">
-				<location>2503</location>
+				<location>2513</location>
 				<course id="sm_statmod"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
@@ -120,7 +120,7 @@
 		<two_hours no="4">
 			<lesson type="chair" spec="sm">
 				<location>4526</location>
-				<course id="sm_prog_cpp_statmod" part="statmod"/>
+				<course id="sm_simulation"/>
 			</lesson>
 		</two_hours>
 	</weekday>
