@@ -26,6 +26,7 @@
 </xsl:variable>
 
 <xsl:variable name="spec" select="/co:courses/@spec"/>
+<xsl:variable name="current_year" select="/co:courses/@year"/>
 
 <xsl:template match="/">
    <html>
@@ -33,15 +34,13 @@
 
 		<table width="100%" border="1" cellspacing="0" class="spectable">
          		<tr>
-				<th>сем.</th>
-				<th>к.</th>
 				<th><spec code="nbsp"/></th>
-				<th><spec code="nbsp"/></th>
-				<th>час.</th>
+				<th>преподаватель</th>
+				<th>название</th>
 				<th>зач./<br/>экз.</th>
 				<th><font color="red">вопросы</font></th>
-				<th><spec code="nbsp"/></th>
-				<th><spec code="nbsp"/></th>
+				<th>час.</th>
+				<th>длит.</th>
 				<th><spec code="nbsp"/></th>
 			</tr>
 			<xsl:apply-templates select="co:courses"/>
@@ -66,21 +65,10 @@
 
 <xsl:template match="co:course">
 	<tr>
-		<td align="right"><xsl:value-of select="@semester"/></td>
-		<td align="right"><xsl:value-of select="@year"/></td>
 		<td align="right"><xsl:value-of select="@class"/></td>
-		<td align="right">
-			<xsl:if test="not(@extras != '')"><spec code="nbsp"/></xsl:if>
-			<xsl:value-of select="@extras"/>
-		</td>
-		<td align="right">
-			<xsl:if test="not(@hours != '')"><spec code="nbsp"/></xsl:if>
-			<xsl:value-of select="@hours"/>
-		</td>
-		<td align="right">
-			<xsl:if test="not(@exam != '')"><spec code="nbsp"/></xsl:if>
-			<xsl:value-of select="@exam"/>
-		</td>
+		<td><xsl:apply-templates select=".//co:prof"/></td>
+		<td class="specname"><a href="/3-5/annotations/{$spec}/index.htm#{@alias}"><xsl:value-of select="co:name"/></a></td>
+		<td align="right"><xsl:value-of select="@exam"/></td>
 		<td align="right">
 			<xsl:variable name="questions" select="msxsl:node-set($specs)/specs/spec/co:courses/co:course[@alias = current()/@alias]/co:questions"/>
 			<xsl:if test="not($questions and @exam != '')"><spec code="nbsp"/></xsl:if>
@@ -88,15 +76,10 @@
 				<xsl:apply-templates select="$questions"/>
 			</xsl:if>
 		</td>
-		<td align="right">
-			<xsl:if test="not(@year_equiv != '')"><spec code="nbsp"/></xsl:if>
-			<xsl:value-of select="@year_equiv"/>
-		</td>
-		<td>
-			<xsl:if test="not(.//co:prof)"><spec code="nbsp"/></xsl:if>
-			<xsl:apply-templates select=".//co:prof"/>
-		</td>
-		<td class="specname"><a href="/3-5/annotations/{$spec}/index.htm#{@alias}"><xsl:value-of select="co:name"/></a></td>
+		<td align="right"><xsl:value-of select="@hours"/></td>
+		<td align="right">	<xsl:value-of select="@year_equiv"/></td>
+		<td align="right"><xsl:value-of select="@extras"/></td>
+		
 	</tr>	
 </xsl:template>
 
@@ -111,15 +94,14 @@
 	<a href="/_files/questions/{@file}" target="_blank">
 		<img alt="{co:file_name}" src="/_img/pdf.png">
 			<xsl:variable name="ext" select="substring-after(@file, '.')"/>
-			<xsl:attribute name="src">/_img/
-				<xsl:choose>
+			<xsl:attribute name="src">/_img/<xsl:choose>
 					<xsl:when test="$ext = 'pdf'"><xsl:value-of select="$ext"/></xsl:when>
 					<xsl:otherwise>file</xsl:otherwise>
-				</xsl:choose>
-				.png
+				</xsl:choose>.png
 			</xsl:attribute>
 		</img>
 	</a>
+	<xsl:if test="co:file_name = $current_year">ok</xsl:if>
 </xsl:template>
 
 

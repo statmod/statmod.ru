@@ -97,6 +97,12 @@
 
 </xsl:template>
 
+	<xsl:template match="td[not(node())]">
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<xsl:text disable-output-escaping="yes"><![CDATA[&nbsp;]]></xsl:text>
+		</xsl:copy>
+	</xsl:template>
 
 <!--	<xsl:template match="text()">
 		<xsl:value-of select="."/>

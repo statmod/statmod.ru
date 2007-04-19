@@ -1,106 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xs:schema xmlns="" xmlns:co="http://statmod.ru/courses" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://statmod.ru/courses" id="courses">
-	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
-	<xs:element name="courses">
-		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element ref="co:course"/>
-			</xs:choice>
-			<xs:attribute name="spec" type="co:specType" use="required"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="course">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="co:name" minOccurs="0"/>
-				<xs:element ref="co:prof" minOccurs="0"/>
-				<xs:element ref="co:part" minOccurs="0" maxOccurs="unbounded"/>
-				<xs:element ref="co:questions" minOccurs="0" maxOccurs="unbounded"/>
-			</xs:sequence>
-			<xs:attribute name="semester" type="co:semesterNo"/>
-			<xs:attribute name="year" type="co:yearNo"/>
-			<xs:attribute name="class" type="co:classType"/>
-			<xs:attribute name="extras" type="xs:string"/>
-			<xs:attribute name="hours" type="xs:unsignedByte"/>
-			<xs:attribute name="exam" type="co:examType"/>
-			<xs:attribute name="year_equiv" type="xs:string"/>
-			<xs:attribute name="alias" type="co:courseId"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="name" type="co:stringWithLang"/>
-	<xs:element name="prof">
-		<xs:complexType>
-			<xs:attribute name="id" type="co:profId"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="questions">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="co:file_name"/>
-			</xs:sequence>
-			<xs:attribute name="file" type="xs:anyURI"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="part">
-		<xs:complexType>
-			<xs:all>
-				<xs:element ref="co:prof"/>
-			</xs:all>
-			<xs:attribute name="type" type="xs:string"/>
-			<xs:attribute name="hours" type="xs:unsignedByte"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="file_name" type="xs:string"/>
-	<xs:complexType name="stringWithLang">
-		<xs:simpleContent>
-			<xs:extension base="xs:string">
-				<xs:attribute ref="xml:lang"/>
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:simpleType name="courseId">
-		<xs:restriction base="xs:string">
-			<xs:pattern value="[a-z](_|[a-z0-9])+"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:simpleType name="profId">
-		<xs:restriction base="xs:string">
-			<xs:pattern value="[a-z]{2}_([a-z])+"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:simpleType name="semesterNo">
-		<xs:restriction base="xs:integer">
-			<xs:minInclusive value="5"/>
-			<xs:maxInclusive value="10"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:simpleType name="yearNo">
-		<xs:restriction base="xs:integer">
-			<xs:minInclusive value="3"/>
-			<xs:maxInclusive value="5"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:simpleType name="classType">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="с/к"/>
-			<xs:enumeration value="с/с"/>
-			<xs:enumeration value="общ."/>
-			<xs:enumeration value="ОПД"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:simpleType name="specType">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="sm"/>
-			<xs:enumeration value="sa"/>
-			<xs:enumeration value="mm"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:simpleType name="examType">
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="зачет"/>
-			<xs:enumeration value="экз."/>
-			<xs:enumeration value="доп."/>
-			<xs:enumeration value=""/>
-		</xs:restriction>
-	</xs:simpleType>
-</xs:schema>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xs:schema xmlns="" xmlns:co="http://statmod.ru/courses" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://statmod.ru/courses" id="courses">	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>	<xs:element name="courses">		<xs:complexType>			<xs:choice minOccurs="0" maxOccurs="unbounded">				<xs:element ref="co:course"/>			</xs:choice>			<xs:attribute name="spec" type="co:specType" use="required"/>			<xs:attribute name="year" type="xs:string" use="required"/>		</xs:complexType>	</xs:element>	<xs:element name="course">		<xs:complexType>			<xs:sequence>				<xs:element ref="co:name" minOccurs="0"/>				<xs:element ref="co:prof" minOccurs="0"/>				<xs:element ref="co:part" minOccurs="0" maxOccurs="unbounded"/>				<xs:element ref="co:questions" minOccurs="0" maxOccurs="unbounded"/>			</xs:sequence>			<xs:attribute name="semester" type="co:semesterNo"/>			<xs:attribute name="year" type="co:yearNo"/>			<xs:attribute name="class" type="co:classType"/>			<xs:attribute name="extras" type="xs:string"/>			<xs:attribute name="hours" type="xs:unsignedByte"/>			<xs:attribute name="exam" type="co:examType"/>			<xs:attribute name="year_equiv" type="xs:string"/>			<xs:attribute name="alias" type="co:courseId"/>		</xs:complexType>	</xs:element>	<xs:element name="name" type="co:stringWithLang"/>	<xs:element name="prof">		<xs:complexType>			<xs:attribute name="id" type="co:profId"/>		</xs:complexType>	</xs:element>	<xs:element name="questions">		<xs:complexType>			<xs:sequence>				<xs:element ref="co:file_name"/>			</xs:sequence>			<xs:attribute name="file" type="xs:anyURI"/>		</xs:complexType>	</xs:element>	<xs:element name="part">		<xs:complexType>			<xs:all>				<xs:element ref="co:prof"/>			</xs:all>			<xs:attribute name="type" type="xs:string"/>			<xs:attribute name="hours" type="xs:unsignedByte"/>		</xs:complexType>	</xs:element>	<xs:element name="file_name" type="xs:string"/>	<xs:complexType name="stringWithLang">		<xs:simpleContent>			<xs:extension base="xs:string">				<xs:attribute ref="xml:lang"/>			</xs:extension>		</xs:simpleContent>	</xs:complexType>	<xs:simpleType name="courseId">		<xs:restriction base="xs:string">			<xs:pattern value="[a-z](_|[a-z0-9])+"/>		</xs:restriction>	</xs:simpleType>	<xs:simpleType name="profId">		<xs:restriction base="xs:string">			<xs:pattern value="[a-z]{2}_([a-z])+"/>		</xs:restriction>	</xs:simpleType>	<xs:simpleType name="semesterNo">		<xs:restriction base="xs:integer">			<xs:minInclusive value="5"/>			<xs:maxInclusive value="10"/>		</xs:restriction>	</xs:simpleType>	<xs:simpleType name="yearNo">		<xs:restriction base="xs:integer">			<xs:minInclusive value="3"/>			<xs:maxInclusive value="5"/>		</xs:restriction>	</xs:simpleType>	<xs:simpleType name="classType">		<xs:restriction base="xs:string">			<xs:enumeration value="с/к"/>			<xs:enumeration value="с/с"/>			<xs:enumeration value="общ."/>			<xs:enumeration value="ОПД"/>		</xs:restriction>	</xs:simpleType>	<xs:simpleType name="specType">		<xs:restriction base="xs:string">			<xs:enumeration value="sm"/>			<xs:enumeration value="sa"/>			<xs:enumeration value="mm"/>		</xs:restriction>	</xs:simpleType>	<xs:simpleType name="examType">		<xs:restriction base="xs:string">			<xs:enumeration value="зачет"/>			<xs:enumeration value="экз."/>			<xs:enumeration value="доп."/>			<xs:enumeration value=""/>		</xs:restriction>	</xs:simpleType></xs:schema>
