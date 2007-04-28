@@ -101,7 +101,8 @@
 			</xsl:attribute>
 		</img>
 	</a>
-	<xsl:if test="co:file_name = $current_year">ok</xsl:if>
+	<xsl:if test="co:file_name = $current_year"> ok</xsl:if>
+	
 </xsl:template>
 
 

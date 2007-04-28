@@ -29,3 +29,21 @@
 
   return false;
 }
+
+function toggle_text(el_n) {
+  el = document.getElementById(el_n);
+  el_sign = document.getElementById(el_n + '_sign');
+
+  if (!el) 
+    return false;
+  if (el.style && el.style.display=='none') {
+    el.style.display='';
+    el_sign.innerText='-';
+  } else {
+    el.style.display='none';
+    el_sign.innerText='+';
+  }
+
+  return false;
+}
+

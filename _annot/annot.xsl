@@ -34,6 +34,7 @@
       <body>
 		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/></h2>
 		
+		<p><a href="/3-5/spectable/{$spec}/index.htm">Список спецкурсов</a></p>
 		<p>
 			<xsl:apply-templates select="an:notes/node()"/>
 		</p>
@@ -58,9 +59,17 @@
 <xsl:template match="an:annot">
 	<xsl:param name="style"/>
 	<li>
-		<xsl:apply-templates select="node()">
+		<xsl:variable name="id" select="generate-id()"/>
+		<a href="#" style="text-decoration: none" onclick="return toggle_text('an_{$id}')"><span id="an_{$id}_sign">+</span></a>
+		<spec code="#32"/>
+		<xsl:apply-templates select="an:header">
 			<xsl:with-param name="style" select="$style"/>
 		</xsl:apply-templates>
+		<div id="an_{$id}" style="display:none">
+		<xsl:apply-templates select="*[name() != 'header']|text()">
+			<xsl:with-param name="style" select="$style"/>
+		</xsl:apply-templates>
+		</div>
 	</li>
 </xsl:template>
 
@@ -68,7 +77,7 @@
 
 
 <xsl:template match="an:header">
-	<xsl:param name="style"/>
+		<xsl:param name="style"/>
 		<xsl:for-each select="an:course">
 <xsl:call-template name="format_course">
 		<xsl:with-param name="courses" select="msxsl:node-set($specs)/specs/spec[@id=$spec]/co:courses/co:course[(@alias=current()/@id) and(@hours != 0)]"/>
