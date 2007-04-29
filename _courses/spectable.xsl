@@ -91,6 +91,7 @@
 </xsl:template>
 
 <xsl:template match="co:questions">
+	<xsl:attribute name="valign">bottom</xsl:attribute>
 	<a href="/_files/questions/{@file}" target="_blank">
 		<img alt="{co:file_name}" src="/_img/pdf.png">
 			<xsl:variable name="ext" select="substring-after(@file, '.')"/>
@@ -101,8 +102,7 @@
 			</xsl:attribute>
 		</img>
 	</a>
-	<xsl:if test="co:file_name = $current_year"> ok</xsl:if>
-	
+	<xsl:if test="co:file_name = $current_year"><img alt="" src="/_img/ok.gif"/></xsl:if>
 </xsl:template>
 
 
