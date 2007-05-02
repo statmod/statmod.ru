@@ -30,20 +30,37 @@
   return false;
 }
 
-function toggle_text(el_n) {
+function toggle_text(el_n, force, unfold) {
   el = document.getElementById(el_n);
   el_sign = document.getElementById(el_n + '_sign');
 
   if (!el) 
     return false;
-  if (el.style && el.style.display=='none') {
+
+  if (!(force == true)) {
+    unfold = (el.style && el.style.display=='none');
+  }
+
+
+  if (unfold) {
     el.style.display='';
-    el_sign.innerText='-';
+    el_sign.childNodes[0].innerText='\u2013';
   } else {
     el.style.display='none';
-    el_sign.innerText='+';
+    el_sign.childNodes[0].innerText='+';
   }
 
   return false;
 }
+
+function toggle_text_all(id_array, unfold) {
+  var key;
+
+  for (key in id_array) {
+    toggle_text(id_array[key], true, unfold);
+  }
+  return false;
+}
+
+
 

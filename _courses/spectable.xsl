@@ -31,6 +31,9 @@
 <xsl:template match="/">
    <html>
       <body>
+		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=co:courses/@spec]/name/node()"/></h2>
+		<p><a href="/3-5/annotations/{co:courses/@spec}/index.htm">Аннотации к спецкурсам</a><br/>
+		</p>	
 
 		<table width="100%" border="1" cellspacing="0" class="spectable">
          		<tr>
@@ -38,13 +41,15 @@
 				<th>преподаватель</th>
 				<th>название</th>
 				<th>зач./<br/>экз.</th>
-				<th><font color="red">вопросы</font></th>
+				<th><font color="red">вопросы</font><sup>*</sup></th>
 				<th>час.</th>
 				<th>длит.</th>
 				<th><spec code="nbsp"/></th>
 			</tr>
 			<xsl:apply-templates select="co:courses"/>
 		</table>
+		<p><sup>*</sup> Значок <img alt="" src="/_img/ok.gif"/> означает, что вопросы к экзаменам
+up-to-date.</p>
       </body>
    </html>
 </xsl:template>
@@ -52,8 +57,6 @@
 <xsl:key name="semester_key" match="@semester" use="."/>
 
 <xsl:template match="co:courses">
-		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=current()/@spec]/name/node()"/></h2>
-		
 		<!-- This 'for-each' selects unique semester attribute -->
 		<xsl:for-each select="co:course/@semester[generate-id() = generate-id(key('semester_key', .))]">
 			<tr>

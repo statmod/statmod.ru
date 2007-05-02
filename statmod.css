@@ -387,3 +387,7 @@ li.cycle {
      color:              #023768;
 }
 
+span.an_sign a:visited {
+     font:               12pt Arial;
+     font-weight:        bold;
+}

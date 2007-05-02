@@ -30,18 +30,34 @@
 
 
 <xsl:template match="/an:annotations">
+	<xsl:variable name="array_name" select="'map_course_to_id'"/>
    <html>
+	   <script language="javascript">
+		   var <xsl:value-of select="$array_name"/> = new Array();
+		   <xsl:apply-templates select="an:cycle/an:annot" mode="gen_array">
+			   <xsl:with-param name="array_name" select="$array_name"/>
+		   </xsl:apply-templates>
+	   </script>
       <body>
 		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/></h2>
 		
 		<p><a href="/3-5/spectable/{$spec}/index.htm">Список спецкурсов</a></p>
+		<p>
+		<a href="#" onclick="return toggle_text_all({$array_name}, true)">+ Раскрыть все</a>
+		<spec code="nbsp"/>
+		<a href="#" onclick="return toggle_text_all({$array_name},false)">- Свернуть все</a>
+		</p>
 		<p>
 			<xsl:apply-templates select="an:notes/node()"/>
 		</p>
 		<ol class="annotations">
 			<xsl:apply-templates select="an:cycle"/>
 		</ol>
-		
+		<script language="javascript">
+		    if (location.hash != '') {
+			  toggle_text(<xsl:value-of select="$array_name"/>[location.hash.substr(1)]);
+			}
+	   </script>		
       </body>
    </html>
 </xsl:template>
@@ -60,7 +76,7 @@
 	<xsl:param name="style"/>
 	<li>
 		<xsl:variable name="id" select="generate-id()"/>
-		<a href="#" style="text-decoration: none" onclick="return toggle_text('an_{$id}')"><span id="an_{$id}_sign">+</span></a>
+		<span id="an_{$id}_sign" class="an_sign"><a href="#" style="text-decoration: none" onclick="return toggle_text('an_{$id}', false, false)">+</a></span>
 		<spec code="#32"/>
 		<xsl:apply-templates select="an:header">
 			<xsl:with-param name="style" select="$style"/>
@@ -150,7 +166,13 @@
 	</xsl:copy>
 </xsl:template>
 
+<xsl:template match="an:annot" mode="gen_array">
+	 <xsl:param name="array_name"/>
+   	<xsl:variable name="id" select="generate-id()"/>
 
+	<xsl:for-each select="an:header/an:course">
+		<xsl:value-of select="$array_name"/>['<xsl:value-of select="@id"/>'] = 'an_<xsl:value-of select="$id"/>';	</xsl:for-each>
+</xsl:template>
 
 
 </xsl:stylesheet>
