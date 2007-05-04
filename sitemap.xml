@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by dima (epi) -->
 <item href="">
@@ -11,6 +11,18 @@
 				<name>СМ</name>
 			</item>
 			<item href="sapr">
+				<name>САПР</name>
+			</item>
+			<item href="mm">
+				<name>ММ</name>
+			</item>
+		</item>
+		<item href="annotatedspecs">
+			<name>Спецкурсы</name>
+			<item href="sm">
+				<name>СМ</name>
+			</item>
+			<item href="sa">
 				<name>САПР</name>
 			</item>
 			<item href="mm">
@@ -49,6 +61,18 @@
 		<name>Студентам III-V</name>
 		<item href="logo">
 			<name>Конкурс логотипов</name>
+		</item>
+		<item href="spectable">
+			<name>Список спецкурсов</name>
+			<item href="sm">
+				<name>СМ</name>
+			</item>
+			<item href="sa">
+				<name>САПР</name>
+			</item>
+			<item href="mm">
+				<name>ММ</name>
+			</item>
 		</item>
 		<item href="programming">
 			<name>Программирование</name>

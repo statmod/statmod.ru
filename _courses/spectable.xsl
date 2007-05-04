@@ -31,8 +31,10 @@
 <xsl:template match="/">
    <html>
       <body>
-		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=co:courses/@spec]/name/node()"/></h2>
-		<p><a href="/3-5/annotations/{co:courses/@spec}/index.htm">Аннотации к спецкурсам</a><br/>
+		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/>:
+		список спецкурсов
+		</h2>
+		<p><a href="/chair/annotatedspecs/{$spec}/index.htm">Аннотации к спецкурсам</a><br/>
 		</p>	
 
 		<table width="100%" border="1" cellspacing="0" class="spectable">
@@ -70,7 +72,7 @@ up-to-date.</p>
 	<tr>
 		<td align="right"><xsl:value-of select="@class"/></td>
 		<td><xsl:apply-templates select=".//co:prof"/></td>
-		<td class="specname"><a href="/3-5/annotations/{$spec}/index.htm#{@alias}"><xsl:value-of select="co:name"/></a></td>
+		<td class="specname"><a href="/chair/annotatedspecs/{$spec}/index.htm#{@alias}"><xsl:value-of select="co:name"/></a></td>
 		<td align="right"><xsl:value-of select="@exam"/></td>
 		<td align="right">
 			<xsl:variable name="questions" select="msxsl:node-set($specs)/specs/spec/co:courses/co:course[@alias = current()/@alias]/co:questions"/>

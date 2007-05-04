@@ -39,16 +39,19 @@
 		   </xsl:apply-templates>
 	   </script>
       <body>
-		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/></h2>
+		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/>: 
+		аннотации к спецкурсам
+		</h2>
 		
 		<p><a href="/3-5/spectable/{$spec}/index.htm">Список спецкурсов</a></p>
 		<p>
-		<a href="#" onclick="return toggle_text_all({$array_name}, true)">+ Раскрыть все</a>
-		<spec code="nbsp"/>
-		<a href="#" onclick="return toggle_text_all({$array_name},false)">- Свернуть все</a>
+			<xsl:apply-templates select="an:notes/node()"/>
 		</p>
 		<p>
-			<xsl:apply-templates select="an:notes/node()"/>
+		<a href="#" onclick="return toggle_text_all({$array_name}, true)">+ Раскрыть все</a>
+		<spec code="nbsp"/>
+		<spec code="nbsp"/>
+		<a href="#" onclick="return toggle_text_all({$array_name},false)">- Свернуть все</a>
 		</p>
 		<ol class="annotations">
 			<xsl:apply-templates select="an:cycle"/>
