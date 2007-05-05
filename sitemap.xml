@@ -59,8 +59,17 @@
 	</item>
 	<item href="3-5">
 		<name>Студентам III-V</name>
-		<item href="logo">
-			<name>Конкурс логотипов</name>
+		<item href="timetable">
+			<name>Расписание</name>
+			<item href="3">
+				<name>3-й курс</name>
+			</item>
+			<item href="4">
+				<name>4-й курс</name>
+			</item>
+			<item href="5">
+				<name>5-й курс</name>
+			</item>
 		</item>
 		<item href="spectable">
 			<name>Список спецкурсов</name>
@@ -76,26 +85,14 @@
 		</item>
 		<item href="programming">
 			<name>Программирование</name>
-				<item href="csharp_potapov">
-					<name>C#: первое впечатление</name>
-				</item>
+			<item href="csharp_potapov">
+				<name>C#: первое впечатление</name>
+			</item>
 		</item>
-		<item href="timetable">
-			<name>Расписание</name>
-			<item href="3">
-				<name>3-й курс</name>
-			</item>
-			<item href="4">
-				<name>4-й курс</name>
-			</item>
-
-			<item href="5">
-				<name>5-й курс</name>
-			</item>
-
-
+		<item href="logo">
+			<name>Конкурс логотипов</name>
 		</item>
-	</item>
+</item>
 	<item href="graduates">
 		<name>Выпускникам</name>
 		<item href="quotes">

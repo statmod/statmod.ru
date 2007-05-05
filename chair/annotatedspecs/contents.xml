@@ -1,19 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/index.xsl"?>
+<!DOCTYPE html SYSTEM "/contents.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link href="/statmod.css" rel="stylesheet" type="text/css"/>
-		<title>Студентам кафедры статистического моделирования, мат-мех СПбГУ</title>
+		<title>Аннотации курсов кафедры статистического моделирования, мат-мех СПбГУ</title>
 	</head>
 	<body>
-<a href="sm/index.htm">СМ</a>
-<br/>
-<br/>
-<a href="sa/index.htm">САПР</a>
-<br/>
-<br/>
-<a href="mm/index.htm">ММ</a>
-<br/>
-<br/>
+	<p>Здесь вы можете найти аннотации дисциплин, читаемых на кафедре статистического моделирования. 
+	Дисциплины объединены по <a href="/chair/spec/index.htm">специализациям кафедры</a>:  СМ, САПР и ММ. 
+	</p>
+	<p>Нажав на знак "+", можно увидеть аннотацию к интересующей дисциплине.
+	Чтобы создать представление о том, какими знаниями будет обладать выпускник кафедры, обучающийся на той или иной специализации, 
+	вопользуйтесь возможностью "Раскрыть все".
+	</p>
 	</body>
 </html>

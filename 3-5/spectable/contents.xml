@@ -1,19 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/index.xsl"?>
+<!DOCTYPE html SYSTEM "/contents.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link href="/statmod.css" rel="stylesheet" type="text/css"/>
-		<title>Студентам кафедры статистического моделирования, мат-мех СПбГУ</title>
+		<title>Списки спецкурсов кафедры статистического моделирования, мат-мех СПбГУ</title>
 	</head>
 	<body>
-<a href="sm/index.htm">СМ</a>
-<br/>
-<br/>
-<a href="sa/index.htm">САПР</a>
-<br/>
-<br/>
-<a href="mm/index.htm">ММ</a>
-<br/>
-<br/>
+	<p>Здесь вы можете найти списки кафедральных дисциплин, которые нужно сдавать в сессию, со всей необходимой информацией: названиями курсов, фамилиями преподавателей, а также ссылками на вопросы к зачетам/экзаменам, <a href="/chair/annotatedspecs/index.htm">аннотации спецкурсов и спецсеминаров</a>,  <a href="/chair/prof/index.htm">страницы преподавателей</a>.</p>
+	<p>Списки созданы отдельно для каждой <a href="/chair/spec/index.htm">специализации кафедры</a>:  СМ, САПР и ММ.</p>
 	</body>
 </html>
