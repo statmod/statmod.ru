@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.10" productVersion="11.0.8034" ?><?mso-application progid="InfoPath.Document"?><courses year="2006/2007" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2006/2007" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -105,8 +105,8 @@
 	<course semester="8" year="4" class="с/к" extras="(2)" hours="2" exam="зачет" year_equiv="0.5" alias="mm_automaton_struct">
 		<name xml:lang="ru">Вероятностные автоматные модели</name>
 		<prof id="ay_ponomareva"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="old_4_8__mm_automaton_struct.pdf">
-									<co:file_name>2005/2006</co:file_name>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__mm_automaton_struct.pdf">
+									<co:file_name>2006/2007</co:file_name>
 								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="(3)" hours="2" exam="зачет" year_equiv="0.5" alias="mm_parallel_comp">
 		<name xml:lang="ru">Введение в парал. вычисления</name>
