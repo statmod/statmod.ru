@@ -122,6 +122,9 @@
 				<name>Учеба во Франции</name>
 			</item>
 		</item>
+		<item href="groups">
+			<name>Выпускники</name>
+		</item>
 	</item>
 	<item href="http://statmod.ru/forum/" hreftype="special">
 		<name>Форум</name>
