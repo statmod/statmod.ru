@@ -291,13 +291,22 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 <field>дискретная математика, математическое моделирование дискретных систем, теория и приложения автоматных моделей, сети Петри и параллельные алгоритмы, нечеткая логика и системы нечеткого вывода</field>
 </person>
 
-	<person id="ka_timofeev" degree="" academic_rank="">
+	<person id="ai_korobeynikov" degree="" academic_rank="">
+		<fn>Антон</fn>
+		<mn>Иванович</mn>
+		<ln>Коробейников</ln>
+		<field/>
+		
+	</person>
+	
+	<!--<person id="ka_timofeev" degree="" academic_rank="">
 		<fn>Константин</fn>
 		<mn>Алексеевич</mn>
 		<ln>Тимофеев</ln>
 		<field/>
 		
 	</person>
+-->
 
 	<!-- <person id="" degree="" academic_rank="">
 		< ! - id: идентификатор - >

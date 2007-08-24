@@ -1,4 +1,4 @@
-<?xml version='1.0'?>
+﻿<?xml version='1.0'?>
 <xsl:stylesheet version="1.0"
       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt" 
@@ -32,7 +32,7 @@
    <html>
       <body>
 		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/>:
-		список спецкурсов
+		список спецкурсов 2007/2008
 		</h2>
 		<p><a href="/chair/annotatedspecs/{$spec}/index.htm">Аннотации к спецкурсам</a><br/>
 		</p>	
@@ -43,15 +43,18 @@
 				<th>преподаватель</th>
 				<th>название</th>
 				<th>зач./<br/>экз.</th>
-				<th><font color="red">вопросы</font><sup>*</sup></th>
-				<th>час.</th>
-				<th>длит.</th>
-				<th><spec code="nbsp"/></th>
+				<th><font color="red">вопросы</font><sup>1</sup></th>
+				<th>час.<sup>2</sup></th>
+				<th>длит.<sup>3</sup></th>
+				<th><spec code="nbsp"/><sup>4</sup></th>
 			</tr>
 			<xsl:apply-templates select="co:courses"/>
 		</table>
-		<p><sup>*</sup> Значок <img alt="" src="/_img/ok.gif"/> означает, что вопросы к экзаменам
+		<p><sup>1</sup> Значок <img alt="" src="/_img/ok.gif"/> означает, что вопросы к экзаменам
 up-to-date.</p>
+		<p><sup>2</sup> Число часов курса в текущем семестре.</p>
+		<p><sup>3</sup> Число часов курса, по которому нужно сдавать зачет/экзамен.</p>
+		<p><sup>4</sup> Формальный номер спецкурса/спецсеминара. Если спецкурс годовой и разделен на две части, то эти части обозначаются, например, как (1a) и (1b).</p>
       </body>
    </html>
 </xsl:template>

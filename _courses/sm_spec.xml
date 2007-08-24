@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2006/2007" spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?>
+<?mso-application progid="InfoPath.Document"?>
+<courses year="2007/2008" spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -9,7 +12,7 @@
 	</course>
 	<course semester="5" year="3" class="с/к" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_intro">
 		<name xml:lang="ru">Введение в обработку данных</name>
-		<prof id="ag_bart"/>
+		<prof id="ai_korobeynikov"/>
 	</course>
 	<course semester="5" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_c_lang">
 		<name xml:lang="ru">Технология программирования</name>
@@ -40,17 +43,18 @@
 		<name xml:lang="ru">Моделирование распределений</name>
 		<prof id="vv_nekrutkin"/>
 	</course>
-	<course semester="7" year="4" class="общ." extras="" hours="3" exam="экз." year_equiv="0.5" alias="all_statmod">
+	<course semester="7" year="4" class="общ." extras="" hours="3" exam="экз." year_equiv="0.5" alias="all_stat">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<part type="lect" hours="2">
-			<prof id="sm_ermakov"/>
+			<prof id="ms_ermakov"/>
 		</part>
 		<part type="pract" hours="1">
-			<prof id="ka_timofeev"/>
+			<prof id="vv_nekrutkin"/>
 		</part>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__all_matmod.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_stat.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_cpp_advanced">
 		<name xml:lang="ru">Спец. выч. практикум</name>
 		<prof id="ne_golyandina"/>
@@ -62,24 +66,33 @@
 	<course semester="7" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_intro">
 		<name xml:lang="ru">Элементы фин.математики</name>
 	</course>
-	<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_montecarlo">
+	<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_finmodel">
+		<name xml:lang="ru">Задачи фин. мат. и стат. мод-ие</name>
+		<prof id="yn_kashtanov"/>
+	</course>
+	<!--
+			<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_montecarlo">
 		<name xml:lang="ru">Теория метода Монте-Карло</name>
 		<prof id="vv_nekrutkin"/>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_montecarlo.pdf">
 									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+								</co:questions>
+		 </course>
+	-->
 	<course semester="7" year="4" class="с/к" extras="(1a)" hours="0" exam="экз." year_equiv="0.5" alias="sm_statmod">
 		<name xml:lang="ru">Статистическое моделирование</name>
 		<prof id="vv_nekrutkin"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_statmod.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
-	<course semester="7" year="4" class="с/к" extras="(1b)" hours="2" exam="экз." year_equiv="0.5" alias="sm_stat_mathstat">
-		<name xml:lang="ru">Стохастич. методы обработки данных</name>
-		<prof id="ag_bart"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_stat_mathstat.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_statmod.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
+	<course semester="7" year="4" class="с/к" extras="(1b)" hours="2" exam="экз." year_equiv="0.5" alias="sm_montecarlo">
+		<name xml:lang="ru">Статистическое моделирование</name>
+		<prof id="vv_nekrutkin"/>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_montecarlo.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="7" year="4" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sm_stoch_processes">
 		<name xml:lang="ru">Основы теории случайных процессов</name>
 		<prof id="vv_nekrutkin"/>
@@ -87,15 +100,17 @@
 	<course semester="7" year="4" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_exper_design">
 		<name xml:lang="ru">Оптимальное планирование эксперимента</name>
 		<prof id="vb_melas"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_exper_design.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
-	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_stat">
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_exper_design.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
+	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
-		<prof id="ms_ermakov"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_stat.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<prof id="sm_ermakov"/>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__all_matmod.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_stock_modelling">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
 		<prof id="ne_golyandina"/>
@@ -107,26 +122,29 @@
 	<course semester="8" year="4" class="ОПД" extras="выб." hours="5" exam="экз." year_equiv="0.75" alias="all_prog_matlab">
 		<name xml:lang="ru">Выч. методы и пакеты в стат. исследованиях</name>
 		<part type="lect" hours="3">
-			<prof id="an_pepelyshev"/>
+			<prof id="ai_korobeynikov"/>
 		</part>
 		<part type="pract" hours="2">
-			<prof id="np_alekseeva"/>
+			<prof id="ai_korobeynikov"/>
 		</part>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_matlab.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_matlab.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="8" year="4" class="с/к" extras="(1a)" hours="2" exam="экз." year_equiv="0.5" alias="sm_markov_processes">
 		<name xml:lang="ru">Марковские процессы</name>
 		<prof id="ne_golyandina"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_markov_processes.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_markov_processes.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="8" year="4" class="с/к" extras="(1b)" hours="0" exam="экз." year_equiv="0.5" alias="sm_stoch_processes">
 		<name xml:lang="ru">Основы теории случайных процессов</name>
 		<prof id="vv_nekrutkin"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stoch_processes.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stoch_processes.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="8" year="4" class="с/к" extras="(2)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_analysis">
 		<name xml:lang="ru">Многомерная статистика</name>
 		<prof id="ne_golyandina"/>
@@ -134,31 +152,35 @@
 	<course semester="8" year="4" class="с/к" extras="(3)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_marketing_models">
 		<name xml:lang="ru">Стох. модели покупат. поведения</name>
 		<prof id="vv_nekrutkin"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="old_4_8__sm_marketing_models.pdf">
-									<co:file_name>2005/2006</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="old_4_8__sm_marketing_models.pdf">
+			<co:file_name>2005/2006</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="8" year="4" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_pract">
 		<name xml:lang="ru">Анализ  данных на компьютере</name>
 		<prof id="ne_golyandina"/>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="(1)" hours="4" exam="экз." year_equiv="1" alias="sm_stat_stoch_processes">
 		<name xml:lang="ru">Статистика случайных процессов</name>
-		<prof id="ag_bart"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_stat_stoch_processes.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<prof id="vv_nekrutkin"/>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_stat_stoch_processes.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="9" year="5" class="с/к" extras="(2)" hours="2" exam="экз." year_equiv="0.5" alias="sm_timeseries_ssa">
 		<name xml:lang="ru">Главные компоненты временных  рядов</name>
 		<prof id="ne_golyandina"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_timeseries_ssa.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_timeseries_ssa.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="9" year="5" class="с/к" extras="(3)" hours="2" exam="экз." year_equiv="0.5" alias="sm_queueing_theory">
 		<name xml:lang="ru">Системы массового обслуживания</name>
 		<prof id="vb_melas"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_queueing_theory.pdf">
-									<co:file_name>2006/2007</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_queueing_theory.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="9" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_timeseries">
 		<name xml:lang="ru">Стат. анализ временных рядов</name>
 		<prof id="ne_golyandina"/>
