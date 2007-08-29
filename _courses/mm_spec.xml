@@ -54,9 +54,11 @@
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
 		<prof id="yn_kashtanov"/>
 	</course>
+	<!--
 	<course semester="7" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_intro">
 		<name xml:lang="ru">Элементы фин.математики</name>
 	</course>
+-->
 <course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="mm_finmodel">
 		<name xml:lang="ru">Задачи фин. мат. и стат. мод-ие</name>
 		<prof id="yn_kashtanov"/>
