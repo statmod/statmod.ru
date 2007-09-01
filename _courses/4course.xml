@@ -173,7 +173,7 @@
 				<course id="sa_appl_stat"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
-				<location>2408</location>
+				<location>2444-I</location>
 				<course id="mm_appl_stat"/>
 			</lesson>
 		</two_hours>
@@ -218,14 +218,23 @@
 				<fortnightly type="2"/>
 			</lesson>
 		</two_hours>
+		<two_hours no="5">
+			<lesson type="dep" spec="all">
+				<location>07</location>
+				<course>
+					<name>ЭД  Фин. математика</name>
+					<prof>Бухвалова</prof>
+				</course>
+			</lesson>
+		</two_hours>
 	</weekday>
 	<weekday id="sat">
 		<two_hours no="1">
 			<lesson type="dep" spec="all">
-				<location>3532/3536</location>
+				<location>3532</location>
 				<course>
-					<name>ЭД Русский язык / Фин. математика (по выбору)</name>
-					<prof>.../Бухвалова</prof>
+					<name>ЭД Русский язык </name>
+					<prof>?</prof>
 				</course>
 			</lesson>
 		</two_hours>
