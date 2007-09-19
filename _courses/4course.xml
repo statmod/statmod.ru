@@ -55,7 +55,7 @@
 			</lesson>
 			<lesson type="chair" spec="sm">
 				<location>2502</location>
-				<course id="sm_montecarlo"/>
+				<course id="sm_stoch_processes"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
 				<location>1522</location>
@@ -119,7 +119,7 @@
 			</lesson>
 			<lesson type="chair" spec="sm">
 				<location>3526</location>
-				<course id="sm_stoch_processes"/>
+				<course id="sm_montecarlo"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="4">
@@ -143,6 +143,12 @@
 				</course>
 				<fortnightly type="1"/>
 			</lesson>
+			<lesson type="chair" spec="sa">
+				<location>4399</location>
+				<course id="sa_appl_stat"/>
+				<fortnightly type="2"/>
+			</lesson>
+			<lesson/>
 		</two_hours>
 		<two_hours no="2">
 			<lesson type="chair" spec="sa">
@@ -168,12 +174,8 @@
 			</lesson>
 		</two_hours>
 		<two_hours no="4">
-			<lesson type="chair" spec="sa">
-				<location>4526</location>
-				<course id="sa_appl_stat"/>
-			</lesson>
 			<lesson type="chair" spec="mm">
-				<location>2444-I</location>
+				<location>2406</location>
 				<course id="mm_appl_stat"/>
 			</lesson>
 		</two_hours>
