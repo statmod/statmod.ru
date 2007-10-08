@@ -20,7 +20,7 @@ xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:pr="http://statmod.ru/staff"
 				<h2>
 <xsl:value-of select="concat(pr:ln, ' ', substring(pr:fn, 1, 1), '.', substring(pr:mn, 1, 1), '.')"/>
 				</h2>
-				<xsl:apply-templates select="$timetable" mode="prof_view"/>
+				<xsl:apply-templates select="$timetable" mode="common_view"></xsl:apply-templates>
 				</xsl:if>
 			</xsl:for-each>
 </body>

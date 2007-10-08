@@ -31,6 +31,13 @@
 		</xsl:if>
 		</span>
 	</xsl:template>
+
+	<xsl:template match="timetable" mode="common_view">
+		<span class="remove">
+			<xsl:apply-templates select="weekday[descendant::lesson]"  mode="prof_view"/>
+		</span>
+	</xsl:template>
+
 	
 	<xsl:template match="weekday"  mode="prof_view">
 		<h4><xsl:value-of select="$weekdays//day[@id=current()/@id]"/></h4>
