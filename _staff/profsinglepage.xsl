@@ -21,7 +21,7 @@ xmlns:msxsl="urn:schemas-microsoft-com:xslt"
 <table cellspacing="20">
     <tr valign="top">
       <td width="178"> 
- <img src="_img/spacer.gif" alt="" width="178" height="1"/> <br/>
+ <img src="/_img/spacer.gif" alt="" width="178" height="1"/> <br/>
 <xsl:if test="image/@name">
 <img src="{image/@name}" alt="{$long_name}" width="{image/@w}" height="{image/@h}"/> 
 </xsl:if>
