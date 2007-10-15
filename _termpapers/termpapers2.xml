@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?xml-stylesheet type="text/xsl" href="termpapers.xsl"?>
 <termpapers year="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="termpapers.xsd">
 	<prof id="sm_ermakov">
 		<location>к. 4503</location>
-		
-
-<paper>
+		<paper>
 			<title>Моделирование распределений. Метод Уокера (сложность). (Тема связана с решением систем линейных уравнений
 большой размерности. Важна для приложений.)
 			</title>
 		</paper>
-
-<paper>
+		<paper>
 			<title>Вычислительные эксперименты по моделированию цепей Маркова (Монте-Карло и Квази Монте-Карло). 
 (Тема важна для задач массового обслуживания, имеетэкономические приложения.)
 			</title>
 		</paper>
-
-<paper>
+		<paper>
 			<title>Блуждание по сферам от границы. Программа и численные эксперименты.
 (Важно в задачах математической физики, механики  и др. приложениях.)
 			</title>
@@ -34,7 +31,7 @@
 			<title>Имитация процесса сходимости распределения суммы равномерно распределенных случайных величин к нормальному закону 
 			(программа, визуализация).</title>
 		</paper>
-			<paper>
+		<paper>
 			<title>Имитация поведения ошибки оценки по методу наименьших квадратов коэффициентов регрессии вида y=ax^2+bx+c.</title>
 		</paper>
 		<comment>Последние четыре темы упрощенные, позволяют легко войти в проблематику моделирования и полезны в дальнейшей практической деятельности. 
@@ -199,13 +196,14 @@
 			<title>Неравенства для матриц.</title>
 		</paper>
 	</prof>
-	<prof id="an_pepelyshev">
+	<!--<prof id="an_pepelyshev">
 		<location>к. 4502/4395</location>
 		<paper>
 			<title>Численные методы решения минимаксных задач.
 			</title>
 		</paper>
 	</prof>
+-->
 	<prof id="tm_tovstik">
 		<location>к. 4398</location>
 		<paper>
