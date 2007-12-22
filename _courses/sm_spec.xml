@@ -68,7 +68,10 @@
 	<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_finmodel">
 		<name xml:lang="ru">Задачи фин. мат. и стат. мод-ие</name>
 		<prof id="yn_kashtanov"/>
-	</course>
+			<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sa_finmodel.pdf">
+			<co:file_name>2006/2007</co:file_name>
+		</co:questions>
+</course>
 	<!--
 			<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_montecarlo">
 		<name xml:lang="ru">Теория метода Монте-Карло</name>
@@ -174,7 +177,7 @@
 		<name xml:lang="ru">Главные компоненты временных  рядов</name>
 		<prof id="ne_golyandina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_timeseries_ssa.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="(3)" hours="2" exam="экз." year_equiv="0.5" alias="sm_queueing_theory">

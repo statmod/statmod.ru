@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/index.xsl"?>
 <!DOCTYPE html SYSTEM "/contents.dtd">
 <html> 
@@ -10,7 +10,7 @@
 	<body>
 		<a name="top"/>
 		<h2>
-		  <a name="intro"/>ООП: некоторые принципы разработки программ на C++"</h2>
+		  <a name="intro"/>ООП: некоторые принципы разработки программ на C++</h2>
     <h3>
       Введение</h3>
     <p>
