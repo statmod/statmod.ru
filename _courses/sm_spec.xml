@@ -103,7 +103,7 @@
 		<name xml:lang="ru">Оптимальное планирование эксперимента</name>
 		<prof id="vb_melas"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_exper_design.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
@@ -172,7 +172,9 @@
 		<course semester="9" year="5" class="с/к" extras="(1b)" hours="2" exam="экз." year_equiv="0.5" alias="sm_biostat">
 		<name xml:lang="ru"> Применение статистики в биологических задачах</name>
 		<prof id="np_alekseeva"/>
-		</course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_biostat.pdf">
+									<co:file_name>2007/2008</co:file_name>
+								</co:questions></course>
 	<course semester="9" year="5" class="с/к" extras="(2)" hours="2" exam="экз." year_equiv="0.5" alias="sm_timeseries_ssa">
 		<name xml:lang="ru">Главные компоненты временных  рядов</name>
 		<prof id="ne_golyandina"/>
@@ -184,7 +186,7 @@
 		<name xml:lang="ru">Системы массового обслуживания</name>
 		<prof id="vb_melas"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_queueing_theory.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_timeseries">

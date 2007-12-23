@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.8034" ?><?mso-application progid="InfoPath.Document"?><courses year="2007/2008" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2007/2008" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -80,7 +80,7 @@
 		<name xml:lang="ru">Анализ регрессионных моделей</name>
 		<prof id="vb_melas"/>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__mm_exper_design.pdf">
-									<co:file_name>2006/2007</co:file_name>
+									<co:file_name>2007/2008</co:file_name>
 								</co:questions></course>
 	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
@@ -143,7 +143,7 @@
 		<name xml:lang="ru">Модельно-ориентированный анализ данных</name>
 		<prof id="vb_melas"/>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__mm_exper_design2.pdf">
-									<co:file_name>2006/2007</co:file_name>
+									<co:file_name>2007/2008</co:file_name>
 								</co:questions></course>
 	<course semester="10" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="mm_collective_behavior">
 		<name xml:lang="ru">Модели коллективного поведения</name>
