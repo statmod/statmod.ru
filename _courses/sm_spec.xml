@@ -92,7 +92,7 @@
 		<name xml:lang="ru">Статистическое моделирование</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_montecarlo.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="7" year="4" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sm_stoch_processes">
@@ -166,7 +166,7 @@
 		<name xml:lang="ru">Статистика случайных процессов</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_stat_stoch_processes.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
 	</course>
 		<course semester="9" year="5" class="с/к" extras="(1b)" hours="2" exam="экз." year_equiv="0.5" alias="sm_biostat">
