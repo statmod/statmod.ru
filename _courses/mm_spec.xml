@@ -63,7 +63,7 @@
 		<name xml:lang="ru">Задачи фин. мат. и стат. мод-ие</name>
 		<prof id="yn_kashtanov"/>
 			<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sa_finmodel.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
 </course>
 	<course semester="7" year="4" class="с/к" extras="(1)" hours="2" exam="экз." year_equiv="1" alias="mm_fuzzy_sets">
