@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by  () -->
 <span class="remove">
 	<html>
@@ -147,7 +147,7 @@
 				<tr>
 					<td><img alt="" src="/_img/spacer.gif" width="1" height="25"/></td>
 					<td colspan="2" id="copyright_cell">
-						<spec code="copy"/> статмод, 2006
+						<spec code="copy"/> статмод, 2006-2008
                     </td>
 					<td colspan="3"><img alt="" src="/_img/spacer.gif" width="1" height="1"/></td>
 				</tr>
