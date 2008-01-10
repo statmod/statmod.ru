@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<diploma year="2006">
+	<person spec="sm">
+		<fn>Татьяна</fn>
+		<mn>Юрьевна</mn>
+		<ln>Стоюнина</ln>
+		<name>Три задачи, связанные со случайным поиском</name>
+		<advisor id="vv_nekrutkin"/>
+		<reviewer id="ne_golyandina"/>
+		<slides>1_Stounina_slides_ru.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Мария</fn>
+		<mn>Александровна</mn>
+		<ln>Самахова</ln>
+		<name>О предельном поведении некоторых линейных
+конгруэнтных генераторов псевдослучайных чисел</name>
+		<advisor id="vv_nekrutkin"/>
+		<reviewer id="ne_golyandina"/>
+		<slides>2_Samakhova_slides.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ольга</fn>
+		<mn>Владимировна</mn>
+		<ln>Москалева</ln>
+		<name>Выявление корней второй кратности при идентификации модели</name>
+		<advisor id="tm_tovstik"/>
+		<reviewer id="ap_sizova"/>
+		<slides>3_Moskaleva.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дарья</fn>
+		<mn>Юрьевна</mn>
+		<ln>Шныренкова</ln>
+		<name>Трудоемкость решения уравнения Пуассона с помощью процессов блуждания по сферам</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer id="vv_nekrutkin"/>
+		<slides>4_Shnyrenkova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Анатолий</fn>
+		<mn>Андреевич</mn>
+		<ln>Гормин</ln>
+		<name>Минимизация усредненной по параметру дисперсии оценки цены опционного контракта</name>
+		<advisor id="yn_kashtanov"/>
+		<reviewer id="ne_golyandina"/>
+		<slides>5_Gormin.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Олеся</fn>
+		<mn>Анатольевна</mn>
+		<ln>Кондрашова</ln>
+		<name>Генерирование заданий для дистанционного обучения</name>
+		<advisor id="ya_sushkov"/>
+		<reviewer>Кропачева Н.Ю.</reviewer>
+		<slides>6_Kondrashova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Юлия</fn>
+		<mn>Андреевна</mn>
+		<ln>Прудникова</ln>
+		<name>Диалоговая система принятия решения  и ее использование при размещении товара на складе </name>
+		<advisor id="ya_sushkov"/>
+		<reviewer>Иванов А.Ю.</reviewer>
+		<slides>7_Proudnikova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Александр</fn>
+		<mn>Андреевич</mn>
+		<ln>Дмитриев</ln>
+		<name>Численные методы решения волнового уравнения первого и второго порядка</name>
+		<advisor id="vb_christinich"/>
+		<reviewer id="sm_ermakov"/>
+		<slides>8_Dmitriev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Виталий</fn>
+		<mn>Игоревич</mn>
+		<ln>Репешко</ln>
+		<name>Стандартизированные E-оптимальные планы для полиномиальной модели</name>
+		<advisor id="vb_melas"/>
+		<reviewer id="an_pepelyshev"/>
+		<slides>9_repeshko_slides.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Евгений</fn>
+		<mn>Вадимович</mn>
+		<ln>Осипов</ln>
+		<name>Метод "Гусеница"-SSA для анализа временных рядов с пропусками</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer id="vv_nekrutkin"/>
+		<slides>Osipov.pdf</slides>
+	</person>
+</diploma>
