@@ -1,1 +1,19 @@
-<transform xml="/_diploma/2006/slides.xml" xsl="/_diploma/slides.xsl"/>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/index.xsl"?>
+<!DOCTYPE html SYSTEM "/contents.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link href="/statmod.css" rel="stylesheet" type="text/css"/>
+		<title>Студентам кафедры статистического моделирования, мат-мех СПбГУ</title>
+	</head>
+	<body>
+		<h2>Дипломная работа</h2>
+<p>Студенческая жизнь, как правило заканчивается.</p>
+		<p>Слайды с защит:
+<ul>
+<li><a href="2006/index.htm">2006 год</a></li>
+<li><a href="2007/index.htm">2007 год</a></li>
+</ul></p>
+	</body>
+</html>

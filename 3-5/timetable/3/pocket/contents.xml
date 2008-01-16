@@ -7,5 +7,13 @@
 	</head>
 	<body>
 <transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm"/>
+<transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa"/>
+<transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm"/>
+<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm"/>
+<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa"/>
+<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm"/>
+<transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm"/>
+<transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa"/>
+<transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm"/>
 	</body>
 </html>

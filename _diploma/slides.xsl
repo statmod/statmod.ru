@@ -20,6 +20,9 @@
 		<spec id="mm">
 			<name>ММ</name>
 		</spec>
+		<spec id="bs">
+			<name>Био. Стат.</name>
+		</spec>
 	</specs>
 </xsl:variable>
 
@@ -34,7 +37,7 @@
 		<th>
   			<spec code="nbsp" /> 
   		</th>
-		<th>Спец.</th>
+		<th>Сп.</th>
 		<th>Тема</th>
 		<th><spec code="nbsp"/></th>
 		<th>Научный руководитель</th>
@@ -50,12 +53,12 @@
 <xsl:template match="person">
 	<tr>
 <td>
-<xsl:value-of select="ln"/>&#32;
-<xsl:value-of select="fn"/><spec code="nbsp"/>
+<xsl:value-of select="ln"/><br/>
+<xsl:value-of select="fn"/><br/>
 <xsl:value-of select="mn"/>
 </td>
 <td><xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=current()/@spec]/name/node()"/></td>
-<td>"<xsl:value-of select="name"/>"</td><td><a href="{$path_xml}{slides/text()}"><img src="/_img/pdf.png" border="0" align="right"/></a></td>
+<td><xsl:value-of select="name"/></td><td><a target="_blank" href="{$path_xml}{slides/text()}"><img src="/_img/pdf.png" border="0" align="right"/></a></td>
 <td><xsl:apply-templates select="advisor" mode="prof"/></td>
 <td><xsl:apply-templates select="reviewer" mode="prof"/></td>
 	</tr>
@@ -72,17 +75,6 @@
 <xsl:value-of select="."/>
 		</xsl:otherwise>
 	</xsl:choose>
-<xsl:if test="$prof/@degree != ''">,<spec code="#32"/>
-<xsl:choose>
-<xsl:when test="$prof/@degree = 'phd_d'">д. ф.-м. н.</xsl:when>
-<xsl:when test="$prof/@degree = 'phd'">к. ф.-м. н.</xsl:when>
-</xsl:choose></xsl:if>
-<xsl:if test="$prof/@academic_rank != ''">,<spec code="#32"/>
-<xsl:choose>
-	<xsl:when test="$prof/@academic_rank = 'prof'">профессор</xsl:when>
-	<xsl:when test="$prof/@academic_rank = 'assoc_prof'">доцент</xsl:when>
-	<xsl:when test="$prof/@academic_rank = 'senior_rf'">старший научный сотрудник</xsl:when>
-</xsl:choose></xsl:if>			
 </xsl:template>
 
 </xsl:stylesheet>
