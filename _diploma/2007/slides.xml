@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Konstantin Usevich (Home) -->
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <diploma year="2007">
@@ -84,7 +84,7 @@
 		<slides>1_09_staroselsky.pdf</slides>
 	</person>
 	<person spec="bs">
-		<fn>И.</fn>
+		<fn>Ирина</fn>
 		<mn>С.</mn>
 		<ln>Щербакова</ln>
 		<name>Применение современных методов многомерной статистики к анализу данных оперативного лечения митральной недостаточности</name>
