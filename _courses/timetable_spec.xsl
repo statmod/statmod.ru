@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 	<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt"
@@ -57,31 +57,31 @@
 </h2>
 
 <style>
-.fortnightly .biginfo { font: 13px Tahoma }
-.fortnightly .smallinfo { font: 10px Tahoma }
-.common .biginfo { font: 13px Tahoma }
-.common .smallinfo { font: 11px Tahoma }
+.fortnightly .biginfo { font: 5.2pt Tahoma }
+.fortnightly .smallinfo { font: 4pt Tahoma }
+.common .biginfo { font: 5.2pt Tahoma }
+.common .smallinfo { font: 4.4pt Tahoma }
 </style>
 
-			<table border="2">
+			<table border="2" style="font: 4pt Tahoma">
 			<tr valign="top">
 <td></td>
 <td></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
-<td><img src="/_img/spacer.gif" height="1" width="180"/></td>
+<td><img src="/_img/spacer.gif" height="1" style="width:72pt"/></td>
 </xsl:for-each>
 			</tr>
 			<tr valign="top">
 <td></td>
 <td></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
-<td style="font: 13px Tahoma"><xsl:value-of select="text()"/></td>
+<td style="font: 5.2pt Tahoma"><xsl:value-of select="text()"/></td>
 </xsl:for-each>
 			</tr>
 <xsl:for-each select="$two_hours_names//two_hours">
 <xsl:variable name="no" select="@no"/>
-			<tr valign="middle" height="40px">
-<td><img src="/_img/spacer.gif" width="1" height="70"/></td>
+			<tr valign="middle">
+<td><img src="/_img/spacer.gif" width="1" style="height: 28pt;"/></td>
 <td class="common" valign="top">
 <span class="biginfo"><xsl:value-of select="@no"/></span>
 <span class="smallinfo"><br/><br/><xsl:value-of select="@start_time"/><spec code="nbsp"/>-<br/> 
@@ -98,13 +98,13 @@
 <td></td>
 <td></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() > 3]" >
-<td style="font: 13px Tahoma"><xsl:value-of select="text()"/></td>
+<td style="font: 5.2pt Tahoma"><xsl:value-of select="text()"/></td>
 </xsl:for-each>
 			</tr>
 <xsl:for-each select="$two_hours_names//two_hours">
 <xsl:variable name="no" select="@no"/>
-			<tr valign="middle" height="40px">
-<td><img src="/_img/spacer.gif" width="1" height="70"/></td>
+			<tr valign="middle">
+<td><img src="/_img/spacer.gif" width="1" style="height: 28pt;"/></td>
 <td class="common" valign="top">
 <span class="biginfo"><xsl:value-of select="@no"/></span>
 <span class="smallinfo"><br/><br/><xsl:value-of select="@start_time"/><spec code="nbsp"/>-<br/> 
@@ -138,8 +138,8 @@
 						Lessons can't overlap. Occured at <xsl:value-of select="$error_location"/>.
 					</xsl:message>
 				</xsl:if>
-<table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td class="fortnightly"><xsl:apply-templates select="msxsl:node-set($filtered_lessons)/lessons/lesson[fortnightly/@type=1]"/></td></tr>
-<tr><td><hr/></td></tr><tr><td class="fortnightly">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" valign="middle"><tr><td class="fortnightly"><xsl:apply-templates select="msxsl:node-set($filtered_lessons)/lessons/lesson[fortnightly/@type=1]"/></td></tr>
+<tr><td style="padding: 2pt"><!--hr style="padding:1pt;"/--><img src="/_img/bspacer.gif" alt="" style="width: 100%; height: 1pt"/></td></tr><tr><td class="fortnightly">
 <xsl:apply-templates select="msxsl:node-set($filtered_lessons)/lessons/lesson[fortnightly/@type=2]"/></td></tr></table>
 			</xsl:when>
 			<xsl:otherwise>
@@ -148,20 +148,68 @@
 						Too many lessons. Occured at <xsl:value-of select="$error_location"/>.
 					</xsl:message>
 				</xsl:if>
-<table border="0" cellspacing="0" cellpadding="0"><tr><td class="common">
-<xsl:apply-templates select="msxsl:node-set($filtered_lessons)/lessons/lesson"/>
-</td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0"><tr><td class="common"><xsl:apply-templates select="msxsl:node-set($filtered_lessons)/lessons/lesson"/></td></tr></table>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
 	<xsl:template match="lesson">
-<span class="biginfo">		<b>
+<span class="biginfo"><b>
 			<xsl:for-each select="location"><xsl:value-of select="text()"/><xsl:if test="position()!=last()">,<spec code="nbsp"/></xsl:if></xsl:for-each>
-		</b>
- <spec code="#32"/><xsl:copy-of select="course/prof/node()"/></span><br/>
-<span class="smallinfo"><xsl:value-of select="course/name/text()"/></span>
+		</b><spec code="#32"/><xsl:copy-of select="course/prof/node()"/></span><br/>
+<span class="smallinfo">
+	<xsl:call-template name="shorten_text">
+		<xsl:with-param name="text" select="course/name/text()"/>
+		<xsl:with-param name="len" select="32"/>
+	</xsl:call-template><spec code="#32"/>
+</span>
 	</xsl:template>
-		
+	
+	<xsl:template name="shorten_text">
+		<xsl:param name="text"/>
+		<xsl:param name="len"/>
+		<xsl:choose>
+			<xsl:when test="string-length($text) &gt; $len">
+				<xsl:call-template name="tokenize_text">
+					<xsl:with-param name="text" select="course/name/text()"/>
+					<xsl:with-param name="separator" select="' '"/>
+					<xsl:with-param name="max_len" select="$len"/>
+				</xsl:call-template>
+			</xsl:when>
+			<xsl:otherwise>
+					<xsl:value-of select="course/name/text()"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+	
+	
+	<xsl:template name="tokenize_text">
+		<xsl:param name="text"/>
+		<xsl:param name="separator"/>
+		<xsl:param name="max_len"/>
+
+		<xsl:if test="$text != ''">
+			<xsl:choose>
+				<xsl:when test="not(contains($text,$separator))">
+					<xsl:if test="string-length($text) &lt;= $max_len"><xsl:value-of select="$text"/></xsl:if>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:variable name="word" select="substring-before($text, $separator)"/>
+					<xsl:variable name="word_w_sep" select="concat($word,$separator)"/>
+					
+					<xsl:if test="string-length($word_w_sep) &lt;= $max_len">
+						<xsl:value-of select="$word_w_sep"/>
+						<xsl:call-template name="tokenize_text">
+							<xsl:with-param name="text" select="substring-after($text, $separator)"/>
+							<xsl:with-param name="separator" select="$separator"/>
+							<xsl:with-param name="max_len" select="$max_len - string-length($word_w_sep)"/>
+						</xsl:call-template>
+					</xsl:if>
+				</xsl:otherwise>
+			</xsl:choose>
+			
+		</xsl:if>
+	</xsl:template>
+
 	
 </xsl:stylesheet>
