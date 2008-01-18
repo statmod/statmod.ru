@@ -1,50 +1,97 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Konstantin Usevich (Home) -->
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <diploma year="2006">
-	<person spec="mm">
-		<fn>Ипполит</fn>
-		<ln>Сека</ln>
-		<name>Абстрактный анализ нестационарных недетерминированных автоматов с периодически меняющейся структурой</name>
-		<advisor id="mk_chirkov"/>
-		<reviewer id="ay_ponomareva"/>
-		<slides>1_1-seka_presentation19.pdf</slides>
+	<person spec="sm">
+		<fn>Анатолий</fn>
+		<mn>Андреевич</mn>
+		<ln>Гормин</ln>
+		<name>Минимизация усредненной по параметру дисперсии оценки цены опционного контракта</name>
+		<advisor id="yn_kashtanov"/>
+		<reviewer id="ne_golyandina"/>
+		<slides>2_05_gormin.pdf</slides>
 	</person>
-	<person spec="mm">
-		<fn>Кристина</fn>
-		<mn>Александровна</mn>
-		<ln>Недзвецкая</ln>
-		<name>Матричные методы оптимизации нестационарных недетерминированных конечных автоматов с периодически меняющейся структурой</name>
-		<advisor id="ay_ponomareva"/>
-		<reviewer id="mk_chirkov"/>
-		<slides>1_2-nedzvetskaja_slides_ru.pdf</slides>
+	<person spec="sm">
+		<fn>Евгений</fn>
+		<mn>Вадимович</mn>
+		<ln>Осипов</ln>
+		<name>Метод "Гусеница"-SSA для анализа временных рядов с пропусками</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer id="vv_nekrutkin"/>
+		<slides>2_10_osipov.pdf</slides>
 	</person>
-	<person spec="mm">
-		<fn>Татьяна</fn>
-		<mn>Игоревна</mn>
-		<ln>Скорикова</ln>
-		<name>Статистическая модель реинтрантно-биномиального распределения с приложением в радиобиологии</name>
-		<advisor id="np_alekseeva"/>
+	<person spec="sm">
+		<fn>Виталий</fn>
+		<mn>Игоревич</mn>
+		<ln>Репешко</ln>
+		<name>Стандартизированные E-оптимальные планы для полиномиальной модели</name>
+		<advisor id="vb_melas"/>
 		<reviewer id="an_pepelyshev"/>
-		<slides>1_3-skorikova.pdf</slides>
+		<slides>2_09_repeshko_slides.pdf</slides>
 	</person>
-	<person spec="mm">
+	<person spec="sm">
 		<fn>Мария</fn>
-		<mn>Михайловна</mn>
-		<ln>Ротенко</ln>
-		<name>Оценивание параметров степенного гамма-распределения с приложениями</name>
-		<advisor id="np_alekseeva"/>
-		<reviewer id="an_pepelyshev"/>
-		<slides>1_4-slides_rotenko_522.pdf</slides>
+		<mn>Александровна</mn>
+		<ln>Самахова</ln>
+		<name>О предельном поведении некоторых линейных
+конгруэнтных генераторов псевдослучайных чисел</name>
+		<advisor id="vv_nekrutkin"/>
+		<reviewer id="ne_golyandina"/>
+		<slides>2_02_samakhova_slides.pdf</slides>
 	</person>
-	<person spec="mm">
-		<fn>Олег</fn>
-		<mn>Михайлович</mn>
-		<ln>Косогоров</ln>
-		<name>Улучшение характеристик алгоритма сжатия изображений JPEG</name>
-		<advisor>Демьянович Ю.К.</advisor>
+	<person spec="sm">
+		<fn>Татьяна</fn>
+		<mn>Юрьевна</mn>
+		<ln>Стоюнина</ln>
+		<name>Три задачи, связанные со случайным поиском</name>
+		<advisor id="vv_nekrutkin"/>
+		<reviewer id="ne_golyandina"/>
+		<slides>2_01_stounina_slides_ru.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дарья</fn>
+		<mn>Юрьевна</mn>
+		<ln>Шныренкова</ln>
+		<name>Трудоемкость решения уравнения Пуассона с помощью процессов блуждания по сферам</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer id="vv_nekrutkin"/>
+		<slides>2_04_shnyrenkova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Александр</fn>
+		<mn>Андреевич</mn>
+		<ln>Дмитриев</ln>
+		<name>Численные методы решения волнового уравнения первого и второго порядка</name>
+		<advisor id="vb_christinich"/>
 		<reviewer id="sm_ermakov"/>
-		<slides>1_5-kosogorov.pdf</slides>
+		<slides>2_08_dmitriev.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Олеся</fn>
+		<mn>Анатольевна</mn>
+		<ln>Кондрашова</ln>
+		<name>Генерирование заданий для дистанционного обучения</name>
+		<advisor id="ya_sushkov"/>
+		<reviewer>Кропачева Н.Ю.</reviewer>
+		<slides>2_06_kondrashova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ольга</fn>
+		<mn>Владимировна</mn>
+		<ln>Москалева</ln>
+		<name>Выявление корней второй кратности при идентификации модели</name>
+		<advisor id="tm_tovstik"/>
+		<reviewer id="ap_sizova"/>
+		<slides>2_03_moskaleva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Юлия</fn>
+		<mn>Андреевна</mn>
+		<ln>Прудникова</ln>
+		<name>Диалоговая система принятия решения  и ее использование при размещении товара на складе </name>
+		<advisor id="ya_sushkov"/>
+		<reviewer>Иванов А.Ю.</reviewer>
+		<slides>2_07_proudnikova.pdf</slides>
 	</person>
 	<person spec="mm">
 		<fn>Виктория</fn>
@@ -65,6 +112,15 @@
 		<slides>1_7-kazakova.pdf</slides>
 	</person>
 	<person spec="mm">
+		<fn>Олег</fn>
+		<mn>Михайлович</mn>
+		<ln>Косогоров</ln>
+		<name>Улучшение характеристик алгоритма сжатия изображений JPEG</name>
+		<advisor>Демьянович Ю.К.</advisor>
+		<reviewer id="sm_ermakov"/>
+		<slides>1_5-kosogorov.pdf</slides>
+	</person>
+	<person spec="mm">
 		<fn>Альбина</fn>
 		<mn>Бориславовна</mn>
 		<ln>Курганова</ln>
@@ -74,6 +130,41 @@
 		<slides>1_8-kurganova.pdf</slides>
 	</person>
 	<person spec="mm">
+		<fn>Кристина</fn>
+		<mn>Александровна</mn>
+		<ln>Недзвецкая</ln>
+		<name>Матричные методы оптимизации нестационарных недетерминированных конечных автоматов с периодически меняющейся структурой</name>
+		<advisor id="ay_ponomareva"/>
+		<reviewer id="mk_chirkov"/>
+		<slides>1_2-nedzvetskaja_slides_ru.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Мария</fn>
+		<mn>Михайловна</mn>
+		<ln>Ротенко</ln>
+		<name>Оценивание параметров степенного гамма-распределения с приложениями</name>
+		<advisor id="np_alekseeva"/>
+		<reviewer id="an_pepelyshev"/>
+		<slides>1_4-slides_rotenko_522.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Ипполит</fn>
+		<ln>Сека</ln>
+		<name>Абстрактный анализ нестационарных недетерминированных автоматов с периодически меняющейся структурой</name>
+		<advisor id="mk_chirkov"/>
+		<reviewer id="ay_ponomareva"/>
+		<slides>1_1-seka_presentation19.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Татьяна</fn>
+		<mn>Игоревна</mn>
+		<ln>Скорикова</ln>
+		<name>Статистическая модель реинтрантно-биномиального распределения с приложением в радиобиологии</name>
+		<advisor id="np_alekseeva"/>
+		<reviewer id="an_pepelyshev"/>
+		<slides>1_3-skorikova.pdf</slides>
+	</person>
+	<person spec="mm">
 		<fn>Анна</fn>
 		<mn>Николаевна</mn>
 		<ln>Смирнова</ln>
@@ -81,96 +172,5 @@
 		<advisor id="yn_kashtanov"/>
 		<reviewer id="vb_melas"/>
 		<slides>1_9-smirnova_slides_ru.pdf</slides>
-	</person>
-	<person spec="sm">
-		<fn>Татьяна</fn>
-		<mn>Юрьевна</mn>
-		<ln>Стоюнина</ln>
-		<name>Три задачи, связанные со случайным поиском</name>
-		<advisor id="vv_nekrutkin"/>
-		<reviewer id="ne_golyandina"/>
-		<slides>2_01_stounina_slides_ru.pdf</slides>
-	</person>
-	<person spec="sm">
-		<fn>Мария</fn>
-		<mn>Александровна</mn>
-		<ln>Самахова</ln>
-		<name>О предельном поведении некоторых линейных
-конгруэнтных генераторов псевдослучайных чисел</name>
-		<advisor id="vv_nekrutkin"/>
-		<reviewer id="ne_golyandina"/>
-		<slides>2_02_samakhova_slides.pdf</slides>
-	</person>
-	<person spec="sa">
-		<fn>Ольга</fn>
-		<mn>Владимировна</mn>
-		<ln>Москалева</ln>
-		<name>Выявление корней второй кратности при идентификации модели</name>
-		<advisor id="tm_tovstik"/>
-		<reviewer id="ap_sizova"/>
-		<slides>2_03_moskaleva.pdf</slides>
-	</person>
-	<person spec="sm">
-		<fn>Дарья</fn>
-		<mn>Юрьевна</mn>
-		<ln>Шныренкова</ln>
-		<name>Трудоемкость решения уравнения Пуассона с помощью процессов блуждания по сферам</name>
-		<advisor id="ne_golyandina"/>
-		<reviewer id="vv_nekrutkin"/>
-		<slides>2_04_shnyrenkova.pdf</slides>
-	</person>
-	<person spec="sm">
-		<fn>Анатолий</fn>
-		<mn>Андреевич</mn>
-		<ln>Гормин</ln>
-		<name>Минимизация усредненной по параметру дисперсии оценки цены опционного контракта</name>
-		<advisor id="yn_kashtanov"/>
-		<reviewer id="ne_golyandina"/>
-		<slides>2_05_gormin.pdf</slides>
-	</person>
-	<person spec="sa">
-		<fn>Олеся</fn>
-		<mn>Анатольевна</mn>
-		<ln>Кондрашова</ln>
-		<name>Генерирование заданий для дистанционного обучения</name>
-		<advisor id="ya_sushkov"/>
-		<reviewer>Кропачева Н.Ю.</reviewer>
-		<slides>2_06_kondrashova.pdf</slides>
-	</person>
-	<person spec="sa">
-		<fn>Юлия</fn>
-		<mn>Андреевна</mn>
-		<ln>Прудникова</ln>
-		<name>Диалоговая система принятия решения  и ее использование при размещении товара на складе </name>
-		<advisor id="ya_sushkov"/>
-		<reviewer>Иванов А.Ю.</reviewer>
-		<slides>2_07_proudnikova.pdf</slides>
-	</person>
-	<person spec="sa">
-		<fn>Александр</fn>
-		<mn>Андреевич</mn>
-		<ln>Дмитриев</ln>
-		<name>Численные методы решения волнового уравнения первого и второго порядка</name>
-		<advisor id="vb_christinich"/>
-		<reviewer id="sm_ermakov"/>
-		<slides>2_08_dmitriev.pdf</slides>
-	</person>
-	<person spec="sm">
-		<fn>Виталий</fn>
-		<mn>Игоревич</mn>
-		<ln>Репешко</ln>
-		<name>Стандартизированные E-оптимальные планы для полиномиальной модели</name>
-		<advisor id="vb_melas"/>
-		<reviewer id="an_pepelyshev"/>
-		<slides>2_09_repeshko_slides.pdf</slides>
-	</person>
-	<person spec="sm">
-		<fn>Евгений</fn>
-		<mn>Вадимович</mn>
-		<ln>Осипов</ln>
-		<name>Метод "Гусеница"-SSA для анализа временных рядов с пропусками</name>
-		<advisor id="ne_golyandina"/>
-		<reviewer id="vv_nekrutkin"/>
-		<slides>2_10_osipov.pdf</slides>
 	</person>
 </diploma>

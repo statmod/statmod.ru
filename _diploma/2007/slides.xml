@@ -1,33 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Konstantin Usevich (Home) -->
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <diploma year="2007">
 	<person spec="sm">
-		<fn>Рамис</fn>
-		<mn>Рафаэлевич</mn>
-		<ln>Сабитов</ln>
-		<name>Спектральная метрика и спектральный тест для некоторых генераторов случайных чисел</name>
-		<advisor id="vv_nekrutkin"/>
-		<reviewer id="ne_golyandina"/>
-		<slides>1_01_sabitov.pdf</slides>
-	</person>
-	<person spec="sm">
-		<fn>Иван</fn>
-		<mn>Владимирович</mn>
-		<ln>Курышев</ln>
-		<name>Прогноз и нахождение формулы сигнала конечного ранга на основе SSA и итераций Кэдзоу</name>
-		<advisor id="ne_golyandina"/>
-		<reviewer id="vv_nekrutkin"/>
-		<slides>1_02_kuryshev.pdf</slides>
-	</person>
-	<person spec="sm">
-		<fn>Константин</fn>
-		<mn>Дмитриевич</mn>
-		<ln>Усевич</ln>
-		<name>Метод 2D-SSA для анализа двумерных полей</name>
-		<advisor id="ne_golyandina"/>
-		<reviewer id="vv_nekrutkin"/>
-		<slides>1_03_usevich_0.pdf</slides>
+		<fn>Мария</fn>
+		<mn>Петровна</mn>
+		<ln>Браун</ln>
+		<name>Об одном методе оценивания параметров распределений</name>
+		<advisor id="vb_melas"/>
+		<reviewer id="an_pepelyshev"/>
+		<slides>1_07_braun.pdf</slides>
 	</person>
 	<person spec="sm">
 		<fn>Антон</fn>
@@ -39,6 +21,15 @@
 		<slides>1_04_korobeynikov.pdf</slides>
 	</person>
 	<person spec="sm">
+		<fn>Иван</fn>
+		<mn>Владимирович</mn>
+		<ln>Курышев</ln>
+		<name>Прогноз и нахождение формулы сигнала конечного ранга на основе SSA и итераций Кэдзоу</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer id="vv_nekrutkin"/>
+		<slides>1_02_kuryshev.pdf</slides>
+	</person>
+	<person spec="sm">
 		<fn>Мария</fn>
 		<mn>Леонидовна</mn>
 		<ln>Нечаева</ln>
@@ -46,6 +37,33 @@
 		<advisor id="sm_ermakov"/>
 		<reviewer id="vn_solntsev"/>
 		<slides>1_05_nechaeva.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Рамис</fn>
+		<mn>Рафаэлевич</mn>
+		<ln>Сабитов</ln>
+		<name>Спектральная метрика и спектральный тест для некоторых генераторов случайных чисел</name>
+		<advisor id="vv_nekrutkin"/>
+		<reviewer id="ne_golyandina"/>
+		<slides>1_01_sabitov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Константин</fn>
+		<mn>Дмитриевич</mn>
+		<ln>Усевич</ln>
+		<name>Метод 2D-SSA для анализа двумерных полей</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer id="vv_nekrutkin"/>
+		<slides>1_03_usevich_0.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Андрей</fn>
+		<mn>Викторович</mn>
+		<ln>Ганночка</ln>
+		<name>Классификация корреляционных функций гауссовских марковских процессов и связь с теорией катастроф</name>
+		<advisor id="tm_tovstik"/>
+		<reviewer id="ap_sizova"/>
+		<slides>2_04_gannochka_0.pdf</slides>
 	</person>
 	<person spec="sa">
 		<fn>Вера</fn>
@@ -56,77 +74,32 @@
 		<reviewer id="ya_sushkov"/>
 		<slides>1_06_zagrubskaya.pdf</slides>
 	</person>
-	<person spec="sm">
-		<fn>Мария</fn>
-		<mn>Петровна</mn>
-		<ln>Браун</ln>
-		<name>Об одном методе оценивания параметров распределений</name>
-		<advisor id="vb_melas"/>
-		<reviewer id="an_pepelyshev"/>
-		<slides>1_07_braun.pdf</slides>
-	</person>
-	<person spec="mm">
-		<fn>Роман</fn>
-		<mn>Сергеевич</mn>
-		<ln>Кондратьев</ln>
-		<name>Сравнительный анализ алгоритмов оценивания параметров многомерной линейной регрессии на модельных и эконометрических примерах</name>
-		<advisor id="an_pepelyshev"/>
-		<reviewer id="np_alekseeva"/>
-		<slides>1_08_kondratyev.pdf</slides>
-	</person>
-	<person spec="mm">
-		<fn>Евгений</fn>
-		<mn>Михайлович</mn>
-		<ln>Старосельский</ln>
-		<name>Исследование алгоритмов поиска оптимальных планов эксперимента</name>
-		<advisor id="an_pepelyshev"/>
-		<reviewer id="vb_melas"/>
-		<slides>1_09_staroselsky.pdf</slides>
-	</person>
-	<person spec="bs">
-		<fn>Ирина</fn>
-		<mn>С.</mn>
-		<ln>Щербакова</ln>
-		<name>Применение современных методов многомерной статистики к анализу данных оперативного лечения митральной недостаточности</name>
-		<advisor id="np_alekseeva"/>
-		<reviewer id="vn_solntsev"/>
-		<slides>1_b_scherbakova.pdf</slides>
-	</person>
-	<person spec="mm">
-		<fn>Анна</fn>
-		<mn>Сергеевна</mn>
-		<ln>Шевченко</ln>
-		<name>Анализ и синтез обобщенных недетерминированных автоматов со случайным входом</name>
-		<advisor id="mk_chirkov"/>
-		<reviewer id="ay_ponomareva"/>
-		<slides>2_01_shevchenko.pdf</slides>
-	</person>
-	<person spec="mm">
-		<fn>Максим</fn>
-		<mn>Владимирович</mn>
-		<ln>Родионов</ln>
-		<name>Подбор и диагностика модели АРСС (n,m)</name>
-		<advisor id="tm_tovstik"/>
-		<reviewer id="ap_sizova"/>
-		<slides>2_02_rodionov.pdf</slides>
-	</person>
-	<person spec="mm">
-		<fn>Сергей</fn>
-		<mn>Владимирович</mn>
-		<ln>Власов</ln>
-		<name>Авторегрессионные ряды: поиск единичных корней и проверка на коинтегрированность</name>
-		<advisor id="tm_tovstik"/>
-		<reviewer id="ap_sizova"/>
-		<slides>2_03_vlasov.pdf</slides>
+	<person spec="sa">
+		<fn>Николай</fn>
+		<mn>Юрьевич</mn>
+		<ln>Иванов</ln>
+		<name>Обобщение уравнения Клаузинга и его решение методом Монте-Карло</name>
+		<advisor id="vb_christinich"/>
+		<reviewer id="nk_krivulin"/>
+		<slides>2_10_nikolayivanov.pdf</slides>
 	</person>
 	<person spec="sa">
-		<fn>Андрей</fn>
-		<mn>Викторович</mn>
-		<ln>Ганночка</ln>
-		<name>Классификация корреляционных функций гауссовских марковских процессов и связь с теорией катастроф</name>
-		<advisor id="tm_tovstik"/>
-		<reviewer id="ap_sizova"/>
-		<slides>2_04_gannochka_0.pdf</slides>
+		<fn>Дмитрий</fn>
+		<mn>Владимирович</mn>
+		<ln>Колесник</ln>
+		<name>Решение систем линейных алгебраических уравнений в идемпотентной алгебре</name>
+		<advisor id="nk_krivulin"/>
+		<reviewer id="ya_sushkov"/>
+		<slides>2_08_kolesnik_d.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ирина</fn>
+		<mn>Владимировна</mn>
+		<ln>Колесник</ln>
+		<name>Изучение байесовских экспериментальных планов для нелинейных регрессионных моделей</name>
+		<advisor id="ya_sushkov"/>
+		<reviewer>Старосельский Ю.М.</reviewer>
+		<slides>2_07_kolesnik_i_0.pdf</slides>
 	</person>
 	<person spec="sa">
 		<fn>Виктория</fn>
@@ -147,24 +120,6 @@
 		<slides>2_06_matveev.pdf</slides>
 	</person>
 	<person spec="sa">
-		<fn>Ирина</fn>
-		<mn>Владимировна</mn>
-		<ln>Колесник</ln>
-		<name>Изучение байесовских экспериментальных планов для нелинейных регрессионных моделей</name>
-		<advisor id="ya_sushkov"/>
-		<reviewer>Старосельский Ю.М.</reviewer>
-		<slides>2_07_kolesnik_i_0.pdf</slides>
-	</person>
-	<person spec="sa">
-		<fn>Дмитрий</fn>
-		<mn>Владимирович</mn>
-		<ln>Колесник</ln>
-		<name>Решение систем линейных алгебраических уравнений в идемпотентной алгебре</name>
-		<advisor id="nk_krivulin"/>
-		<reviewer id="ya_sushkov"/>
-		<slides>2_08_kolesnik_d.pdf</slides>
-	</person>
-	<person spec="sa">
 		<fn>Алексей</fn>
 		<mn>Андреевич</mn>
 		<ln>Неплохов</ln>
@@ -173,13 +128,58 @@
 		<reviewer id="vb_christinich"/>
 		<slides>2_09_neplokhov_0.pdf</slides>
 	</person>
-	<person spec="sa">
-		<fn>Николай</fn>
-		<mn>Юрьевич</mn>
-		<ln>Иванов</ln>
-		<name>Обобщение уравнения Клаузинга и его решение методом Монте-Карло</name>
-		<advisor id="vb_christinich"/>
-		<reviewer id="nk_krivulin"/>
-		<slides>2_10_nikolayivanov.pdf</slides>
+	<person spec="mm">
+		<fn>Сергей</fn>
+		<mn>Владимирович</mn>
+		<ln>Власов</ln>
+		<name>Авторегрессионные ряды: поиск единичных корней и проверка на коинтегрированность</name>
+		<advisor id="tm_tovstik"/>
+		<reviewer id="ap_sizova"/>
+		<slides>2_03_vlasov.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Роман</fn>
+		<mn>Сергеевич</mn>
+		<ln>Кондратьев</ln>
+		<name>Сравнительный анализ алгоритмов оценивания параметров многомерной линейной регрессии на модельных и эконометрических примерах</name>
+		<advisor id="an_pepelyshev"/>
+		<reviewer id="np_alekseeva"/>
+		<slides>1_08_kondratyev.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Максим</fn>
+		<mn>Владимирович</mn>
+		<ln>Родионов</ln>
+		<name>Подбор и диагностика модели АРСС (n,m)</name>
+		<advisor id="tm_tovstik"/>
+		<reviewer id="ap_sizova"/>
+		<slides>2_02_rodionov.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Евгений</fn>
+		<mn>Михайлович</mn>
+		<ln>Старосельский</ln>
+		<name>Исследование алгоритмов поиска оптимальных планов эксперимента</name>
+		<advisor id="an_pepelyshev"/>
+		<reviewer id="vb_melas"/>
+		<slides>1_09_staroselsky.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Анна</fn>
+		<mn>Сергеевна</mn>
+		<ln>Шевченко</ln>
+		<name>Анализ и синтез обобщенных недетерминированных автоматов со случайным входом</name>
+		<advisor id="mk_chirkov"/>
+		<reviewer id="ay_ponomareva"/>
+		<slides>2_01_shevchenko.pdf</slides>
+	</person>
+	<person spec="bs">
+		<fn>Ирина</fn>
+		<mn>С.</mn>
+		<ln>Щербакова</ln>
+		<name>Применение современных методов многомерной статистики к анализу данных оперативного лечения митральной недостаточности</name>
+		<advisor id="np_alekseeva"/>
+		<reviewer id="vn_solntsev"/>
+		<slides>1_b_scherbakova.pdf</slides>
 	</person>
 </diploma>
