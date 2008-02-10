@@ -81,10 +81,7 @@
 		<two_hours no="2">
 			<lesson type="chair" spec="all">
 				<location>4526</location>
-				<course>
-					<name>Теория вероятностей</name>
-					<prof>Некруткин</prof>
-				</course>
+				<course id="all_teorver_pract"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="3">
