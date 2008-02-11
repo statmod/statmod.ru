@@ -5,6 +5,7 @@
 	xmlns:pr="http://statmod.ru/staff"
       exclude-result-prefixes="msxsl pr">
 
+<xsl:param name="glob_param"/>
 <xsl:include href="../_courses/resolve_prof.xsl"/>
 <xsl:param name="path_xml"/>
 <xsl:variable name="profs" select="document('../_staff/prof.xml')"/>

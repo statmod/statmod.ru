@@ -4,6 +4,7 @@
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt"
       xmlns:pr="http://statmod.ru/staff">
 	<xsl:import href="mergecells.xsl"/>
+<xsl:param name="current_folder"/>
 	<xsl:include href="gen_lesson_table.xsl"/>
 	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:variable name="no_width" select="10"/>
@@ -50,6 +51,10 @@
 </xsl:otherwise>
 </xsl:choose>
 </h2>
+<p>Карманное расписание<sup><font color="red">NEW</font></sup> для специализаций: 
+<xsl:for-each select="msxsl:node-set($specs)/specs/spec"><spec code="nbsp"/><a target="_blank" href="{$current_folder}pocket/{@id}.htm"><xsl:value-of select="name"/></a></xsl:for-each></p>
+
+
 		<table class="timetable" width="{$no_width + count(msxsl:node-set($specs)/specs/spec)*$spec_width}" align="center" border="1">
 			<tr>
 				<td class="head" width="{$no_width}">	<spec code="nbsp"/></td>

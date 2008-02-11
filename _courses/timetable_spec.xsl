@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 	<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt"
@@ -7,6 +7,7 @@
 	<xsl:include href="gen_lesson_table.xsl"/>
 	<!-- xsl:include href="resolve_prof.xsl"/-->
 	<xsl:param name="loc_param"/>
+	<xsl:param name="glob_param"/>
 	<xsl:variable name="no_width" select="10"/>
 	<xsl:variable name="spec_width" select="214"/>
 	<xsl:variable name="cell_height" select="36"/>
@@ -39,11 +40,29 @@
 	<xsl:variable name="specs_count" select="1"/>
 
 	<!-- Match the root node -->
-	<xsl:template match="/timetable">
+	<xsl:template match="/">
+<span class="remove">
+	<html>
+		<head>
+	<link href="/statmod.css" rel="stylesheet" type="text/css"/>
+		</head>
+		<body style="margin: 0">
+<table border="0" cellspacing="0" cellpadding="5">					
+				<tr>
+					<td class="content_cell">
+<xsl:apply-templates select="timetable"/>
+					</td>
+				</tr>
+</table>
+		</body>
+	</html>
+</span>
+	</xsl:template>
+	<xsl:template match="timetable">
 <xsl:variable name="tt" select="."/>
 		<span class="remove">
 <h2><xsl:value-of select="ceiling(@semester div 2)"/>-й курс,
-<xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$loc_param/@spec]"/>,
+<xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$glob_param/@spec]"/>,
 <xsl:choose>
 <xsl:when test="@semester mod 2 = 0">
 весенний семестр 
@@ -56,8 +75,7 @@
 </xsl:choose>
 </h2>
 
-<style>
-</style>
+<p>Просто распечатайте эту страницу, вырежьте табличку и сложите ее пополам :)</p>
 
 			<table class="timetable_spec" border="1" cellspacing="0" style="font: 4pt Tahoma">
 			<tr valign="top">
@@ -69,7 +87,8 @@
 			</tr>
 			<tr valign="top">
 <td class="system"></td>
-<td></td>
+<td style="font: 5.2pt Tahoma; padding: 1pt;"><xsl:value-of select="ceiling(@semester div 2)"/>
+<spec code="nbsp"/><xsl:value-of select="substring(msxsl:node-set($specs)/specs/spec[@id=$glob_param/@spec],1,2)"/></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
 <td style="font: 5.2pt Tahoma; width:72pt ; padding: 1pt;"><xsl:value-of select="text()"/></td>
 </xsl:for-each>
@@ -92,7 +111,8 @@
 </xsl:for-each>
 			<tr valign="top">
 <td class="system"></td>
-<td></td>
+<td style="font: 5.2pt Tahoma; padding: 1pt;"><xsl:value-of select="ceiling(@semester div 2)"/>
+<spec code="nbsp"/><xsl:value-of select="substring(msxsl:node-set($specs)/specs/spec[@id=$glob_param/@spec],1,2)"/></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() > 3]" >
 <td style="font: 5.2pt Tahoma; padding: 1pt;"><xsl:value-of select="text()"/></td>
 </xsl:for-each>
@@ -119,7 +139,7 @@
 	
 	<xsl:template match="two_hours">
 		<xsl:variable name="filtered_lessons" >
-			<lessons><xsl:copy-of select="lesson[@spec = 'all' or contains(@spec, $loc_param/@spec)]"/></lessons>
+			<lessons><xsl:copy-of select="lesson[@spec = 'all' or contains(@spec, $glob_param/@spec)]"/></lessons>
 		</xsl:variable>
 		<xsl:variable name="this_error_location" select="concat('Weekday:', ../@id, ', Two hours: ', @no)"/>
 		<xsl:variable name="les_cnt" select="count(msxsl:node-set($filtered_lessons)/lessons/lesson) "/>
