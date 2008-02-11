@@ -6,8 +6,9 @@
 	xmlns:pr="http://statmod.ru/staff"
       exclude-result-prefixes="msxsl co pr">
 	<xsl:output method="xml" omit-xml-declaration="no" indent="yes" encoding="UTF-8"/>
-	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:param name="glob_param"/>
+	<xsl:param name="loc_param"/>
+	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:variable name="prof_id" select="$glob_param/@prof"/>
 	<xsl:variable name="profs" select="document('../_staff/prof.xml')"/>
 	<xsl:variable name="specs">

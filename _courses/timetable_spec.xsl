@@ -5,7 +5,7 @@
       xmlns:pr="http://statmod.ru/staff">
 	<xsl:import href="mergecells.xsl"/>
 	<xsl:include href="gen_lesson_table.xsl"/>
-	<xsl:include href="resolve_prof.xsl"/>
+	<!-- xsl:include href="resolve_prof.xsl"/-->
 	<xsl:param name="loc_param"/>
 	<xsl:variable name="no_width" select="10"/>
 	<xsl:variable name="spec_width" select="214"/>
@@ -57,37 +57,33 @@
 </h2>
 
 <style>
-.fortnightly .biginfo { font: 5.2pt Tahoma }
-.fortnightly .smallinfo { font: 4pt Tahoma }
-.common .biginfo { font: 5.2pt Tahoma }
-.common .smallinfo { font: 4.4pt Tahoma }
 </style>
 
-			<table border="2" style="font: 4pt Tahoma">
+			<table class="timetable_spec" border="1" cellspacing="0" style="font: 4pt Tahoma">
 			<tr valign="top">
-<td></td>
-<td></td>
+<td class="system"></td>
+<td class="system"></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
-<td><img src="/_img/spacer.gif" height="1" style="width:72pt"/></td>
+<td class="system"><img src="/_img/spacer.gif" style="height: 1pt; width:72pt" border="0"/></td>
 </xsl:for-each>
 			</tr>
 			<tr valign="top">
-<td></td>
+<td class="system"></td>
 <td></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
-<td style="font: 5.2pt Tahoma"><xsl:value-of select="text()"/></td>
+<td style="font: 5.2pt Tahoma; width:72pt ; padding: 1pt;"><xsl:value-of select="text()"/></td>
 </xsl:for-each>
 			</tr>
 <xsl:for-each select="$two_hours_names//two_hours">
 <xsl:variable name="no" select="@no"/>
 			<tr valign="middle">
-<td><img src="/_img/spacer.gif" width="1" style="height: 28pt;"/></td>
-<td class="common" valign="top">
-<span class="biginfo"><xsl:value-of select="@no"/></span>
+<td class="system"><img src="/_img/spacer.gif" width="1" style="height: 28pt;"/></td>
+<td class="two_h_info" valign="top">
+<span class="biginfo"><spec code="nbsp"/><xsl:value-of select="@no"/></span>
 <span class="smallinfo"><br/><br/><xsl:value-of select="@start_time"/><spec code="nbsp"/>-<br/> 
 <xsl:value-of select="@end_time"/></span></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
-<td>
+<td class="lesson_cell">
 <xsl:apply-templates select="$tt/weekday[@id = current()/@id]/two_hours[@no=$no]"/>
 </td>
 </xsl:for-each>
@@ -95,22 +91,22 @@
 
 </xsl:for-each>
 			<tr valign="top">
-<td></td>
+<td class="system"></td>
 <td></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() > 3]" >
-<td style="font: 5.2pt Tahoma"><xsl:value-of select="text()"/></td>
+<td style="font: 5.2pt Tahoma; padding: 1pt;"><xsl:value-of select="text()"/></td>
 </xsl:for-each>
 			</tr>
 <xsl:for-each select="$two_hours_names//two_hours">
 <xsl:variable name="no" select="@no"/>
 			<tr valign="middle">
-<td><img src="/_img/spacer.gif" width="1" style="height: 28pt;"/></td>
-<td class="common" valign="top">
-<span class="biginfo"><xsl:value-of select="@no"/></span>
+<td class="system"><img src="/_img/spacer.gif" width="1" style="height: 28pt;"/></td>
+<td class="two_h_info" valign="top">
+<span class="biginfo"><spec code="nbsp"/><xsl:value-of select="@no"/></span>
 <span class="smallinfo"><br/><br/><xsl:value-of select="@start_time"/><spec code="nbsp"/>-<br/> 
 <xsl:value-of select="@end_time"/></span></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() > 3]" >
-<td>
+<td class="lesson_cell">
 <xsl:apply-templates select="$tt/weekday[@id = current()/@id]/two_hours[@no=$no]"/>
 </td>
 </xsl:for-each>
@@ -138,9 +134,16 @@
 						Lessons can't overlap. Occured at <xsl:value-of select="$error_location"/>.
 					</xsl:message>
 				</xsl:if>
-<table border="0" cellspacing="0" cellpadding="0" width="100%" valign="middle"><tr><td class="fortnightly"><xsl:apply-templates select="msxsl:node-set($filtered_lessons)/lessons/lesson[fortnightly/@type=1]"/></td></tr>
-<tr><td style="padding: 2pt"><!--hr style="padding:1pt;"/--><img src="/_img/bspacer.gif" alt="" style="width: 100%; height: 1pt"/></td></tr><tr><td class="fortnightly">
-<xsl:apply-templates select="msxsl:node-set($filtered_lessons)/lessons/lesson[fortnightly/@type=2]"/></td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" valign="middle"><tr><td class="fortnightly">
+<xsl:call-template name="lesson">
+<xsl:with-param name="lesson" select="msxsl:node-set($filtered_lessons)/lessons/lesson[fortnightly/@type=1]"/>
+<xsl:with-param name="shorten" select="1"/>
+</xsl:call-template></td></tr>
+<tr><td style="padding: 1pt"><!--hr style="padding:1pt;"/--><img src="/_img/bspacer.gif" alt="" style="width: 100%; height: 1pt; padding: 0pt; "/></td></tr><tr><td class="fortnightly">
+<xsl:call-template name="lesson">
+<xsl:with-param name="lesson" select="msxsl:node-set($filtered_lessons)/lessons/lesson[fortnightly/@type=2]"/>
+<xsl:with-param name="shorten" select="1"/>
+</xsl:call-template></td></tr></table>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:if test="$les_cnt &gt; 1">
@@ -148,20 +151,33 @@
 						Too many lessons. Occured at <xsl:value-of select="$error_location"/>.
 					</xsl:message>
 				</xsl:if>
-<table border="0" cellspacing="0" cellpadding="0"><tr><td class="common"><xsl:apply-templates select="msxsl:node-set($filtered_lessons)/lessons/lesson"/></td></tr></table>
+<table border="0" cellspacing="0" cellpadding="0"><tr><td class="common">
+<xsl:call-template name="lesson">
+<xsl:with-param name="lesson" select="msxsl:node-set($filtered_lessons)/lessons/lesson"/>
+<xsl:with-param name="shorten" select="0"/>
+</xsl:call-template></td></tr></table>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template match="lesson">
+	<xsl:template name="lesson">
+<xsl:param name="shorten"/>
+<xsl:param name="lesson"/>
 <span class="biginfo"><b>
-			<xsl:for-each select="location"><xsl:value-of select="text()"/><xsl:if test="position()!=last()">,<spec code="nbsp"/></xsl:if></xsl:for-each>
-		</b><spec code="#32"/><xsl:copy-of select="course/prof/node()"/></span><br/>
+			<xsl:for-each select="$lesson/location"><xsl:value-of select="text()"/><xsl:if test="position()!=last()">,<spec code="nbsp"/></xsl:if></xsl:for-each>
+		</b><spec code="nbsp"/><xsl:copy-of select="$lesson/course/prof/node()"/></span><br/>
 <span class="smallinfo">
+<xsl:choose>
+<xsl:when test="$shorten=1">
 	<xsl:call-template name="shorten_text">
-		<xsl:with-param name="text" select="course/name/text()"/>
-		<xsl:with-param name="len" select="32"/>
-	</xsl:call-template><spec code="#32"/>
+		<xsl:with-param name="text" select="string($lesson/course/name/text())"/>
+		<xsl:with-param name="len" select="25"/>
+	</xsl:call-template>
+</xsl:when>
+<xsl:otherwise>
+<xsl:value-of select="$lesson/course/name/text()"/>
+</xsl:otherwise>
+</xsl:choose><spec code="nbsp"/>
 </span>
 	</xsl:template>
 	
@@ -171,13 +187,13 @@
 		<xsl:choose>
 			<xsl:when test="string-length($text) &gt; $len">
 				<xsl:call-template name="tokenize_text">
-					<xsl:with-param name="text" select="course/name/text()"/>
+					<xsl:with-param name="text" select="$text"/>
 					<xsl:with-param name="separator" select="' '"/>
 					<xsl:with-param name="max_len" select="$len"/>
 				</xsl:call-template>
 			</xsl:when>
 			<xsl:otherwise>
-					<xsl:value-of select="course/name/text()"/>
+					<xsl:copy-of select="$text"/>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>

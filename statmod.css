@@ -1,3 +1,21 @@
+.fortnightly .biginfo { font: 5.2pt bold Tahoma }
+.fortnightly .smallinfo { font: 5pt Tahoma }
+.common .biginfo { font: 5.2pt bold Tahoma }
+.common .smallinfo { font: 5pt Tahoma }
+.two_h_info .biginfo { font: 5.2pt Tahoma }
+.two_h_info .smallinfo { font: 4.4pt Tahoma }
+
+td.common { width: 72pt; }
+td.fortnightly { width: 72pt; }
+
+td.system { padding: 0; border: 0; margin: 0 }
+
+.timetable_spec td {margin:0; padding:0}
+td.lesson_cell {padding: 1pt 0pt 1pt 1pt;}
+td.two_h_info {padding: 1pt 1pt 1pt 1pt;}
+
+/* ******************** */
+
 h1 {
      font:               16pt Tahoma;
      font-weight:        bold;

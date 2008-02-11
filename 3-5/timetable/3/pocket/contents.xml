@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -7,14 +7,14 @@
 	</head>
 	<body>
 <img src="/_img/icon_smile.gif" style="width: 30pt; height: 30pt"/>
-<transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm"/>
-<transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa"/>
-<transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm"/>
-<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm"/>
-<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa"/>
-<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm"/>
-<transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm"/>
-<transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa"/>
-<transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm"/>
+<transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm" initials="no"/>
+<transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa" initials="no"/>
+<transform xml="/_courses/3course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm" initials="no"/>
+<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm" initials="no"/>
+<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa" initials="no"/>
+<transform xml="/_courses/4course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm" initials="no"/>
+<!-- transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sm" initials="no"/>
+<transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="sa" initials="no"/>
+<transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl" spec="mm" initials="no"/ -->
 	</body>
 </html>
