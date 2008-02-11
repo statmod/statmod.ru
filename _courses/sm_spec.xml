@@ -1,4 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2007/2008" spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?>
+<?mso-application progid="InfoPath.Document"?>
+<courses year="2007/2008" spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -68,10 +72,10 @@
 	<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_finmodel">
 		<name xml:lang="ru">Задачи фин. мат. и стат. мод-ие</name>
 		<prof id="yn_kashtanov"/>
-			<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sa_finmodel.pdf">
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sa_finmodel.pdf">
 			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
-</course>
+	</course>
 	<!--
 			<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_montecarlo">
 		<name xml:lang="ru">Теория метода Монте-Карло</name>
@@ -123,12 +127,7 @@
 	</course>
 	<course semester="8" year="4" class="ОПД" extras="выб." hours="5" exam="экз." year_equiv="0.75" alias="all_prog_matlab">
 		<name xml:lang="ru">Выч. методы и пакеты в стат. исследованиях</name>
-		<part type="lect" hours="3">
-			<prof id="ai_korobeynikov"/>
-		</part>
-		<part type="pract" hours="2">
-			<prof id="ai_korobeynikov"/>
-		</part>
+		<prof id="ai_korobeynikov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_matlab.pdf">
 			<co:file_name>2006/2007</co:file_name>
 		</co:questions>
@@ -169,12 +168,13 @@
 			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
 	</course>
-		<course semester="9" year="5" class="с/к" extras="(1b)" hours="2" exam="экз." year_equiv="0.5" alias="sm_biostat">
+	<course semester="9" year="5" class="с/к" extras="(1b)" hours="2" exam="экз." year_equiv="0.5" alias="sm_biostat">
 		<name xml:lang="ru"> Применение статистики в биологических задачах</name>
 		<prof id="np_alekseeva"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_biostat.pdf">
-									<co:file_name>2007/2008</co:file_name>
-								</co:questions></course>
+			<co:file_name>2007/2008</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="9" year="5" class="с/к" extras="(2)" hours="2" exam="экз." year_equiv="0.5" alias="sm_timeseries_ssa">
 		<name xml:lang="ru">Главные компоненты временных  рядов</name>
 		<prof id="ne_golyandina"/>
