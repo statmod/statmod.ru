@@ -1,3 +1,4 @@
+/* Another test commit */
 .fortnightly .biginfo { font: 5.2pt bold Tahoma }
 .fortnightly .smallinfo { font: 5pt Tahoma }
 .common .biginfo { font: 5.2pt bold Tahoma }
@@ -10,9 +11,12 @@ td.fortnightly { width: 72pt; }
 
 td.system { padding: 0; border: 0; margin: 0 }
 
+table.timetable_spec {font: 4pt Tahoma}
 .timetable_spec td {margin:0; padding:0}
 td.lesson_cell {padding: 1pt 0pt 1pt 1pt;}
 td.two_h_info {padding: 1pt 1pt 1pt 1pt;}
+
+td.weekday_name {font: 5.2pt Tahoma;  padding: 1pt;}
 
 /* ******************** */
 

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 	<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	xmlns:msxsl="urn:schemas-microsoft-com:xslt"
@@ -8,9 +8,8 @@
 	<!-- xsl:include href="resolve_prof.xsl"/-->
 	<xsl:param name="loc_param"/>
 	<xsl:param name="glob_param"/>
-	<xsl:variable name="no_width" select="10"/>
-	<xsl:variable name="spec_width" select="214"/>
-	<xsl:variable name="cell_height" select="36"/>
+	<xsl:variable name="cell_width" select="'72pt'"/>
+	<xsl:variable name="cell_height" select="'28pt'"/>
 
 	<xsl:variable name="two_hours_names" select="document('../_courses/two_hours.xml')"/>
 
@@ -37,7 +36,6 @@
 			<day id="sat">Суббота</day>
 		</week>
 	</xsl:variable>
-	<xsl:variable name="specs_count" select="1"/>
 
 	<!-- Match the root node -->
 	<xsl:template match="/">
@@ -59,7 +57,6 @@
 </span>
 	</xsl:template>
 	<xsl:template match="timetable">
-<xsl:variable name="tt" select="."/>
 		<span class="remove">
 <h2><xsl:value-of select="ceiling(@semester div 2)"/>-й курс,
 <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$glob_param/@spec]"/>,
@@ -77,65 +74,51 @@
 
 <p>Просто распечатайте эту страницу, вырежьте табличку и сложите ее пополам :)</p>
 
-			<table class="timetable_spec" border="1" cellspacing="0" style="font: 4pt Tahoma">
+			<table class="timetable_spec" border="1" cellspacing="0">
 			<tr valign="top">
 <td class="system"></td>
 <td class="system"></td>
 <xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
-<td class="system"><img src="/_img/spacer.gif" style="height: 1pt; width:72pt" border="0"/></td>
+<td class="system"><img src="/_img/spacer.gif" style="height: 1pt; width:{$cell_width}" border="0"/></td>
 </xsl:for-each>
 			</tr>
-			<tr valign="top">
-<td class="system"></td>
-<td style="font: 5.2pt Tahoma; padding: 1pt;"><xsl:value-of select="ceiling(@semester div 2)"/>
-<spec code="nbsp"/><xsl:value-of select="substring(msxsl:node-set($specs)/specs/spec[@id=$glob_param/@spec],1,2)"/></td>
-<xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
-<td style="font: 5.2pt Tahoma; width:72pt ; padding: 1pt;"><xsl:value-of select="text()"/></td>
-</xsl:for-each>
-			</tr>
-<xsl:for-each select="$two_hours_names//two_hours">
-<xsl:variable name="no" select="@no"/>
-			<tr valign="middle">
-<td class="system"><img src="/_img/spacer.gif" width="1" style="height: 28pt;"/></td>
-<td class="two_h_info" valign="top">
-<span class="biginfo"><spec code="nbsp"/><xsl:value-of select="@no"/></span>
-<span class="smallinfo"><br/><br/><xsl:value-of select="@start_time"/><spec code="nbsp"/>-<br/> 
-<xsl:value-of select="@end_time"/></span></td>
-<xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]" >
-<td class="lesson_cell">
-<xsl:apply-templates select="$tt/weekday[@id = current()/@id]/two_hours[@no=$no]"/>
-</td>
-</xsl:for-each>
-			</tr>
-
-</xsl:for-each>
-			<tr valign="top">
-<td class="system"></td>
-<td style="font: 5.2pt Tahoma; padding: 1pt;"><xsl:value-of select="ceiling(@semester div 2)"/>
-<spec code="nbsp"/><xsl:value-of select="substring(msxsl:node-set($specs)/specs/spec[@id=$glob_param/@spec],1,2)"/></td>
-<xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() > 3]" >
-<td style="font: 5.2pt Tahoma; padding: 1pt;"><xsl:value-of select="text()"/></td>
-</xsl:for-each>
-			</tr>
-<xsl:for-each select="$two_hours_names//two_hours">
-<xsl:variable name="no" select="@no"/>
-			<tr valign="middle">
-<td class="system"><img src="/_img/spacer.gif" width="1" style="height: 28pt;"/></td>
-<td class="two_h_info" valign="top">
-<span class="biginfo"><spec code="nbsp"/><xsl:value-of select="@no"/></span>
-<span class="smallinfo"><br/><br/><xsl:value-of select="@start_time"/><spec code="nbsp"/>-<br/> 
-<xsl:value-of select="@end_time"/></span></td>
-<xsl:for-each select="msxsl:node-set($weekdays)/week/day[position() > 3]" >
-<td class="lesson_cell">
-<xsl:apply-templates select="$tt/weekday[@id = current()/@id]/two_hours[@no=$no]"/>
-</td>
-</xsl:for-each>
-			</tr>
-
-</xsl:for-each>
+			<xsl:call-template name="days_row">	
+				<xsl:with-param name="days" select="msxsl:node-set($weekdays)/week/day[position() &lt;= 3]"/>
+				<xsl:with-param name="tt" select="."/>
+			</xsl:call-template>
+			<xsl:call-template name="days_row">	
+				<xsl:with-param name="days" select="msxsl:node-set($weekdays)/week/day[position() &gt; 3]"/>
+				<xsl:with-param name="tt" select="."/>
+			</xsl:call-template>
 			</table>
 		</span>
 	</xsl:template>
+	
+<xsl:template name="days_row">	
+	<xsl:param name="days"/>
+	<xsl:param name="tt"/>
+	<tr valign="top">
+		<td class="system"></td>
+		<td class="weekday_name"><xsl:value-of select="ceiling(@semester div 2)"/>
+<spec code="nbsp"/><xsl:value-of select="substring(msxsl:node-set($specs)/specs/spec[@id=$glob_param/@spec],1,2)"/></td>
+		<xsl:for-each select="$days">
+			<td class="weekday_name" style="width:{$cell_width};"><xsl:value-of select="text()"/></td>
+		</xsl:for-each>
+	</tr>
+	<xsl:for-each select="$two_hours_names//two_hours">
+		<xsl:variable name="no" select="@no"/>
+		<tr valign="middle">
+			<td class="system"><img src="/_img/spacer.gif" width="1" style="height: {$cell_height};"/></td>
+			<td class="two_h_info" valign="top">
+				<span class="biginfo"><spec code="nbsp"/><xsl:value-of select="@no"/></span>
+				<span class="smallinfo"><br/><br/><xsl:value-of select="@start_time"/><spec code="nbsp"/>-<br/><xsl:value-of select="@end_time"/></span>
+			</td>
+			<xsl:for-each select="$days" >
+				<td class="lesson_cell"><xsl:apply-templates select="$tt/weekday[@id = current()/@id]/two_hours[@no=$no]"/></td>
+			</xsl:for-each>
+		</tr>
+	</xsl:for-each>
+</xsl:template>	
 	
 	<xsl:template match="two_hours">
 		<xsl:variable name="filtered_lessons" >
