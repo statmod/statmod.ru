@@ -1,3 +1,6 @@
 <build>
-	<build xml="bart.xml" xsl="index.xsl" output="bart.htm"/>
+        <build xml="bart.xml" xsl="index.xsl" output="bart.htm"/>
+        <build xml="ag_bart.xml" xsl="index.xsl" output="ag_bart.htm"/>
+        <build xml="bart_in_memory.xml" xsl="index.xsl" output="bart_in_memory.htm"/>
+        <build xml="vvv01.xml" xsl="index.xsl" output="vvv01.htm"/>
 </build>

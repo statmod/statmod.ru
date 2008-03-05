@@ -1,58 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
 elementFormDefault="qualified">
-	<xs:element name="about">
-		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element ref="br"/>
-				<xs:element ref="p"/>
-				<xs:element ref="ol"/>
-			</xs:choice>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="br" type="xs:string"/>
-	<xs:element name="i">
-		<xs:complexType mixed="true">
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element ref="spec"/>
-			</xs:choice>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="b">
-		<xs:complexType mixed="true">
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element ref="spec"/>
-			</xs:choice>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="spec">
-		<xs:complexType>
-			<xs:attribute name="code" type="xs:string" use="required"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="ol">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="li" maxOccurs="unbounded"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="li" type="xs:string"/>
+        <xs:element name="about">
+                <xs:complexType>
+                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element ref="br"/>
+                                <xs:element ref="p"/>
+                                <xs:element ref="ol"/>
+                        </xs:choice>
+                </xs:complexType>
+        </xs:element>
+        <xs:element name="br" type="xs:string"/>
+        <xs:element name="i">
+                <xs:complexType mixed="true">
+                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element ref="spec"/>
+                        </xs:choice>
+                </xs:complexType>
+        </xs:element>
+        <xs:element name="b">
+                <xs:complexType mixed="true">
+                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element ref="spec"/>
+                        </xs:choice>
+                </xs:complexType>
+        </xs:element>
+        <xs:element name="spec">
+                <xs:complexType>
+                        <xs:attribute name="code" type="xs:string" use="required"/>
+                </xs:complexType>
+        </xs:element>
+        <xs:element name="a">
+                <xs:complexType mixed="true">
+                        <xs:attribute name="href" type="xs:string" use="required"/>
+                </xs:complexType>
+        </xs:element>
+        <xs:element name="ol">
+                <xs:complexType>
+                        <xs:sequence>
+                                <xs:element ref="li" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                </xs:complexType>
+        </xs:element>
+        <xs:element name="li" type="xs:string"/>
 
-	<xs:element name="p">
-		<xs:complexType mixed="true">
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element ref="i"/>
-				<xs:element ref="span"/>
-				<xs:element ref="spec"/>
-				<xs:element ref="b"/>
-			</xs:choice>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="span">
-		<xs:complexType mixed="true">
-			<xs:attribute name="class" type="xs:string" use="required"/>
-		</xs:complexType>
-	</xs:element>
+        <xs:element name="p">
+                <xs:complexType mixed="true">
+                        <xs:choice minOccurs="0" maxOccurs="unbounded">
+                                <xs:element ref="i"/>
+                                <xs:element ref="span"/>
+                                <xs:element ref="spec"/>
+                                <xs:element ref="b"/>
+                                <xs:element ref="a"/>
+                                <xs:element name="br"/>
+                        </xs:choice>
+                </xs:complexType>
+        </xs:element>
+        <xs:element name="span">
+                <xs:complexType mixed="true">
+                        <xs:attribute name="class" type="xs:string" use="required"/>
+                </xs:complexType>
+        </xs:element>
 </xs:schema>
 
