@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
-<?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?>
-<?mso-application progid="InfoPath.Document"?>
-<courses year="2007/2008" spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2007/2008" spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -113,10 +109,10 @@
 	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<prof id="sm_ermakov"/>
-		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__all_matmod.pdf">
-			<co:file_name>2006/2007</co:file_name>
-		</co:questions>
-	</course>
+		
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_matmod.pdf">
+									<co:file_name>2007/2008</co:file_name>
+								</co:questions></course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_stock_modelling">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
 		<prof id="ne_golyandina"/>
@@ -135,28 +131,30 @@
 	<course semester="8" year="4" class="с/к" extras="(1a)" hours="2" exam="экз." year_equiv="0.5" alias="sm_markov_processes">
 		<name xml:lang="ru">Марковские процессы</name>
 		<prof id="ne_golyandina"/>
-		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_markov_processes.pdf">
-			<co:file_name>2006/2007</co:file_name>
-		</co:questions>
-	</course>
+		
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_markov_processes.pdf">
+									<co:file_name>2007/2008</co:file_name>
+								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="(1b)" hours="0" exam="экз." year_equiv="0.5" alias="sm_stoch_processes">
 		<name xml:lang="ru">Основы теории случайных процессов</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stoch_processes.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2007/2008</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="с/к" extras="(2)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_analysis">
 		<name xml:lang="ru">Многомерная статистика</name>
 		<prof id="ne_golyandina"/>
-	</course>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stat_analysis.pdf">
+									<co:file_name>2007/2008</co:file_name>
+								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="(3)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_marketing_models">
 		<name xml:lang="ru">Стох. модели покупат. поведения</name>
 		<prof id="vv_nekrutkin"/>
-		<co:questions xmlns:co="http://statmod.ru/courses" file="old_4_8__sm_marketing_models.pdf">
-			<co:file_name>2005/2006</co:file_name>
-		</co:questions>
-	</course>
+		
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_marketing_models.pdf">
+									<co:file_name>2007/2008</co:file_name>
+								</co:questions></course>
 	<course semester="8" year="4" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_pract">
 		<name xml:lang="ru">Анализ  данных на компьютере</name>
 		<prof id="ne_golyandina"/>
