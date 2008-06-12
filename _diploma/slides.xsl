@@ -30,6 +30,9 @@
 
 <xsl:template match="/diploma">
    <html>
+	<head>
+		<title>Защита дипломных работ <xsl:value-of select="@year"/></title>
+</head>
       <body>
 		<h2>Слайды с защит <xsl:value-of select="@year"/></h2>
 
