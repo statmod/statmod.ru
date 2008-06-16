@@ -124,10 +124,10 @@
 	<course semester="8" year="4" class="ОПД" extras="выб." hours="5" exam="экз." year_equiv="0.75" alias="all_prog_matlab">
 		<name xml:lang="ru">Выч. методы и пакеты в стат. исследованиях</name>
 		<prof id="ai_korobeynikov"/>
-		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_matlab.pdf">
-			<co:file_name>2006/2007</co:file_name>
-		</co:questions>
-	</course>
+		
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_matlab.pdf">
+									<co:file_name>2007/2008</co:file_name>
+								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="(1a)" hours="2" exam="экз." year_equiv="0.5" alias="sm_markov_processes">
 		<name xml:lang="ru">Марковские процессы</name>
 		<prof id="ne_golyandina"/>
