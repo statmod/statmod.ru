@@ -2,20 +2,139 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Konstantin Usevich (Home) -->
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <diploma year="2008">
-<person spec="sm"><fn>Николай</fn><mn>Алексеевич</mn><ln>Румянцев</ln><name>Две задачи теории метода Монте-Карло для решения уравнений баланса в пространстве мер</name><advisor id="vv_nekrutkin"/><reviewer id="ne_golyandina"/><slides>1_01_rumyantsev.pdf   </slides></person>
-<person spec="sm"><fn>Екатерина</fn><mn>Михайловна</mn><ln>Власьева</ln><name>Исследование ошибок восстановления в методе "Гусеница" с помощью теории возмущений</name><advisor id="ne_golyandina"/><reviewer id="vv_nekrutkin"/><slides>1_02_vlassieva.pdf    </slides></person>
-<person spec="sm"><fn>Полина</fn><mn>Валериановна</mn><ln>Грачева</ln><name>Статистический анализ кредитов российских компаний с учетом факторов транспарентности</name><advisor id="np_alekseeva"/><reviewer id="ai_korobeynikov"/><slides>1_03_gracheva.pdf     </slides></person>
-<person spec="sm"><fn>Сергей</fn><mn>Владимирович</mn><ln>Кокорин</ln><name>Реализация критерия хи-квадрат для проверки гипотезы согласия в модели двухэтапного опроса</name><advisor id="ne_golyandina"/><reviewer id="vv_nekrutkin"/><slides>1_04_kokorin.pdf      </slides></person>
-<person spec="sm"><fn>Евгений</fn><mn>Николаевич</mn><ln>Павловский</ln><name>Метод Монте-Карло для вычисления матричной экспоненты</name><advisor id="sm_ermakov"/><reviewer>Самахова М.А.</reviewer><slides>1_05_pavlovsky.pdf    </slides></person>
-<person spec="sm"><fn>Елена</fn><mn>Владимировна</mn><ln>Даниленко</ln><name>Тестирование регрессионных моделей</name><advisor id="vb_melas"/><reviewer>Шпилев П.В.</reviewer><slides>1_06_danilenko.pdf    </slides></person>
-<person spec="mm"><fn>Андрей</fn><mn>Борисович</mn><ln>Азаров</ln><name>Вычисление скорости роста вектора состояний обобщенных линейных стохастических динамических систем второго порядка</name><advisor id="nk_krivulin"/><reviewer id="ay_ponomareva"/><slides>1_07_azarov.pdf       </slides></person>
-<person spec="mm"><fn>Инна</fn><mn>Михайловна</mn><ln>Ширяева</ln><name>Вычисление показателя Ляпунова для одного класса обобщенных линейных стохастических динамических систем второго порядка</name><advisor id="nk_krivulin"/><reviewer id="ay_ponomareva"/><slides>1_08_shiryaeva.pdf    </slides></person>
-<person spec="sa"><fn>Александра</fn><mn>Андреевна</mn><ln>Кузнецова</ln><name>Сравнительный анализ оценок параметров процесса авторегрессии с остатками в виде скользящего среднего</name><advisor id="tm_tovstik"/><reviewer id="ap_sizova"/><slides>2_02_kuznetsova.pdf   </slides></person>
-<person spec="sa"><fn>Оксана</fn><mn>Александровна</mn><ln>Сергеева</ln><name>Связность в гиперграфах и матроидах</name><advisor id="ya_sushkov"/><reviewer>Прудникова Ю.А.</reviewer><slides>2_03_sergeeva.pdf     </slides></person>
-<person spec="sa"><fn>Денис</fn><mn>Викторович</mn><ln>Казаков</ln><name>Модель финансового рынка со стохастической волатильностью</name><advisor id="yn_kashtanov"/><reviewer>Гормин А.А.</reviewer><slides>2_04_kazakov.pdf      </slides></person>
-<person spec="sa"><fn>Роман</fn><mn>Георгиевич</mn><ln>Плеханов</ln><name>Методы Монте-Карло для оценивания американских опционов</name><advisor id="yn_kashtanov"/><reviewer>Гормин А.А.</reviewer><slides>2_05_plekhanov.pdf    </slides></person>
-<person spec="sa"><fn>Александр</fn><mn>Сергеевич</mn><ln>Сусляков</ln><name>Имитационное моделирование и проблемы обоснования его результатов</name><advisor id="vb_christinich"/><reviewer id="sm_ermakov"/><slides>2_06_suslyakov.pdf    </slides></person>
-
-
-
+	<person spec="sm">
+		<fn>Николай</fn>
+		<mn>Алексеевич</mn>
+		<ln>Румянцев</ln>
+		<name>Две задачи теории метода Монте-Карло для решения уравнений баланса в пространстве мер</name>
+		<advisor id="vv_nekrutkin"/>
+		<reviewer id="ne_golyandina"/>
+		<slides>1_01_rumyantsev.pdf   </slides>
+	</person>
+	<person spec="sm">
+		<fn>Екатерина</fn>
+		<mn>Михайловна</mn>
+		<ln>Власьева</ln>
+		<name>Исследование ошибок восстановления в методе "Гусеница" с помощью теории возмущений</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer id="vv_nekrutkin"/>
+		<slides>1_02_vlassieva.pdf    </slides>
+	</person>
+	<person spec="sm">
+		<fn>Полина</fn>
+		<mn>Валериановна</mn>
+		<ln>Грачева</ln>
+		<name>Статистический анализ кредитов российских компаний с учетом факторов транспарентности</name>
+		<advisor id="np_alekseeva"/>
+		<reviewer id="ai_korobeynikov"/>
+		<slides>1_03_gracheva.pdf     </slides>
+	</person>
+	<person spec="sm">
+		<fn>Сергей</fn>
+		<mn>Владимирович</mn>
+		<ln>Кокорин</ln>
+		<name>Реализация критерия хи-квадрат для проверки гипотезы согласия в модели двухэтапного опроса</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer id="vv_nekrutkin"/>
+		<slides>1_04_kokorin.pdf      </slides>
+	</person>
+	<person spec="sm">
+		<fn>Евгений</fn>
+		<mn>Николаевич</mn>
+		<ln>Павловский</ln>
+		<name>Метод Монте-Карло для вычисления матричной экспоненты</name>
+		<advisor id="sm_ermakov"/>
+		<reviewer>Самахова М.А.</reviewer>
+		<slides>1_05_pavlovsky.pdf    </slides>
+	</person>
+	<person spec="sm">
+		<fn>Елена</fn>
+		<mn>Владимировна</mn>
+		<ln>Даниленко</ln>
+		<name>Тестирование регрессионных моделей</name>
+		<advisor id="vb_melas"/>
+		<reviewer>Шпилев П.В.</reviewer>
+		<slides>1_06_danilenko.pdf    </slides>
+	</person>
+	<person spec="mm">
+		<fn>Андрей</fn>
+		<mn>Борисович</mn>
+		<ln>Азаров</ln>
+		<name>Вычисление скорости роста вектора состояний обобщенных линейных стохастических динамических систем второго порядка</name>
+		<advisor id="nk_krivulin"/>
+		<reviewer id="ay_ponomareva"/>
+		<slides>1_07_azarov.pdf       </slides>
+	</person>
+	<person spec="mm">
+		<fn>Инна</fn>
+		<mn>Михайловна</mn>
+		<ln>Ширяева</ln>
+		<name>Вычисление показателя Ляпунова для одного класса обобщенных линейных стохастических динамических систем второго порядка</name>
+		<advisor id="nk_krivulin"/>
+		<reviewer id="ay_ponomareva"/>
+		<slides>1_08_shiryaeva.pdf    </slides>
+	</person>
+	<person spec="mm">
+		<fn>Петр</fn>
+		<mn>Александрович</mn>
+		<ln>Щетанов</ln>
+		<name>Скорость роста вектора состояний обобщенной линейной стохастической системы с симметричной матрицей</name>
+		<advisor id="nk_krivulin"/>
+		<reviewer id="ay_ponomareva"/>
+		<slides>3_02_schetanov.pdf    </slides>
+	</person>
+	<person spec="sa">
+		<fn>Александра</fn>
+		<mn>Андреевна</mn>
+		<ln>Кузнецова</ln>
+		<name>Сравнительный анализ оценок параметров процесса авторегрессии с остатками в виде скользящего среднего</name>
+		<advisor id="tm_tovstik"/>
+		<reviewer id="ap_sizova"/>
+		<slides>2_02_kuznetsova.pdf   </slides>
+	</person>
+	<person spec="sa">
+		<fn>Оксана</fn>
+		<mn>Александровна</mn>
+		<ln>Сергеева</ln>
+		<name>Связность в гиперграфах и матроидах</name>
+		<advisor id="ya_sushkov"/>
+		<reviewer>Прудникова Ю.А.</reviewer>
+		<slides>2_03_sergeeva.pdf     </slides>
+	</person>
+	<person spec="sa">
+		<fn>Денис</fn>
+		<mn>Викторович</mn>
+		<ln>Казаков</ln>
+		<name>Модель финансового рынка со стохастической волатильностью</name>
+		<advisor id="yn_kashtanov"/>
+		<reviewer>Гормин А.А.</reviewer>
+		<slides>2_04_kazakov.pdf      </slides>
+	</person>
+	<person spec="sa">
+		<fn>Роман</fn>
+		<mn>Георгиевич</mn>
+		<ln>Плеханов</ln>
+		<name>Методы Монте-Карло для оценивания американских опционов</name>
+		<advisor id="yn_kashtanov"/>
+		<reviewer>Гормин А.А.</reviewer>
+		<slides>2_05_plekhanov.pdf    </slides>
+	</person>
+	<person spec="sa">
+		<fn>Александр</fn>
+		<mn>Сергеевич</mn>
+		<ln>Сусляков</ln>
+		<name>Имитационное моделирование и проблемы обоснования его результатов</name>
+		<advisor id="vb_christinich"/>
+		<reviewer id="sm_ermakov"/>
+		<slides>2_06_suslyakov.pdf    </slides>
+	</person>
+	<person spec="sa">
+		<fn>Антон</fn>
+		<mn>Игоревич</mn>
+		<ln>Баранов</ln>
+		<name>Об одном классе моделей системы с дискретными состояниями</name>
+		<advisor id="ya_sushkov"/>
+		<reviewer>Кушербаева В.Т.</reviewer>
+		<slides>3_01_baranov.pdf    </slides>
+	</person>
 </diploma>
