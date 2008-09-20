@@ -299,6 +299,22 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 		<field/>
 		
 	</person>
+
+	<person id="ma_samakhova" degree="" academic_rank="">
+		<fn>Мария</fn>
+		<mn>Александровна</mn>
+		<ln>Самахова</ln>
+		<field/>
+		
+	</person>
+
+	<person id="kd_usevich" degree="" academic_rank="">
+		<fn>Константин</fn>
+		<mn>Дмитриевич</mn>
+		<ln>Усевич</ln>
+		<field/>
+		
+	</person>
 	
 	<!--<person id="ka_timofeev" degree="" academic_rank="">
 		<fn>Константин</fn>

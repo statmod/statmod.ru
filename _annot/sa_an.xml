@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE staff SYSTEM "/htmlentities.dtd">
 <annotations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/annotations" xsi:schemaLocation="http://statmod.ru/annotations annot.xsd" spec="sa">
 	<notes>
@@ -31,7 +31,7 @@
 		</annot>
 		<annot>
 			<header>
-				<course id="sa_finmodel"/>
+				<course id="all_finmodel"/>
 			</header>
  Программа курса включает в себя теорию арбитража в стохастических финансовых моделях, а также теорию расчетов для них.
 		</annot>
