@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2007/2008" spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2008/2009" spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
