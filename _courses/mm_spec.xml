@@ -1,8 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
-<?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?>
-<?mso-application progid="InfoPath.Document"?>
-<courses year="2008/2009" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?><?mso-application progid="InfoPath.Document"?><courses year="2008/2009" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -15,7 +11,7 @@
 		<name xml:lang="ru">Основы теории автоматных моделей</name>
 		<prof id="ay_ponomareva"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="3_5__mm_automaton_base.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="5" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="mm_prog_c_lang">
@@ -72,7 +68,7 @@
 		<name xml:lang="ru">Теория нечетких мн-в и ее приложения</name>
 		<prof id="mk_chirkov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_67_mm_fuzzy_sets.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="7" year="4" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="mm_appl_stat">
@@ -83,7 +79,7 @@
 		<name xml:lang="ru">Анализ регрессионных моделей</name>
 		<prof id="vb_melas"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__mm_exper_design.pdf">
-			<co:file_name>2007/2008</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
@@ -130,28 +126,28 @@
 		<name xml:lang="ru">Сети Петри и моделирование систем</name>
 		<prof id="mk_chirkov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__mm_petri_nets.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="(2)" hours="2" exam="экз." year_equiv="0.5" alias="mm_idemp_algebra">
 		<name xml:lang="ru">Алгебр. методы моделирования систем</name>
 		<prof id="nk_krivulin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__mm_idemp_algebra.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="(3)" hours="2" exam="экз." year_equiv="0.5" alias="mm_fuzzy_models">
 		<name xml:lang="ru">Нечеткие модели и системы</name>
 		<prof id="ay_ponomareva"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__mm_fuzzy_models.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="mm_exper_design2">
 		<name xml:lang="ru">Модельно-ориентированный анализ данных</name>
 		<prof id="vb_melas"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__mm_exper_design2.pdf">
-			<co:file_name>2007/2008</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="10" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="mm_collective_behavior">
