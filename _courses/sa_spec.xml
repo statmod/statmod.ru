@@ -29,11 +29,11 @@
 	</course>
 	<course semester="6" year="3" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sa_montecarlo">
 		<name xml:lang="ru">Численные методы Монте-Карло</name>
-		<prof id="ap_sizova"/>
+		<prof id="tm_tovstik"/>
 	</course>
 	<course semester="6" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_statmod">
 		<name xml:lang="ru">Численное моделирование</name>
-		<prof id="ap_sizova"/>
+		<prof id="tm_tovstik"/>
 	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="3" exam="зачет" year_equiv="0.5" alias="all_stat">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
@@ -63,7 +63,7 @@
 	</course>
 	<course semester="7" year="4" class="с/к" extras="(1)" hours="2" exam="экз." year_equiv="1" alias="sa_montecarlo">
 		<name xml:lang="ru">Численные методы Монте-Карло</name>
-		<prof id="ap_sizova"/>
+		<prof id="tm_tovstik"/>
 	</course>
 	<course semester="7" year="4" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sa_system_model">
 		<name xml:lang="ru">Моделирование систем</name>
@@ -79,7 +79,7 @@
 	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sa_montecarlo_pract">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
-		<prof id="ap_sizova"/>
+		<prof id="tm_tovstik"/>
 	</course>
 	<course semester="8" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_insurance">
 		<name xml:lang="ru">Элементы фин. математики</name>

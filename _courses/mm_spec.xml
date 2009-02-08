@@ -88,7 +88,7 @@
 	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="mm_montecarlo_pract">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
-		<prof id="ap_sizova"/>
+		<prof id="mk_chirkov"/>
 	</course>
 	<course semester="8" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_insurance">
 		<name xml:lang="ru">Элементы фин.математики</name>
