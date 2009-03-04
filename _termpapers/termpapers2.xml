@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?xml-stylesheet type="text/xsl" href="termpapers.xsl"?>
 <termpapers year="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="termpapers.xsd">
@@ -149,6 +149,10 @@
 			<title>Марковские цепи и моделирование случайных сценариев.
 			</title>
 		</paper>
+		<paper>
+			<title>Некоторые парадоксы теории вероятностей.
+			</title>
+		</paper>
 		<comment> Первая тема является входом в тематику, посвященную применению метода "Гусеница"-SSA к анализу и прогнозу
 		временных рядов (см. http://gistatgroup.com/gus/).
 		</comment>
@@ -225,7 +229,7 @@
 			<title>Некоторые комбинаторные задачи, связанные с распределением Максвелла.</title>
 		</paper>
 	</prof>
-	<prof id="ap_sizova">
+	<!--<prof id="ap_sizova">
 		<location>к. 4398</location>
 		<paper>
 			<title>Простейший метод Монте-Карло.</title>
@@ -248,6 +252,7 @@
 			</biblitem>
 		</paper>
 	</prof>
+        -->
 	<prof id="ay_ponomareva">
 		<location>к. 3316</location>
 		<paper>
@@ -294,12 +299,12 @@
 		</paper>
 	</prof>
 	<prof id="ms_ermakov">
-		<location>тел. 3790588</location>
+		<location>тел. 3790588, к.4503</location>
 		<paper>
-			<title>Моделирование редких событий.</title>
+			<title>Моделирование событий имеющих маленькие вероятности.</title>
 		</paper>
 		<paper>
-			<title>Бутстреп-метод.</title>
+			<title>Исследование качества датчика случайных чисел в Интернет-игре в нарды на сайте msn.com.</title>
 		</paper>
 	</prof>
 </termpapers>
