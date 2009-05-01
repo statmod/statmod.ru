@@ -106,12 +106,14 @@
 	<course semester="8" year="4" class="с/к" extras="СД3" hours="2" exam="экз." year_equiv="1" alias="mm_appl_stat">
 		<name xml:lang="ru">Прикладная статистика</name>
 		<prof id="np_alekseeva"/>
-	</course>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_78_mm_appl_stat.pdf">
+									<co:file_name>2008/2009</co:file_name>
+								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="СД4 (1)" hours="2" exam="зачет" year_equiv="0.5" alias="mm_automaton_struct">
 		<name xml:lang="ru">Вероятностные модели и параллелизм (Вероятностные автоматные модели)</name>
 		<prof id="ay_ponomareva"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__mm_automaton_struct.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="зачет" year_equiv="0.5" alias="mm_parallel_comp">

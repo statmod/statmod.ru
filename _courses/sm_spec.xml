@@ -110,7 +110,7 @@
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<prof id="sm_ermakov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_matmod.pdf">
-			<co:file_name>2007/2008</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_stock_modelling">
@@ -125,8 +125,8 @@
 		<name xml:lang="ru">Выч. методы и пакеты в стат. исследованиях</name>
 		<prof id="ai_korobeynikov"/>
 		
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_matlab.pdf">
-									<co:file_name>2007/2008</co:file_name>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_r.pdf">
+									<co:file_name>2008/2009</co:file_name>
 								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="СД3 (1)" hours="0" exam="экз." year_equiv="0.5" alias="sm_stoch_processes">
 		<name xml:lang="ru">Теория случайных процессов (Основы теории случайных процессов)</name>
@@ -140,20 +140,20 @@
 		<prof id="ne_golyandina"/>
 		
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_markov_processes.pdf">
-									<co:file_name>2007/2008</co:file_name>
+									<co:file_name>2008/2009</co:file_name>
 								</co:questions></course>
 		<course semester="8" year="4" class="с/к" extras="СД4 (1)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_analysis">
 		<name xml:lang="ru">Многомерная статистика с приложениями (Многомерная статистика)</name>
 		<prof id="ne_golyandina"/>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stat_analysis.pdf">
-									<co:file_name>2007/2008</co:file_name>
+									<co:file_name>2008/2009</co:file_name>
 								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="зачет" year_equiv="0.5" alias="sm_marketing_models">
 		<name xml:lang="ru">Многомерная статистика с приложениями (Стох. модели покупат. поведения)</name>
 		<prof id="vv_nekrutkin"/>
 		
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_marketing_models.pdf">
-									<co:file_name>2007/2008</co:file_name>
+									<co:file_name>2008/2009</co:file_name>
 								</co:questions></course>
 	<course semester="8" year="4" class="с/с" extras="СС4" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stat_pract">
 		<name xml:lang="ru">Анализ  данных на компьютере</name>
