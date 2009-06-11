@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.25" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2008/2009" spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?><?mso-application progid="InfoPath.Document"?><courses year="2008/2009" spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -7,11 +7,11 @@
 		<name xml:lang="ru">Выч. практика</name>
 		<prof id="vb_christinich"/>
 	</course>
-	<course semester="5" year="3" class="с/к" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_graph_theory">
+	<course semester="5" year="3" class="с/к" extras="СД1" hours="2" exam="зачет" year_equiv="0.5" alias="sa_graph_theory">
 		<name xml:lang="ru">Структурное представление систем</name>
 		<prof id="ya_sushkov"/>
 	</course>
-	<course semester="5" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_prog_c_lang">
+	<course semester="5" year="3" class="с/с" extras="СС1" hours="2" exam="зачет" year_equiv="0.5" alias="sa_prog_c_lang">
 		<name xml:lang="ru">Алгоритмические языки</name>
 		<prof id="vb_christinich"/>
 	</course>
@@ -29,11 +29,11 @@
 	</course>
 	<course semester="6" year="3" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sa_montecarlo">
 		<name xml:lang="ru">Численные методы Монте-Карло</name>
-		<prof id="ap_sizova"/>
+		<prof id="tm_tovstik"/>
 	</course>
-	<course semester="6" year="3" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_statmod">
+	<course semester="6" year="3" class="с/с" extras="СС2" hours="2" exam="зачет" year_equiv="0.5" alias="sa_statmod">
 		<name xml:lang="ru">Численное моделирование</name>
-		<prof id="ap_sizova"/>
+		<prof id="tm_tovstik"/>
 	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="3" exam="зачет" year_equiv="0.5" alias="all_stat">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
@@ -61,15 +61,15 @@
 		<name xml:lang="ru">Задачи фин. мат. и стат. мод-ие</name>
 		<prof id="yn_kashtanov"/>
 	</course>
-	<course semester="7" year="4" class="с/к" extras="(1)" hours="2" exam="экз." year_equiv="1" alias="sa_montecarlo">
+	<course semester="7" year="4" class="с/к" extras="СД2" hours="2" exam="экз." year_equiv="1" alias="sa_montecarlo">
 		<name xml:lang="ru">Численные методы Монте-Карло</name>
-		<prof id="ap_sizova"/>
+		<prof id="tm_tovstik"/>
 	</course>
 	<course semester="7" year="4" class="с/к" extras="" hours="2" exam="" year_equiv="" alias="sa_system_model">
 		<name xml:lang="ru">Моделирование систем</name>
 		<prof id="ya_sushkov"/>
 	</course>
-	<course semester="7" year="4" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_appl_stat">
+	<course semester="7" year="4" class="с/с" extras="СС3" hours="2" exam="зачет" year_equiv="0.5" alias="sa_appl_stat">
 		<name xml:lang="ru">Численные методы статистики</name>
 		<prof id="ne_golyandina"/>
 	</course>
@@ -79,7 +79,7 @@
 	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sa_montecarlo_pract">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
-		<prof id="ap_sizova"/>
+		<prof id="tm_tovstik"/>
 	</course>
 	<course semester="8" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_insurance">
 		<name xml:lang="ru">Элементы фин. математики</name>
@@ -94,42 +94,42 @@
 			<prof id="ai_korobeynikov"/>
 		</part>
 	</course>
-	<course semester="8" year="4" class="с/к" extras="(1)" hours="2" exam="экз." year_equiv="1" alias="sa_system_model">
+	<course semester="8" year="4" class="с/к" extras="СД3" hours="2" exam="экз." year_equiv="1" alias="sa_system_model">
 		<name xml:lang="ru">Моделирование систем</name>
 		<prof id="ya_sushkov"/>
 	</course>
-	<course semester="8" year="4" class="с/к" extras="(2)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_stat_pract">
-		<name xml:lang="ru">Анализ данных и стат. пакеты</name>
+	<course semester="8" year="4" class="с/к" extras="СД4 (1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_stat_pract">
+		<name xml:lang="ru">Анализ данных и стох. выч..методы (Анализ данных и стат. пакеты)</name>
 		<prof id="ne_golyandina"/>
 	</course>
-	<course semester="8" year="4" class="с/к" extras="(3)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_parallel_comp">
-		<name xml:lang="ru">Введение в парал. вычисления</name>
+	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_parallel_comp">
+		<name xml:lang="ru">Анализ данных и стох. выч..методы (Введение в парал. вычисления)</name>
 		<prof id="sm_ermakov"/>
 	</course>
-	<course semester="8" year="4" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_system_model_pract">
+	<course semester="8" year="4" class="с/с" extras="СС4" hours="2" exam="зачет" year_equiv="0.5" alias="sa_system_model_pract">
 		<name xml:lang="ru">Моделирование систем</name>
 		<prof id="ya_sushkov"/>
 	</course>
-	<course semester="9" year="5" class="с/к" extras="(1)" hours="4" exam="экз." year_equiv="1" alias="sa_automaton_model">
+	<course semester="9" year="5" class="с/к" extras="СД5" hours="4" exam="экз." year_equiv="1" alias="sa_automaton_model">
 		<name xml:lang="ru">Автоматное моделирование</name>
 		<prof id="ay_ponomareva"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_99_sa_automaton_model.pdf">
-			<co:file_name>2006/2007</co:file_name>
+			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
-	<course semester="9" year="5" class="с/к" extras="(2)" hours="2" exam="экз." year_equiv="0.5" alias="sa_simul_stoch_proc">
+	<course semester="9" year="5" class="с/к" extras="СД6 (1)" hours="2" exam="экз." year_equiv="0.5" alias="sa_simul_stoch_proc">
 		<name xml:lang="ru">Моделирование случайных процессов</name>
 		<prof id="tm_tovstik"/>
 	</course>
-	<course semester="9" year="5" class="с/к" extras="(3)" hours="2" exam="экз." year_equiv="0.5" alias="sa_decision_make">
+	<course semester="9" year="5" class="с/к" extras="СД6 (2)" hours="2" exam="экз." year_equiv="0.5" alias="sa_decision_make">
 		<name xml:lang="ru">Принятие решений</name>
 		<prof id="ya_sushkov"/>
 	</course>
-	<course semester="9" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_simul_stoch_proc_pract">
+	<course semester="9" year="5" class="с/с" extras="СС5" hours="2" exam="зачет" year_equiv="0.5" alias="sa_simul_stoch_proc_pract">
 		<name xml:lang="ru">Моделирование случайных процессов</name>
 		<prof id="tm_tovstik"/>
 	</course>
-	<course semester="10" year="5" class="с/с" extras="(1)" hours="2" exam="зачет" year_equiv="0.5" alias="sa_decision_make_pract">
+	<course semester="10" year="5" class="с/с" extras="СС6" hours="2" exam="зачет" year_equiv="0.5" alias="sa_decision_make_pract">
 		<name xml:lang="ru">Постановка задач и принятие решений</name>
 		<prof id="ya_sushkov"/>
 	</course>
