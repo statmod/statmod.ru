@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Konstantin Usevich (Home) -->
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<diploma year="2009">
+<person spec="sa"><ln>Нефедова</ln><fn>Марина</fn><mn>Михайловна</mn><name>Исследование методов принятия решения при организации спортивных соревнований</name>	<advisor id="ya_sushkov"/><reviewer>асп. В.Т.Кушербаева</reviewer><slides>1_02_nefedova.pdf</slides></person>
+<person spec="sa"><ln>Видяева</ln><fn>Карина</fn><mn>Олеговна</mn><name>Оценка второго собственного числа стационарных систем</name>	<advisor id="sm_ermakov"/><reviewer>асп. В.А.Загрубская</reviewer><slides>1_03_vidyaeva.pdf</slides></person>
+<person spec="sa"><ln>Васильев</ln><fn>Александр</fn><mn>Владимирович</mn><name>Исследование алгоритмов "блуждания от границы"</name>	<advisor id="sm_ermakov"/><reviewer>доцент, к.ф.-м.н. Н.М.Москалева</reviewer><slides>1_04_vassilliev.pdf</slides></person>
+<person spec="sa"><ln>Федорова</ln><fn>Надежда</fn><mn>Сергеевна</mn><name>Исследование рандомизированных квази Монте-Карло алгоритмов</name>	<advisor id="sm_ermakov"/><reviewer id="vb_melas"/><slides>1_05_fedorova.pdf</slides></person>
+<person spec="sm"><ln>Силантьев</ln><fn>Михаил</fn><mn>Александрович</mn><name>Исследование метода ветвления траекторий для оценки вероятностей редких событий</name>	<advisor id="vb_melas"/><reviewer>ассистент, к.ф.м.-н. П.В.Шпилев</reviewer><slides>1_06_silantiev.pdf</slides></person>
+<person spec="sa"><ln>Бойченко</ln><fn>Антон</fn><mn>Владимирович</mn><name>Исследование влияния случайного равномерно распределенного возмущения на качество кубатурных формул</name>	<advisor id="sm_ermakov"/><reviewer id="tm_tovstik"/><slides>1_01_boychenko.pdf</slides></person>
+<person spec="mm"><ln>Строилов</ln><fn>Роман</fn><mn>Владимирович</mn><name>Реализация алгоритмов оптимизации нестационарного вероятностного автомата с периодически меняющейся структурой</name>	<advisor id="ay_ponomareva"/><reviewer id="mk_chirkov"/><slides>2_02_stroilov.pdf</slides></person>
+<person spec="mm"><ln>Рузиева</ln><fn>Алина</fn><mn>Викторовна</mn><name>Оптимальный выбор вакантного места расположения торговой точки методами теории нечетких множеств</name>	<advisor id="mk_chirkov"/><reviewer id="ay_ponomareva"/><slides>2_03_ruziyeva.pdf</slides></person>
+<person spec="mm"><ln>Смирнов</ln><fn>Иван</fn><mn>Борисович</mn><name>Анализ влияния дихотомических признаков на дожитие: конечно-геометрический и информационный подходы</name>	<advisor id="np_alekseeva"/><reviewer>мл.научн.сотр. П.В. Грачева</reviewer><slides>2_04_smirnovs.pdf</slides></person>
+<person spec="mm"><ln>Лукашова</ln><fn>Вероника</fn><mn>Евгеньевна</mn><name>Модель двумерного гамма распределения в исследовании эффекта вакцинации </name>	<advisor id="np_alekseeva"/><reviewer>асп. И.С.Щербакова</reviewer><slides>2_05_lukashova.pdf</slides></person>
+<person spec="mm"><ln>Смирнов</ln><fn>Сергей</fn><mn>Игоревич</mn><name>Методы прогноза временных рядов с учетом априорной информации</name>	<advisor id="sm_ermakov"/><reviewer id="vn_solntsev"/><slides>2_0_smirnovs.pdf</slides></person>
+</diploma>
