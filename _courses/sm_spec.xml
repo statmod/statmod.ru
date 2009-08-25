@@ -32,7 +32,7 @@
 			<prof id="ne_golyandina"/>
 		</part>
 	</course>
-	<course semester="6" year="3" class="с/к" extras="СД2(1)" hours="2" exam="" year_equiv="" alias="sm_statmod">
+	<course semester="6" year="3" class="с/к" extras="СД2 (1)" hours="2" exam="" year_equiv="" alias="sm_statmod">
 		<name xml:lang="ru">Статистическое моделирование</name>
 		<prof id="vv_nekrutkin"/>
 	</course>
@@ -95,7 +95,7 @@
 			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
-	<course semester="7" year="4" class="с/к" extras="СД3(1)" hours="2" exam="" year_equiv="" alias="sm_stoch_processes">
+	<course semester="7" year="4" class="с/к" extras="СД3 (1)" hours="2" exam="" year_equiv="" alias="sm_stoch_processes">
 		<name xml:lang="ru">Теория случайных процессов (Основы теории случайных процессов)</name>
 		<prof id="vv_nekrutkin"/>
 	</course>

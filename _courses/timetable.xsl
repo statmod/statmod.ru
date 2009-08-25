@@ -51,6 +51,8 @@
 </xsl:otherwise>
 </xsl:choose>
 </h2>
+<p><b>Предварительный вариант расписания на 25.08.2009 <br/>(возможны ошибки/изменения)</b></p>
+<p/>
 <p>Карманное расписание<sup><font color="red">NEW</font></sup> для специализаций: 
 <xsl:for-each select="msxsl:node-set($specs)/specs/spec"><spec code="nbsp"/><a target="_blank" href="{$current_folder}pocket/{@id}.htm"><xsl:value-of select="name"/></a></xsl:for-each></p>
 
