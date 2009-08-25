@@ -47,7 +47,7 @@
 			</lesson>
 			<lesson type="chair" spec="sm">
 				<location/>
-				<course id="sm_statmod"/>
+				<course id="sm_stoch_processes"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
 				<location>3307</location>

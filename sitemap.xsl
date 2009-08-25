@@ -48,9 +48,12 @@
  			<xsl:value-of select="name/node()"/>
 		</a>
 <xsl:if test="not(@hreftype = 'special')">
-, <br/>
+<!-- , --> <br/>		
+<!--	
 		Последнее изменение:		
-		<timestamp file="{normalize-space($this_file)}"/> </xsl:if> 
+		<timestamp file="{normalize-space($this_file)}"/> 
+-->
+</xsl:if> 
 		<xsl:if test="@forumlink">,
 			<a href="{@forumlink}"  target="_blank">Обсуждение в форуме</a>
 		</xsl:if>
