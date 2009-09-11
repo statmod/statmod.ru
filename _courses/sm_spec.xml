@@ -22,7 +22,9 @@
 	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="all_teorver_kurs">
 		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
 		<prof id="vv_nekrutkin"/>
-	</course>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="3_sm_sa_2009.pdf">
+									<co:file_name>2008/2009</co:file_name>
+								</co:questions></course>
 	<course semester="6" year="3" class="общ." extras="" hours="4" exam="зачет" year_equiv="1" alias="sm_prog_cpp_statmod">
 		<name xml:lang="ru">Спец. выч. практикум</name>
 		<part type="prog" hours="2">
@@ -86,7 +88,7 @@
 		<prof id="vv_nekrutkin"/>
 		
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_statmod.pdf">
-									<co:file_name>2008/2009</co:file_name>
+									<co:file_name>2009/2010</co:file_name>
 								</co:questions></course>
 	<course semester="7" year="4" class="с/к" extras="СД2 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_montecarlo">
 		<name xml:lang="ru">Статистическое моделирование</name>

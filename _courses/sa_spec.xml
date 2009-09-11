@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?><?mso-application progid="InfoPath.Document"?><courses year="2009/2010" spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?><?mso-application progid="InfoPath.Document"?><courses year="2009/2010" spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -22,6 +22,9 @@
 	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="all_teorver_kurs">
 		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
 		<prof id="vv_nekrutkin"/>
+	<!--<co:questions xmlns:co="http://statmod.ru/courses" file="3_sm_sa_2009.pdf">
+	<co:file_name>2008/2009</co:file_name>	</co:questions>
+    	-->
 	</course>
 	<course semester="6" year="3" class="общ." extras="" hours="4" exam="зачет" year_equiv="1" alias="sa_prog_cpp">
 		<name xml:lang="ru">Спец. выч. практикум</name>

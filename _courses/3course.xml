@@ -5,7 +5,7 @@
 	<weekday id="mon">
 		<two_hours no="1">
 			<lesson type="dep" spec="all">
-				<location/>
+				<location>2522</location>
 				<course>
 					<name>Математический анализ</name>
 					<prof>Виноградов</prof>
@@ -32,7 +32,7 @@
 		</two_hours>
 		<two_hours no="4">
 			<lesson type="dep" spec="all">
-				<location/>
+				<location>?</location>
 				<course>
 					<name>Функциональный анализ</name>
 					<prof>Дубашинский</prof>
@@ -54,15 +54,15 @@
 		</two_hours>
 		<two_hours no="2">
 			<lesson type="chair" spec="sa">
-				<location/>
+				<location>2510</location>
 				<course id="sa_graph_theory"/>
 			</lesson>
 			<lesson type="chair" spec="sm">
-				<location/>
+				<location>2507</location>
 				<course id="sm_prog_c_lang"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
-				<location/>
+				<location>2502</location>
 				<course id="mm_automaton_base"/>
 			</lesson>
 		</two_hours>
@@ -77,7 +77,7 @@
 		</two_hours>
 		<two_hours no="4">
 			<lesson type="chair" spec="all">
-				<location/>
+				<location>4526</location>
 				<course id="all_teorver_pract"/>
 			</lesson>
 		</two_hours>
@@ -129,7 +129,7 @@
 		</two_hours>
 		<two_hours no="5">
 			<lesson type="dep" spec="all">
-				<location>3315</location>
+				<location> (с 10 сент.) 03, 3315</location>
 				<course>
 					<name>Безопасность жизнедеятельности</name>
 					<prof>Братов</prof>
