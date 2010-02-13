@@ -79,14 +79,14 @@
 		<name xml:lang="ru">Анализ регрессионных моделей</name>
 		<prof id="pv_shpilev"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__mm_exper_design.pdf">
-			<co:file_name>2008/2009</co:file_name>
+			<co:file_name>2009/2010</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<prof id="sm_ermakov"/>
 	</course>
-	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="mm_montecarlo_pract">
+	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="mm_automaton_pract">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
 		<prof id="mk_chirkov"/>
 	</course>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <!DOCTYPE staff SYSTEM "/htmlentities.dtd">
 <annotations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/annotations" xsi:schemaLocation="http://statmod.ru/annotations annot.xsd" spec="mm">
@@ -137,9 +137,9 @@
 		</annot>
 		<annot>
 			<header>
-				<course id="mm_montecarlo_pract"/>
+				<course id="mm_automaton_pract"/>
 			</header>
-Курс включает только самостоятельную работу студентов. Каждому студенту индивидуально дается три задачи по теме &laquo;Численные методы Монте-Карло&raquo;. Среда реализации не оговаривается, но обычно студенты выбирают MATLAB или Visual C++.
+Курс включает только самостоятельную работу студентов. Каждому студенту индивидуально дается задание в поддержку курса по автоматным моделям.
 		</annot>
 		<annot>
 			<header>

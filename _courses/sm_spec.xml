@@ -51,7 +51,7 @@
 			<prof id="is_scherbakova"/>
 		</part>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__all_stat.pdf">
-			<co:file_name>2008/2009</co:file_name>
+			<co:file_name>2009/2010</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_cpp_advanced">
@@ -72,7 +72,7 @@
 		<prof id="yn_kashtanov"/>
 		
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sa_finmodel.pdf">
-									<co:file_name>2008/2009</co:file_name>
+									<co:file_name>2009/2010</co:file_name>
 								</co:questions></course>
 	<!--
 			<course semester="7" year="4" class="ОПД" extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="sm_montecarlo">
@@ -94,7 +94,7 @@
 		<name xml:lang="ru">Статистическое моделирование</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_montecarlo.pdf">
-			<co:file_name>2008/2009</co:file_name>
+			<co:file_name>2009/2010</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="7" year="4" class="с/к" extras="СД3 (1)" hours="2" exam="" year_equiv="" alias="sm_stoch_processes">
@@ -105,7 +105,7 @@
 		<name xml:lang="ru">Оптимальное планирование эксперимента</name>
 		<prof id="vb_melas"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_exper_design.pdf">
-			<co:file_name>2008/2009</co:file_name>
+			<co:file_name>2009/2010</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
@@ -159,14 +159,14 @@
 		<name xml:lang="ru">Статистическая обработка временных рядов (Статистика временных рядов)</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_stat_stoch_processes.pdf">
-			<co:file_name>2008/2009</co:file_name>
+			<co:file_name>2009/2010</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="СД5 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_timeseries_ssa">
 		<name xml:lang="ru">Статистическая обработка временных рядов  (Главные компоненты временных рядов)</name>
 		<prof id="ne_golyandina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_timeseries_ssa.pdf">
-			<co:file_name>2008/2009</co:file_name>
+			<co:file_name>2009/2010</co:file_name>
 		</co:questions>
 	</course><course semester="9" year="5" class="с/к" extras="СД6 (1)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_biostat">
 		<name xml:lang="ru">Стохаст.моделирование в задачах биологии и массового обслуживания (Применение статистики в биологических задачах)</name>
