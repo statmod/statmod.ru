@@ -44,7 +44,7 @@
 			<prof id="ms_ermakov"/>
 		</part>
 		<part type="pract" hours="1">
-			<prof id="ma_samakhova"/>
+			<prof id="is_scherbakova"/>
 		</part>
 	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_prog_cpp_advanced">
@@ -108,7 +108,9 @@
 	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="зачет" year_equiv="0.5(1)" alias="sa_parallel_comp">
 		<name xml:lang="ru">Анализ данных и стох. выч. методы (Введение в парал. вычисления)</name>
 		<prof id="sm_ermakov"/>
-	</course>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sa_parallel_comp.pdf">
+									<co:file_name>2009/2010</co:file_name>
+								</co:questions></course>
 	<course semester="8" year="4" class="с/с" extras="СС4" hours="2" exam="зачет" year_equiv="0.5" alias="sa_system_model_pract">
 		<name xml:lang="ru">Моделирование систем</name>
 		<prof id="ya_sushkov"/>
