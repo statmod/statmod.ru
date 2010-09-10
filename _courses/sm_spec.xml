@@ -48,7 +48,7 @@
 			<prof id="ms_ermakov"/>
 		</part>
 		<part type="pract" hours="1">
-			<prof id="is_scherbakova"/>
+			<prof id="pv_gracheva"/>
 		</part>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__all_stat.pdf">
 			<co:file_name>2009/2010</co:file_name>

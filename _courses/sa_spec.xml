@@ -44,7 +44,7 @@
 			<prof id="ms_ermakov"/>
 		</part>
 		<part type="pract" hours="1">
-			<prof id="is_scherbakova"/>
+			<prof id="pv_gracheva"/>
 		</part>
 	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_prog_cpp_advanced">

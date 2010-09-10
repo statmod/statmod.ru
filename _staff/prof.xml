@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staff.xsd">
@@ -315,11 +315,32 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 		<ln>Щербакова</ln>
 		<field/>
 	</person>
-
+    
 	<person id="pv_shpilev" degree="phd" academic_rank="">
 		<fn>Пётр</fn>
 		<mn>Валерьевич</mn>
 		<ln>Шпилёв</ln>
+		<field/>
+	</person>
+	
+	<person id="pv_gracheva" degree=""  academic_rank="">
+		<fn>Полина</fn>
+		<mn>Валерьевна</mn>
+		<ln>Грачева</ln>
+		<field/>
+	</person>
+
+	<person id="ay_shlemov" degree=""  academic_rank="">
+		<fn>Александр</fn>
+		<mn>Юрьевич</mn>
+		<ln>Шлемов</ln>
+		<field/>
+	</person>
+	
+	<person id="en_mosyagina" degree=""  academic_rank="">
+		<fn>Елизавета</fn>
+		<mn>Николаевна</mn>
+		<ln>Мосягина</ln>
 		<field/>
 	</person>
 
