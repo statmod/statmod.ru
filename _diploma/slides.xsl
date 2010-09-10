@@ -62,7 +62,7 @@
 <xsl:value-of select="mn"/>
 </td>
 <td><xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=current()/@spec]/name/node()"/></td>
-<td><xsl:value-of select="name"/></td><td><a target="_blank" href="{$path_xml}{slides/text()}"><img src="/_img/pdf.png" border="0" align="right"/></a></td>
+<td><xsl:copy-of select="name/node()"/></td><td><a target="_blank" href="{$path_xml}{slides/text()}"><img src="/_img/pdf.png" border="0" align="right"/></a></td>
 <td><xsl:apply-templates select="advisor" mode="prof"/></td>
 <td><xsl:apply-templates select="reviewer" mode="prof"/></td>
 	</tr>
