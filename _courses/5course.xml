@@ -12,7 +12,7 @@
 			</lesson>
 			<lesson type="chair" spec="sm">
 				<location>2503</location>
-				<course id="sm_timeseries_ssa"/>
+				<course id="sm_stat_timeseries"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
 				<location>1520</location>
@@ -33,12 +33,7 @@
 				<course id="mm_idemp_algebra"/>
 			</lesson>
 		</two_hours>
-		<two_hours no="4">
-			<lesson type="chair" spec="sa">
-				<location>4526</location>
-				<course id="sa_decision_make"/>
-			</lesson>
-		</two_hours>
+		<two_hours no="4"/>
 	</weekday>
 	<weekday id="wed">
 		<two_hours no="1"/>
@@ -83,7 +78,11 @@
 			</lesson>
 			<lesson type="chair" spec="sm">
 				<location>4526</location>
-				<course id="sm_stat_timeseries"/>
+				<course id="sm_timeseries_ssa"/>
+			</lesson>
+			<lesson type="chair" spec="sa">
+				<location>4399(?)</location>
+				<course id="sa_decision_make"/>
 			</lesson>
 		</two_hours>
 	</weekday>

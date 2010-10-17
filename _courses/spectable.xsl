@@ -32,7 +32,7 @@
    <html>
       <body>
 		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/>:
-		список спецкурсов 2009/2010
+		список спецкурсов <xsl:value-of select="$current_year"/>
 		</h2>
 		<p><a href="/chair/annotatedspecs/{$spec}/index.htm">Аннотации к спецкурсам</a><br/>
 		</p>	

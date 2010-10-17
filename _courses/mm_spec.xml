@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?><?mso-application progid="InfoPath.Document"?><courses year="2009/2010" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?>
+<?mso-application progid="InfoPath.Document"?>
+<courses year="2010/2011" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -7,7 +11,7 @@
 		<name xml:lang="ru">Выч. практика</name>
 		<prof id="nk_krivulin"/>
 	</course>
-	<course semester="5" year="3" class="с/к" extras="СД1" hours="2" exam="зачет" year_equiv="0.5" alias="mm_automaton_base">
+	<course semester="5" year="3" class="с/к" extras="СД1" hours="2" exam="экз." year_equiv="0.5" alias="mm_automaton_base">
 		<name xml:lang="ru">Основы теории автоматных моделей</name>
 		<prof id="en_mosyagina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="3_5__mm_automaton_base.pdf">
@@ -38,7 +42,7 @@
 		<name xml:lang="ru">Методы статистич. моделирования</name>
 		<prof id="tm_tovstik"/>
 	</course>
-	<course semester="7" year="4" class="общ." extras="" hours="3" exam="зачет" year_equiv="0.5" alias="all_stat">
+	<course semester="7" year="4" class="общ." extras="" hours="3" exam="экз." year_equiv="0.5" alias="all_stat">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<part type="lect" hours="2">
 			<prof id="ms_ermakov"/>
@@ -82,7 +86,7 @@
 			<co:file_name>2009/2010</co:file_name>
 		</co:questions>
 	</course>
-	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
+	<course semester="8" year="4" class="общ." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_statmod">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<prof id="sm_ermakov"/>
 	</course>
@@ -106,22 +110,24 @@
 	<course semester="8" year="4" class="с/к" extras="СД3" hours="2" exam="экз." year_equiv="1" alias="mm_appl_stat">
 		<name xml:lang="ru">Прикладная статистика</name>
 		<prof id="np_alekseeva"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_78_mm_appl_stat.pdf">
-									<co:file_name>2009/2010</co:file_name>
-								</co:questions></course>
-	<course semester="8" year="4" class="с/к" extras="СД4 (1)" hours="2" exam="зачет" year_equiv="0.5(1)" alias="mm_automaton_struct">
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_78_mm_appl_stat.pdf">
+			<co:file_name>2009/2010</co:file_name>
+		</co:questions>
+	</course>
+	<course semester="8" year="4" class="с/к" extras="СД4 (1)" hours="2" exam="экз." year_equiv="0.5(1)" alias="mm_automaton_struct">
 		<name xml:lang="ru">Вероятностные модели и параллелизм (Вероятностные автоматные модели)</name>
 		<prof id="en_mosyagina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__mm_automaton_struct.pdf">
 			<co:file_name>2008/2009</co:file_name>
 		</co:questions>
 	</course>
-	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="зачет" year_equiv="0.5(1)" alias="mm_parallel_comp">
+	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="mm_parallel_comp">
 		<name xml:lang="ru">Вероятностные модели и параллелизм (Введение в парал. вычисления)</name>
 		<prof id="sm_ermakov"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__mm_parallel_comp.pdf">
-									<co:file_name>2009/2010</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__mm_parallel_comp.pdf">
+			<co:file_name>2009/2010</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="8" year="4" class="с/с" extras="СС4" hours="2" exam="зачет" year_equiv="0.5" alias="mm_reliab_automaton">
 		<name xml:lang="ru">Надежность автоматных моделей</name>
 		<prof id="mk_chirkov"/>

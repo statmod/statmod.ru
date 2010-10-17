@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?><?mso-application progid="InfoPath.Document"?><courses year="2009/2010" spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?>
+<?mso-application progid="InfoPath.Document"?>
+<courses year="2010/2011" spec="sa" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -7,7 +11,7 @@
 		<name xml:lang="ru">Выч. практика</name>
 		<prof id="vb_christinich"/>
 	</course>
-	<course semester="5" year="3" class="с/к" extras="СД1" hours="2" exam="зачет" year_equiv="0.5" alias="sa_graph_theory">
+	<course semester="5" year="3" class="с/к" extras="СД1" hours="2" exam="экз." year_equiv="0.5" alias="sa_graph_theory">
 		<name xml:lang="ru">Структурное представление систем</name>
 		<prof id="ya_sushkov"/>
 	</course>
@@ -22,7 +26,7 @@
 	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="all_teorver_kurs">
 		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
 		<prof id="vv_nekrutkin"/>
-	<!--<co:questions xmlns:co="http://statmod.ru/courses" file="3_sm_sa_2009.pdf">
+		<!--<co:questions xmlns:co="http://statmod.ru/courses" file="3_sm_sa_2009.pdf">
 	<co:file_name>2008/2009</co:file_name>	</co:questions>
     	-->
 	</course>
@@ -38,7 +42,7 @@
 		<name xml:lang="ru">Численное моделирование</name>
 		<prof id="tm_tovstik"/>
 	</course>
-	<course semester="7" year="4" class="общ." extras="" hours="3" exam="зачет" year_equiv="0.5" alias="all_stat">
+	<course semester="7" year="4" class="общ." extras="" hours="3" exam="экз." year_equiv="0.5" alias="all_stat">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<part type="lect" hours="2">
 			<prof id="ms_ermakov"/>
@@ -76,7 +80,7 @@
 		<name xml:lang="ru">Численные методы статистики</name>
 		<prof id="ne_golyandina"/>
 	</course>
-	<course semester="8" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_statmod">
+	<course semester="8" year="4" class="общ." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_statmod">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<prof id="sm_ermakov"/>
 	</course>
@@ -101,16 +105,17 @@
 		<name xml:lang="ru">Моделирование систем</name>
 		<prof id="ya_sushkov"/>
 	</course>
-	<course semester="8" year="4" class="с/к" extras="СД4 (1)" hours="2" exam="зачет" year_equiv="0.5(1)" alias="sa_stat_pract">
+	<course semester="8" year="4" class="с/к" extras="СД4 (1)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sa_stat_pract">
 		<name xml:lang="ru">Анализ данных и стох. выч. методы (Анализ данных и стат. пакеты)</name>
 		<prof id="ne_golyandina"/>
 	</course>
-	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="зачет" year_equiv="0.5(1)" alias="sa_parallel_comp">
+	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sa_parallel_comp">
 		<name xml:lang="ru">Анализ данных и стох. выч. методы (Введение в парал. вычисления)</name>
 		<prof id="sm_ermakov"/>
-	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sa_parallel_comp.pdf">
-									<co:file_name>2009/2010</co:file_name>
-								</co:questions></course>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sa_parallel_comp.pdf">
+			<co:file_name>2009/2010</co:file_name>
+		</co:questions>
+	</course>
 	<course semester="8" year="4" class="с/с" extras="СС4" hours="2" exam="зачет" year_equiv="0.5" alias="sa_system_model_pract">
 		<name xml:lang="ru">Моделирование систем</name>
 		<prof id="ya_sushkov"/>
