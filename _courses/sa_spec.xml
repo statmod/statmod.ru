@@ -106,12 +106,14 @@
 	<course semester="8" year="4" class="с/к" extras="СД4 (1)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sa_stat_pract">
 		<name xml:lang="ru">Анализ данных и стох. выч. методы (Анализ данных и стат. пакеты)</name>
 		<prof id="ne_golyandina"/>
-	</course>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sa_stat_pract.pdf">
+									<co:file_name>2010/2011</co:file_name>
+								</co:questions></course>
 	<course semester="8" year="4" class="с/к" extras="СД4 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sa_parallel_comp">
 		<name xml:lang="ru">Анализ данных и стох. выч. методы (Введение в парал. вычисления)</name>
 		<prof id="sm_ermakov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sa_parallel_comp.pdf">
-			<co:file_name>2009/2010</co:file_name>
+			<co:file_name>2010/2011</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="с/с" extras="СС4" hours="2" exam="зачет" year_equiv="0.5" alias="sa_system_model_pract">

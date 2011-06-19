@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2010" semester="7">
+<timetable year="2011" semester="8">
 	<weekday id="mon">
 		<two_hours no="1">
 			<lesson type="dep" spec="all">
-				<location>Камская</location>
+				<location/>
 				<course>
 					<name>Военная подготовка</name>
 					<prof/>
@@ -14,7 +14,7 @@
 		</two_hours>
 		<two_hours no="2">
 			<lesson type="dep" spec="all">
-				<location>Камская</location>
+				<location/>
 				<course>
 					<name>Военная подготовка</name>
 					<prof/>
@@ -23,7 +23,7 @@
 		</two_hours>
 		<two_hours no="3">
 			<lesson type="dep" spec="all">
-				<location>Камская</location>
+				<location/>
 				<course>
 					<name>Военная подготовка</name>
 					<prof/>
@@ -35,158 +35,125 @@
 	<weekday id="tue">
 		<two_hours no="1">
 			<lesson type="chair" spec="sa">
-				<location>2514</location>
-				<course id="sa_appl_stat"/>
+				<location>3532</location>
+				<course id="sa_stat_pract"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="2">
 			<lesson type="chair" spec="sa">
-				<location>2507</location>
-				<course id="sa_montecarlo"/>
+				<location>3526</location>
+				<course id="sa_system_model"/>
 			</lesson>
 			<lesson type="chair" spec="sm">
-				<location>2505</location>
-				<course id="sm_stoch_processes"/>
+				<location>2512</location>
+				<course id="sm_markov_processes"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
-				<location>3307</location>
-				<course id="mm_fuzzy_sets"/>
+				<location>3309</location>
+				<course id="mm_reliab_automaton"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="3">
 			<lesson type="dep" spec="all">
-				<location>2508</location>
+				<location>2408</location>
 				<course>
-					<name>Концепция современного естествознания</name>
-					<prof>Юшков</prof>
+					<name>Физика</name>
+					<prof>Мануйлов</prof>
 				</course>
 			</lesson>
 		</two_hours>
 		<two_hours no="4">
-			<lesson type="dep" spec="all">
-				<location>05</location>
-				<course>
-					<name>Методы вычислений</name>
-					<prof>Рябов</prof>
-				</course>
-			</lesson>
-		</two_hours>
-		<two_hours no="5">
-			<lesson type="dep" spec="all">
-				<location>2408</location>
-				<course>
-					<name>ВП по решению задач математической физики</name>
-					<prof>Воронкова, Сулягина</prof>
-				</course>
-				<fortnightly type="2"/>
+			<lesson type="chair" spec="all">
+				<location>03</location>
+				<course id="all_statmod"/>
 			</lesson>
 		</two_hours>
 	</weekday>
 	<weekday id="wed">
 		<two_hours no="1">
-			<lesson type="dep" spec="all">
-				<location>2444-I, II</location>
-				<course>
-					<name>Базы данных и СУБД</name>
-					<prof>Дольник</prof>
-				</course>
+			<lesson type="chair" spec="sm">
+				<location>4526</location>
+				<course id="sm_stat_analysis"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="2">
 			<lesson type="chair" spec="sa">
-				<location>2412</location>
-				<course id="sa_prog_cpp_advanced"/>
+				<location>4526</location>
+				<course id="sa_parallel_comp"/>
 			</lesson>
 			<lesson type="chair" spec="sm">
-				<location>3502</location>
-				<course id="sm_prog_cpp_advanced"/>
+				<location>3532</location>
+				<course id="sm_proc_app"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
-				<location>2408</location>
-				<course id="mm_prog_cpp_advanced"/>
+				<location>4526</location>
+				<course id="mm_parallel_comp"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="3">
-			<lesson type="chair" spec="sa">
-				<location>2412</location>
-				<course id="sa_prog_threads"/>
-			</lesson>
-			<lesson type="chair" spec="sm">
-				<location>3502</location>
-				<course id="sm_montecarlo"/>
-			</lesson>
-			<lesson type="chair" spec="mm">
-				<location>2408</location>
-				<course id="mm_prog_cpp_pract"/>
+			<lesson type="chair" spec="all">
+				<location>2446</location>
+				<course id="all_prog_matlab"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="4">
-			<lesson type="dep" spec="all">
-				<location>06</location>
-				<course>
-					<name>Элементы финансовой математики</name>
-					<prof>Бухвалова</prof>
-				</course>
+			<lesson type="chair" spec="all">
+				<location>4526</location>
+				<course id="all_prog_matlab"/>
+			</lesson>
+		</two_hours>
+		<two_hours no="5">
+			<lesson type="chair" spec="all">
+				<location>4526</location>
+				<course id="all_prog_matlab"/>
+				<fortnightly type="1"/>
 			</lesson>
 		</two_hours>
 	</weekday>
 	<weekday id="thu">
 		<two_hours no="1">
-			<lesson type="dep" spec="all">
-				<location>01</location>
-				<course>
-					<name>Методы вычислений</name>
-					<prof>Рябов</prof>
-				</course>
-				<fortnightly type="1"/>
-			</lesson>
-			<lesson type="chair" spec="all">
-				<location>2512</location>
-				<course id="all_stat" part="pract"/>
-				<fortnightly type="2"/>
+			<lesson type="chair" spec="mm">
+				<location>3309</location>
+				<course id="mm_automaton_struct"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="2">
-			<lesson type="chair" spec="sa">
-				<location>4526</location>
-				<course id="sa_system_model"/>
-			</lesson>
-			<lesson type="chair" spec="sm">
-				<location>2444-II</location>
-				<course id="sm_prog_optimization"/>
-			</lesson>
-			<lesson type="chair" spec="mm">
-				<location>2502</location>
-				<course id="mm_exper_design"/>
+			<lesson type="chair" spec="all">
+				<location>2508</location>
+				<course id="all_finance_insurance"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="3">
-			<lesson type="dep" spec="all">
-				<location>03</location>
-				<course>
-					<name>Базы данных и СУБД</name>
-					<prof>Барашев</prof>
-				</course>
+			<lesson type="chair" spec="sa">
+				<location>2522</location>
+				<course id="sa_system_model_pract"/>
+			</lesson>
+			<lesson type="chair" spec="sm">
+				<location>2508</location>
+				<course id="sm_stat_analysis"/>
+			</lesson>
+			<lesson type="chair" spec="mm">
+				<location>2526</location>
+				<course id="mm_appl_stat"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="4">
+			<lesson type="chair" spec="sa">
+				<location/>
+				<course id="sa_montecarlo_pract"/>
+			</lesson>
 			<lesson type="chair" spec="sm">
-				<location>2526</location>
-				<course id="sm_exper_design"/>
+				<location>2444-II</location>
+				<course id="sm_prog_stock_modelling"/>
 			</lesson>
 			<lesson type="chair" spec="mm">
-				<location>2408</location>
-				<course id="mm_appl_stat"/>
+				<location>3309</location>
+				<course id="mm_automaton_pract"/>
 			</lesson>
 		</two_hours>
 	</weekday>
 	<weekday id="fri">
-		<two_hours no="1">
-			<lesson type="chair" spec="all">
-				<location>4526</location>
-				<course id="all_finmodel"/>
-			</lesson>
-		</two_hours>
+		<two_hours no="1"/>
 		<two_hours no="2">
 			<lesson type="dep" spec="all">
 				<location>05</location>
@@ -198,40 +165,19 @@
 		</two_hours>
 		<two_hours no="3">
 			<lesson type="dep" spec="all">
-				<location>07</location>
-				<course id="all_stat" part="lect"/>
-			</lesson>
-		</two_hours>
-		<two_hours no="4">
-			<lesson type="chair" spec="all">
-				<location>3532</location>
+				<location>05</location>
 				<course>
-					<name>Уравнения математической физики</name>
-					<prof>Михайлов</prof>
+					<name>Философия</name>
+					<prof>Артеменко</prof>
 				</course>
-				<fortnightly type="2"/>
 			</lesson>
 		</two_hours>
+		<two_hours no="4"/>
 	</weekday>
 	<weekday id="sat">
-		<two_hours no="1">
-			<lesson type="dep" spec="all">
-				<location>07</location>
-				<course>
-					<name>Уравнения математической физики</name>
-					<prof>Назаров</prof>
-				</course>
-				<fortnightly type="1"/>
-			</lesson>
-		</two_hours>
-		<two_hours no="2">
-			<lesson type="dep" spec="all">
-				<location>07</location>
-				<course>
-					<name>Уравнения математической физики</name>
-					<prof>Назаров</prof>
-				</course>
-			</lesson>
-		</two_hours>
+		<two_hours no="1"/>
+		<two_hours no="2"/>
+		<two_hours no="3"/>
+		<two_hours no="4"/>
 	</weekday>
 </timetable>

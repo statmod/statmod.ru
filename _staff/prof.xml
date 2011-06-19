@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staff.xsd">
@@ -174,7 +174,7 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 			<!-- Область научных интересов -->
 		</field>
 	</person>
-	<person id="nk_krivulin" degree="phd" academic_rank="assoc_prof" image="krivulin">
+	<person id="nk_krivulin" degree="phd_d" academic_rank="assoc_prof" image="krivulin">
 		<fn>Николай</fn>
 		<mn>Кимович</mn>
 		<ln>Кривулин</ln>
