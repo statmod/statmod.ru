@@ -25,16 +25,15 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 		<mn>Филипповна</mn>
 		<ln>Сизова</ln>
 		<duty academic_rank="assoc_prof">
-			<!-- academic_rank:  (доцент/профессор/ст.научн. сотрудник) в должности ->  (accos_prof/prof/senior_rf)-->
-			<name>зам.декана</name>
+						<name>зам.декана</name>
 			<shortname>Зам. декана</shortname>
 		</duty>
 		<image name="sizova.gif" w="178" h="216" tw="84" th="103"/>
 		<field>
 		Решение задач математической и статистической физики методами Монте-Карло.
-					<!-- Область научных интересов -->
 		</field>
 	</person>
+
 	<person id="ya_sushkov" degree="phd_d" academic_rank="prof" image="sushkov">
 		<fn>Юрий</fn>
 		<mn>Акимович</mn>
@@ -249,18 +248,15 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 		<mn>Николаевич</mn>
 		<ln>Пепелышев</ln>
 		<duty academic_rank="assoc_prof">
-			<!-- academic_rank:  (доцент/профессор/ст.научн. сотрудник) в должности ->  (accos_prof/prof/senior_rf)-->
 			<name/>
-			<!-- Имя должности в скобках -->
 			<shortname/>
-			<!-- Имя должности в таблице с картинками -->
 		</duty>
 		<image name="pepelyshev.gif" w="178" h="214" tw="85" th="103"/>
 		<field>
-			<!-- Область научных интересов -->
 		построение регрессионных планов эксперимента в планировании эксперимента, прикладная статистика.
 		</field>
 	</person>
+
 	<person id="vn_solntsev" degree="" academic_rank="" image="solncev">
 		<fn>Владислав</fn>
 		<mn>Николаевич</mn>

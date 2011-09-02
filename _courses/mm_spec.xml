@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?><?mso-application progid="InfoPath.Document"?><courses year="2010/2011" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" productVersion="11.0.6357" solutionVersion="1.0.0.27" ?><?mso-application progid="InfoPath.Document"?><courses year="2010/2011" spec="mm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -49,11 +49,11 @@
 	</course>
 	<course semester="7" year="4" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="mm_prog_cpp_advanced">
 		<name xml:lang="ru">Спец. выч. практикум</name>
-		<prof id="ay_shlemov"/>
+		<prof id="pv_shpilev"/>
 	</course>
 	<course semester="7" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="mm_prog_cpp_pract">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
-		<prof id="ay_shlemov"/>
+		<prof id="pv_shpilev"/>
 	</course>
 	<!--
 	<course semester="7" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_intro">
