@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?xml-stylesheet type="text/xsl" href="termpapers.xsl"?>
 <termpapers year="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="termpapers.xsd">
@@ -121,24 +121,15 @@
 			</title>
 		</paper>
 	</prof>
-	<!--<prof id="ag_bart" comments="yes">
+	<prof id="ai_korobeynikov">
 		<location>к.4502</location>
 		<paper>
-			<title>Частично обратные функции.</title>
+			<title>Метод Метрополиса и моделирование простейших графических моделей: модель Изинга, модели перколяции.</title>
 		</paper>
-		<paper>
-			<title>Комбинаторные задачи, связанные с обобщенными биномиальными распределениями.</title>
-		</paper>
-		<paper>
-			<title>Параметризация обобщенных обратных матриц.</title>
-		</paper>
-		<paper>
-			<title>Комбинаторные представления платоновых тел.</title>
-		</paper>
-		<comment>Все темы связаны с реальными медико-биологическими задачами.
+		<comment>Найдется тема и для тех, кто уже умеет программировать на хорошем уровне.
 		</comment>
 	</prof>
--->
+
 	<prof id="ne_golyandina">
 		<location>к. 4502</location>
 		<paper>
@@ -217,14 +208,15 @@
 			</biblitem>
 		</paper>
 	</prof>
-	<!--<prof id="an_pepelyshev">
-		<location>к. 4502/4395</location>
+
+	<prof id="vn_solntsev">
+		<location>к. 4504</location>
 		<paper>
-			<title>Численные методы решения минимаксных задач.
+			<title>Геометрия многомерного пространства (углы между подпространствами).
 			</title>
 		</paper>
 	</prof>
--->
+
 	<prof id="tm_tovstik">
 		<location>к. 4398</location>
 		<paper>
@@ -235,30 +227,26 @@
 			<title>Некоторые комбинаторные задачи, связанные с распределением Максвелла.</title>
 		</paper>
 	</prof>
-	<!--<prof id="ap_sizova">
+	<prof id="nm_moskaleva">
 		<location>к. 4398</location>
 		<paper>
-			<title>Простейший метод Монте-Карло.</title>
+			<title>Схема Неймана-Улама для линейных интегральных уравнений.</title>
 			<biblitem>
-				<author>И.М.Соболь</author>
+				<author>Ермаков С.М.</author>
 				<title>Численные методы Монте-Карло</title>
-				<pages>с. 93-94.</pages>
+				<publisher>М., Наука, 1973.</publisher>
+			</biblitem>
+			<biblitem>
+				<author>Соболь И.М.</author>
+				<title>Метод Монте-Карло и смежные вопросы.</title>
+				<publisher>М., Наука, 1975.</publisher>
 			</biblitem>
 		</paper>
 		<paper>
-			<title>Решение линейных алгебраических систем методом Монте-Карло.</title>
-			<biblitem>
-				<pages>Там же, с. 193-201.</pages>
-			</biblitem>
-		</paper>
-		<paper>
-			<title>Моделирование систем массового обслуживания.</title>
-			<biblitem>
-				<pages>Там же, с. 215-218.</pages>
-			</biblitem>
+			<title>Визуализации эволюции больцмановской функции распределения, полученной в результате статистического моделирования.</title>
 		</paper>
 	</prof>
-        -->
+        
 	<prof id="ay_ponomareva">
 		<location>к. 3316</location>
 		<paper>
@@ -289,21 +277,18 @@
 	<prof id="nk_krivulin">
 		<location>к. 4395</location>
 		<paper>
-			<title>Алгебраические методы исследования систем с очередями.
+			<title>Идемпотентная и тропическая математика.
 			</title>
 		</paper>
 		<paper>
-			<title>Методы идемпотентной алгебры в задачах сетевого планирования.
+			<title>Эволюционные уравнения Беллмана: примеры и решение.
 			</title>
 		</paper>
 		<paper>
-			<title>Проблема собственных чисел в идемпотентной алгебре и задачи анализа обобщенных линейных динамических систем.</title>
+			<title>Методы идемпотентной алгебры в задачах сетевого планирования.</title>
 		</paper>
 		<paper>
-			<title>Стохастические модели и (MAX,+) алгебра.</title>
-		</paper>
-		<paper>
-			<title>Решение обобщенных линейных векторных уравнений в задачах планирования и управления производством.
+			<title>Собственные числа и собственные векторы в тропической математике.
 			</title>
 		</paper>
 	</prof>

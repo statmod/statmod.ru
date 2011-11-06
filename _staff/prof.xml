@@ -288,7 +288,7 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 <field>дискретная математика, математическое моделирование дискретных систем, теория и приложения автоматных моделей, сети Петри и параллельные алгоритмы, нечеткая логика и системы нечеткого вывода</field>
 </person>
 
-	<person id="ai_korobeynikov" degree="" academic_rank="">
+	<person id="ai_korobeynikov" degree="phd"  academic_rank="">
 		<fn>Антон</fn>
 		<mn>Иванович</mn>
 		<ln>Коробейников</ln>
@@ -297,7 +297,7 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 	</person>
 
 
-	<person id="kd_usevich" degree="" academic_rank="">
+	<person id="kd_usevich" degree="phd"  academic_rank="">
 		<fn>Константин</fn>
 		<mn>Дмитриевич</mn>
 		<ln>Усевич</ln>
@@ -337,6 +337,13 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 		<fn>Елизавета</fn>
 		<mn>Николаевна</mn>
 		<ln>Мосягина</ln>
+		<field/>
+	</person>
+
+	<person id="nm_moskaleva" degree="phd" academic_rank="">
+		<fn>Нина</fn>
+		<mn>Михайловна</mn>
+		<ln>Москалева</ln>
 		<field/>
 	</person>
 
