@@ -72,30 +72,30 @@
 	<weekday id="wed">
 		<two_hours no="1"/>
 		<two_hours no="2">
-			<lesson type="chair" spec="all">
-				<location>4526 (перенос на 5-ю?)</location>
-				<course id="all_prog_matlab"/>
-				<fortnightly type="2"/>
+			<lesson type="chair" spec="sm">
+				<location>4526</location>
+				<course id="sm_stat_analysis"/>
 			</lesson>
-		</two_hours>
+      </two_hours>
 		<two_hours no="3">
 			<lesson type="chair" spec="all">
-				<location>2446</location>
+				<location>4399</location>
 				<course id="all_prog_matlab"/>
 			</lesson>
 		</two_hours>
 		<two_hours no="4">
 			<lesson type="chair" spec="all">
-				<location>4526</location>
+				<location>2412/2414</location>
 				<course id="all_prog_matlab"/>
 			</lesson>
-		</two_hours>
+			</two_hours>
 		<two_hours no="5">
-			<lesson type="chair" spec="sm">
-				<location>4526 (перенос на 2-ю?)</location>
-				<course id="sm_stat_analysis"/>
+			<lesson type="chair" spec="all">
+				<location>2412/2414</location>
+				<course id="all_prog_matlab"/>
+				<fortnightly type="2"/>
 			</lesson>
-		</two_hours>
+   </two_hours>
 	</weekday>
 	<weekday id="thu">
 		<two_hours no="1">
