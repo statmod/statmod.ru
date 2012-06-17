@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?xml-stylesheet type="text/xsl" href="termpapers.xsl"?>
-<termpapers year="2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="termpapers.xsd">
+<termpapers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" year="2" xsi:noNamespaceSchemaLocation="termpapers.xsd">
 	<prof id="sm_ermakov">
 		<location>к. 4503</location>
 		<paper>
@@ -227,10 +227,11 @@
 			<title>Некоторые комбинаторные задачи, связанные с распределением Максвелла.</title>
 		</paper>
 	</prof>
-	<prof id="nm_moskaleva">
-		<location>к. 4398</location>
+	<prof id="nm_moskaleva" comments="yes">
+		<location>к. 4398, nimos07@rambler.ru, тел. 534-71-84, 8-905-265-87-24
+</location>
 		<paper>
-			<title>Схема Неймана-Улама для линейных интегральных уравнений.</title>
+			<title>Моделирование цепей Маркова для решения задач линейной алгебры.</title>
 			<biblitem>
 				<author>Ермаков С.М.</author>
 				<title>Численные методы Монте-Карло</title>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/index.xsl"?>
 <!DOCTYPE html SYSTEM "/contents.dtd">
 <html>
@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<h2>Cлайды с защит дипломных работ</h2>
-<p>В слайдах с защит дипломных работ находит свое отражение и уровень выпускников, и тематика работ на кафедре, и различие между специализациями, и научные интересы преподавателей. </p>
+<p>В слайдах с защит дипломных работ находит свое отражение и уровень выпускников, и тематика работ на кафедре, и различие между специализациями, и научные интересы преподавателей.  </p>
 		<p>А еще &ndash; каждый из выпускников, посмотрев через несколько лет на свои слайды, может подумать &ndash;  ну и умный же я был. Или наоборот  <img alt=":)" src="/_img/icon_smile.gif" height="15" width="15" border="0"/>.</p>
 <ul>
 <li><a href="2006/index.htm">2006 год</a></li>
@@ -17,6 +17,8 @@
 <li><a href="2008/index.htm">2008 год</a></li>
 <li><a href="2009/index.htm">2009 год</a></li>
 <li><a href="2010/index.htm">2010 год</a></li>
-<li><a href="2011/index.htm">2011 год</a><image src="/_img/spacer.gif" width="3" height="1"/><sup><font color="red">NEW</font></sup></li></ul>
+<li><a href="2011/index.htm">2011 год</a></li>
+<li><a href="2012/index.htm">2012 год</a><image src="/_img/spacer.gif" width="3" height="1"/><sup><font color="red">NEW</font></sup></li>
+</ul>
 	</body>
 </html>

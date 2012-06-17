@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.27" productVersion="11.0.6357" ?><?mso-application progid="InfoPath.Document"?><courses year="2011/2012" spec="sm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<?xml version="1.0" encoding="utf-8"?><!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () --><?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.27" productVersion="14.0.0" ?><?mso-application progid="InfoPath.Document"?><courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2011/2012" spec="sm" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -25,8 +25,8 @@
 	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="all_teorver_kurs">
 		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
 		<prof id="vv_nekrutkin"/>
-		<co:questions xmlns:co="http://statmod.ru/courses" file="3_sm_sa_2011.pdf">
-			<co:file_name>2010/2011</co:file_name>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="3_sm_sa_2012.pdf">
+			<co:file_name>2011/2012</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="6" year="3" class="общ." extras="" hours="4" exam="зачет" year_equiv="1" alias="sm_prog_cpp_statmod">
@@ -116,36 +116,40 @@
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<prof id="sm_ermakov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_matmod.pdf">
-			<co:file_name>2010/2011</co:file_name>
+			<co:file_name>2011/2012</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_stock_modelling">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
 		<prof id="ne_golyandina"/>
 	</course>
+
 	<course semester="8" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_insurance">
 		<name xml:lang="ru">Элементы фин.математики</name>
 		<prof id="tm_tovstik"/>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_finance_insurance.pdf">
+									<co:file_name>2011/2012</co:file_name>
+		</co:questions>
 	</course>
 	<course semester="8" year="4" class="ОПД" extras="выб." hours="5" exam="экз." year_equiv="0.75" alias="all_prog_matlab">
 		<name xml:lang="ru">Выч. методы и пакеты в стат. исследованиях</name>
 		<prof id="ai_korobeynikov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_r.pdf">
-			<co:file_name>2010/2011</co:file_name>
+			<co:file_name>2011/2012</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="с/к" extras="СД3 (1)" hours="0" exam="экз." year_equiv="0.5(1)" alias="sm_stoch_processes">
 		<name xml:lang="ru">Теория случайных процессов (Основы теории случайных процессов)</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stoch_processes.pdf">
-			<co:file_name>2010/2011</co:file_name>
+			<co:file_name>2011/2012</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="с/к" extras="СД3 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_markov_processes">
 		<name xml:lang="ru">Теория случайных процессов (Марковские процессы)</name>
 		<prof id="ne_golyandina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_markov_processes.pdf">
-			<co:file_name>2010/2011</co:file_name>
+			<co:file_name>2011/2012</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="с/к" extras="СД4" hours="4" exam="экз." year_equiv="1" alias="sm_stat_analysis">
@@ -159,7 +163,7 @@
 		<name xml:lang="ru">Приложения случайных процессов</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_proc_app.pdf">
-			<co:file_name>2010/2011</co:file_name>
+			<co:file_name>2011/2012</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="СД5 (1)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_stat_stoch_processes">
