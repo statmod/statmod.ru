@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
-<staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staff.xsd">
+<staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staff.xsd">
 	<person id="sm_ermakov" degree="phd_d" academic_rank="prof">
 		<fn>Сергей</fn>
 		<mn>Михайлович</mn>
@@ -284,10 +283,20 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 <mn>Юрьевна</mn>
 <ln>Пономарева</ln>
 <duty academic_rank="assoc_prof"><name/><shortname/></duty>
-<image name="ponomareva.jpg" w="178" h="205" tw="89" th="103"/>
+<image name="ponomareva.jpg" w="178" h="203" tw="89" th="103"/>
 <field>дискретная математика, математическое моделирование дискретных систем, теория и приложения автоматных моделей, сети Петри и параллельные алгоритмы, нечеткая логика и системы нечеткого вывода</field>
 </person>
 
+<person id="ai_korobeynikov" degree="phd" academic_rank="">
+<fn>Антон</fn>
+<mn>Иванович</mn>
+<ln>Коробейников</ln>
+<duty academic_rank="assoc_prof"><name/><shortname/></duty>
+<image name="aik.jpg" w="178" h="212" tw="84" th="100"/>
+<field> программирование, R, прикладная статистика</field>
+</person>
+
+<!--
 	<person id="ai_korobeynikov" degree="phd"  academic_rank="">
 		<fn>Антон</fn>
 		<mn>Иванович</mn>
@@ -295,9 +304,9 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 		<field/>
 		
 	</person>
+-->
 
-
-	<person id="kd_usevich" degree="phd"  academic_rank="">
+	<person id="kd_usevich" degree="phd" academic_rank="">
 		<fn>Константин</fn>
 		<mn>Дмитриевич</mn>
 		<ln>Усевич</ln>
@@ -319,21 +328,21 @@ xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staf
 		<field/>
 	</person>
 	
-	<person id="pv_gracheva" degree=""  academic_rank="">
+	<person id="pv_gracheva" degree="" academic_rank="">
 		<fn>Полина</fn>
 		<mn>Валерьевна</mn>
 		<ln>Грачева</ln>
 		<field/>
 	</person>
 
-	<person id="ay_shlemov" degree=""  academic_rank="">
+	<person id="ay_shlemov" degree="" academic_rank="">
 		<fn>Александр</fn>
 		<mn>Юрьевич</mn>
 		<ln>Шлемов</ln>
 		<field/>
 	</person>
 	
-	<person id="en_mosyagina" degree=""  academic_rank="">
+	<person id="en_mosyagina" degree="" academic_rank="">
 		<fn>Елизавета</fn>
 		<mn>Николаевна</mn>
 		<ln>Мосягина</ln>

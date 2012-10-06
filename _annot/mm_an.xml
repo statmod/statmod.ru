@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <!DOCTYPE staff SYSTEM "/htmlentities.dtd">
 <annotations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/annotations" xsi:schemaLocation="http://statmod.ru/annotations annot.xsd" spec="mm">
@@ -141,11 +141,18 @@
 			</header>
 Курс включает только самостоятельную работу студентов. Каждому студенту индивидуально дается задание в поддержку курса по автоматным моделям.
 		</annot>
+	<annot>
+			<header>
+				<course id="all_communication"/>
+			</header>
+В курсе собраны технологии оформления и презентации научных исследований. 
+		</annot>
 		<annot>
 			<header>
 				<course id="all_prog_matlab"/>
 			</header>
-Курс посвящен обучению студентов программированию математических задач в среде MATLAB, специально для этого предназначенной. Задания, на основе которых происходит обучение, носят в основном вероятностный и статистический характер. 
+Курс посвящен обучению студентов программированию статистических задач на языке R, специально предназначенном для этого.
+ Задания, на основе которых происходит обучение, используют новый современный вероятностный и статистический материал, не включенный в другие курсы. 
 		</annot>
 	</cycle>
 	<cycle>
