@@ -2,46 +2,59 @@
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.27" productVersion="14.0.0" ?>
 <?mso-application progid="InfoPath.Document"?>
-<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2012/2013" spec="mm" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
-	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2013/2014" spec="mm" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
 	</course>
-	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="mm_prog_c_pract">
-		<name xml:lang="ru">Выч. практика</name>
+	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bmm_prog_c_pract">
+		<name xml:lang="ru">Спец.выч. практикум</name>
 		<prof id="ay_shlemov"/>
 	</course>
-	<course semester="5" year="3" class="с/к" extras="СД1" hours="2" exam="экз." year_equiv="0.5" alias="mm_automaton_base">
+	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_tex">
+		<name xml:lang="ru">Выч. практикум</name>
+		<prof id="ai_korobeynikov"/>
+	</course>
+	<course semester="5" year="3" class="с/к" extras="СД1" hours="2" exam="экз." year_equiv="0.5" alias="bmm_automaton_base">
 		<name xml:lang="ru">Основы теории автоматных моделей</name>
 		<prof id="en_mosyagina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="3_5__mm_automaton_base.pdf">
 			<co:file_name>2011/2012</co:file_name>
 		</co:questions>
 	</course>
-	<course semester="5" year="3" class="с/с" extras="СС1" hours="2" exam="зачет" year_equiv="0.5" alias="mm_prog_c_lang">
+	<course semester="5" year="3" class="с/с" extras="СС1" hours="2" exam="зачет" year_equiv="0.5" alias="bmm_prog_c_lang">
 		<name xml:lang="ru">Теория и практика программирования</name>
 		<prof id="ay_shlemov"/>
 	</course>
-	<course semester="6" year="3" class="общ." extras="" hours="2" exam="доп." year_equiv="0.5" alias="all_teorver_pract">
+	<course semester="6" year="3" class="общ." extras="" hours="2" exam="доп." year_equiv="0.5" alias="ball_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
 	</course>
-	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="all_teorver_kurs">
+	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="ball_teorver_kurs">
 		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
 		<prof id="pv_shpilev"/>
 	</course>
-	<course semester="6" year="3" class="общ." extras="" hours="4" exam="зачет" year_equiv="1" alias="mm_prog_cpp">
+	<course semester="6" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bmm_prog_cpp_pract">
 		<name xml:lang="ru">Спец. выч. практикум</name>
 		<prof id="pv_shpilev"/>
 	</course>
-	<course semester="6" year="3" class="с/к" extras="СД2" hours="2" exam="" year_equiv="" alias="mm_fuzzy_sets">
-		<name xml:lang="ru">Теория нечетких мн-в и ее приложения</name>
-		<prof id="mk_chirkov"/>
+<course semester="6" year="3" class="c/c" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bmm_prog_cpp_lang">
+		<name xml:lang="ru">Прикладное программирование</name>
+		<prof id="pv_shpilev"/>
 	</course>
-	<course semester="6" year="3" class="с/с" extras="СС2" hours="2" exam="зачет" year_equiv="0.5" alias="mm_statmod">
-		<name xml:lang="ru">Методы статистич. моделирования</name>
-		<prof id="tm_tovstik"/>
+		<course semester="6" year="3" class="общ." extras="" hours="2" exam="" year_equiv="0.5" alias="bmm_simul_pract">
+		<name xml:lang="ru">Выч. практикум</name>
+		<prof id="pv_shpilev"/>
 	</course>
+		<course semester="5" year="3" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_simul_discr">
+		<name xml:lang="ru">Дискретное моделирование</name>
+		<prof id="vv_nekrutkin"/>
+	</course>
+	<course semester="6" year="3" class="с/к" extras="" hours="2" exam="зкз." year_equiv="0.5" alias="ball_simul">
+		<name xml:lang="ru">Моделирование распределений</name>
+		<prof id="vv_nekrutkin"/>
+	</course>
+	
 	<course semester="7" year="4" class="общ." extras="" hours="3" exam="экз." year_equiv="0.5" alias="all_stat">
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<part type="lect" hours="2">
@@ -142,7 +155,7 @@
 		<name xml:lang="ru">Нечеткие и алгебр.методы моделир-ия систем (Алгебр. методы моделирования систем)</name>
 		<prof id="nk_krivulin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__mm_idemp_algebra.pdf">
-			<co:file_name>2011/2012</co:file_name>
+			<co:file_name>2012/2013</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="СД6 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="mm_fuzzy_models">
@@ -154,13 +167,55 @@
 	</course>
 	<course semester="9" year="5" class="с/с" extras="СС5" hours="2" exam="зачет" year_equiv="0.5" alias="mm_exper_design2">
 		<name xml:lang="ru">Модельно-ориентированный анализ данных</name>
-		<prof id="vb_melas"/>
+		<prof id="pv_shpilev"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__mm_exper_design2.pdf">
-			<co:file_name>2011/2012</co:file_name>
+			<co:file_name>2012/2013</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="10" year="5" class="с/с" extras="СС6" hours="2" exam="зачет" year_equiv="0.5" alias="mm_collective_behavior">
 		<name xml:lang="ru">Модели коллективного поведения</name>
 		<prof id="mk_chirkov"/>
 	</course>
+	
+	<!--
+	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_teorver_pract">
+		<name xml:lang="ru">Теория вероятностей</name>
+		<prof id="vv_nekrutkin"/>
+	</course>
+	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="mm_prog_c_pract">
+		<name xml:lang="ru">Выч. практика</name>
+		<prof id="ay_shlemov"/>
+	</course>
+	<course semester="5" year="3" class="с/к" extras="СД1" hours="2" exam="экз." year_equiv="0.5" alias="mm_automaton_base">
+		<name xml:lang="ru">Основы теории автоматных моделей</name>
+		<prof id="en_mosyagina"/>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="3_5__mm_automaton_base.pdf">
+			<co:file_name>2011/2012</co:file_name>
+		</co:questions>
+	</course>
+	<course semester="5" year="3" class="с/с" extras="СС1" hours="2" exam="зачет" year_equiv="0.5" alias="mm_prog_c_lang">
+		<name xml:lang="ru">Теория и практика программирования</name>
+		<prof id="ay_shlemov"/>
+	</course>
+	<course semester="6" year="3" class="общ." extras="" hours="2" exam="доп." year_equiv="0.5" alias="all_teorver_pract">
+		<name xml:lang="ru">Теория вероятностей</name>
+		<prof id="vv_nekrutkin"/>
+	</course>
+	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="all_teorver_kurs">
+		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
+		<prof id="pv_shpilev"/>
+	</course>
+	<course semester="6" year="3" class="общ." extras="" hours="4" exam="зачет" year_equiv="1" alias="mm_prog_cpp">
+		<name xml:lang="ru">Спец. выч. практикум</name>
+		<prof id="pv_shpilev"/>
+	</course>
+	<course semester="6" year="3" class="с/к" extras="СД2" hours="2" exam="" year_equiv="" alias="mm_fuzzy_sets">
+		<name xml:lang="ru">Теория нечетких мн-в и ее приложения</name>
+		<prof id="mk_chirkov"/>
+	</course>
+	<course semester="6" year="3" class="с/с" extras="СС2" hours="2" exam="зачет" year_equiv="0.5" alias="mm_statmod">
+		<name xml:lang="ru">Методы статистич. моделирования</name>
+		<prof id="tm_tovstik"/>
+	</course>
+	-->	
 </courses>

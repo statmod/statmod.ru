@@ -57,6 +57,9 @@
 			<name>Комментарии по выбору курсовой</name>
 		</item>
 	</item>
+	<item href="3-4">
+		<name>Студентам III-IV</name>
+  </item>
 	<item href="3-5">
 		<name>Студентам III-V</name>
 		<item href="timetable">

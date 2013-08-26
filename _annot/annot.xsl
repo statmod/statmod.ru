@@ -40,7 +40,7 @@
 	   </script>
       <body>
 		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/>: 
-		аннотации к спецкурсам 2009/2010
+		аннотации к спецкурсам 2013/2014
 		</h2>
 		
 		<p><a href="/3-5/spectable/{$spec}/index.htm">Список спецкурсов</a></p>
