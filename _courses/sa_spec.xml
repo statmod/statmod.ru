@@ -101,7 +101,7 @@
 	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sa_montecarlo_pract">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
-		<prof id="pv_shpilev"/>
+		<prof id="ya_sushkov"/>
 	</course>
 	<course semester="8" year="4" class="общ." extras="выб." hours="2" exam="зачет" year_equiv="0.5" alias="all_finance_insurance">
 		<name xml:lang="ru">Элементы фин. математики</name>

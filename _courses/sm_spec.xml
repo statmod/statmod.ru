@@ -105,14 +105,14 @@
 		<name xml:lang="ru">Статистическое моделирование</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_statmod.pdf">
-			<co:file_name>2012/2013</co:file_name>
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="7" year="4" class="с/к" extras="СД2 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_montecarlo">
 		<name xml:lang="ru">Статистическое моделирование</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_montecarlo.pdf">
-			<co:file_name>2012/2013</co:file_name>
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="7" year="4" class="с/к" extras="СД3 (1)" hours="2" exam="" year_equiv="" alias="sm_stoch_processes">
@@ -184,14 +184,14 @@
 		<name xml:lang="ru">Статистическая обработка временных рядов (Статистика временных рядов)</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_stat_stoch_processes.pdf">
-			<co:file_name>2012/2013</co:file_name>
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="СД5 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_timeseries_ssa">
 		<name xml:lang="ru">Статистическая обработка временных рядов  (Главные компоненты временных рядов)</name>
 		<prof id="ne_golyandina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_timeseries_ssa.pdf">
-			<co:file_name>2012/2013</co:file_name>
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="СД6 (1)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_biostat">
