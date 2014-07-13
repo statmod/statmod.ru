@@ -137,7 +137,7 @@
 		<name xml:lang="ru">Вероятностные модели и параллелизм (Введение в парал. вычисления)</name>
 		<prof id="sm_ermakov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__mm_parallel_comp.pdf">
-			<co:file_name>2011/2012</co:file_name>
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="с/с" extras="СС4" hours="2" exam="зачет" year_equiv="0.5" alias="mm_reliab_automaton">

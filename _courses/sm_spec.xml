@@ -33,8 +33,8 @@
 	<course semester="6" year="3" class="общ." extras="" exam="доп." year_equiv="" alias="ball_teorver_kurs">
 		<name xml:lang="ru">Курсовая работа по теор. вер.</name>
 		<prof id="vv_nekrutkin"/>
-		<co:questions xmlns:co="http://statmod.ru/courses" file="3_sm_sa_2013.pdf">
-			<co:file_name>2012/2013</co:file_name>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="3_sm_sa_2014.pdf">
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="6" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_prog_cpp_pract">
@@ -56,6 +56,9 @@
 	<course semester="6" year="3" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_simul">
 		<name xml:lang="ru">Моделирование распределений</name>
 		<prof id="vv_nekrutkin"/>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="3_6__all_simul.pdf">
+			<co:file_name>2013/2014</co:file_name>
+		</co:questions>
 	</course>
 
 	
@@ -130,7 +133,7 @@
 		<name xml:lang="ru">Мат. модел. и обработка данных</name>
 		<prof id="sm_ermakov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_matmod.pdf">
-			<co:file_name>2011/2012</co:file_name>
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="sm_prog_stock_modelling">
@@ -156,7 +159,7 @@
 		<name xml:lang="ru">Теория случайных процессов (Основы теории случайных процессов)</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stoch_processes.pdf">
-			<co:file_name>2012/2013</co:file_name>
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="с/к" extras="СД3 (2)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_markov_processes">
@@ -177,7 +180,7 @@
 		<name xml:lang="ru">Приложения случайных процессов</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_proc_app.pdf">
-			<co:file_name>2012/2013</co:file_name>
+			<co:file_name>2013/2014</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="9" year="5" class="с/к" extras="СД5 (1)" hours="2" exam="экз." year_equiv="0.5(1)" alias="sm_stat_stoch_processes">

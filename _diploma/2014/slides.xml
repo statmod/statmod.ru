@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2014">
+	<person spec="sm">
+		<fn>Анатолий</fn>
+		<mn>Владимирович</mn>
+		<ln>Тросиненко</ln>
+		<name>Параллельные алгоритмы решения систем линейных уравнений методом Монте-Карло</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>18_01_trosinenko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Роман</fn>
+		<mn>Александрович</mn>
+		<ln>Гученко</ln>
+		<name>Планирование эксперимента для дискриминации моделей</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>18_02_guchenko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Егор</fn>
+		<mn>Николаевич</mn>
+		<ln>Романов</ln>
+		<name>Планирование эксперимента для оценивания параметров обобщенной модели Михаэлиса-Ментен</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>18_03_romanov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Роман</fn>
+		<mn>Александрович</mn>
+		<ln>Майер</ln>
+		<name>Генерация псевдослучайных чисел в двоичном представлении с плавающей точкой</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>18_04_mayer.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Евгений</fn>
+		<mn>Вячеславович</mn>
+		<ln>Есипенко</ln>
+		<name>Варианты обобщения геометрического распределения</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="pv_gracheva" />
+		<slides>18_05_esipenko.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Дарья</fn>
+		<mn>Михайловна</mn>
+		<ln>Комлева</ln>
+		<name>Статистические методы улучшения классификации в задаче прогнозирования послеоперационных кардиологических осложнений</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>18_06_komleva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Анна</fn>
+		<mn>Алексеевна</mn>
+		<ln>Тикка</ln>
+		<name>Отбор информативных признаков в методе опорных векторов</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="np_alekseeva" />
+		<slides>18_07_tikka.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Анастасия</fn>
+		<mn>Олеговна</mn>
+		<ln>Гудулина</ln>
+		<name>Исследование мощности перестановочных тестов на основе статистического моделирования</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>18_08_gudulina.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Ольга</fn>
+		<mn>Александровна</mn>
+		<ln>Одинцова</ln>
+		<name>Исследование возможностей дискриминации регрессионных моделей методами перестановок</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>18_09_odintsova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Екатерина</fn>
+		<mn>Игоревна</mn>
+		<ln>Гуляева</ln>
+		<name>Моделирование вырожденного гипергеометрического и бета распределений</name>
+		<advisor id="vb_christinich" />
+		<reviewer id="sm_ermakov" />
+		<slides>19_01_guliaeva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Евгений</fn>
+		<mn>Сергеевич</mn>
+		<ln>Доброгодин</ln>
+		<name>Аппроксимация обратных функций распределения вероятностей с помощью полиномов Чебышева</name>
+		<advisor id="vb_christinich" />
+		<reviewer id="sm_ermakov" />
+		<slides>19_02_dobrogodin.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Антонина</fn>
+		<mn>Викторовна</mn>
+		<ln>Метенева</ln>
+		<name>Прогноз и фильтрация коррелированных временных рядов</name>
+		<advisor id="tm_tovstik" />
+		<reviewer id="np_alekseeva" />
+		<slides>19_03_meteneva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Елена</fn>
+		<mn>Сергеевна</mn>
+		<ln>Комарова</ln>
+		<name>Классификация категориальных рядов на основе модели негативно биномиального распределения с приложением в неврологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="tm_tovstik" />
+		<slides>19_04_komarova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Юлия</fn>
+		<mn>Юрьевна</mn>
+		<ln>Калюжная</ln>
+		<name>Методы принятия решений и нечетких множеств в выборе оптимального расположения станции метрополитена</name>
+		<advisor id="ya_sushkov" />
+		<reviewer id="ay_ponomareva" />
+		<slides>19_05_kalyuzhnaya.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Георгий</fn>
+		<mn>Дмитриевич</mn>
+		<ln>Воеводин</ln>
+		<name>Исследование шкал в методе анализа иерархий</name>
+		<advisor id="ya_sushkov" />
+		<reviewer>Тамазян Г.С.</reviewer>
+		<slides>19_06_voevodin.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Татьяна</fn>
+		<mn>Сергеевна</mn>
+		<ln>Табала</ln>
+		<name>Программный комплекс по обучению моделирования систем</name>
+		<advisor id="ya_sushkov" />
+		<reviewer>Тамазян Г.С.</reviewer>
+		<slides>19_07_tabala.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Андраник</fn>
+		<mn>Камоевич</mn>
+		<ln>Степанян</ln>
+		<name>Оптимальные стратегии воздействия на нестационарный недетерминированный автомат, функционирующий в интервально нечетких условиях</name>
+		<advisor id="mk_chirkov" />
+		<reviewer>Мосягина Е.Н.</reviewer>
+		<slides>19_08_stepanian.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Павел</fn>
+		<mn>Владимирович</mn>
+		<ln>Плотников</ln>
+		<name>Применение тропической математики для решения минимаксных задач размещения с прямоугольной метрикой</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="mk_chirkov" />
+		<slides>19_09_plotnikov.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Андрей</fn>
+		<mn>Александрович</mn>
+		<ln>Шабанов</ln>
+		<name>Градиентный бустинг смешанных моделей с последовательным усложнением</name>
+		<advisor id="ms_ermakov" />
+		<reviewer id="ay_shlemov" />
+		<slides>19_10_shabanov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Виктория</fn>
+		<mn>Витальевна</mn>
+		<ln>Леушева</ln>
+		<name>Метод существенной выборки для оценивания границ доверительных интервалов в задачах логистической регрессии</name>
+		<advisor id="ms_ermakov" />
+		<reviewer id="yn_kashtanov" />
+		<slides>19_11_leusheva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Михаил</fn>
+		<mn>Альбертович</mn>
+		<ln>Афанасьев</ln>
+		<name>Метод существенной выборки для построения доверительных интервалов на основе бутстрапа</name>
+		<advisor id="ms_ermakov" />
+		<reviewer id="yn_kashtanov" />
+		<slides>19_12_afanasev.pdf</slides>
+	</person>
+</diploma>
