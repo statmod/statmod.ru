@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2015">
+	<person spec="sm">
+		<fn>Артем</fn>
+		<mn>Леонидович</mn>
+		<ln>Тарасов</ln>
+		<name>Оценивание расстояния между ребрами в графе де Брюйна по неполным данным</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer>Нурк С.Ю.</reviewer>
+		<slides>17_01_Tarasov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Никита</fn>
+		<mn>Константинович</mn>
+		<ln>Звонарев</ln>
+		<name>Аппроксимация временных рядов рядами конечного ранга</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>17_02_Zvonarev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Роман</fn>
+		<mn>Валерьевич</mn>
+		<ln>Андреев</ln>
+		<name>Максиминные планы эксперимента для коррелированных наблюдений</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>17_03_Andreev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Михаил</fn>
+		<mn>Андреевич</mn>
+		<ln>Кипрушкин</ln>
+		<name>Решение систем линейных алгебраических уравнений и интегральных уравнений Фредгольма второго рода с помощью метода Монте-Карло</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="yn_kashtanov" />
+		<slides>17_04_Kiprushkin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Татьяна</fn>
+		<mn>Сергеевна</mn>
+		<ln>Хандыго</ln>
+		<name>Применение метода имитации отжига в задаче аппроксимации функции регрессии</name>
+		<advisor id="ms_ermakov" />
+		<reviewer id="yn_kashtanov" />
+		<slides>17_05_Khandygo.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Ольга</fn>
+		<mn>Валентиновна</mn>
+		<ln>Яковлева</ln>
+		<name>Исследование качества генераторов псевдослучайных чисел при помощи батарей статистических тестов</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="vv_nekrutkin" />
+		<slides>17_06_Iakovleva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Кристина</fn>
+		<mn>Владимировна</mn>
+		<ln>Бородина</ln>
+		<name>Методы многомерного шкалирования в задачах прогнозирования клинических испытаний</name>
+		<advisor id="ms_ermakov" />
+		<reviewer id="np_alekseeva" />
+		<slides>17_07_Borodina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Анна</fn>
+		<mn>Александровна</mn>
+		<ln>Погосян</ln>
+		<name>Метод Монте-Карло решения стохастических дифференциальных уравнений</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="tm_tovstik" />
+		<slides>17_08_Pogosian.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Артем</fn>
+		<mn>Викторович</mn>
+		<ln>Машковский</ln>
+		<name>Статистическое моделирование в задаче об оптимальной остановке</name>
+		<advisor id="yn_kashtanov" />
+		<reviewer>Гормин А.А.</reviewer>
+		<slides>17_09_Mashkovskii.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Риваль</fn>
+		<mn>Инирович</mn>
+		<ln>Абдрахманов</ln>
+		<name>Метод Монте-Карло для интегральных уравнений финансовой математики</name>
+		<advisor id="yn_kashtanov" />
+		<reviewer>Гормин А.А.</reviewer>
+		<slides>17_10_Abdrakhmanov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Алёна</fn>
+		<mn>Алексеевна</mn>
+		<ln>Багина</ln>
+		<name>Методы исследования скрытых марковских моделей</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="pv_shpilev" />
+		<slides>16_01_Bagina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Евгения</fn>
+		<mn>Николаевна</mn>
+		<ln>Калашникова</ln>
+		<name>Оптимальное удержание  при перестраховании  N рисков.</name>
+		<advisor id="tm_tovstik" />
+		<reviewer id="nm_moskaleva" />
+		<slides>16_02_Kalashnikova.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Мария</fn>
+		<mn>Константиновна</mn>
+		<ln>Просвирнина</ln>
+		<name>Приближенное решение задачи коммивояжера в единичном кубе</name>
+		<advisor id="tm_tovstik" />
+		<reviewer id="nm_moskaleva" />
+		<slides>16_03_Prosvirnina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Василиса</fn>
+		<mn>Вячеславовна</mn>
+		<ln>Буракова</ln>
+		<name>Диалоговая система принятия решений и анализ различных шкал.</name>
+		<advisor id="ya_sushkov" />
+		<reviewer>Тамазян Г.С.</reviewer>
+		<slides>16_04_BurakovaVV.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Дмитрий</fn>
+		<mn>Анатольевич</mn>
+		<ln>Грицай</ln>
+		<name>Методы адаптации в случайном поиске</name>
+		<advisor id="ya_sushkov" />
+		<reviewer>Тамазян Г.С.</reviewer>
+		<slides>16_05_Gritcai.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Дарья</fn>
+		<mn>Алексеевна</mn>
+		<ln>Смирнова</ln>
+		<name>Исследование МАИ методом статистического моделирования</name>
+		<advisor id="ya_sushkov" />
+		<reviewer>Тамазян Г.С.</reviewer>
+		<slides>16_06_Smirnova.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Владимир</fn>
+		<mn>Николаевич</mn>
+		<ln>Сорокин</ln>
+		<name>Методы решения задач тропической оптимизации</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Романовский И.В.</reviewer>
+		<slides>16_07_Sorokin.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Надежда</fn>
+		<mn>Павловна </mn>
+		<ln>Андреева</ln>
+		<name>Исследование однородности категориальных рядов с приложением в когнитивной биологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="pv_gracheva" />
+		<slides>16_08_Andreeva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ксения</fn>
+		<mn>Сергеевна</mn>
+		<ln>Волосенко</ln>
+		<name>Метод Монте-Карло при решении систем линейных алгебраических уравнений с помощью алгоритма Зейделя</name>
+		<advisor id="tm_tovstik" />
+		<reviewer id="sm_ermakov" />
+		<slides>16_09_Volosenko.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Анастасия</fn>
+		<mn>Евгеньевна </mn>
+		<ln>Ульянова</ln>
+		<name>Исследование свойств некоторой псевдослучайной последовательности</name>
+		<advisor id="tm_tovstik" />
+		<reviewer id="sm_ermakov" />
+		<slides>16_10_Ulianova.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Дмитрий</fn>
+		<mn>Александрович</mn>
+		<ln>Федорычев</ln>
+		<name>Метод Метрополиса-Хастингса в научных исследованиях</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="tm_tovstik" />
+		<slides>16_11_Fedorychev.pdf</slides>
+	</person>
+</diploma>

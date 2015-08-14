@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2015">
+	<person spec="sm">
+		<fn>Сергей</fn>
+		<mn>Игоревич</mn>
+		<ln>Ельник</ln>
+		<name>Некоторые задачи, связанные с разделимостью гармоник.</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="ne_golyandina" />
+		<slides>10_01_Yelnik.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Анастасия</fn>
+		<mn>Николаевна </mn>
+		<ln>Абрамова</ln>
+		<name>Анализ структуры шума при ошибках в значениях и аргументах функции</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="vv_nekrutkin" />
+		<slides>10_02_Abramova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Артем</fn>
+		<mn>Константинович</mn>
+		<ln>Черный</ln>
+		<name>Общие компоненты временных рядов</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="ay_shlemov" />
+		<slides>10_03_Chernyi.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Андрей</fn>
+		<mn>Важевич </mn>
+		<ln>Бзикадзе</ln>
+		<name>Некоторые свойства статистического теста "Book Stack"</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>10_04_Bzikadze.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Елизавета</fn>
+		<mn>Владимировна </mn>
+		<ln>Иванова</ln>
+		<name>Об одном примере, относящемся к  анализу сингулярного спектра временных рядов</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="ne_golyandina" />
+		<slides>10_06_IvanovaE.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Полина</fn>
+		<mn>Максимовна </mn>
+		<ln>Иванова</ln>
+		<name>Выделение сигнала в случае неравноотстоящих наблюдений</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="ay_shlemov" />
+		<slides>10_06_Ivanova_P.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дмитрий</fn>
+		<mn>Александрович </mn>
+		<ln>Корчемкин</ln>
+		<name>Моделирование технологии Multiple Displacement Amplification</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer>Нурк С.</reviewer>
+		<slides>10_07_Korchemkin.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Екатерина</fn>
+		<mn>Николаевна </mn>
+		<ln>Эсаулова</ln>
+		<name>Анализ ошибок в чтениях, полученных в результате секвенирования технологией Ion Torrent</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="ay_shlemov" />
+		<slides>10_08_Esaulova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Денис</fn>
+		<mn>Валерьевич</mn>
+		<ln>Куликов</ln>
+		<name>Исследование аналога метода отжига в многоэкстремальных задачах</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="vv_nekrutkin" />
+		<slides>10_09_Kulikov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Егор</fn>
+		<mn>Витальевич </mn>
+		<ln>Евстафьев</ln>
+		<name>Многоуровневый метод Монте-Карло</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="tm_tovstik" />
+		<slides>10_10_Evstafev.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Анна</fn>
+		<mn>Алексеевна </mn>
+		<ln>Щёкина</ln>
+		<name>Метод стохастической сетки для оценки стоимости американского опциона</name>
+		<advisor id="yn_kashtanov" />
+		<reviewer>Гормин А.</reviewer>
+		<slides>10_11_shchekina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Анастасия</fn>
+		<mn>Александровна </mn>
+		<ln>Миллер</ln>
+		<name>Имитационная модель оценки стоимости американских опционов</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="tm_tovstik" />
+		<slides>10_12_Miller.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Юлия</fn>
+		<mn>Владиславовна</mn>
+		<ln>Кормщикова</ln>
+		<name>Изучение и применение алгоритма Витерби</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="ay_ponomareva" />
+		<slides>11_01_Kormshchikova.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Юлия</fn>
+		<mn>Александровна</mn>
+		<ln>Севастьянова</ln>
+		<name>Разработка вычислительных процедур и программных средств анализа результатов парных сравнений  на основе тропической математики</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="np_alekseeva" />
+		<slides>11_02_Sevastyanova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Дарина</fn>
+		<mn>Александровна </mn>
+		<ln>Кухтина</ln>
+		<name>Планирование эксперимента для моделей с мешающими параметрами</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev"/>
+		<slides>11_03_Kukhtina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Иван</fn>
+		<mn>Павлович</mn>
+		<ln>Лозицкий</ln>
+		<name>Многоуровневый анализ альтернатив в процессе принятия решений</name>
+		<advisor id="ya_sushkov" />
+		<reviewer>Тамазян Г.</reviewer>
+		<slides>11_04_Lozitskii.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Денис</fn>
+		<mn>Валерьевич</mn>
+		<ln>Шувалов</ln>
+		<name>Стохастические методы расчета азиатского опциона</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="yn_kashtanov" />
+		<slides>11_05_Shuvalov.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Наталия</fn>
+		<mn>Дмитриевна </mn>
+		<ln>Алиева</ln>
+		<name>Модель двумерного гамма–распределения в исследовании повторных статистических наблюдений с приложением в иммунологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>11_06_Alieva.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Белла</fn>
+		<mn>Раифовна </mn>
+		<ln>Зиннатулина</ln>
+		<name>Статистический анализ экспрессии генов: систематизация и классификация</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="ms_ermakov" />
+		<slides>11_07_Zinnatulina.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Валерия</fn>
+		<mn>Андреевна</mn>
+		<ln>Караваева</ln>
+		<name>Сравнение кривых дожития с разными формами цензурирования</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="pv_shpilev" />
+		<slides>11_08_Karavaeva.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Анна</fn>
+		<mn>Александровна</mn>
+		<ln>Воеводская</ln>
+		<name>Изучение методов и решение задач тропической алгебры</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Романовский И.В.</reviewer>
+		<slides>11_09_Voevodskaia.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Светлана</fn>
+		<mn>Валерьевна </mn>
+		<ln>Якупова</ln>
+		<name>Оптимальные планы для дискриминации двух тригонометрических моделей</name>
+		<advisor id="pv_shpilev" />
+		<reviewer id="vb_melas" />
+		<slides>25_01_yakupova.pdf</slides>
+	</person>
+</diploma>

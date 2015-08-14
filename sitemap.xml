@@ -13,10 +13,7 @@
 			<item href="sapr">
 				<name>САПР</name>
 			</item>
-			<item href="mm">
-				<name>ММ</name>
 			</item>
-		</item>
 		<item href="annotatedspecs">
 			<name>Спецкурсы</name>
 			<item href="sm">
@@ -25,10 +22,7 @@
 			<item href="sa">
 				<name>САПР</name>
 			</item>
-			<item href="mm">
-				<name>ММ</name>
 			</item>
-		</item>
 		<item href="tasks">
 			<name>Задачи</name>
 			<item href="general">
@@ -58,7 +52,7 @@
 		</item>
 	</item>
 	<item href="3-4">
-		<name>Студентам III-IV</name>
+		<name>Бакалавры и магистры</name>
   </item>
 	<item href="3-5">
 		<name>Студентам III-V</name>
