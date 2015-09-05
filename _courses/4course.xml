@@ -4,46 +4,46 @@
     <weekday id="mon">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Военная подготовка</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Военная подготовка</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Военная подготовка</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Англ.яз.</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Физ.культура</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
@@ -51,35 +51,39 @@
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2511</location>
                 <course id="ball_exper_design"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2508</location>
                 <course id="ball_communication"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2508</location>
                 <course id="ball_stat" part="pract"/>
                 <fortnightly type="1"/>
             </lesson>
             <lesson type="dep" spec="all">
                 <location>2410</location>
                 <course>
-                    <name>Методы вычислений</name>
-                    <prof>Пакулина</prof>
+                    <name>Методы вычислений (подгруппа 1)</name>
+                    <prof>Пакулина А.Н.</prof>
                 </course>
                 <fortnightly type="2"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2510</location>
                 <course id="bsm_appl_stat"/>
+            </lesson>
+            <lesson type="chair" spec="mm">
+                <location>2511</location>
+                <course id="bmm_fuzzy_sets"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
@@ -87,50 +91,50 @@
     <weekday id="wed">
         <two_hours no="1">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2444-1</location>
                 <course id="bsm_prog_optimization"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2504</location>
                 <course id="bsm_statmod"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2414</location>
                 <course id="bsa_prog_cpp_advanced"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2444-1</location>
                 <course id="bsm_prog_cpp_advanced"/>
             </lesson>
             <lesson type="chair" spec="mm">
-                <location></location>
+                <location>2414</location>
                 <course id="bsa_prog_cpp_advanced"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2414</location>
                 <course id="bsa_prog_cpp_advanced"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2504</location>
                 <course id="bsm_statmod"/>
             </lesson>
             <lesson type="chair" spec="mm">
-                <location></location>
+                <location>2414</location>
                 <course id="bsa_prog_cpp_advanced"/>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location>2408</location>
                 <course>
-                    <name>Методы вычислений</name>
-                    <prof>Пакулина</prof>
+                    <name>Методы вычислений (подгруппа 2)</name>
+                    <prof>Пакулина А.Н.</prof>
                 </course>
                 <fortnightly type="1"/>
             </lesson>
@@ -139,17 +143,17 @@
     <weekday id="thu">
         <two_hours no="1">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3532</location>
                 <course id="bmm_appl_stat"/>
             </lesson>
             <lesson type="chair" spec="mm">
-                <location></location>
+                <location>3532</location>
                 <course id="bmm_appl_stat"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3524</location>
                 <course id="ball_parallel_comp"/>
             </lesson>
         </two_hours>
@@ -158,25 +162,25 @@
                 <location>06</location>
                 <course>
                     <name>Методы вычислений</name>
-                    <prof>Рябов</prof>
+                    <prof>Рябов В.М.</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Англ.яз.</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Англ.яз.</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
@@ -185,50 +189,46 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>07</location>
                 <course id="ball_stat" part="lect"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3524</location>
                 <course id="bsa_montecarlo"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Физкультура</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
             <lesson type="chair" spec="mm">
                 <location></location>
-                <course id="bmm_fuzzy_sets"/>
+                <course>
+                    <name>Физ.культура</name>
+                    <prof></prof>
+                </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3524</location>
                 <course id="bsa_montecarlo"/>
             </lesson>
             <lesson type="chair" spec="mm">
-                <location></location>
+                <location>3526</location>
                 <course id="bmm_fuzzy_sets"/>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="chair" spec="sa">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Физ.культура</name>
-                    <prof>Преподаватель</prof>
-                </course>
-            </lesson>
-            <lesson type="chair" spec="mm">
-                <location>Аудитория</location>
-                <course>
-                    <name>Физ.культура</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
@@ -240,7 +240,7 @@
                 <location>32</location>
                 <course>
                     <name>Философия</name>
-                    <prof>Краснухина</prof>
+                    <prof>Краснухина Е.К.</prof>
                 </course>
                 <fortnightly type="1"/>
             </lesson>
@@ -250,7 +250,7 @@
                 <location>32</location>
                 <course>
                     <name>Философия</name>
-                    <prof>Краснухина</prof>
+                    <prof>Краснухина Е.К.</prof>
                 </course>
                 <fortnightly type="1"/>
             </lesson>

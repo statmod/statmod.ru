@@ -1,4 +1,5 @@
 <build>
 <build xml="voidbuild.xml" output=".git/build.xml"/>
+<build xml="voidbuild.xml" output="System Volume Information/build.xml"/>
 <build xml="index.xml" xsl="index.xsl" xsl_glob="reslinks.xsl" output="index.php"/>
 </build>

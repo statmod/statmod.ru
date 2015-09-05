@@ -1,49 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2014" semester="9">
+<timetable year="2015" semester="9">
     <weekday id="mon">
         <two_hours no="1"/>
         <two_hours no="2"/>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>Аудитория</location>
-                <course>
-                    <name>Немецкий яз.</name>
-                    <prof>Преподаватель</prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>Аудитория</location>
-                <course>
-                    <name>Немецкий яз.</name>
-                    <prof>Преподаватель</prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>3522 (см. wiki)</location>
                 <course id="sm_mva_comp"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3502</location>
                 <course id="all_adv_design"/>
             </lesson>
         </two_hours>
         <two_hours no="3"/>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location>3502</location>
                 <course>
                     <name>Непрерывные математические модели</name>
-                    <prof>Фрадков</prof>
+                    <prof>Фрадков А.Л.</prof>
                 </course>
             </lesson>
         </two_hours>
@@ -60,31 +44,31 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2508</location>
                 <course id="sa_real_stat"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2508</location>
                 <course id="all_mva"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Англ.яз.</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location></location>
                 <course>
                     <name>Англ.яз.</name>
-                    <prof>Преподаватель</prof>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
@@ -94,7 +78,7 @@
         <two_hours no="2"/>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>Аудитория</location>
+                <location>14</location>
                 <course>
                     <name>Дискретные и вероятностные модели</name>
                     <prof>Романовский И.В.</prof>
@@ -107,8 +91,24 @@
     <weekday id="sat">
         <two_hours no="1"/>
         <two_hours no="2"/>
-        <two_hours no="3"/>
-        <two_hours no="4"/>
+        <two_hours no="3">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Немецкий яз.</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="4">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Немецкий яз.</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="5"/>
     </weekday>
 </timetable>
