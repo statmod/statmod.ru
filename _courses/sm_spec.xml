@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.27" productVersion="14.0.0" ?>
 <?mso-application progid="InfoPath.Document"?>
-<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2014/2015" spec="sm" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2015/2016" spec="sm" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -70,7 +70,7 @@
 			<prof id="ai_korobeynikov"/>
 		</part>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__all_stat.pdf">
-			<co:file_name>2012/2013</co:file_name>
+			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="7" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_prog_cpp_advanced">
@@ -87,11 +87,18 @@
 	<prof id="ai_korobeynikov"/>
 	</course>
 
-		<course semester="7" year="4" class="спец." extras="" hours="4" exam="экз." year_equiv="1" alias="bsm_statmod">
-		<name xml:lang="ru">Статистическое моделирование</name>
+		<course semester="7" year="4" class="спец." extras="" hours="2" exam="" year_equiv="1" alias="bsm_statmod">
+		<name xml:lang="ru">Статистическое моделирование-1</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_statmod.pdf">
-			<co:file_name>2014/2015</co:file_name>
+			<co:file_name>2015/2016</co:file_name>
+		</co:questions>
+	</course>
+	<course semester="7" year="4" class="спец." extras="" hours="2" exam="экз." year_equiv="1" alias="bsm_statmod">
+		<name xml:lang="ru">Статистическое моделирование-2</name>
+		<prof id="vv_nekrutkin"/>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_montecarlo.pdf">
+			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 	</course>
 		<course semester="7" year="4" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_appl_stat">
