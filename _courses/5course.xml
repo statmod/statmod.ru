@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2015" semester="9">
+<timetable year="2016" semester="10">
     <weekday id="mon">
         <two_hours no="1"/>
         <two_hours no="2"/>
@@ -9,26 +9,31 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
-        <two_hours no="1">
-            <lesson type="chair" spec="sm">
-                <location>3522 (см. wiki)</location>
-                <course id="sm_mva_comp"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="1"/>
         <two_hours no="2">
-            <lesson type="dep" spec="all">
-                <location>3502</location>
-                <course id="all_adv_design"/>
+            <lesson type="chair" spec="sa">
+                <location>2526</location>
+                <course id="sa_random_fields"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>3504</location>
+                <course id="sm_statlearning"/>
             </lesson>
         </two_hours>
-        <two_hours no="3"/>
+        <two_hours no="3">
+            <lesson type="chair" spec="sm">
+                <location>2524</location>
+                <course id="sm_stat_stoch_processes"/>
+            </lesson>
+        </two_hours>
         <two_hours no="4">
-            <lesson type="dep" spec="all">
+            <lesson type="chair" spec="sa">
+                <location>3504</location>
+                <course id="sa_adv_stat"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
                 <location>3502</location>
-                <course>
-                    <name>Непрерывные математические модели</name>
-                    <prof>Фрадков А.Л.</prof>
-                </course>
+                <course id="sm_timeseries_ssa"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
@@ -44,14 +49,18 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location>2508</location>
-                <course id="sa_real_stat"/>
+                <location>2502</location>
+                <course id="sa_stoch_comp"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>2508</location>
-                <course id="all_mva"/>
+            <lesson type="chair" spec="sa">
+                <location>2511</location>
+                <course id="sa_parallel_comp"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>4399</location>
+                <course id="sm_ts_comp"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
@@ -63,28 +72,12 @@
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Англ.яз.</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="fri">
         <two_hours no="1"/>
         <two_hours no="2"/>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>14</location>
-                <course>
-                    <name>Дискретные и вероятностные модели</name>
-                    <prof>Романовский И.В.</prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
@@ -96,7 +89,7 @@
                 <location></location>
                 <course>
                     <name>Немецкий яз.</name>
-                    <prof></prof>
+                    <prof>(по выбору)</prof>
                 </course>
             </lesson>
         </two_hours>
@@ -105,7 +98,7 @@
                 <location></location>
                 <course>
                     <name>Немецкий яз.</name>
-                    <prof></prof>
+                    <prof>(по выбору)</prof>
                 </course>
             </lesson>
         </two_hours>

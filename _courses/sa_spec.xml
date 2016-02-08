@@ -150,7 +150,7 @@
 		<prof id="ms_ermakov"/>
 	</course>
  <course semester="10" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_stoch_comp">
-		<name xml:lang="ru">Стохастические вычислительные методы</name>
+		<name xml:lang="ru">Метод Монте-Карло и параллельные вычисления</name>
 		<prof id="sm_ermakov"/>
 </course>
 <course semester="10" year="5" class="с/c" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_random_fields">
@@ -158,7 +158,7 @@
 		<prof id="tm_tovstik"/>
 	</course>
 <course semester="10" year="5" class="с/c" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_parallel_comp">
-		<name xml:lang="ru">Параллельное программирование вероятностных задач</name>
+		<name xml:lang="ru">Модели финансовой математики и статистическое моделирование</name>
 		<prof id="yn_kashtanov"/>
 </course>
 	</courses>
