@@ -2,4 +2,5 @@
 	<transform xmlfrom="parent" xml="3course.xml" xsl="/_courses/resolve_courses.xsl" prof_required="no"/>
 	<transform xmlfrom="parent" xml="4course.xml" xsl="/_courses/resolve_courses.xsl" prof_required="no"/>
 	<transform xmlfrom="parent" xml="5course.xml" xsl="/_courses/resolve_courses.xsl" prof_required="no"/>
+	<transform xmlfrom="parent" xml="6course.xml" xsl="/_courses/resolve_courses.xsl" prof_required="no"/>
 </timetables>

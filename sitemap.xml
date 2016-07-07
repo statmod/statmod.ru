@@ -67,6 +67,9 @@
 			<item href="5">
 				<name>5-й курс</name>
 			</item>
+			<item href="6">
+				<name>6-й курс</name>
+			</item>
 		</item>
 		<item href="spectable">
 			<name>Список спецкурсов</name>
@@ -76,10 +79,7 @@
 			<item href="sa">
 				<name>САПР</name>
 			</item>
-			<item href="mm">
-				<name>ММ</name>
 			</item>
-		</item>
 		<item href="diploma">
 			<name>Дипломные работы</name>
 		</item>

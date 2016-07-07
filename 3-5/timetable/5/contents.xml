@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<link href="/statmod.css" rel="stylesheet" type="text/css"/>
-		<title>Расписание 5-го курса</title>
+		<title>Расписание 1-го курса магистратуры</title>
 	</head>
 	<body>
 <transform xml="/_courses/5course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable.xsl"/>

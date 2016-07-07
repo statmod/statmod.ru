@@ -282,6 +282,14 @@
     <field/>
 	</person>
 	
+		<person id="nk_zvonarev" degree="" academic_rank="">
+		<fn>Никита</fn>
+		<mn>Константинович</mn>
+		<ln>Звонарев</ln>
+    <duty academic_rank="ass_prof"><name/><shortname/></duty>
+ 	<field/>
+	</person>
+		
 		<person id="ay_shlemov" degree="" academic_rank="">
 		<fn>Александр</fn>
 		<mn>Юрьевич</mn>

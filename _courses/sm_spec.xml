@@ -46,7 +46,7 @@
 			</course>
 		<course semester="6" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_simul_pract">
 		<name xml:lang="ru">Выч. практикум</name>
-		<prof id="ay_shlemov"/>
+		<prof id="nk_zvonarev"/>
 	</course>
 	<course semester="5" year="3" class="каф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_simul_discr">
 		<name xml:lang="ru">Дискретное моделирование</name>
@@ -75,11 +75,11 @@
 	</course>
 	<course semester="7" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_prog_cpp_advanced">
 		<name xml:lang="ru">Программирование для решения вероятностных задач</name>
-		<prof id="ay_shlemov"/>
+		<prof id="nk_zvonarev"/>
 	</course>
 	<course semester="7" year="4" class="каф." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="bsm_prog_optimization">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
-		<prof id="ay_shlemov"/>
+		<prof id="nk_zvonarev"/>
 	</course>
 	
 	<course semester="7" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_communication">
@@ -115,6 +115,10 @@
                  <co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sa_simul_stoch_proc.pdf">
 									<co:file_name>2011/2012</co:file_name>
 								</co:questions>
+</course>
+<course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_desicion">
+		<name xml:lang="ru">Принятие решений</name>
+		<prof id="ya_sushkov"/>
 </course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="зачет" year_equiv="1" alias="bsm_finance_insurance">
 		<name xml:lang="ru">Актуарная математика</name>
@@ -155,6 +159,10 @@
 			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 	</course>
+	<course semester="8" year="4" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_idemp_algebra">
+		<name xml:lang="ru">Алг. методы моделирования систем</name>
+		<prof id="nk_krivulin"/>
+	</course>
 	
 <course semester="9" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_mva">
 		<name xml:lang="ru">Многомерный анализ данных</name>
@@ -192,4 +200,37 @@
 		<prof id="ne_golyandina"/>
 </course>
 
-	</courses>
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_markov_chains">
+		<name xml:lang="ru">Цепи Маркова и их приложения</name>
+		<prof id="vv_nekrutkin"/>
+</course>
+
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_histmath">
+		<name xml:lang="ru">История и методология прикладной математики</name>
+		<prof id="sm_ermakov"/>
+</course>
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="'экз." year_equiv="0.5" alias="sm_communication">
+		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - I</name>
+		<prof id="ne_golyandina"/>
+</course>
+
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stoch_comp2">
+		<name xml:lang="ru">Стохастические вычислительные методы</name>
+		<prof id="sm_ermakov"/>
+</course>
+
+<course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_biostat">
+		<name xml:lang="ru">Биостатистика</name>
+		<prof id="np_alekseeva"/>
+</course>
+ 
+<course semester="12" year="6" class="с/к" extras="" hours="2" exam="'экз." year_equiv="0.5" alias="sm_communication">
+		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - II</name>
+		<prof id="vv_nekrutkin"/>
+</course>
+<course semester="12" year="6" class="с/к" extras="" hours="2" exam="'экз." year_equiv="0.5" alias="sm_science_approach">
+		<name xml:lang="ru">Научно-обоснованный подход к моделированию реальных данных</name>
+		<prof id="ne_golyandina"/>
+</course>
+
+</courses>
