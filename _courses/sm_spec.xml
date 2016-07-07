@@ -131,34 +131,37 @@
 		<name xml:lang="ru">Выч. методы и пакеты в стат. исследованиях</name>
 		<prof id="ai_korobeynikov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_r.pdf">
-			<co:file_name>2011/2012</co:file_name>
+			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="спец." extras="" hours="4" exam="экз." year_equiv="1" alias="bsm_stoch_processes">
 		<name xml:lang="ru">Основы теории случайных процессов</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stoch_processes.pdf">
-			<co:file_name>2014/2015</co:file_name>
+			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="зачет" year_equiv="1" alias="bsm_stat_pract">
 		<name xml:lang="ru">Анализ данных на компьютере</name>
 		<prof id="ne_golyandina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__bsm_stat_analysis.pdf">
-			<co:file_name>2014/2015</co:file_name>
+			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_proc_app">
 		<name xml:lang="ru">Приложения случайных процессов</name>
 		<prof id="vv_nekrutkin"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_proc_app.pdf">
-			<co:file_name>2013/2014</co:file_name>
+			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 	</course>
 	
 <course semester="9" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_mva">
 		<name xml:lang="ru">Многомерный анализ данных</name>
 		<prof id="ne_golyandina"/>
+		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_mva.pdf">
+			<co:file_name>2015/2016</co:file_name>
+		</co:questions>
 </course>
 <course semester="9" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_adv_design">
 		<name xml:lang="ru">Дополнительные главы теории оптимального планирования эксперимента</name>
@@ -172,7 +175,10 @@
 	<course semester="10" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sm_timeseries_ssa">
 		<name xml:lang="ru">Главные компоненты временных рядов</name>
 		<prof id="ne_golyandina"/>
-	</course>
+			<co:questions xmlns:co="http://statmod.ru/courses" file="5_10_sm_timeseries_ssa.pdf">
+			<co:file_name>2015/2016</co:file_name>
+		</co:questions>
+</course>
  <course semester="10" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sm_stat_stoch_processes">
 		<name xml:lang="ru">Статистика стационарных процессов</name>
 		<prof id="vv_nekrutkin"/>
