@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<build>
+	<build xml="/_courses/6course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl,index.xsl" output="sm.htm" spec="sm" initials="no"/>
+	<build xml="/_courses/6course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl,index.xsl" output="sa.htm" spec="sa" initials="no"/>
+	<build xml="/_courses/6course.xml" xsl="/_courses/resolve_courses.xsl,/_courses/timetable_spec.xsl,index.xsl" output="mm.htm" spec="mm" initials="no"/>
+</build>
