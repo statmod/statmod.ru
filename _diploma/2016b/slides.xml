@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2016">
+	<person spec="sm">
+		<fn>Полина</fn>
+		<mn>Георгиевна</mn>
+		<ln>Жорникова</ln>
+		<name>Применение комплексно-значного метода анализа сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="ay_shlemov" />
+		<slides>1_1_Zhornikova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Святослав</fn>
+		<mn>Игоревич</mn>
+		<ln>Грязнов</ln>
+		<name>Некоторые задачи, связанные с методом анализа сингулярного спектра и его многомерным обобщением.</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>1_2_gryaznov.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Владимир</fn>
+		<mn>Анатольевич</mn>
+		<ln>Агеев</ln>
+		<name>Оценка предпочтений на основе парных сравнений альтернатив с использованием методов тропической математики</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Романовский И.В.</reviewer>
+		<slides>1_3_ageev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Валерия</fn>
+		<mn>Валерьевна</mn>
+		<ln>Коврыга</ln>
+		<name>Задачи оценивания параметров модели IRT</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="ay_shlemov" />
+		<slides>1_4_kovryga.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Мария</fn>
+		<mn>Александровна</mn>
+		<ln>Черниговская</ln>
+		<name>Задачи оценивания параметров модели IRT</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="ay_shlemov" />
+		<slides>1_5_Chernigovskaya.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Юрий</fn>
+		<mn>Станиславович</mn>
+		<ln>Белоусов</ln>
+		<name>Барицентрическая параметризация обобщённых обратных матриц в ANOVA</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>1_6_Belousov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Кирилл</fn>
+		<mn>Юрьевич</mn>
+		<ln>Пимахов</ln>
+		<name>Экспоненциальные сигналы в Анализе Сингулярного Спектра</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="ne_golyandina" />
+		<slides>1_7_Pimakhov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Анна</fn>
+		<mn>Никитична</mn>
+		<ln>Явейн</ln>
+		<name>Асимптотический F-критерий для проверки равенства  дисперсий в коррелированных выборках</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>1_8_yaveyn.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Дмитрий</fn>
+		<mn>Игоревич</mn>
+		<ln>Сальников</ln>
+		<name>Сравнение параметрических и непараметрических тестов с помощью статистического моделирования</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>2_1_Salnikov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Федор</fn>
+		<mn>Васильевич</mn>
+		<ln>Корчажников</ln>
+		<name>Построение оптимальных и локально оптимальных планов для регрессионных моделей</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>2_2_korchazhnikov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ростислав</fn>
+		<mn>Станиславович</mn>
+		<ln>Гориславский</ln>
+		<name>Перечисление графов функционирования систем</name>
+		<advisor id="ya_sushkov" />
+		<reviewer id="yn_kashtanov" />
+		<slides>2_3_Gorislavskiy.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Дарья</fn>
+		<mn>Андреевна</mn>
+		<ln>Ширинкина</ln>
+		<name>Случайный поиск в задаче о назначениях</name>
+		<advisor id="ya_sushkov" />
+		<reviewer id="nk_krivulin" />
+		<slides>2_4_shirinkina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Валентина</fn>
+		<mn>Викторовна</mn>
+		<ln>Круглова</ln>
+		<name>Идентификация кратных корней знаменателя спектральной плотности стационарных моделей</name>
+		<advisor id="tm_tovstik" />
+		<reviewer id="nm_moskaleva" />
+		<slides>2_5_Kruglova.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Ирина</fn>
+		<mn>Владимировна</mn>
+		<ln>Григорьева</ln>
+		<name>Канонический анализ категориальных данных с приложением в маркетинге</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Смирнов И.Б.</reviewer>
+		<slides>2_6_grigorieva.pdf</slides>
+	</person>
+	<person spec="mm">
+		<fn>Даниил</fn>
+		<mn>Владимирович</mn>
+		<ln>Куликов</ln>
+		<name>Редукция размерности категориальных данных на основе точного критерия Фишера</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>2_7_kulikov.pdf</slides>
+	</person>
+</diploma>
