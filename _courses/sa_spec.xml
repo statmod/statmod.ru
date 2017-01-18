@@ -38,7 +38,7 @@
 		<prof id="pv_shpilev"/>
 	</course>
 	<course semester="6" year="3" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsa_prog_cpp_lang">
-		<name xml:lang="ru">Программирование на C++</name>
+		<name xml:lang="ru">Прикладное программирование</name>
 		<prof id="pv_shpilev"/>
 	</course>
 	<course semester="6" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bmm_simul_pract">
@@ -108,7 +108,7 @@
 	</course>
 	 <course semester="8" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsa_prediploma">
 		<name xml:lang="ru">Подготовка и оформление научных исследований</name>
-		<prof id="ya_sushkov"/>
+		<prof id="nk_krivulin"/>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="экз." year_equiv="1" alias="ball_statprogR">
 		<name xml:lang="ru">Выч. методы и пакеты в стат.исследованиях</name>
@@ -121,7 +121,7 @@
 	</course>
 	<course semester="8" year="4" class="спец." extras="" hours="4" exam="экз." year_equiv="1" alias="bsa_system_model">
 		<name xml:lang="ru">Моделирование систем</name>
-		<prof id="ya_sushkov"/>
+		<prof id="ay_ponomareva"/>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="зачет" year_equiv="1" alias="bmm_stat_pract">
 		<name xml:lang="ru">Анализ данных на компьютере</name>
@@ -178,7 +178,7 @@
 		<name xml:lang="ru">История и методология прикладной математики</name>
 		<prof id="ya_sushkov"/>
 </course>
-<course semester="11" year="6" class="с/к" extras="" hours="2" exam="'экз." year_equiv="0.5" alias="sa_communication">
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_communication">
 		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - I</name>
 		<prof id="ai_korobeynikov"/>
 </course>
@@ -193,11 +193,11 @@
 		<prof id="nk_krivulin"/>
 </course>
  
-<course semester="12" year="6" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_communication">
+<course semester="12" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_communication2">
 		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - II</name>
 		<prof id="vb_melas"/>
 </course>
-<course semester="12" year="6" class="с/к" extras="" hours="2" exam="'экз." year_equiv="0.5" alias="sa_science_approach">
+<course semester="12" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_science_approach">
 		<name xml:lang="ru">Научно-обоснованный подход к моделированию реальных данных</name>
 		<prof id="ne_golyandina"/>
 </course>

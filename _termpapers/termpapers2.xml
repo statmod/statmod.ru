@@ -45,7 +45,7 @@
 	<prof id="vv_nekrutkin" comments="yes">
 		<location>к. 4502</location>
 		<paper>
-			<title>Дискретная теория вероятностей</title>
+			<title>Дискретная теория вероятностей.</title>
 			<biblitem>
 				<author>А.Н. Ширяев</author>
 				<title>Вероятность</title>
@@ -54,22 +54,29 @@
 			</biblitem>
 		</paper>
 		<paper>
-			<title>Введение в теорию вероятностей.</title>
+			<title>Испытания Бернулли на отрезке [0,1].</title>
 			<biblitem>
-				<author>Б.А. Севастьянов</author>
-				<title>Курс теории вероятностей и математической статистики</title>
-				<publisher>М., Наука, 1982.</publisher>
+				<author>М.Кац</author>
+				<title>Статистическая независимость в теории вероятностей, анализе и теории чисел</title>
+				<publisher>М., 1983</publisher>
 			</biblitem>
 		</paper>
 		<paper>
 			<title>Теория меры и теория вероятностей.</title>
 			<biblitem>
 				<author>К. Партасарати</author>
-				<title> Введение в теорию вероятностей и теорию меры		</title>
+				<title> Введение в теорию вероятностей и теорию меры</title>
 				<publisher>Москва, Мир, 1983.</publisher>
 			</biblitem>
 		</paper>
-		<comment>Все темы являются учебными, необходимо прочитать
+		<paper>
+			<title>Краткий курс теории вероятностей.</title>
+			<biblitem>
+				<author>Н.Чернова</author>
+				<title> Теория верояностей. Учебное пособие.</title>
+				<publisher>Новосибирск, 2009.</publisher>
+			</biblitem>
+		</paper><comment>Все темы являются учебными, необходимо прочитать
 соответствующий материал и решить задачи.</comment>
 	</prof>
 	<prof id="ai_korobeynikov">
@@ -236,6 +243,10 @@
 		<prof id="nk_krivulin">
 		<location>к. 4395</location>
 		<paper>
+			<title>Тропические вейвлет-преобразования в алгоритмах кодирования изображений.
+			</title>
+		</paper>
+		<paper>
 			<title>Многомерные задачи размещения Ролза.
 			</title>
 		</paper>
@@ -268,7 +279,7 @@
 		</paper>
 		<paper>
 			<title>Прочитать главы 1-4 из учебника Кремера "Теория вероятностей и математическая статистика" и решить задачи гл3 - 45, 54, 57, гл4 - 15, 20, 22, 24.
-.</title>
+</title>
 		</paper>
 		<paper>
 			<title>Разобраться в трех аксиоматических подходах к построению теории вероятностей: фон Мизеса (частотный), 

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2016" semester="11">
+<timetable year="2017" semester="12">
     <weekday id="mon">
         <two_hours no="1"/>
         <two_hours no="2"/>
@@ -13,62 +13,65 @@
         <two_hours no="2">
             <lesson type="chair" spec="sa">
                 <location></location>
-                <course id="sa_histmath"/>
+                <course id="sa_communication2"/>
             </lesson>
             <lesson type="chair" spec="sm">
                 <location></location>
-                <course id="sm_histmath"/>
+                <course id="sm_communication2"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="chair" spec="sa">
+            <lesson type="dep" spec="all">
                 <location></location>
-                <course id="sa_optim"/>
+                <course>
+                    <name>Современная философия и методология науки</name>
+                    <prof>Иванов</prof>
+                </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="chair" spec="sa">
+            <lesson type="dep" spec="all">
                 <location></location>
-                <course id="sa_communication"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course id="sm_communication"/>
+                <course id="sm_science_approach"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
-        <two_hours no="1"/>
-        <two_hours no="2"/>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
+        <two_hours no="1">
+            <lesson type="chair" spec="sm">
                 <location></location>
-                <course>
-                    <name>Философия</name>
-                    <prof></prof>
-                </course>
+                <course id="sm_biostat"/>
             </lesson>
         </two_hours>
+        <two_hours no="2"/>
+        <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="thu">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>История развития вычислительной техники</name>
+                    <prof>Мирошниченко</prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
-                <course id="sa_fin_prog"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course id="sm_markov_chains"/>
+                <location>(возможно, не состоится?)</location>
+                <course id="sa_tropical"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course id="sm_stoch_comp2"/>
+            <lesson type="dep" spec="all">
+                <location>3518</location>
+                <course>
+                    <name>Англ.яз.</name>
+                    <prof>Акимова</prof>
+                </course>
             </lesson>
         </two_hours>
         <two_hours no="4"/>
@@ -82,8 +85,24 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="sat">
-        <two_hours no="1"/>
-        <two_hours no="2"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>немецкий яз.</name>
+                    <prof>(по выбору)</prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="2">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>немецкий яз.</name>
+                    <prof>(по выбору)</prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>

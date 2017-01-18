@@ -209,7 +209,7 @@
 		<name xml:lang="ru">История и методология прикладной математики</name>
 		<prof id="sm_ermakov"/>
 </course>
-<course semester="11" year="6" class="с/к" extras="" hours="2" exam="'экз." year_equiv="0.5" alias="sm_communication">
+<course semester="11" year="6" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sm_communication">
 		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - I</name>
 		<prof id="ne_golyandina"/>
 </course>
@@ -224,11 +224,11 @@
 		<prof id="np_alekseeva"/>
 </course>
  
-<course semester="12" year="6" class="с/к" extras="" hours="2" exam="'экз." year_equiv="0.5" alias="sm_communication">
+<course semester="12" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_communication2">
 		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - II</name>
 		<prof id="vv_nekrutkin"/>
 </course>
-<course semester="12" year="6" class="с/к" extras="" hours="2" exam="'экз." year_equiv="0.5" alias="sm_science_approach">
+<course semester="12" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_science_approach">
 		<name xml:lang="ru">Научно-обоснованный подход к моделированию реальных данных</name>
 		<prof id="ne_golyandina"/>
 </course>
