@@ -25,27 +25,27 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2524</location>
                 <course id="sa_random_fields"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>2448</location>
+                <location>3357</location>
                 <course id="sm_statlearning"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2520</location>
                 <course id="sa_stoch_comp"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2522</location>
                 <course id="sm_stat_stoch_processes"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2520</location>
                 <course id="sa_adv_stat"/>
             </lesson>
         </two_hours>
@@ -61,7 +61,7 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>3502</location>
                 <course id="sm_timeseries_ssa"/>
             </lesson>
         </two_hours>

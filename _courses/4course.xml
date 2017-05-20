@@ -38,10 +38,6 @@
                 <location>2524</location>
                 <course id="bsa_simul_stoch_proc"/>
             </lesson>
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course id="bsm_idemp_algebra"/>
-            </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
@@ -54,13 +50,13 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>2412</location>
+                <location>2414</location>
                 <course id="ball_statprogR"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>2412</location>
+                <location>2414</location>
                 <course id="ball_statprogR"/>
             </lesson>
         </two_hours>
@@ -69,37 +65,26 @@
     <weekday id="wed">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2514</location>
                 <course id="bsm_finance_insurance"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2514</location>
                 <course id="bsm_finance_insurance"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>1512</location>
                 <course id="bmm_stat_pract"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course>
-                    <name>физкультура</name>
-                    <prof></prof>
-                </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>1512</location>
                 <course id="bmm_stat_pract"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course id="bsm_stat_pract"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
@@ -110,6 +95,10 @@
                 <location>3309</location>
                 <course id="bsa_system_model"/>
             </lesson>
+            <lesson type="chair" spec="sm">
+                <location>2508</location>
+                <course id="bsm_stat_pract"/>
+            </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
@@ -117,7 +106,7 @@
                 <course id="bsa_system_model"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2508</location>
                 <course id="bsm_stat_pract"/>
             </lesson>
         </two_hours>
@@ -131,20 +120,40 @@
                 <course id="bsm_prediploma"/>
             </lesson>
         </two_hours>
-        <two_hours no="4"/>
-        <two_hours no="5"/>
+        <two_hours no="4">
+            <lesson type="chair" spec="sa">
+                <location></location>
+                <course>
+                    <name>физкультура</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>2414</location>
+                <course id="bsm_idemp_algebra"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="5">
+            <lesson type="chair" spec="sm">
+                <location></location>
+                <course>
+                    <name>физкультура</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
     </weekday>
     <weekday id="fri">
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>3506</location>
                 <course id="bsm_stoch_processes"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>3506</location>
                 <course id="bsm_stoch_processes"/>
             </lesson>
         </two_hours>

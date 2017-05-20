@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
 <timetable year="2017" semester="12">
     <weekday id="mon">
@@ -12,17 +12,17 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>4399</location>
                 <course id="sa_communication2"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>4399 (на 1-й паре?)</location>
                 <course id="sm_communication2"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>02</location>
                 <course>
                     <name>Современная философия и методология науки</name>
                     <prof>Иванов</prof>
@@ -31,19 +31,14 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>4399</location>
                 <course id="sm_science_approach"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
-        <two_hours no="1">
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course id="sm_biostat"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="1"/>
         <two_hours no="2"/>
         <two_hours no="3"/>
         <two_hours no="4"/>
@@ -52,7 +47,7 @@
     <weekday id="thu">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2516</location>
                 <course>
                     <name>История развития вычислительной техники</name>
                     <prof>Мирошниченко</prof>
@@ -61,7 +56,7 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location>(возможно, не состоится?)</location>
+                <location>2516 (возможно, не состоится?)</location>
                 <course id="sa_tropical"/>
             </lesson>
         </two_hours>
@@ -103,7 +98,12 @@
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="3"/>
+        <two_hours no="3">
+            <lesson type="chair" spec="sm">
+                <location>ауд. 13 (14 линия) с 9:00</location>
+                <course id="sm_biostat"/>
+            </lesson>
+        </two_hours>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
