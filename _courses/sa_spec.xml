@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.27" productVersion="14.0.0" ?>
 <?mso-application progid="InfoPath.Document"?>
-<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2016/2017" spec="sa" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2017/2018" spec="sa" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -14,9 +14,9 @@
 		<name xml:lang="ru">Выч. практикум</name>
 		<prof id="ai_korobeynikov"/>
 	</course>
-	<course semester="5" year="3" class="спец." extras="" hours="2" exam="экз." year_equiv="0.5" alias="bsa_graph_theory">
-		<name xml:lang="ru">Структурное представление систем</name>
-		<prof id="ya_sushkov"/>
+	<course semester="5" year="3" class="спец." extras="" hours="2" exam="экз." year_equiv="0.5" alias="bsa_stat_intro">
+		<name xml:lang="ru">Вычислительные методы первичного анализа данных</name>
+		<prof id="pv_shpilev"/>
 	</course>
   <course semester="5" year="3" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bmm_prog_c_lang">
 		<name xml:lang="ru">Теория и практика программирования</name>
@@ -176,7 +176,7 @@
 </course>
 <course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_histmath">
 		<name xml:lang="ru">История и методология прикладной математики</name>
-		<prof id="ya_sushkov"/>
+		<prof id="eg_burnaeva"/>
 </course>
 <course semester="11" year="6" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_communication">
 		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - I</name>
