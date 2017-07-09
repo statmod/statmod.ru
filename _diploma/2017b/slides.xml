@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2017">
+	<person spec="sm">
+		<fn>Дмитрий</fn>
+		<mn>Сергеевич</mn>
+		<ln>Сазыкин</ln>
+		<name>Проекции в методе анализа сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="ay_shlemov" />
+		<slides>05_01_Sazykin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Тамара</fn>
+		<mn>Олеговна</mn>
+		<ln>Суровикина</ln>
+		<name>Несколько задач, связанных с генерацией псевдослучайных чисел</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>05_02_Surovikina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Людмила</fn>
+		<mn>Валерьевна</mn>
+		<ln>Рожненко</ln>
+		<name>Модель негативного бинома в статистическом анализе последовательностей событий</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="tm_tovstik" />
+		<slides>05_03_Rozhnenko.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Эльмира</fn>
+		<mn>Ринатовна</mn>
+		<ln>Галиуллина</ln>
+		<name>Оценка по траекториям в методе стохастической сетки</name>
+		<advisor id="yn_kashtanov" />
+		<reviewer>Гормин А.А.</reviewer>
+		<slides>05_04_Galiullina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Павел</fn>
+		<mn>Константинович</mn>
+		<ln>Моторин</ln>
+		<name>Метод стохастической сетки для оценки стоимости опциона американского типа</name>
+		<advisor id="yn_kashtanov" />
+		<reviewer>Гормин А.А.</reviewer>
+		<slides>05_05_Motorin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дмитрий</fn>
+		<mn>Юрьевич</mn>
+		<ln>Зотиков</ln>
+		<name>Методы и алгоритмы анализа скрытых марковских моделей</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="pv_shpilev" />
+		<slides>05_06_Zotikov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Иван</fn>
+		<mn>Валерьевич</mn>
+		<ln>Суворов</ln>
+		<name>Многоуровневый метод Монте-Карло в финансовой математике</name>
+		<advisor id="sm_ermakov" />
+		<reviewer id="yn_kashtanov" />
+		<slides>05_07_Suvorov.pdf</slides>
+	</person>
+</diploma>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2017">
+	<person spec="sm">
+		<fn>Андрей</fn>
+		<mn>Важевич</mn>
+		<ln>Бзикадзе</ln>
+		<name>Статистические свойства некоторых процедур сжатия данных</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer>Советкин Е.А.</reviewer>
+		<slides>06_01_Bzikadze.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Анастасия</fn>
+		<mn>Николаевна</mn>
+		<ln>Абрамова</ln>
+		<name>Метод Монте-Карло по схеме марковской цепи для оценки вероятности редких событий в задачах биоинформатики</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer>Тарасов А.Л.</reviewer>
+		<slides>06_02_Abramova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Наталия</fn>
+		<mn>Дмитриевна</mn>
+		<ln>Алиева</ln>
+		<name>Исследования по задаче "размазанной" разреженности</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Шевляков Г.Л.</reviewer>
+		<slides>06_03_Alieva.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Белла</fn>
+		<mn>Раифовна</mn>
+		<ln>Зиннатулина</ln>
+		<name>Статистические методы кластеризации в больших объемах данных</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Шевляков Г.Л.</reviewer>
+		<slides>06_04_Zinnatulina.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Елизавета</fn>
+		<mn>Владимировна</mn>
+		<ln>Иванова</ln>
+		<name>Задачи анализа спектров тандемной масс-спектрометрии</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer>Тарасов А.Л.</reviewer>
+		<slides>06_05_Ivanova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Василий</fn>
+		<mn>Алексеевич</mn>
+		<ln>Ершов</ln>
+		<name>Исправление ошибок в чтениях, полученных с помощью технологии IonTorrent</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer>Тарасов А.Л.</reviewer>
+		<slides>06_06_Ershov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Иван</fn>
+		<mn>Павлович</mn>
+		<ln>Лозицкий</ln>
+		<name>Многоуровневый анализ альтернатив в процессе принятия решений </name>
+		<advisor id="ya_sushkov" />
+		<reviewer>Кушербаева В.Т.</reviewer>
+		<slides>06_07_Lozitsky.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Анастасия</fn>
+		<mn>Александровна</mn>
+		<ln>Миллер</ln>
+		<name>Имитационная модель американского опциона</name>
+		<advisor id="sm_ermakov" />
+		<reviewer>Дмитриев А.В.</reviewer>
+		<slides>06_08_Miller.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дарина</fn>
+		<mn>Александровна</mn>
+		<ln>Кухтина</ln>
+		<name>Сравнение различных подходов к для дискриминации моделей</name>
+		<advisor id="vb_melas" />
+		<reviewer>Григорьев Ю.Д.</reviewer>
+		<slides>06_09_Kukhtina.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Григорий</fn>
+		<mn>Иванович</mn>
+		<ln>Охотников</ln>
+		<name>Применение метода анализа сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="an_pepelyshev" />
+		<slides>06_10_Okhotnikov.pdf</slides>
+	</person>
+</diploma>
