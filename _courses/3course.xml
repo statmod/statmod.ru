@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
 <timetable year="2017" semester="5">
     <weekday id="mon">
@@ -13,7 +13,7 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>03</location>
                 <course>
                     <name>Математический анализ</name>
                     <prof>Лодкин А.А.</prof>
@@ -66,16 +66,16 @@
                 <course id="bmm_prog_c_lang"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>2446-2</location>
+                <location>3502</location>
                 <course id="bsm_prog_c_lang"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2508</location>
                 <course>
                     <name>Математический анализ</name>
-                    <prof>Потепун А.В.</prof>
+                    <prof>Громов А.Л.</prof>
                 </course>
             </lesson>
         </two_hours>
@@ -102,7 +102,7 @@
     <weekday id="wed">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2520</location>
                 <course id="ball_teorver_pract"/>
             </lesson>
         </two_hours>
@@ -115,18 +115,10 @@
                 </course>
                 <fortnightly type="1"/>
             </lesson>
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Физкультура</name>
-                    <prof></prof>
-                </course>
-                <fortnightly type="2"/>
-            </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2520</location>
                 <course id="ball_simul_discr"/>
             </lesson>
         </two_hours>
@@ -136,20 +128,12 @@
                 <course id="ball_tex"/>
             </lesson>
         </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Физ.культура</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="thu">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2520</location>
                 <course>
                     <name>Экстремальные задачи</name>
                     <prof>Абрамовская</prof>
@@ -178,7 +162,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>05</location>
                 <course>
                     <name>Теория вероятностей</name>
                     <prof>Фролов А.Н.</prof>

@@ -91,11 +91,7 @@
 		<name xml:lang="ru">Модельно-ориентированный анализ данных</name>
 		<prof id="vb_melas"/>
   </course>
- <course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_parallel_comp">
-		<name xml:lang="ru">Метод Монте-Карло и параллельные вычисления</name>
-		<prof id="sm_ermakov"/>
-  </course>
-	<course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_desicion">
+<course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_desicion">
 		<name xml:lang="ru">Принятие решений</name>
 		<prof id="ya_sushkov"/>
 </course>

@@ -4,22 +4,7 @@
     <weekday id="mon">
         <two_hours no="1"/>
         <two_hours no="2"/>
-        <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location></location>
-                <course>
-                    <name>Физ.культура</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course>
-                    <name>Физкультура</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
         <two_hours no="4">
             <lesson type="dep" spec="all">
                 <location></location>
@@ -29,7 +14,15 @@
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="5"/>
+        <two_hours no="5">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Немецкий яз</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
     </weekday>
     <weekday id="tue">
         <two_hours no="1"/>
@@ -46,7 +39,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3522</location>
                 <course>
                     <name>Дискретные и вероятностные модели</name>
                     <prof>Романовский И.В.</prof>
@@ -66,10 +59,10 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3526</location>
                 <course>
                     <name>Непрерывные математические модели</name>
-                    <prof>Фрадков А.Л.</prof>
+                    <prof>Фрадков А.Л., Гусев С.В.</prof>
                 </course>
             </lesson>
         </two_hours>

@@ -98,7 +98,7 @@
 		<name xml:lang="ru">Статистическое моделирование-2</name>
 		<prof id="vv_nekrutkin"/>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_7__sm_montecarlo.pdf">
-			<co:file_name>2015/2016</co:file_name>
+			<co:file_name>2017/2018</co:file_name>
 		</co:questions>
 	</course>
 		<course semester="7" year="4" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_appl_stat">
@@ -109,14 +109,7 @@
 		<name xml:lang="ru">Модельно-ориентированный анализ данных</name>
 		<prof id="vb_melas"/>
   </course>
-	<course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_parallel_comp">
-		<name xml:lang="ru">Метод Монте-Карло и параллельные вычисления</name>
-		<prof id="sm_ermakov"/>
-                 <co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sa_simul_stoch_proc.pdf">
-									<co:file_name>2011/2012</co:file_name>
-								</co:questions>
-</course>
-<course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_desicion">
+	<course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_desicion">
 		<name xml:lang="ru">Принятие решений</name>
 		<prof id="ya_sushkov"/>
 </course>

@@ -18,10 +18,6 @@
 			<name>СМ</name>
 			<xsl:copy-of select="document('../_courses/sm_spec.xml')"/>
 		</spec>
-		<spec id="mm">
-			<name>ММ</name>
-			<xsl:copy-of select="document('../_courses/mm_spec.xml')"/>
-		</spec>
 	</specs>
 </xsl:variable>
 
@@ -40,7 +36,7 @@
 	   </script>
       <body>
 		<h2>Специализация <xsl:value-of select="msxsl:node-set($specs)/specs/spec[@id=$spec]/name/node()"/>: 
-		аннотации к спецкурсам 2014/2015
+		аннотации к спецкурсам 2017/2018
 		</h2>
 		
 		<p><a href="/3-5/spectable/{$spec}/index.htm">Список спецкурсов</a></p>

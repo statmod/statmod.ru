@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
 <timetable year="2017" semester="7">
     <weekday id="mon">
@@ -52,28 +52,20 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>4399</location>
-                <course id="ball_communication"/>
+                <location>2512</location>
+                <course id="ball_stat" part="pract"/>
+                <fortnightly type="1"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>3532</location>
-                <course id="ball_stat" part="pract"/>
-                <fortnightly type="1"/>
-            </lesson>
-            <lesson type="dep" spec="all">
-                <location>2444</location>
-                <course>
-                    <name>Методы вычислений (подгруппа 1)</name>
-                    <prof>Пакулина А.Н.</prof>
-                </course>
-                <fortnightly type="2"/>
+                <location>3381</location>
+                <course id="ball_communication"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2504</location>
                 <course id="ball_exper_design"/>
             </lesson>
         </two_hours>
@@ -83,11 +75,11 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2502</location>
                 <course id="bmm_appl_stat"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>4526</location>
                 <course id="bsm_statmod"/>
             </lesson>
         </two_hours>
@@ -98,11 +90,19 @@
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>2408</location>
+            <lesson type="chair" spec="sa">
+                <location>2408, 2502</location>
                 <course>
                     <name>Методы вычислений (подгруппа 2)</name>
-                    <prof>Марданов</prof>
+                    <prof>Марданов А.А.</prof>
+                </course>
+                <fortnightly type="2"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>2406</location>
+                <course>
+                    <name>Методы вычислений (подгруппа 1)</name>
+                    <prof>Сулягина Л.А.</prof>
                 </course>
                 <fortnightly type="2"/>
             </lesson>
@@ -118,7 +118,7 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>03</location>
                 <course>
                     <name>Методы вычислений</name>
                     <prof>Рябов В.М.</prof>
@@ -131,7 +131,7 @@
                 <course id="bsa_prog_cpp_advanced"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2524</location>
                 <course id="bsm_statmod"/>
             </lesson>
         </two_hours>
@@ -163,13 +163,13 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>07</location>
                 <course id="ball_stat" part="lect"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3504</location>
                 <course id="bsa_montecarlo"/>
             </lesson>
             <lesson type="chair" spec="sm">
@@ -179,7 +179,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3504</location>
                 <course id="bsa_montecarlo"/>
             </lesson>
             <lesson type="chair" spec="sm">
@@ -187,15 +187,7 @@
                 <course id="bsm_prog_cpp_advanced"/>
             </lesson>
         </two_hours>
-        <two_hours no="5">
-            <lesson type="chair" spec="sa">
-                <location></location>
-                <course>
-                    <name>Физ.культура</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="sat">
         <two_hours no="1"/>
