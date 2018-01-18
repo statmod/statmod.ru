@@ -112,7 +112,7 @@
 			<prof id="ai_korobeynikov"/>
 		</part>
 		<part type="pract" hours="2">
-			<prof id="ai_korobeynikov"/>
+			<prof id="nk_zvonarev"/>
 		</part>
 	</course>
 	<course semester="8" year="4" class="спец." extras="" hours="4" exam="экз." year_equiv="1" alias="bsa_system_model">

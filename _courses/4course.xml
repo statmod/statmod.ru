@@ -43,13 +43,17 @@
         <two_hours no="3">
             <lesson type="dep" spec="all">
                 <location>2414</location>
-                <course id="ball_statprogR"/>
+                <course id="ball_statprogR" part="lect"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="dep" spec="all">
+            <lesson type="chair" spec="sa">
                 <location>2414</location>
-                <course id="ball_statprogR"/>
+                <course id="ball_statprogR" part="pract"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>2414</location>
+                <course id="ball_statprogR" part="lect"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>

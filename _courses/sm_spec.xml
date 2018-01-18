@@ -125,9 +125,14 @@
 		<prof id="vv_nekrutkin"/>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="экз." year_equiv="1" alias="ball_statprogR">
-		<name xml:lang="ru">Выч. методы и пакеты в стат. исследованиях</name>
-		<prof id="ai_korobeynikov"/>
-		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_r.pdf">
+		<name xml:lang="ru">Выч. методы и пакеты в стат.исследованиях</name>
+		<part type="lect" hours="2">
+			<prof id="ai_korobeynikov"/>
+		</part>
+		<part type="pract" hours="2">
+			<prof id="nk_zvonarev"/>
+		</part>
+	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_r.pdf">
 			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 	</course>
