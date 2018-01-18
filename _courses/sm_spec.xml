@@ -161,7 +161,7 @@
 		<name xml:lang="ru">Многомерный анализ данных</name>
 		<prof id="ne_golyandina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="5_9__sm_mva.pdf">
-			<co:file_name>2015/2016</co:file_name>
+			<co:file_name>2017/2018</co:file_name>
 		</co:questions>
 </course>
 <course semester="9" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_adv_design">
