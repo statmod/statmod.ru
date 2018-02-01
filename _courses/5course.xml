@@ -19,7 +19,7 @@
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>1520</location>
                 <course id="sa_random_fields"/>
             </lesson>
             <lesson type="chair" spec="sm">
@@ -29,23 +29,23 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2505</location>
                 <course id="sa_parallel_comp"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>4526</location>
                 <course id="sa_stoch_comp"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2505</location>
                 <course id="sm_stat_stoch_processes"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>4526</location>
                 <course id="sa_adv_stat"/>
             </lesson>
         </two_hours>
@@ -85,24 +85,8 @@
     <weekday id="sat">
         <two_hours no="1"/>
         <two_hours no="2"/>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Немецкий яз.</name>
-                    <prof>(по выбору)</prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Немецкий яз.</name>
-                    <prof>(по выбору)</prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
 </timetable>

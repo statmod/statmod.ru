@@ -11,7 +11,7 @@
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2505</location>
                 <course>
                     <name>История развития вычислительной техники</name>
                     <prof>Мирошниченко</prof>
@@ -26,7 +26,7 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>02</location>
+                <location>2514</location>
                 <course>
                     <name>Современная философия и методология науки</name>
                     <prof>Иванов</prof>
@@ -57,7 +57,7 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3315</location>
                 <course id="sa_tropical"/>
             </lesson>
         </two_hours>
@@ -72,14 +72,14 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2516</location>
                 <course id="sm_biostat"/>
                 <fortnightly type="1"/>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2516</location>
                 <course id="sm_biostat"/>
                 <fortnightly type="1"/>
             </lesson>

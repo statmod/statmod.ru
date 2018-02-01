@@ -4,7 +4,7 @@
     <weekday id="mon">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2511</location>
                 <course>
                     <name>Математическая логика</name>
                     <prof>Ловягин</prof>
@@ -13,7 +13,7 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>04</location>
                 <course>
                     <name>Теория вероятностей</name>
                     <prof>Фролов</prof>
@@ -22,7 +22,7 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>04</location>
                 <course>
                     <name>Математическая логика</name>
                     <prof>Ловягин</prof>
@@ -65,7 +65,7 @@
                 <course id="bmm_simul_pract"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2507</location>
                 <course id="bsm_prog_cpp_pract"/>
             </lesson>
         </two_hours>
@@ -81,7 +81,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>3506</location>
+                <location>2524</location>
                 <course id="ball_teorver_pract"/>
             </lesson>
         </two_hours>
@@ -90,7 +90,7 @@
     <weekday id="wed">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>04</location>
                 <course>
                     <name>Уравнения мат.физики</name>
                     <prof>Кароль</prof>
@@ -99,7 +99,7 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2512</location>
                 <course>
                     <name>Теоретическая механика</name>
                     <prof>Кутеева</prof>
@@ -108,7 +108,7 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2512</location>
                 <course>
                     <name>Уравнения мат.физики, практ.</name>
                     <prof>Кароль</prof>
@@ -117,7 +117,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2512</location>
                 <course>
                     <name>Уравнения мат.физики, практ.</name>
                     <prof>Кароль, до 16:10</prof>
@@ -145,7 +145,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>02</location>
                 <course>
                     <name>Теоретическая механика</name>
                     <prof>Юшков</prof>
