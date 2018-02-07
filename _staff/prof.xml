@@ -215,7 +215,7 @@
 		<field>
 		Архитектура ЭВМ, информатика и технология программирования, математическое моделирование, численные методы.		<!-- Область научных интересов -->
 		</field>
-		<extlink href="http://www.math.spbu.ru/user/christ/" target="_blank">Персональная страница</extlink>
+		<extlink href="http://www.khristinich.ru" target="_blank">Персональная страница</extlink>
 	</person>
 
 
@@ -286,7 +286,7 @@
 		<fn>Никита</fn>
 		<mn>Константинович</mn>
 		<ln>Звонарев</ln>
-    <duty academic_rank="ass_prof"><name/><shortname/></duty>
+    <duty academic_rank="assist_prof"><name/><shortname/></duty>
  	<field/>
 	</person>
 		
@@ -294,8 +294,7 @@
 		<fn>Александр</fn>
 		<mn>Юрьевич</mn>
 		<ln>Шлемов</ln>
-    <duty academic_rank="ass_prof"><name/><shortname/></duty>
- 	<field/>
+    <field/>
 	</person>
 	
 <person id="nm_moskaleva" degree="phd" academic_rank="">

@@ -14,6 +14,7 @@ xmlns:msxsl="urn:schemas-microsoft-com:xslt"
 			<xsl:choose>
 				<xsl:when test="@academic_rank = 'prof'">Профессор</xsl:when>
 				<xsl:when test="@academic_rank = 'assoc_prof'">Доцент</xsl:when>
+				<xsl:when test="@academic_rank = 'assist_prof'">Ассистент</xsl:when>
 				<xsl:when test="@academic_rank = 'senior_rf'">Cт.научн.сотр.</xsl:when>
 			</xsl:choose>&#32;
 <xsl:value-of select="$long_name"/>
@@ -46,6 +47,7 @@ xmlns:msxsl="urn:schemas-microsoft-com:xslt"
       <b>Должность:</b> <spec code="#32"/> <xsl:choose>
 				<xsl:when test="duty/@academic_rank = 'prof'">профессор</xsl:when>
 				<xsl:when test="duty/@academic_rank = 'assoc_prof'">доцент</xsl:when>
+				<xsl:when test="duty/@academic_rank = 'assist_prof'">ассистент</xsl:when>
 				<xsl:when test="duty/@academic_rank = 'senior_rf'">старший научный сотрудник</xsl:when>
 			</xsl:choose><xsl:if test="duty/name/node()">, <xsl:copy-of select="duty/name/node()"/></xsl:if>			
 </p>
