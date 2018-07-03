@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2018">
+	<person spec="sm">
+		<fn>Кирилл</fn>
+		<mn>Владимирович</mn>
+		<ln>Быков</ln>
+		<name>Методы оценки малых вероятностей в задачах биоинформатики</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="ay_shlemov" />
+		<slides>13b_11_Bykov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Петр</fn>
+		<mn>Андреевич</mn>
+		<ln>Кароль</ln>
+		<name>Построение и исследование C-оптимальных планов для полиномиальных моделей без нулевого члена</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>13b_12_Karol.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Иван</fn>
+		<mn>Сергеевич</mn>
+		<ln>Лунев</ln>
+		<name>Некоторые задачи проверки статистических гипотез и их применения</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="ai_korobeynikov" />
+		<slides>13b_13_Lunev.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Никита</fn>
+		<mn>Владимирович</mn>
+		<ln>Мейер</ln>
+		<name>Моделирование процесса перколяции</name>
+		<advisor id="sm_ermakov" />
+		<reviewer>Дмитриев А.В.</reviewer>
+		<slides>13b_14_Meyer.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Вероника</fn>
+		<mn>Сергеевна</mn>
+		<ln>Понизова</ln>
+		<name>Вычислительные и статистические аспекты модели IRT оценивания результатов тестов и вопросов</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="ay_shlemov" />
+		<slides>13b_15_Ponizova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Владислав</fn>
+		<mn>Алексеевич</mn>
+		<ln>Страшко</ln>
+		<name>Компромиссные планы для дробно-рациональных моделей</name>
+		<advisor id="vb_melas" />
+		<reviewer id="pv_shpilev" />
+		<slides>13b_16_Strashko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Александра</fn>
+		<mn>Леонидовна</mn>
+		<ln>Третьякова</ln>
+		<name>Устойчивые варианты метода SSA для анализа временных рядов.</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="ay_shlemov" />
+		<slides>13b_17_Tretyakova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Никита</fn>
+		<mn>Алексеевич</mn>
+		<ln>Федоров</ln>
+		<name>Поддерживающие временные ряды в MSSA</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="ay_shlemov" />
+		<slides>13b_18_Fedorov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Екатерина</fn>
+		<mn>Олеговна</mn>
+		<ln>Бакшинская</ln>
+		<name>Применение методов Монте-Карло для решения многокритериальных задач</name>
+		<advisor id="pv_shpilev" />
+		<reviewer id="np_alekseeva" />
+		<slides>14b_01_Bakshinskaia.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Маргарита</fn>
+		<mn>Дмитриевна</mn>
+		<ln>Волканова</ln>
+		<name>Построение усеченных D-оптимальных планов для тригонометрических моделей</name>
+		<advisor id="pv_shpilev" />
+		<reviewer id="vb_melas" />
+		<slides>14b_02_Volkanova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Наталья</fn>
+		<mn>Валентиновна</mn>
+		<ln>Зенкова</ln>
+		<name>Множественные сравнения для повторных наблюдений</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Уфлянд А.Г.</reviewer>
+		<slides>14b_03_Zenkova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Алиса</fn>
+		<mn>Эдуардовна</mn>
+		<ln>Зуйкова</ln>
+		<name>Численное построение дискриминационных планов эксперимента</name>
+		<advisor id="pv_shpilev" />
+		<reviewer id="vb_melas" />
+		<slides>14b_04_Zuykova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Сергей</fn>
+		<mn>Андреевич</mn>
+		<ln>Федорченко</ln>
+		<name>Дисперсионный анализ для неполных повторных наблюдений с приложениями</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Уфлянд А.Г.</reviewer>
+		<slides>14b_09_Fedorchenko.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ольга</fn>
+		<mn>Игоревна</mn>
+		<ln>Крютченко</ln>
+		<name>Линейные классификаторы с приложением в медицине</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="pv_gracheva" />
+		<slides>14b_05_Kriutchenko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Елизавета</fn>
+		<mn>Юрьевна</mn>
+		<ln>Романова</ln>
+		<name>Одноранговая аппроксимация матриц с помощью методов тропической математики</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="np_alekseeva" />
+		<slides>14b_07_Romanova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Анна</fn>
+		<mn>Александровна</mn>
+		<ln>Рукавишникова</ln>
+		<name>Адаптация метода главных компонент к данным с пропусками</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="nk_krivulin" />
+		<slides>14b_08_Rukavishnikova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Юрий</fn>
+		<mn>Олегович</mn>
+		<ln>Родигин</ln>
+		<name>Стохастический анализ неоднородно структурированных данных</name>
+		<advisor id="pv_shpilev" />
+		<reviewer id="en_mosyagina" />
+		<slides>14b_12_Rodigin.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ольга</fn>
+		<mn>Юрьевна</mn>
+		<ln>Торбеева</ln>
+		<name>Аналитический подход к решению минимаксных задач планирования эксперимента</name>
+		<advisor id="pv_shpilev" />
+		<reviewer id="vb_melas" />
+		<slides>14b_13_Torbeeva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Елизавета</fn>
+		<mn>Алексеевна</mn>
+		<ln>Ставинова</ln>
+		<name>Случайный поиск в задаче о назначениях</name>
+		<advisor id="ya_sushkov" />
+		<reviewer>Кушербаева В.Т.</reviewer>
+		<slides>14b_14_Stavinova.pdf</slides>
+	</person>
+</diploma>

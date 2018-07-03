@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2018">
+	<person spec="sm">
+		<fn>Владимир</fn>
+		<mn>Анатольевич </mn>
+		<ln>Агеев</ln>
+		<name>Методы тропической математики в задачах принятия решений</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Николаев Д.А.</reviewer>
+		<slides>13m_01_Ageev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Ирина</fn>
+		<mn>Владимировна </mn>
+		<ln>Григорьева</ln>
+		<name>Оценка параметров статистических моделей на основе обобщённого обращения матриц</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>13m_02_Grigorieva.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Полина</fn>
+		<mn>Георгиевна </mn>
+		<ln>Жорникова</ln>
+		<name>Идентификация компонент в анализе сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="an_pepelyshev" />
+		<slides>13m_03_Zhornikova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Екатерина</fn>
+		<mn>Павловна </mn>
+		<ln>Небожатко</ln>
+		<name>Оценивание вероятностей редких событий методом Монте-Карло в задачах биоинформатики</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer>Абрамова А.Н.</reviewer>
+		<slides>13m_05_Nebozhatko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Кирилл</fn>
+		<mn>Юрьевич </mn>
+		<ln>Пимахов</ln>
+		<name>Несколько задач, связанных с анализом временных рядов</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer id="an_pepelyshev" />
+		<slides>13m_06_Pimakhov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Артём</fn>
+		<mn>Константинович </mn>
+		<ln>Старков</ln>
+		<name>Доверительное оценивание параметров предельных распределений статистик экстремальных значений</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Шевляков Г.Л.</reviewer>
+		<slides>13m_07_Starkov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дарья</fn>
+		<mn>Андреевна</mn>
+		<ln>Ширинкина</ln>
+		<name>Фильтр Калмана-Бьюси</name>
+		<advisor id="tm_tovstik" />
+		<reviewer>Дмитриев А.В.</reviewer>
+		<slides>13m_08_Shirinkina.pdf</slides>
+	</person>
+</diploma>

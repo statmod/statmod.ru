@@ -68,7 +68,7 @@
 		<name xml:lang="ru">Программирование и дискретные системы</name>
 		<prof id="yn_kashtanov"/>
 	</course>
-	<course semester="7" year="4" class="общ." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="bsa_prog_threads">
+	<course semester="7" year="4" class="проф." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="bsa_prog_threads">
 		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
 		<prof id="yn_kashtanov"/>
 	</course>
@@ -132,68 +132,68 @@
 	</course>
 
 	
-	<course semester="9" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_mva">
+	<course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_mva">
 		<name xml:lang="ru">Многомерный анализ данных</name>
 		<prof id="ne_golyandina"/>
 </course>
-<course semester="9" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_adv_design">
+<course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_adv_design">
 		<name xml:lang="ru">Дополнительные главы теории оптимального планирования эксперимента</name>
 		<prof id="vb_melas"/>
 </course>
-<course semester="9" year="5" class="с/c" extras="" hours="2" exam="зач." year_equiv="0.5" alias="sa_real_stat">
+<course semester="9" year="5" class="элект." extras="" hours="2" exam="зач." year_equiv="0.5" alias="sa_real_stat">
 		<name xml:lang="ru">Применение статистических методов к реальным данным</name>
 		<prof id="np_alekseeva"/>
 </course>
 	
-	<course semester="10" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_adv_stat">
+	<course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_adv_stat">
 		<name xml:lang="ru">Дополнительные главы математической статистики</name>
 		<prof id="ms_ermakov"/>
 	</course>
- <course semester="10" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_stoch_comp">
+ <course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_stoch_comp">
 		<name xml:lang="ru">Метод Монте-Карло и параллельные вычисления</name>
 		<prof id="sm_ermakov"/>
 </course>
-<course semester="10" year="5" class="с/c" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_random_fields">
+<course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_random_fields">
 		<name xml:lang="ru">  Случайные поля и динамические методы Монте-Карло</name>
 		<prof id="tm_tovstik"/>
 	</course>
-<course semester="10" year="5" class="с/c" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_parallel_comp">
+<course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_parallel_comp">
 		<name xml:lang="ru">Модели финансовой математики и статистическое моделирование</name>
 		<prof id="yn_kashtanov"/>
 </course>
 
-<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_stoch_comp2">
+<course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_stoch_comp2">
 		<name xml:lang="ru">Стохастические вычислительные методы</name>
 		<prof id="sm_ermakov"/>
 </course>
-<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_fin_prog">
+<course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_fin_prog">
 		<name xml:lang="ru">Параллельное программирование вероятностных задач</name>
 		<prof id="yn_kashtanov"/>
 </course>
-<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_histmath">
+<course semester="11" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_histmath">
 		<name xml:lang="ru">История и методология прикладной математики</name>
 		<prof id="eg_burnaeva"/>
 </course>
-<course semester="11" year="6" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_communication">
+<course semester="11" year="6" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_communication">
 		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - I</name>
 		<prof id="ai_korobeynikov"/>
 </course>
 
-<course semester="11" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_optim">
+<course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_optim">
 		<name xml:lang="ru">Аналитические методы решения многокритериальных задач</name>
 		<prof id="pv_shpilev"/>
 </course>
 
-<course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_tropical">
+<course semester="12" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_tropical">
 		<name xml:lang="ru"> Модели и методы тропической математики</name>
 		<prof id="nk_krivulin"/>
 </course>
  
-<course semester="12" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_communication2">
+<course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_communication2">
 		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - II</name>
 		<prof id="vb_melas"/>
 </course>
-<course semester="12" year="6" class="с/к" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_science_approach">
+<course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_science_approach">
 		<name xml:lang="ru">Научно-обоснованный подход к моделированию реальных данных</name>
 		<prof id="ne_golyandina"/>
 </course>
