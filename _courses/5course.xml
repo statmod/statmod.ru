@@ -28,7 +28,7 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3532</location>
                 <course>
                     <name>Дискретные и вероятностные модели</name>
                     <prof>Романовский И.В.</prof>
@@ -37,7 +37,7 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2503</location>
                 <course id="sa_real_stat"/>
             </lesson>
             <lesson type="chair" spec="sm">
@@ -59,7 +59,7 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3536</location>
                 <course>
                     <name>Непрерывные математические модели</name>
                     <prof>Фрадков А.Л., Гусев С.В.</prof>
@@ -68,13 +68,13 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3315</location>
                 <course id="all_adv_design"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>1510</location>
                 <course id="all_mva"/>
             </lesson>
         </two_hours>

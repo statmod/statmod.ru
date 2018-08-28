@@ -2,29 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
 <timetable year="2018" semester="7">
     <weekday id="mon">
-        <two_hours no="1">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Военная подготовка</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="2">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Военная подготовка</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="1"/>
+        <two_hours no="2"/>
         <two_hours no="3">
             <lesson type="dep" spec="all">
                 <location></location>
                 <course>
-                    <name>Военная подготовка</name>
+                    <name>Ин.язык</name>
                     <prof></prof>
                 </course>
             </lesson>
@@ -38,15 +22,7 @@
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Ин.язык</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
         <two_hours no="1"/>
@@ -74,13 +50,13 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3504</location>
                 <course id="ball_exper_design"/>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2526</location>
                 <course id="ball_stat" part="pract"/>
                 <fortnightly type="1"/>
             </lesson>
@@ -90,17 +66,17 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3526</location>
                 <course id="bmm_appl_stat"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>3524</location>
                 <course id="bsm_statmod"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>4526</location>
                 <course id="ball_desicion"/>
             </lesson>
         </two_hours>
@@ -116,23 +92,23 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>3524</location>
                 <course id="bsm_statmod"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location>2408</location>
+                <location>2406</location>
                 <course id="bsa_prog_cpp_advanced"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>3536</location>
                 <course id="bsm_appl_stat"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>05</location>
                 <course>
                     <name>Методы вычислений</name>
                     <prof>Марданов</prof>
@@ -153,19 +129,19 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>05</location>
                 <course id="ball_stat" part="lect"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3526</location>
                 <course id="bsa_montecarlo"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>3526</location>
                 <course id="bsa_montecarlo"/>
             </lesson>
         </two_hours>
@@ -175,7 +151,7 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>В.О., 14 линия</location>
                 <course>
                     <name>Философия</name>
                     <prof>Краснухина Е.К.</prof>
@@ -185,7 +161,7 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>В.О., 14 линия</location>
                 <course>
                     <name>Философия</name>
                     <prof>Краснухина Е.К.</prof>

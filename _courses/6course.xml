@@ -12,21 +12,21 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2507</location>
                 <course id="sa_histmath"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2507</location>
                 <course id="sm_histmath"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>1522</location>
                 <course id="sa_optim"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>1509</location>
                 <course id="sm_stoch_comp2"/>
             </lesson>
         </two_hours>
@@ -63,7 +63,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>1508</location>
                 <course id="sm_markov_chains"/>
             </lesson>
         </two_hours>
