@@ -9,7 +9,7 @@
 	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:variable name="no_width" select="10"/>
 	<xsl:variable name="spec_width" select="240"/>
-	<xsl:variable name="cell_height" select="36"/>
+	<xsl:variable name="cell_height" select="40"/>
 
 	<xsl:variable name="specs">
 		<specs>
