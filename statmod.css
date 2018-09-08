@@ -146,9 +146,14 @@ q {
 
 blockquote, ul li, ol li, a,
 .proftable td, .misctable td,
-.timetable td, .body_text, .body_text a {
+.body_text, .body_text a {
      font:               10pt Tahoma;
 }
+
+.timetable td {
+     font:               11pt Tahoma;
+}
+
 
 .quote_head {
      font:               9pt Tahoma;
