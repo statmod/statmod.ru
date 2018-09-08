@@ -8,7 +8,7 @@
 	<xsl:include href="gen_lesson_table.xsl"/>
 	<xsl:include href="resolve_prof.xsl"/>
 	<xsl:variable name="no_width" select="10"/>
-	<xsl:variable name="spec_width" select="164"/>
+	<xsl:variable name="spec_width" select="240"/>
 	<xsl:variable name="cell_height" select="36"/>
 
 	<xsl:variable name="specs">
