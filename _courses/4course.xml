@@ -1,174 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2018" semester="7">
+<timetable year="2019" semester="8">
     <weekday id="mon">
-        <two_hours no="1"/>
-        <two_hours no="2"/>
-        <two_hours no="3">
+        <two_hours no="1">
             <lesson type="dep" spec="all">
                 <location></location>
                 <course>
-                    <name>Ин.язык</name>
+                    <name>Военная подготовка</name>
                     <prof></prof>
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="4">
+        <two_hours no="2">
             <lesson type="dep" spec="all">
                 <location></location>
                 <course>
-                    <name>Ин.язык</name>
+                    <name>Военная подготовка</name>
                     <prof></prof>
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="5"/>
-    </weekday>
-    <weekday id="tue">
-        <two_hours no="1"/>
-        <two_hours no="2">
-            <lesson type="chair" spec="sa">
-                <location>2408</location>
-                <course>
-                    <name>Методы вычислений (подгруппа 2)</name>
-                    <prof>Марданов А.А.</prof>
-                </course>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>2406</location>
-                <course>
-                    <name>Методы вычислений (подгруппа 1)</name>
-                    <prof>Доронина</prof>
-                </course>
-            </lesson>
-        </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>3381</location>
-                <course id="ball_communication"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>3504</location>
-                <course id="ball_exper_design"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location>2526</location>
-                <course id="ball_stat" part="pract"/>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
-    </weekday>
-    <weekday id="wed">
-        <two_hours no="1"/>
-        <two_hours no="2">
-            <lesson type="chair" spec="sa">
-                <location>3526</location>
-                <course id="bmm_appl_stat"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>3524</location>
-                <course id="bsm_statmod"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>4526</location>
-                <course id="ball_desicion"/>
+                <location></location>
+                <course>
+                    <name>Военная поготовка</name>
+                    <prof></prof>
+                </course>
             </lesson>
         </two_hours>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
-    <weekday id="thu">
+    <weekday id="tue">
         <two_hours no="1">
-            <lesson type="chair" spec="sm">
-                <location>2406</location>
-                <course id="bsm_prog_cpp_advanced"/>
+            <lesson type="chair" spec="sa">
+                <location>2446</location>
+                <course id="bsa_prediploma"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
-            <lesson type="chair" spec="sm">
+            <lesson type="chair" spec="sa">
                 <location>3524</location>
-                <course id="bsm_statmod"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location>2406</location>
-                <course id="bsa_prog_cpp_advanced"/>
+                <course id="bsa_simul_stoch_proc"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>3536</location>
-                <course id="bsm_appl_stat"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>05</location>
-                <course>
-                    <name>Методы вычислений</name>
-                    <prof>Марданов</prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Англ.яз.</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
-    </weekday>
-    <weekday id="fri">
-        <two_hours no="1"/>
-        <two_hours no="2">
-            <lesson type="dep" spec="all">
-                <location>05</location>
-                <course id="ball_stat" part="lect"/>
+                <location>2406</location>
+                <course id="bsm_idemp_algebra"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location>3526</location>
-                <course id="bsa_montecarlo"/>
+            <lesson type="dep" spec="all">
+                <location>2406</location>
+                <course id="ball_statprogR" part="lect"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location>3526</location>
-                <course id="bsa_montecarlo"/>
+                <location>2406</location>
+                <course id="ball_statprogR" part="pract"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>2406</location>
+                <course id="ball_statprogR" part="lect"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
     </weekday>
-    <weekday id="sat">
-        <two_hours no="1"/>
+    <weekday id="wed">
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location>3502</location>
+                <course id="bsm_finance_insurance"/>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>В.О., 14 линия</location>
-                <course>
-                    <name>Философия</name>
-                    <prof>Краснухина Е.К.</prof>
-                </course>
-                <fortnightly type="1"/>
+                <location>3502</location>
+                <course id="bsm_finance_insurance"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>В.О., 14 линия</location>
-                <course>
-                    <name>Философия</name>
-                    <prof>Краснухина Е.К.</prof>
-                </course>
-                <fortnightly type="1"/>
+            <lesson type="chair" spec="sa">
+                <location>3502</location>
+                <course id="bmm_stat_pract"/>
             </lesson>
         </two_hours>
+        <two_hours no="4">
+            <lesson type="chair" spec="sa">
+                <location>3502</location>
+                <course id="bmm_stat_pract"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="5"/>
+    </weekday>
+    <weekday id="thu">
+        <two_hours no="1">
+            <lesson type="chair" spec="sa">
+                <location>3502</location>
+                <course id="bsa_system_model"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>3522</location>
+                <course id="bsm_stat_pract"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="2">
+            <lesson type="chair" spec="sa">
+                <location>3502</location>
+                <course id="bsa_system_model"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>3522</location>
+                <course id="bsm_stat_pract"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="3">
+            <lesson type="chair" spec="sm">
+                <location>4399</location>
+                <course id="bsm_prediploma"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="4"/>
+        <two_hours no="5"/>
+    </weekday>
+    <weekday id="fri">
+        <two_hours no="1"/>
+        <two_hours no="2">
+            <lesson type="chair" spec="sm">
+                <location>2504</location>
+                <course id="bsm_stoch_processes"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="3">
+            <lesson type="chair" spec="sm">
+                <location>2504</location>
+                <course id="bsm_stoch_processes"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="4"/>
+        <two_hours no="5"/>
+    </weekday>
+    <weekday id="sat">
+        <two_hours no="1"/>
+        <two_hours no="2"/>
+        <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
