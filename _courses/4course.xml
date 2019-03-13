@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
 <timetable year="2019" semester="8">
     <weekday id="mon">
@@ -128,13 +128,13 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sm">
-                <location>2504</location>
+                <location>3522</location>
                 <course id="bsm_stoch_processes"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sm">
-                <location>2504</location>
+                <location>3522</location>
                 <course id="bsm_stoch_processes"/>
             </lesson>
         </two_hours>
