@@ -68,10 +68,6 @@
 		<name xml:lang="ru">Программирование и дискретные системы</name>
 		<prof id="yn_kashtanov"/>
 	</course>
-	<course semester="7" year="4" class="проф." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="bsa_prog_threads">
-		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
-		<prof id="yn_kashtanov"/>
-	</course>
 	<course semester="7" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_communication">
 		<name xml:lang="ru">Современные средства и методы научной коммуникации в области статистического моделирования</name>
 	<prof id="ai_korobeynikov"/>

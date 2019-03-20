@@ -77,10 +77,6 @@
 		<name xml:lang="ru">Программирование для решения вероятностных задач</name>
 		<prof id="nk_zvonarev"/>
 	</course>
-	<course semester="7" year="4" class="проф." extras="ф." hours="2" exam="зачет" year_equiv="0.5" alias="bsm_prog_optimization">
-		<name xml:lang="ru">Практикум по совр. прикл. программированию</name>
-		<prof id="nk_zvonarev"/>
-	</course>
 	
 	<course semester="7" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_communication">
 		<name xml:lang="ru">Современные средства и методы научной коммуникации в области статистического моделирования</name>
