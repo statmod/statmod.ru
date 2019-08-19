@@ -107,7 +107,7 @@
   </course>
 	<course semester="7" year="4" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="ball_desicion">
 		<name xml:lang="ru">Принятие решений</name>
-		<prof id="ya_sushkov"/>
+		<prof id="nk_krivulin"/>
 </course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="зачет" year_equiv="1" alias="bsm_finance_insurance">
 		<name xml:lang="ru">Актуарная математика</name>
@@ -151,6 +151,10 @@
 		<prof id="nk_krivulin"/>
 	</course>
 	
+<course semester="9" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_models">
+		<name xml:lang="ru">Дискретные и вероятностные модели</name>
+		<prof id="ne_golyandina"/>
+</course>
 <course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_mva">
 		<name xml:lang="ru">Многомерный анализ данных</name>
 		<prof id="ne_golyandina"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2019" semester="12">
+<timetable year="2019" semester="11">
     <weekday id="mon">
         <two_hours no="1"/>
         <two_hours no="2"/>
@@ -9,109 +9,97 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
-        <two_hours no="1">
-            <lesson type="dep" spec="all">
-                <location>2516</location>
-                <course>
-                    <name>История развития вычислительной техники</name>
-                    <prof>Мирошниченко</prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location>4399</location>
-                <course id="sa_communication2"/>
+                <location></location>
+                <course id="sa_histmath"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>4399 (?)</location>
-                <course id="sm_communication2"/>
+                <location></location>
+                <course id="sm_histmath"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location>3315</location>
-                <course id="sa_tropical"/>
+                <location></location>
+                <course id="sa_optim"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>не будет?</location>
+                <course id="sm_stoch_comp2"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="dep" spec="all">
+            <lesson type="chair" spec="sa">
                 <location>4399</location>
-                <course id="sm_science_approach"/>
+                <course id="sa_communication"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>4399</location>
+                <course id="sm_communication"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
         <two_hours no="1"/>
-        <two_hours no="2">
-            <lesson type="dep" spec="all">
-                <location>1512</location>
-                <course>
-                    <name>Современная философия и методология науки</name>
-                    <prof>Иванов</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>1512</location>
-                <course>
-                    <name>Современная философия и методология науки</name>
-                    <prof>Иванов</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="2"/>
+        <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="thu">
         <two_hours no="1"/>
-        <two_hours no="2"/>
+        <two_hours no="2">
+            <lesson type="chair" spec="sm">
+                <location></location>
+                <course id="sm_markov_chains"/>
+            </lesson>
+        </two_hours>
         <two_hours no="3">
-            <lesson type="chair" spec="sm">
-                <location>1520</location>
-                <course id="sm_biostat"/>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="chair" spec="sm">
-                <location>1520</location>
-                <course id="sm_biostat"/>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="5">
             <lesson type="dep" spec="all">
                 <location></location>
                 <course>
-                    <name>Англ.яз.</name>
-                    <prof>Акимова</prof>
+                    <name>Современная философия и методология науки</name>
+                    <prof>Иванов Н.Б.</prof>
                 </course>
             </lesson>
         </two_hours>
+        <two_hours no="4"/>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="fri">
         <two_hours no="1"/>
-        <two_hours no="2"/>
+        <two_hours no="2">
+            <lesson type="chair" spec="sa">
+                <location>2414</location>
+                <course id="sa_fin_prog"/>
+            </lesson>
+        </two_hours>
         <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="sat">
         <two_hours no="1">
-            <lesson type="dep" spec="all">
+            <lesson type="chair" spec="sm">
                 <location></location>
                 <course>
-                    <name>немецкий яз.</name>
-                    <prof>(по выбору)</prof>
+                    <name>Ин.язык</name>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="2"/>
+        <two_hours no="2">
+            <lesson type="chair" spec="sm">
+                <location></location>
+                <course>
+                    <name>Ин.язык</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
