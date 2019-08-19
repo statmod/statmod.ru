@@ -51,7 +51,6 @@
             <lesson type="dep" spec="all">
                 <location></location>
                 <course id="ball_stat" part="pract"/>
-                <fortnightly type="1"/>
             </lesson>
         </two_hours>
     </weekday>
