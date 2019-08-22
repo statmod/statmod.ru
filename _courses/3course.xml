@@ -9,17 +9,17 @@
             <lesson type="dep" spec="all">
                 <location></location>
                 <course>
-                    <name>Теория вероятностей</name>
-                    <prof>Фролов А.Н.</prof>
+                    <name>Англ.яз.</name>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>06</location>
                 <course>
-                    <name>Англ.яз.</name>
-                    <prof></prof>
+                    <name>Теория вероятностей</name>
+                    <prof>Фролов А.Н.</prof>
                 </course>
             </lesson>
         </two_hours>
@@ -27,7 +27,7 @@
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2520</location>
                 <course>
                     <name>Математический анализ</name>
                     <prof>Савельева А.Г.</prof>
@@ -50,13 +50,13 @@
                 <course id="bmm_prog_c_lang"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>3504</location>
                 <course id="bsm_prog_c_lang"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>01</location>
                 <course>
                     <name>Безопасность жизнедеятельности</name>
                     <prof>Хмелев</prof>
@@ -65,7 +65,7 @@
         </two_hours>
         <two_hours no="5">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>01</location>
                 <course>
                     <name>Безопасность жизнедеятельности</name>
                     <prof>Хмелев</prof>
@@ -77,7 +77,7 @@
     <weekday id="wed">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>06  (до 15.11)</location>
                 <course>
                     <name>Экстремальные задачи</name>
                     <prof>Григорьева Н.С.</prof>
@@ -86,29 +86,38 @@
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>06</location>
                 <course>
                     <name>Математический анализ</name>
-                    <prof>Адександров А.Б.</prof>
+                    <prof>Александров А.Б.</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2520</location>
                 <course id="ball_teorver_pract"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
-                <course id="ball_simul_discr"/>
+                <location>06 (до 15.11)</location>
+                <course>
+                    <name>Экстремальные задачи</name>
+                    <prof>Григорьева Н.С.</prof>
+                </course>
+                <fortnightly type="2"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="thu">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location>2518</location>
+                <course id="ball_simul_discr"/>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
                 <location>не будет</location>
@@ -130,7 +139,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>2410</location>
+                <location>2414</location>
                 <course id="ball_tex"/>
             </lesson>
         </two_hours>
@@ -168,29 +177,28 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="sat">
-        <two_hours no="1">
+        <two_hours no="1"/>
+        <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2524</location>
                 <course>
                     <name>Экстремальные задачи</name>
                     <prof>Абрамовская</prof>
                 </course>
                 <fortnightly type="1"/>
             </lesson>
-        </two_hours>
-        <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3532</location>
                 <course>
-                    <name>Экстремальные задачи</name>
-                    <prof>Григорьева Н.С.</prof>
+                    <name>Функциональный анализ</name>
+                    <prof>Додонов Н.Ю.</prof>
                 </course>
-                <fortnightly type="1"/>
+                <fortnightly type="2"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>05</location>
                 <course>
                     <name>Функциональный анализ</name>
                     <prof>Додонов Н.Ю.</prof>
@@ -199,15 +207,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Функциональный анализ</name>
-                    <prof>Додонов Н.Ю.</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-            <lesson type="dep" spec="all">
-                <location></location>
+                <location>05</location>
                 <course>
                     <name>Функциональный анализ</name>
                     <prof>Додонов Н.Ю.</prof>

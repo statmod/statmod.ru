@@ -48,12 +48,12 @@
 </xsl:otherwise>
 </xsl:choose>
 </h2>
-<p>Некий очень предварительный вариант расписания (19.08.2019). Обновляйте страницу (!), чтобы увидеть последний вариант. Сообщайте об ошибках, пожалуйста.
+<p>Предварительный вариант расписания (22.08.2019). Обновляйте страницу (!), чтобы увидеть последний вариант. Сообщайте об ошибках, пожалуйста.
 </p>
 <p/>
-<p>Карманное расписание<sup><font color="red">NEW</font></sup> для специализаций: 
+<!-- <p>Карманное расписание<sup><font color="red">NEW</font></sup> для специализаций: 
 <xsl:for-each select="msxsl:node-set($specs)/specs/spec"><spec code="nbsp"/><a target="_blank" href="{$current_folder}pocket/{@id}.htm"><xsl:value-of select="name"/></a></xsl:for-each></p>
-
+-->
 
 		<table class="timetable" width="{$no_width + count(msxsl:node-set($specs)/specs/spec)*$spec_width}" align="center" border="1">
 			<tr>
