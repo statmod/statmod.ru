@@ -87,13 +87,13 @@
     </weekday>
     <weekday id="fri">
         <two_hours no="1"/>
-        <two_hours no="2">
+        <two_hours no="2"/>
+        <two_hours no="3">
             <lesson type="chair" spec="sa">
                 <location>2414</location>
                 <course id="sa_fin_prog"/>
             </lesson>
         </two_hours>
-        <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
