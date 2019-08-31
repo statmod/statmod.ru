@@ -25,7 +25,12 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location>1522</location>
+                <course id="ball_stat" part="pract"/>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
                 <location>2406</location>
@@ -47,18 +52,13 @@
                 <course id="ball_exper_design"/>
             </lesson>
         </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location>1522</location>
-                <course id="ball_stat" part="pract"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location>не будет?</location>
+                <location>?</location>
                 <course id="bsa_montecarlo"/>
             </lesson>
             <lesson type="chair" spec="sm">
@@ -93,7 +93,7 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location>не будет?</location>
+                <location>?</location>
                 <course id="bmm_appl_stat"/>
             </lesson>
             <lesson type="chair" spec="sm">
@@ -103,7 +103,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location>не будет?</location>
+                <location>?</location>
                 <course id="bsa_montecarlo"/>
             </lesson>
             <lesson type="chair" spec="sm">

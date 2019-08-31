@@ -26,7 +26,7 @@
                 <course id="sa_optim"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>не будет?</location>
+                <location>?</location>
                 <course id="sm_stoch_comp2"/>
             </lesson>
         </two_hours>
