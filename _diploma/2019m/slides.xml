@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2019">
+	<person spec="sm">
+		<fn>Егор</fn>
+		<mn>Владимирович</mn>
+		<ln>Орбидан</ln>
+		<name>Статистический анализ многомерных лонгитюдных кардиологических данных</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>13m_01_orbidan.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Климент</fn>
+		<mn>Викторович</mn>
+		<ln>Мерзляков</ln>
+		<name>Анализ данных интернет-продаж</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="an_pepelyshev" />
+		<slides>13m_02_merzlyakov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дмитрий</fn>
+		<mn>Игоревич</mn>
+		<ln>Сальников</ln>
+		<name>Исследование непараметрических методов проверки гипотез с помощью статистического моделирования</name>
+		<advisor id="vb_melas" />
+		<reviewer>Григорьев Ю.Д.</reviewer>
+		<slides>13m_03_salnikov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Полина</fn>
+		<mn>Олеговна</mn>
+		<ln>Шишкова</ln>
+		<name>Численные исследования статистических методов сравнения кривых</name>
+		<advisor id="vb_melas" />
+		<reviewer>Григорьев Ю.Д.</reviewer>
+		<slides>13m_04_shishkova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Тамара</fn>
+		<mn>Олеговна</mn>
+		<ln>Суровикина</ln>
+		<name>Вероятностное решение некоторых нелинейных уравнений относительно мер</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer>Сипин А.С.</reviewer>
+		<slides>13m_05_surovikina.pdf</slides>
+	</person>
+</diploma>

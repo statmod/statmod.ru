@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2019">
+	<person spec="sm">
+		<fn>Антон</fn>
+		<mn>Владимирович</mn>
+		<ln>Константинов</ln>
+		<name>Задачи оценивания геномного расстояния на графах де Брейна</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="ay_shlemov" />
+		<slides>13b_01_konstantinov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Николай</fn>
+		<mn>Дмитриевич</mn>
+		<ln>Карасов</ln>
+		<name>Задача оценивания кратности повторных последовательностей в геномах</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer id="ay_shlemov" />
+		<slides>13b_02_karasov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Елизавета</fn>
+		<mn>Петровна</mn>
+		<ln>Вирко</ln>
+		<name>Дельта-метод и его некоторые применения в статистике</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer>Советкин Е.А.</reviewer>
+		<slides>13b_03_virko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Евгений</fn>
+		<mn>Алексеевич</mn>
+		<ln>Соколиков</ln>
+		<name>Статистический анализ бинарных данных с применением в иммунологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer id="pv_gracheva" />
+		<slides>13b_04_Sokolikov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Сергей</fn>
+		<mn>Андреевич</mn>
+		<ln>Сандалов</ln>
+		<name>Локальные модификации метода анализа сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer id="nk_zvonarev" />
+		<slides>13b_05_sandalov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Алина</fn>
+		<mn>Артуровна</mn>
+		<ln>Плешкова</ln>
+		<name>Исследование L-оптимальных планов для двумерной экспоненциальной модели</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Невзоров В.Б.</reviewer>
+		<slides>13b_11_pleshkova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Маргарита</fn>
+		<mn>Александровна</mn>
+		<ln>Цобенко</ln>
+		<name>Решение двухкритериальных задач тропической оптимизации и их приложения</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="ay_ponomareva" />
+		<slides>13b_12_tsobenko.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Святослав</fn>
+		<mn>Александрович</mn>
+		<ln>Арзамасцев</ln>
+		<name>Построение D-оптимальных планов для модели Кобба-Дугласа</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Невзоров В.Б.</reviewer>
+		<slides>13b_13_arzamastsev.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Екатерина</fn>
+		<mn>Сергеевна</mn>
+		<ln>Мартынкина</ln>
+		<name>Методы тропической математики в многомерных задачах оптимизации</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="ay_ponomareva" />
+		<slides>13b_14_martynkina.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ульяна</fn>
+		<mn>Львовна</mn>
+		<ln>Баско</ln>
+		<name>Минимаксные задачи тропической оптимизации и их приложения</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Соловьев И.П.</reviewer>
+		<slides>13b_15_Basko.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Елена</fn>
+		<mn>Николаевна</mn>
+		<ln>Картышева</ln>
+		<name>Модель отрицательного биномиального распределения паттернов в геноме</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Комарова Е.С.</reviewer>
+		<slides>13b_16_kartysheva.pdf</slides>
+	</person>
+</diploma>
