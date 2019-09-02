@@ -21,15 +21,7 @@
             </lesson>
         </two_hours>
         <two_hours no="3"/>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>3502 (дублирует четверг?)</location>
-                <course>
-                    <name>Непрерывные математические модели</name>
-                    <prof>Гусев</prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
