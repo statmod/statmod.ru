@@ -2,20 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
 <timetable year="2019" semester="9">
     <weekday id="mon">
-        <two_hours no="1">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Немецкий яз (по выбору)</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
                 <location></location>
                 <course>
-                    <name>Англ.яз.  (по выбору)</name>
+                    <name>Ин.яз.  (по выбору)</name>
                     <prof></prof>
                 </course>
             </lesson>

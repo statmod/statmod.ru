@@ -55,7 +55,12 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="chair" spec="sa">
+                <location>?</location>
+                <course id="bsa_montecarlo"/>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
                 <location>?</location>
@@ -102,10 +107,6 @@
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="chair" spec="sa">
-                <location>?</location>
-                <course id="bsa_montecarlo"/>
-            </lesson>
             <lesson type="chair" spec="sm">
                 <location>2504</location>
                 <course id="bsm_statmod"/>
