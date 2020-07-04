@@ -1,71 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2019" semester="9">
+<timetable year="2020" semester="10">
     <weekday id="mon">
         <two_hours no="1"/>
-        <two_hours no="2">
+        <two_hours no="2"/>
+        <two_hours no="3"/>
+        <two_hours no="4">
             <lesson type="dep" spec="all">
                 <location></location>
                 <course>
-                    <name>Ин.яз.  (по выбору)</name>
-                    <prof></prof>
+                    <name>Англ.яз., Нем.яз.</name>
+                    <prof>Акимова, Новикова</prof>
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="3"/>
-        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="chair" spec="sm">
-                <location>4399</location>
-                <course id="sm_mva_comp"/>
+                <location>4399 (Электив 4)</location>
+                <course id="sm_ts_comp"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
-            <lesson type="dep" spec="all">
-                <location>3532</location>
-                <course id="all_models"/>
+            <lesson type="chair" spec="sm">
+                <location>2446 (Электив 1)</location>
+                <course id="sm_statlearning"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location>2509</location>
-                <course id="sa_real_stat"/>
+                <location>2502 (Электив 2)</location>
+                <course id="sa_stoch_comp"/>
             </lesson>
         </two_hours>
-        <two_hours no="4"/>
+        <two_hours no="4">
+            <lesson type="chair" spec="sa">
+                <location>2504 (Электив 3)</location>
+                <course id="sa_adv_stat"/>
+            </lesson>
+        </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
-        <two_hours no="1"/>
-        <two_hours no="2"/>
-        <two_hours no="3"/>
-        <two_hours no="4"/>
-        <two_hours no="5"/>
-    </weekday>
-    <weekday id="thu">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Военная кафедра</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>1520</location>
+                <location></location>
                 <course>
-                    <name>Непрерывные математические модели</name>
-                    <prof>Фрадков А.Л., Гусев С.В.</prof>
+                    <name>Военная кафедра</name>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location>3315</location>
-                <course id="all_adv_design"/>
+                <location></location>
+                <course>
+                    <name>Военная кафедра</name>
+                    <prof></prof>
+                </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>1512</location>
-                <course id="all_mva"/>
+                <location></location>
+                <course>
+                    <name>Военная кафедра</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="5"/>
+    </weekday>
+    <weekday id="thu">
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Военная кафедра</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="2">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Военная кафедра</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="3">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Военная кафедра</name>
+                    <prof></prof>
+                </course>
+            </lesson>
+        </two_hours>
+        <two_hours no="4">
+            <lesson type="dep" spec="all">
+                <location></location>
+                <course>
+                    <name>Военная кафедра</name>
+                    <prof></prof>
+                </course>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
@@ -80,15 +131,7 @@
     <weekday id="sat">
         <two_hours no="1"/>
         <two_hours no="2"/>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Немецкий яз  (по выбору)</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
