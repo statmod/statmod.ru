@@ -154,7 +154,12 @@
 	
 	<cycle>
 			<name>Магистратура</name>
-		<annot>
+			<annot>
+			<header>
+				<course id="all_models"/>
+			</header>
+Вероятностные и статистические модели, 9 семестр. Общий курс для ПМИ.</annot>
+	<annot>
 			<header>
 				<course id="all_mva"/>
 			</header>
@@ -165,13 +170,13 @@
 			</header>
  Применение статистических методов к реальным данным, 9 семестр. Практика в поддержку курса по многомерному анализу данныъ
 		</annot>
-				<annot>
-			<header>
-				<course id="all_adv_design"/>
+	<annot>
+		<header>
+				<course id="sa_prog_data"/>
 			</header>
- Дополнительные главы теории оптимального планирования эксперимента, 9 семестр. Общий курс.
+ Программирование для анализа данных, 9 семестр. 
 		</annot>
-		<annot>
+			<annot>
 			<header>
 				<course id="sa_adv_stat"/>
 			</header>

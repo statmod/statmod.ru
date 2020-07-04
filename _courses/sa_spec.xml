@@ -128,13 +128,17 @@
 	</course>
 
 	
-	<course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_mva">
+	<course semester="9" year="5" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_models">
+		<name xml:lang="ru">Вероятностные и статистические модели</name>
+		<prof id="ne_golyandina"/>
+</course>
+<course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_mva">
 		<name xml:lang="ru">Многомерный анализ данных</name>
 		<prof id="ne_golyandina"/>
 </course>
-<course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_adv_design">
-		<name xml:lang="ru">Дополнительные главы теории оптимального планирования эксперимента</name>
-		<prof id="vb_melas"/>
+<course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_prog_data">
+		<name xml:lang="ru">Программирование для анализа данных</name>
+		<prof id="ai_korobeynikov"/>
 </course>
 <course semester="9" year="5" class="элект." extras="" hours="2" exam="зач." year_equiv="0.5" alias="sa_real_stat">
 		<name xml:lang="ru">Применение статистических методов к реальным данным</name>

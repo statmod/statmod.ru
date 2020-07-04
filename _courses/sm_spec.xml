@@ -154,8 +154,8 @@
 		<prof id="np_alekseeva"/>-->
 	</course>
 	
-<course semester="9" year="5" class="с/к" extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_models">
-		<name xml:lang="ru">Дискретные и вероятностные модели</name>
+<course semester="9" year="5" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_models">
+		<name xml:lang="ru">Вероятностные и статистические модели</name>
 		<prof id="ne_golyandina"/>
 </course>
 <course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_mva">
@@ -166,7 +166,7 @@
 		</co:questions>
 </course>
 <course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_adv_design">
-		<name xml:lang="ru">Дополнительные главы теории оптимального планирования эксперимента</name>
+		<name xml:lang="ru">Модели и методы исследования систем массового обслуживания</name>
 		<prof id="vb_melas"/>
 </course>
 <course semester="9" year="5" class="элект" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_mva_comp">
