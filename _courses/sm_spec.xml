@@ -166,11 +166,11 @@
 		</co:questions>
 </course>
 <course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="all_adv_design">
-		<name xml:lang="ru">Модели и методы исследования систем массового обслуживания</name>
+		<name xml:lang="ru">Курс 1. Модели и методы исследования систем массового обслуживания</name>
 		<prof id="vb_melas"/>
 </course>
 <course semester="9" year="5" class="элект" extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_mva_comp">
-		<name xml:lang="ru">Анализ многомерных данных на компьютере</name>
+		<name xml:lang="ru">Курс 2. Анализ многомерных данных на компьютере</name>
 		<prof id="ne_golyandina"/>
 </course>
 	
@@ -198,7 +198,7 @@
 </course>
 
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_markov_chains">
-		<name xml:lang="ru">Цепи Маркова и их приложения</name>
+		<name xml:lang="ru">Курс 1. Цепи Маркова и их приложения</name>
 		<prof id="vv_nekrutkin"/>
 </course>
 
@@ -212,8 +212,13 @@
 </course>
 
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stoch_comp2">
-		<name xml:lang="ru">Стохастические вычислительные методы</name>
+		<name xml:lang="ru">Курс 2. Стохастические вычислительные методы</name>
 		<prof id="sm_ermakov"/>
+</course>
+
+<course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_optim">
+		<name xml:lang="ru">Курс 2. Аналитические методы решения многокритериальных задач</name>
+		<prof id="pv_shpilev"/>
 </course>
 
 <course semester="12" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_biostat">
