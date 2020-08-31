@@ -35,7 +35,7 @@
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2507</location>
                 <course id="ball_stat" part="pract"/>
             </lesson>
         </two_hours>
@@ -53,7 +53,7 @@
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>2507</location>
                 <course id="bsm_appl_stat"/>
             </lesson>
         </two_hours>
@@ -102,7 +102,7 @@
         </two_hours>
         <two_hours no="3">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2503</location>
                 <course id="bmm_appl_stat"/>
             </lesson>
             <lesson type="chair" spec="sm">

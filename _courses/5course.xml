@@ -33,13 +33,13 @@
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2516 (?)</location>
                 <course id="all_models"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>3349, дистанционно?</location>
                 <course>
                     <name>Непрерывные математические модели</name>
                     <prof>Фрадков А.Л., Гусев С.В.</prof>
@@ -61,13 +61,13 @@
         <two_hours no="2"/>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2505</location>
                 <course id="all_mva"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2505</location>
                 <course id="sa_real_stat"/>
             </lesson>
             <lesson type="chair" spec="sm">
@@ -77,7 +77,7 @@
         </two_hours>
         <two_hours no="5">
             <lesson type="chair" spec="sa">
-                <location></location>
+                <location>2505</location>
                 <course id="sa_prog_data"/>
             </lesson>
         </two_hours>

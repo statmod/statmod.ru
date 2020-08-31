@@ -1,33 +1,33 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
 <timetable year="2020" semester="11">
     <weekday id="mon">
         <two_hours no="1"/>
         <two_hours no="2"/>
         <two_hours no="3"/>
-        <two_hours no="4"/>
-        <two_hours no="5"/>
+        <two_hours no="4">
+            <lesson type="chair" spec="sa">
+                <location>дистанционно</location>
+                <course id="sa_communication"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>дистанционно</location>
+                <course id="sm_communication"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="5">
+            <lesson type="chair" spec="sm">
+                <location>дистанционно</location>
+                <course id="sm_optim"/>
+            </lesson>
+        </two_hours>
     </weekday>
     <weekday id="tue">
         <two_hours no="1"/>
         <two_hours no="2"/>
         <two_hours no="3"/>
-        <two_hours no="4">
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course id="sm_optim"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="5">
-            <lesson type="chair" spec="sa">
-                <location></location>
-                <course id="sa_communication"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>4399</location>
-                <course id="sm_communication"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="4"/>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
         <two_hours no="1"/>

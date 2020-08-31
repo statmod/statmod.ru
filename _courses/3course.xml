@@ -58,21 +58,12 @@
                 <course id="bmm_prog_c_lang"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location></location>
+                <location>1508</location>
                 <course id="bsm_prog_c_lang"/>
             </lesson>
         </two_hours>
         <two_hours no="4"/>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location>01</location>
-                <course>
-                    <name>Безопасность жизнедеятельности</name>
-                    <prof>Хмелев</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
         <two_hours no="1">
