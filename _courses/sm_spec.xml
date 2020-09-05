@@ -175,25 +175,22 @@
 </course>
 	
 	<course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sm_timeseries_ssa">
-		<name xml:lang="ru">Главные компоненты временных рядов</name>
+		<name xml:lang="ru">Курс 1. Главные компоненты временных рядов</name>
 		<prof id="ne_golyandina"/>
 			<co:questions xmlns:co="http://statmod.ru/courses" file="5_10_sm_timeseries_ssa.pdf">
 			<co:file_name>2015/2016</co:file_name>
 		</co:questions>
 </course>
- <course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sm_stat_stoch_processes">
-		<name xml:lang="ru">Статистика стационарных процессов</name>
+ <course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sm_simulation">
+		<name xml:lang="ru"> Курс 4. Введение в имитационное моделирование: моделирование случайности</name>
 		<prof id="vv_nekrutkin"/>
-		<co:questions xmlns:co="http://statmod.ru/courses" file="5_10_sm_stat_stoch_processes.pdf">
-			<co:file_name>2016/2017</co:file_name>
-			</co:questions>
 </course>
 <course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_statlearning">
-		<name xml:lang="ru"> Интеллектуальный анализ данных</name>
+		<name xml:lang="ru"> Курс 3. Интеллектуальный анализ данных</name>
 		<prof id="ai_korobeynikov"/>
 	</course>
 <course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_ts_comp">
-		<name xml:lang="ru">Статистический анализ временных рядов</name>
+		<name xml:lang="ru"> Курс 2. Статистический анализ временных рядов</name>
 		<prof id="ne_golyandina"/>
 </course>
 
@@ -222,7 +219,7 @@
 </course>
 
 <course semester="12" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_biostat">
-		<name xml:lang="ru">Биостатистика</name>
+		<name xml:lang="ru">Курс 1. Биостатистика</name>
 		<prof id="np_alekseeva"/>
 </course>
  

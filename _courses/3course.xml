@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
 <timetable year="2020" semester="5">
     <weekday id="mon">
@@ -112,7 +112,7 @@
                 <course id="bsa_stat_intro"/>
             </lesson>
             <lesson type="chair" spec="sm">
-                <location>2406</location>
+                <location>2408</location>
                 <course id="bsm_prog_c_pract"/>
             </lesson>
         </two_hours>

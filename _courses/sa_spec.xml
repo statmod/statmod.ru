@@ -146,20 +146,20 @@
 </course>
 	
 	<course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_adv_stat">
-		<name xml:lang="ru">Дополнительные главы математической статистики</name>
+		<name xml:lang="ru">Курс 1. Задачи математической статистики</name>
 		<prof id="ms_ermakov"/>
 	</course>
  <course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_stoch_comp">
-		<name xml:lang="ru">Метод Монте-Карло и параллельные вычисления</name>
+		<name xml:lang="ru">Курс 4. Метод Монте-Карло и параллельные вычисления</name>
 		<prof id="sm_ermakov"/>
 </course>
 <course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_random_fields">
-		<name xml:lang="ru">  Случайные поля и динамические методы Монте-Карло</name>
+		<name xml:lang="ru"> Курс 3. Случайные поля и динамические методы Монте-Карло</name>
 		<prof id="tm_tovstik"/>
 	</course>
 <course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_parallel_comp">
-		<name xml:lang="ru">Модели финансовой математики и статистическое моделирование</name>
-		<prof id="yn_kashtanov"/>
+		<name xml:lang="ru">Курс 2. Модели финансовой математики и статистическое моделирование</name>
+		<prof id="tm_tovstik"/>
 </course>
 
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_stoch_comp2">
@@ -185,7 +185,7 @@
 </course>
 
 <course semester="12" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_tropical">
-		<name xml:lang="ru"> Модели и методы тропической математики</name>
+		<name xml:lang="ru"> Курс 1. Модели и методы тропической математики</name>
 		<prof id="nk_krivulin"/>
 </course>
  
