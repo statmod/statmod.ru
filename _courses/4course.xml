@@ -52,8 +52,12 @@
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="chair" spec="sm">
+            <lesson type="chair" spec="sa">
                 <location>2507</location>
+                <course id="bmm_appl_stat"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>4399</location>
                 <course id="bsm_appl_stat"/>
             </lesson>
         </two_hours>
@@ -101,11 +105,7 @@
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location>2503</location>
-                <course id="bmm_appl_stat"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
+            <lesson type="dep" spec="all">
                 <location>3381</location>
                 <course id="bsm_prog_cpp_advanced"/>
             </lesson>
