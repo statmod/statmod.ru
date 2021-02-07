@@ -149,9 +149,10 @@
 	<course semester="8" year="4" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_idemp_algebra">
 		<name xml:lang="ru">Алг. методы моделирования систем</name>
 		<prof id="nk_krivulin"/> 
-<!--<course semester="8" year="4" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_category_stat">
+		</course>
+<course semester="8" year="4" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsm_category_stat">
 		<name xml:lang="ru">Статистический анализ качественных признаков</name>
-		<prof id="np_alekseeva"/>-->
+		<prof id="np_alekseeva"/>
 	</course>
 	
 <course semester="9" year="5" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="all_models">
