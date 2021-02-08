@@ -82,34 +82,25 @@
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location>?</location>
-                <course id="bmm_stat_pract"/>
+            <lesson type="chair" spec="sm">
+                <location></location>
+                <course id="bsm_category_stat"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="chair" spec="sa">
+            <lesson type="chair" spec="sm">
                 <location>?</location>
-                <course id="bmm_stat_pract"/>
+                <course id="bsm_prediploma"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="thu">
-        <two_hours no="1">
-            <lesson type="chair" spec="sm">
-                <location>?</location>
-                <course id="bsm_category_stat"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
                 <location></location>
                 <course id="bsa_system_model"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>?</location>
-                <course id="bsm_stat_pract"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
@@ -117,13 +108,27 @@
                 <location></location>
                 <course id="bsa_system_model"/>
             </lesson>
+        </two_hours>
+        <two_hours no="4">
+            <lesson type="chair" spec="sa">
+                <location>?</location>
+                <course id="bmm_stat_pract"/>
+            </lesson>
             <lesson type="chair" spec="sm">
                 <location>?</location>
                 <course id="bsm_stat_pract"/>
             </lesson>
         </two_hours>
-        <two_hours no="4"/>
-        <two_hours no="5"/>
+        <two_hours no="5">
+            <lesson type="chair" spec="sa">
+                <location>?</location>
+                <course id="bmm_stat_pract"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>?</location>
+                <course id="bsm_stat_pract"/>
+            </lesson>
+        </two_hours>
     </weekday>
     <weekday id="fri">
         <two_hours no="1"/>
@@ -139,12 +144,7 @@
                 <course id="bsm_stoch_processes"/>
             </lesson>
         </two_hours>
-        <two_hours no="4">
-            <lesson type="chair" spec="sm">
-                <location>?</location>
-                <course id="bsm_prediploma"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="sat">

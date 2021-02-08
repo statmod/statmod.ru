@@ -29,18 +29,8 @@
                 <course id="sm_ts_comp"/>
             </lesson>
         </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>(электив 2)</location>
-                <course id="sm_simulation"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="chair" spec="sa">
-                <location>(Электив 3)</location>
-                <course id="sa_adv_stat"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
@@ -129,11 +119,20 @@
                 <course id="sa_parallel_comp"/>
             </lesson>
         </two_hours>
-        <two_hours no="3"/>
-        <two_hours no="4">
+        <two_hours no="3">
+            <lesson type="chair" spec="sa">
+                <location>(Электив 3)</location>
+                <course id="sa_adv_stat"/>
+            </lesson>
             <lesson type="chair" spec="sm">
-                <location>(электив 3)</location>
+                <location>(Электив 3)</location>
                 <course id="sm_timeseries_ssa"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="4">
+            <lesson type="dep" spec="all">
+                <location>(Электив 1)</location>
+                <course id="sm_simulation"/>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
