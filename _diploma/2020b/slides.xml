@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2020">
+	<person spec="sm">
+		<fn>Темирлан</fn>
+		<mn></mn>
+		<ln>Абильдаев</ln>
+		<name>Асимптотические свойства спектра интегральных операторов переменного порядка</name>
+		<advisor> Кароль А.И. <advisor/>
+		<reviewer> Петрова Ю.П.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Егор</fn>
+		<mn>Вячеславович</mn>
+		<ln>Барсуков</ln>
+		<name>Оптимальные планы для оценивания производных в полиномиальной регрессионной модели без свободного члена</name>
+		<advisor id="vb_melas" />
+		<reviewer>Григорьев Ю.Г.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Владлена</fn>
+		<mn></mn>
+		<ln>Горшечникова</ln>
+		<name>Оптимизация простых алгоритмов моделирования перколяции</name>
+		<advisor id="sm_ermakov" />
+		<reviewer> Рукавишникова А.И.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Дейвид</fn>
+		<mn></mn>
+		<ln>Капаца</ln>
+		<name>Статистический анализ методов разреженности</name>
+		<advisor id="ms_ermakov" />
+		<reviewer> Шевляков Г.Л.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Магдич</fn>
+		<mn></mn>
+		<ln>Елизавета</ln>
+		<name>Расчет и оптимизация стоимости американского опциона</name>
+		<advisor id="sm_ermakov" />
+		<reviewer>Рукавишникова А.И.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sa">
+		<fn>Олег</fn>
+		<mn></mn>
+		<ln>Железняк</ln>
+		<name>Симптомно-синдромальный подход к анализу категориальных данных</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Смирнов И.Б.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sa">
+		<fn>Дмитрий</fn>
+		<mn>Владленович</mn>
+		<ln>Кушнир</ln>
+		<name>Рекуррентные уравнения для вероятности разорения страховой компании для некоторой модели риска</name>
+		<advisor id="tm_tovstik" />
+		<reviewer> Невзоров В.Б.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sa">
+		<fn>Анастасия</fn>
+		<mn>Андреевна</mn>
+		<ln>Мандрикова</ln>
+		<name>Модель двумерного гамма распределения с медико-биологическими приложениями</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Комарова Е.С.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sa">
+		<fn>Тимур</fn>
+		<mn>Азаматович</mn>
+		<ln>Фахртдинов</ln>
+		<name>Методы тропической математики в многомерных задачах оптимизации</name>
+		<advisor id="yn_kashtanov" />
+		<reviewer>Гормин А.А.</reviewer>
+		<slides></slides>
+	</person>
+</diploma>

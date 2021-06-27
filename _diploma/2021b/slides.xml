@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2020">
+	<person spec="sm">
+		<fn>Анна</fn>
+		<mn>Андреевна</mn>
+		<ln>Белкова</ln>
+		<name>Исследование мощности перестановочных тестов для проверки гипотез о равенстве двух распределений</name>
+		<advisor id="vb_melas" />
+		<reviewer> Григорьев Ю.Г.</reviewer>
+		<slides>10b_04_belkova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Полина</fn>
+		<mn>Юрьевна</mn>
+		<ln>Лобанова</ln>
+		<name>Решение многокритериальных задач оценки альтернатив на основе парных сравнений</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Губанов С.А.</reviewer>
+		<slides>10b_05_lobanova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Владимир</fn>
+		<mn>Витальевич</mn>
+		<ln>Попов</ln>
+		<name>Скрытые марковские модели на графах сборки</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer> Пржибельский А.Д.</reviewer>
+		<slides>10b_02_popov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Олег</fn>
+		<mn>Алексеевич</mn>
+		<ln>Чемокос </ln>
+		<name></name>
+		<advisor> Зильберборд И.М.</advisor>
+		<reviewer> Антипов М.А.</reviewer>
+		<slides>10b_03_chemokos.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Егор</fn>
+		<mn>Анатольевич</mn>
+		<ln>Шаповал </ln>
+		<name>Применение локальных модификаций метода анализа сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer> Шлемов А.Ю. </reviewer>
+		<slides>10b_01_shapoval.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Илья</fn>
+		<mn>Вячеславович</mn>
+		<ln>Шешуков </ln>
+		<name>Разработка вычислительных алгоритмов и программных средств поддержки принятия решений</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Сорокин В.Н.</reviewer>
+		<slides>10b_06_sheshukov.pdf</slides>
+	</person>
+</diploma>

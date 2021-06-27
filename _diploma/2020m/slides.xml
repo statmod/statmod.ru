@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2020">
+	<person spec="sm">
+		<fn>Иван</fn>
+		<mn>Сергеевич</mn>
+		<ln>Лунев</ln>
+		<name>Асимптотическое распределение оценок корреляционного отношения</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer> Советкин Е.А.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Вероника</fn>
+		<mn>Сергеевна</mn>
+		<ln>Понизова</ln>
+		<name>Исследование методов оценки дисперсии и построения доверительных интервалов малых вероятностей</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer> Алексеев Н.В.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Владислав</fn>
+		<mn>Алексеевич</mn>
+		<ln>Страшко</ln>
+		<name>Разработка программного комплекса методов оценивания малых вероятностей</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer> Сергушичев А.А.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Александра</fn>
+		<mn>Леонидовна</mn>
+		<ln>Третьякова</ln>
+		<name>Робастные варианты метода анализа сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer> Пепелышев А.Н.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Никита</fn>
+		<mn>Алексеевич</mn>
+		<ln>Федоров</ln>
+		<name>Поддерживающие временные ряды в анализе сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer> Пепелышев А.Н.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Екатерина</fn>
+		<mn>Олеговна</mn>
+		<ln>Калина</ln>
+		<name>Имитационный подход к решению стратегических игр с неполной информацие</name>
+		<advisor id="pv_shpilev" />
+		<reviewer> Пепелышев А.Н.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Маргарита</fn>
+		<mn>Дмитриевна</mn>
+		<ln>Волканова</ln>
+		<name>Итерационно-частичный метод множественной регрессии для неполных данных с применением в биологии</name>
+		<advisor id="np_alexeyeva" />
+		<reviewer> Белякова Л.А.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Наталья</fn>
+		<mn>Валентиновна</mn>
+		<ln>Зенкова</ln>
+		<name>Асимптотическая отделимость полинома от гармоники методом Анализа Сингулярного Спектра</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer> Пепелышев А.Н.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Елизавета</fn>
+		<mn>Юрьевна</mn>
+		<ln>Романова</ln>
+		<name>Одноранговая аппроксимация неотрицательных матриц с использованием методов тропической математики</name>
+		<advisor id="nk_krivulin" />
+		<reviewer> Васильев Н.Н.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Анна</fn>
+		<mn>Александровна</mn>
+		<ln>Рукавишникова</ln>
+		<name>Анализ многомерных повторных наблюдений</name>
+		<advisor id="np_alekseeva" /> 
+		<reviewer> Шиманская А.О.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Анна</fn>
+		<mn>Дмитриевна</mn>
+		<ln>Горбачук</ln>
+		<name>Суперсимптомный анализ для многомерных категориальных данных</name>
+		<advisor id="np_alekseeva" /> 
+		<reviewer> Ананьевская П.В.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Денис</fn>
+		<mn>Александрович</mn>
+		<ln>Сидоренко</ln>
+		<name>Адаптивные методы в анализе разреженных данных</name>
+		<advisor id="ms_ermakov" />
+		<reviewer> Шевляков Г.Л.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Михаил</fn>
+		<mn>Вадимович</mn>
+		<ln>Сандул</ln>
+		<name>Разработка эффективного метода для обучения ранжированию</name>
+		<advisor id="pv_shpilev" />
+		<reviewer> Кураленок И.Е.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Михаил</fn>
+		<mn>Александрович</mn>
+		<ln>Петраков</ln>
+		<name>Алгебраические методы решения задач временного планирования в управлении проектами</name>
+		<advisor id="nk_krivulin" />
+		<reviewer> Пак В.Г.</reviewer>
+		<slides></slides>
+	</person>
+	<person spec="sm">
+		<fn>Владимир</fn>
+		<mn>Олегович</mn>
+		<ln>Балагуров</ln>
+		<name>Спектральные разложения многопараметрических ядер Коробова</name>
+		<advisor> Хартов А.А.</advisor>
+		<reviewer> Пусев Р.С.</reviewer>
+		<slides></slides>
+	</person>
+</diploma>

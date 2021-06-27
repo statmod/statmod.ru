@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2019">
+	<person spec="sm">
+		<fn>Евгений</fn>
+		<mn>Алексеевич</mn>
+		<ln>Соколиков</ln>
+		<name>Построение L-оптимальных планов для моделей без свободного члена</name>
+		<advisor id="pv_shpilev" />
+		<reviewer> Пепелышев А.Н.</reviewer>
+		<slides>10m_01_Sokolikov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Алексей</fn>
+		<mn>Сергеевич</mn>
+		<ln>Приньков</ln>
+		<name>Решение многокритериальных задач принятия решений с помощью методов тропической оптимизации</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Жбанова Н.Ю.</reviewer>
+		<slides>10m_02_Prinkov.pdf</slides>
+	</person>
+</diploma>
