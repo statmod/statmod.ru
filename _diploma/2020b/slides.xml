@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <diploma year="2020">
 	<person spec="sm">
 		<fn>Темирлан</fn>
 		<mn></mn>
 		<ln>Абильдаев</ln>
 		<name>Асимптотические свойства спектра интегральных операторов переменного порядка</name>
-		<advisor> Кароль А.И. <advisor/>
+		<advisor> Кароль А.И. </advisor>
 		<reviewer> Петрова Ю.П.</reviewer>
 		<slides></slides>
 	</person>

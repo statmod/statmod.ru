@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <diploma year="2020">
 	<person spec="sm">
 		<fn>Анна</fn>
@@ -31,7 +31,7 @@
 		<fn>Олег</fn>
 		<mn>Алексеевич</mn>
 		<ln>Чемокос </ln>
-		<name></name>
+		<name>Уравнения Пелля в квадратичных кольцах</name>
 		<advisor> Зильберборд И.М.</advisor>
 		<reviewer> Антипов М.А.</reviewer>
 		<slides>10b_03_chemokos.pdf</slides>
