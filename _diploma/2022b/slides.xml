@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2022">
+	<person spec="sm">
+		<fn>Влада</fn>
+		<mn>Валерьевна</mn>
+		<ln>Веселова</ln>
+		<name>Метод существенной выборки для доверительного оценивания некоторых параметров пуассоновского процесса</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Проурзин В.А.</reviewer>
+		<slides>01b_veselova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дмитрий</fn>
+		<mn>Артемович</mn>
+		<ln>Григорьев</ln>
+		<name>Исследование эффективности некоторых непараметрических критериев проверки гипотез о разрывности функции регрессии и интенсивности пуассоновского процесса</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Солев В.Н.</reviewer>
+		<slides>02b_grigorev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Михаил</fn>
+		<mn>Андреевич</mn>
+		<ln>Сенов</ln>
+		<name>Робстные варианты метода SSA</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Пепелышев А.Н.</reviewer>
+		<slides>03b_senov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Андрей</fn>
+		<mn>Сергеевич</mn>
+		<ln>Логинов</ln>
+		<name>Метод Монте-Карло на марковских цепях в задачах оценивания малых вероятностей</name>
+		<advisor id="ai_korobeynikov" />
+		<reviewer>Зенкова Н.В.</reviewer>
+		<slides>04b_loginov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Эрик</fn>
+		<mn>Евгеньевич</mn>
+		<ln>Ким</ln>
+		<name>Построение и исследование локально-оптимальных планов на основе функционального подхода</name>
+		<advisor id="vb_melas" />
+		<reviewer>Григорьев Ю.Д.</reviewer>
+		<slides>04b_kim.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Роман</fn>
+		<mn>Игоревич</mn>
+		<ln>Положиев </ln>
+		<name>Дисперсионный анализ неполных данных на основе блок-схем с приложениями в медицине</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>06b_polozhiev.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Артем</fn>
+		<mn>Владимирович</mn>
+		<ln>Пономаренко</ln>
+		<name>Дисперсионный анализ многомерных неполных наблюдений с приложением в медицине</name>
+		<advisor id="np_alekseeva" />
+		<reviewer> Скурат Е.П. </reviewer>
+		<slides>07b_ponomarenko.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Егор</fn>
+		<mn>Иванович</mn>
+		<ln>Крашенинников  </ln>
+		<name>Исследование проблемы адаптации языковых моделей к человеческим предпочтениям</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Пепелышев А.Н.</reviewer>
+		<slides>08b_krasheninnikov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Сергей</fn>
+		<mn>Александрович</mn>
+		<ln>Попов </ln>
+		<name>Методы матричной факторизации и их применение в рекомендательных системах</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Берлинков А.Г.</reviewer>
+		<slides>09b_popov.pdf</slides>
+		</person>
+</diploma>

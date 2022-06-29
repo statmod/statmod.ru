@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2022">
+	<person spec="sm">
+		<fn>Анастасия</fn>
+		<mn>Андреевна</mn>
+		<ln>Мандрикова  </ln>
+		<name>Модель двумерного гамма-распределения с медико-биологическими приложениями</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Комарова Е.С.</reviewer>
+		<slides>01m_mandrikova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Евгений</fn>
+		<mn>Сергеевич</mn>
+		<ln>Ларин</ln>
+		<name>Метод SSA для проверки гипотезы о существовании сигнала во временном ряде</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Шлемов А.Ю.</reviewer>
+		<slides>02m_larin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Иван</fn>
+		<mn>Александрович</mn>
+		<ln>Кононыхин  </ln>
+		<name>Обнаружение разладки с помощью метода SSA</name>
+		<advisor id="ne_golyandina" />
+		<reviewer> Пепелышев А.Н.</reviewer>
+		<slides>03m_kononykhin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Федор</fn>
+		<mn>Валерьевич</mn>
+		<ln>Ежов</ln>
+		<name>РИспользование метода SSA в машинном обучении для прогноза временных рядов</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Шлемов А.Ю.</reviewer>
+		<slides>04m_ezhov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дейвид</fn>
+		<mn>Юрьевич</mn>
+		<ln>Капаца  </ln>
+		<name>О равномерной состоятельности непараметрического критерия Неймана</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Солев В.Н.</reviewer>
+		<slides>05m_kapatsa.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Елена</fn>
+		<mn>Владимировна</mn>
+		<ln>Гоголева</ln>
+		<name>Квантовый алгоритм линейной фильтрации</name>
+		<advisor> Ананьевский М.С.</advisor>
+		<reviewer>Фуртат И.Б.</reviewer>
+		<slides>06m_gogoleva.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Пин</fn>
+		<mn></mn>
+		<ln>Хэ</ln>
+		<name>Поиск глобального максимума. Случай многих равных эстремумов</name>
+		<advisor id="sm_ermakov" />
+		<reviewer>Тимофеев К.А.</reviewer>
+		<slides>07m_khe.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Николай</fn>
+		<mn>Адельевич</mn>
+		<ln>Арсланов  </ln>
+		<name>Методы стохастической оптимизации</name>
+		<advisor id="sm_ermakov" />
+		<reviewer>Тимофеев К.А.</reviewer>
+		<slides>08m_arslanov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Алексей</fn>
+		<mn>Сергеевич</mn>
+		<ln>Гребенюк</ln>
+		<name>Проверка статистических гипотез с помощью метода перестан</name>
+		<advisor id="vb_melas" />
+		<reviewer>Григорьев Ю.Д.</reviewer>
+		<slides>09m_grebenyuk.pdf</slides>
+	</person>
+</diploma>

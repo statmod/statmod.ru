@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?mso-infoPathSolution PIVersion="1.0.0.0" name="urn:courses:statmod-ru" language="ru" solutionVersion="1.0.0.27" productVersion="14.0.0" ?>
 <?mso-application progid="InfoPath.Document"?>
-<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2018/2019" spec="sm" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/courses" year="2021/2022" spec="sm" xsi:schemaLocation="http://statmod.ru/courses spec.xsd">
 	<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_teorver_pract">
 		<name xml:lang="ru">Теория вероятностей</name>
 		<prof id="vv_nekrutkin"/>
@@ -205,17 +205,17 @@
 		<prof id="sm_ermakov"/>
 </course>
 <course semester="11" year="6" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sm_communication">
-		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - I</name>
+		<name xml:lang="ru">Статистическое и машинное обучение </name>
 		<prof id="ne_golyandina"/>
 </course>
 
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_stoch_comp2">
 		<name xml:lang="ru">Курс 2. Стохастические вычислительные методы</name>
-		<prof id="sm_ermakov"/>
+		<prof id="vb_melas"/>
 </course>
 
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_optim">
-		<name xml:lang="ru">Курс 2. Аналитические методы решения многокритериальных задач</name>
+		<name xml:lang="ru">Курс 2. Методы моделирования в задачах разработки мобильных приложений</name>
 		<prof id="pv_shpilev"/>
 </course>
 
@@ -225,11 +225,11 @@
 </course>
  
 <course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_communication2">
-		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях - II</name>
+		<name xml:lang="ru">Научная и компьютерная коммуникация в современных условиях</name>
 		<prof id="vv_nekrutkin"/>
 </course>
 <course semester="12" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sm_science_approach">
-		<name xml:lang="ru">Научно-обоснованный подход к моделированию реальных данных</name>
+		<name xml:lang="ru">Статистическое обучение для моделирования и прогнозирования временных рядов</name>
 		<prof id="ne_golyandina"/>
 </course>
 
