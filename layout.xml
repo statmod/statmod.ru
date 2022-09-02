@@ -19,7 +19,7 @@
 					<td rowspan="2" background="/_img/header_tail.gif">
 					<img src="/_img/wiki_button.gif" alt="" usemap="#button_wiki" width="64" height="61"/>
 <map id="button_wiki" name="button_wiki">
-<area shape="rect" alt="Wiki-страницы" coords="5,23,51,41" href="http://statmod.ru/wiki/" title="Wiki-страницы" />
+<area shape="rect" alt="Wiki-страницы" coords="5,23,51,41" href="https://statmod.ru/wiki/" title="Wiki-страницы" />
 </map>
 					</td>
 					<td rowspan="2"><img src="/_img/header_tail_residual.gif" alt="" width="8" height="61"/></td>
