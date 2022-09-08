@@ -1,189 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2022" semester="6">
+<timetable year="2022" semester="5">
     <weekday id="mon">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location>08</location>
+                <course>
+                    <name>Математический анализ, лекции</name>
+                    <prof>Александров А.Б.</prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>лекции</location>
+                <location>06</location>
                 <course>
                     <name>Теория вероятностей</name>
-                    <prof>Фролов</prof>
+                    <prof>Фролов А.Н.</prof>
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>лекции</location>
-                <course>
-                    <name>Математическая логика</name>
-                    <prof>Ловягин</prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
         <two_hours no="4"/>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Иностранный язык I, II</name>
-                    <prof></prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
         <two_hours no="1">
             <lesson type="chair" spec="sa">
                 <location>2408</location>
-                <course id="bsa_prog_cpp_lang"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>2412</location>
-                <course id="bsm_prog_cpp_lang"/>
+                <course id="bmm_prog_c_lang"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="chair" spec="sa">
-                <location>2446</location>
-                <course id="bmm_simul_pract"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>2446</location>
-                <course id="bsm_simul_pract"/>
+                <location>2412</location>
+                <course id="bmm_prog_c_pract"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location>2444-2</location>
-                <course id="bmm_prog_cpp_pract"/>
-            </lesson>
             <lesson type="chair" spec="sm">
-                <location>2444-1</location>
-                <course id="bsm_prog_cpp_pract"/>
+                <location>4399</location>
+                <course id="bsm_prog_c_lang"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>2516</location>
-                <course>
-                    <name>Математическая логика</name>
-                    <prof>Ловягин</prof>
-                </course>
-                <fortnightly type="1"/>
+            <lesson type="chair" spec="sm">
+                <location>2410</location>
+                <course id="bsm_prog_c_pract"/>
             </lesson>
         </two_hours>
-        <two_hours no="5">
-            <lesson type="dep" spec="all">
-                <location>2516</location>
-                <course>
-                    <name>Математическая логика</name>
-                    <prof>Ловягин</prof>
-                </course>
-                <fortnightly type="1"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
         <two_hours no="1"/>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>лекции</location>
+                <location>3532</location>
                 <course>
-                    <name>Уравнения мат.физики</name>
-                    <prof>Кароль</prof>
+                    <name>Математический анализ (практ.)</name>
+                    <prof>Кохась А.П.</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="3">
             <lesson type="dep" spec="all">
-                <location></location>
+                <location>2512/2506</location>
                 <course>
-                    <name>Иностранный язык I, II</name>
-                    <prof></prof>
+                    <name>Экстремальные задачи (практ./лекции)</name>
+                    <prof>Зациорский/Машарский через неделю</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="4">
             <lesson type="dep" spec="all">
-                <location>лекции</location>
+                <location>2506</location>
                 <course>
-                    <name>Теоретическая механика</name>
-                    <prof>Юшков</prof>
+                    <name>Экстремальные задачи (лекции)</name>
+                    <prof>Машарский</prof>
                 </course>
             </lesson>
         </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="thu">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location>2414</location>
+                <course id="ball_tex"/>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
-            <lesson type="dep" spec="all">
-                <location>4399</location>
-                <course id="ball_teorver_pract"/>
+            <lesson type="chair" spec="sa">
+                <location>2446</location>
+                <course id="bsa_stat_intro"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>2446</location>
+                <course id="bsm_stat_intro"/>
             </lesson>
         </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>4399</location>
-                <course id="ball_simul"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
         <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="fri">
         <two_hours no="1"/>
-        <two_hours no="2">
-            <lesson type="dep" spec="all">
-                <location></location>
-                <course>
-                    <name>Теоретическая механика</name>
-                    <prof>Нестерчук Г.А.</prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>лекции</location>
-                <course>
-                    <name>Функциональный анализ</name>
-                    <prof>Додонов</prof>
-                </course>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>лекции (до 16:10)</location>
-                <course>
-                    <name>Функциональный анализ</name>
-                    <prof>Додонов</prof>
-                </course>
-            </lesson>
-        </two_hours>
+        <two_hours no="2"/>
+        <two_hours no="3"/>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="sat">
         <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location>3532</location>
-                <course>
-                    <name>Уравнения мат.физики, практ.</name>
-                    <prof>Щеглова</prof>
-                </course>
+                <location>4399</location>
+                <course id="ball_teorver_pract"/>
             </lesson>
         </two_hours>
         <two_hours no="2">
             <lesson type="dep" spec="all">
-                <location>3235 (до 12:00)</location>
+                <location>4399</location>
+                <course id="ball_simul_discr"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="3">
+            <lesson type="dep" spec="all">
+                <location>05</location>
                 <course>
-                    <name>Уравнения мат.физики, практ.</name>
-                    <prof>Щеглова</prof>
+                    <name>Функциональный анализ</name>
+                    <prof>Додонов Н.Ю.</prof>
                 </course>
             </lesson>
         </two_hours>
-        <two_hours no="3"/>
-        <two_hours no="4"/>
+        <two_hours no="4">
+            <lesson type="dep" spec="all">
+                <location>05 (лекции/практика)</location>
+                <course>
+                    <name>Функциональный анализ (практ.)</name>
+                    <prof>Додонов Н.Ю.</prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="5"/>
     </weekday>
 </timetable>
