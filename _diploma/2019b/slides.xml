@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <diploma year="2019">
 	<person spec="sm">
 		<fn>Антон</fn>
@@ -99,4 +99,11 @@
 		<reviewer>Комарова Е.С.</reviewer>
 		<slides>13b_16_kartysheva.pdf</slides>
 	</person>
-</diploma>
+	<person spec="sa">
+		<fn>Антоний</fn>
+		<ln>Мийоски</ln>
+		<name>Исследование асимптотических характеристик обобщенных линейных стохастических динамических систем</name>
+		<advisor id="nk_krivulin" />
+		<reviewer id="pv_shpilev" />
+		<slides>06b_01_mijoski.pdf</slides>
+	</person></diploma>
