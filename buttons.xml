@@ -8,9 +8,9 @@
 </map>
 </div>
 <div style="z-index: 3; position: absolute; left:141px; top: 153px">
-<img src="/_img/button_forum.gif" usemap="#button_forum" alt="Форум" width="64" height="64"/> 
+<img src="/_img/button_forum.gif" usemap="#button_forum" alt="Форум отключен" width="64" height="64"/> 
 <map id="button_forum" name="button_forum">
-<area shape="poly" alt="Форум" coords="64,47,17,64,0,17,47,0" href="http://statmod.ru/forum/" title="Форум" />
+<area shape="poly" alt="Форум" coords="64,47,17,64,0,17,47,0" href="http://statmod.ru/" title="Форум отключен" />
 <area shape="poly" alt="" coords="0,0,64,0,64,64,0,64"  nohref="nohref" title=""/>
 </map>
 </div>

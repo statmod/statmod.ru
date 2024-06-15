@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2023">
+	<person spec="sm">
+		<fn>Андрей</fn>
+		<mn>Сергеевич</mn>
+		<ln>Логинов</ln>
+		<name>Методы распознавания кодирующих
+последовательностей белков на геномных
+графах сборки</name>
+		<advisor id="ai_korobeynikov" />
+		<advisor id="pv_shpilev"/>
+		<reviewer>Коробейников А.И.</reviewer>
+		<slides>07m_01_Loginov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Даниил</fn>
+		<mn>Дмитриевич</mn>
+		<ln>Романов</ln>
+		<name>Стохастическая оптимизация в задачах обучения ML моделей</name>
+		<advisor id="pv_shpilev"/>
+		<reviewer>Берлинков А.Г.</reviewer>
+		<slides>07m_02_Romanov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Никита</fn>
+		<mn>Денисович</mn>
+		<ln>Морозов</ln>
+		<name>Модель двухмерного гамма распределения с
+приложением в фармакологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer> Скурат Е.П.</reviewer>
+		<slides>07m_03_Morozov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Юрий</fn>
+		<mn>Константинович</mn>
+		<ln>Гриненко</ln>
+		<name>Частично-итерационный метод множественной
+регрессии для неполных данных с применением в
+биологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Волканова М.Д.</reviewer>
+		<slides>07m_04_Grinenko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дмитрий</fn>
+		<mn>Андреевич</mn>
+		<ln>Михайлов  </ln>
+		<name>Некоторые задачи доверительного оценивания
+параметров распределений экстремальных
+значений</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Проурзин В.А.</reviewer>
+		<slides>07m_05_Mihailov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Иван</fn>
+		<mn>Александрович</mn>
+		<ln>Смирнов</ln>
+		<name>Метод существенной выборки для оценивания
+границ доверительных интервалов в задачах
+параметрической нелинейной регрессии с
+неоднородным шумом</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Проурзин В.А.</reviewer>
+		<slides>07m_06_Smirnov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Кристина</fn>
+		<mn>Нодировна</mn>
+		<ln>Хасанова </ln>
+		<name>Применение методов машинного обучения в
+задачах скоринга клиентов банка</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Проурзин В.А.</reviewer>
+		<slides>07m_07_Khasanova.pdf</slides>
+	</person>
+</diploma>

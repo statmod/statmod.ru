@@ -215,12 +215,20 @@
 	</person>
 -->
 
+		<person id="ra_guchenko" degree="phd" academic_rank="">
+		<fn>Роман</fn>
+		<mn>Александрович</mn>
+		<ln>Гученко</ln>
+    <duty academic_rank="assoc_prof"><name/><shortname/></duty>
+ 	<field/>
+	</person>
+
 	
-		<person id="nk_zvonarev" degree="" academic_rank="">
+		<person id="nk_zvonarev" degree="phd" academic_rank="">
 		<fn>Никита</fn>
 		<mn>Константинович</mn>
 		<ln>Звонарев</ln>
-    <duty academic_rank="assist_prof"><name/><shortname/></duty>
+    <duty academic_rank="assoc_prof"><name/><shortname/></duty>
  	<field/>
 	</person>
 	

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2023">
+	<person spec="sm">
+		<fn>Павел</fn>
+		<mn>Дмитриевич</mn>
+		<ln>Дудник</ln>
+		<name>Улучшение разделимости и автоматизация метода SSA для анализа временных рядов</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Шлемов А.Ю.</reviewer>
+		<slides>01b_Dudnik.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Биликто</fn>
+		<mn>Намсараевич</mn>
+		<ln>Дамбаев</ln>
+		<name>Статистический анализ повторных многомерных наблюдений</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Мандрикова А.А.</reviewer>
+		<slides>02b_Dambaev.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Злата</fn>
+		<mn>Олеговна</mn>
+		<ln>Конищева</ln>
+		<name>Многомерный анализ повторяющихся неполных наблюдений</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Ананьевская П.В.</reviewer>
+		<slides>03b_Konishcheva.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Даниил</fn>
+		<mn>Владимирович</mn>
+		<ln>Власенко</ln>
+		<name>Задачи классификации мозговой активности при помощи синолитических сетей</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Зенкова Н.В.</reviewer>
+		<slides>04b_Vlasenko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Захар</fn>
+		<mn>Андреевич</mn>
+		<ln>Айнабеков</ln>
+		<name>Использование тропической математики в задачах аппроксимации функций</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Пономарева А.Ю.</reviewer>
+		<slides>05b_Ajnabekov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Михаил</fn>
+		<mn>Павлович</mn>
+		<ln>Дядичкин </ln>
+		<name>Алгоритмы и программные средства решения тропических линейных векторных уравнений</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Смирнов К.К.</reviewer>
+		<slides>06b_Dyadichkin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Максим</fn>
+		<mn>Андреевич</mn>
+		<ln>Брюшинин</ln>
+		<name>Решение задачи о размещении двух объектов в пространстве с метрикой Чебышева</name>
+		<advisor id="nk_krivulin" />
+		<reviewer> Пономарева А.Ю. </reviewer>
+		<slides>07b_Bryushinin.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Долан</fn>
+		<mn>Хонгорович</mn>
+		<ln>Эльдеев  </ln>
+		<name>Оптимальное удержание при перестраховании для некоторых типов риска</name>
+		<advisor id="tm_tovstik" />
+		<reviewer>Невзоров В.Б.</reviewer>
+		<slides>08b_Eldeev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Карина</fn>
+		<mn>Илнуровна</mn>
+		<ln>Нагуманова </ln>
+		<name>Замена непрерывных распределений на дискретные для применения на практике</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Пепелышев А.Н.</reviewer>
+		<slides>09b_Nagumanova.pdf</slides>
+  </person>
+  <person spec="sm">
+		<fn>Андрей</fn>
+		<mn>Александрович</mn>
+		<ln>Подчищайлов</ln>
+		<name>Разработка алгебраических методов аппроксимации неотрицательных матриц при наличии ограничений</name>
+		<advisor id="nk_krivulin" />
+		<reviewer> Губанов С.А. </reviewer>
+		<slides>10b_Podchishchailov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Егор</fn>
+		<mn>Андреевич</mn>
+		<ln>Ткаченко</ln>
+		<name>Разработка программных средств и решение задач принятия решений с помощью методо тропической математики</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Пархоменко В.А.</reviewer>
+		<slides>11b_Tkachenko.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Игорь</fn>
+		<mn>Александрович</mn>
+		<ln>Самарин</ln>
+		<name>Модель отрицательно биномиального распределения в анализе категориальных последовательностей</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Комарова Е.С.</reviewer>
+		<slides>12b_Samarin.pdf</slides>
+		</person>
+</diploma>

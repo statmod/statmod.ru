@@ -12,7 +12,7 @@
 	</course>
 		<course semester="5" year="3" class="общ." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_tex">
 		<name xml:lang="ru">Выч. практикум</name>
-		<prof id="ai_korobeynikov"/>
+		<prof id="nk_zvonarev"/>
 	</course>
 	<course semester="5" year="3" class="спец." extras="" hours="2" exam="экз." year_equiv="0.5" alias="bsa_stat_intro">
 		<name xml:lang="ru">Вычислительные методы первичного анализа данных</name>
@@ -61,16 +61,16 @@
 			<prof id="ms_ermakov"/>
 		</part>
 		<part type="pract" hours="1">
-			<prof id="ai_korobeynikov"/>
+			<prof id="pv_shpilev"/>
 		</part>
 	</course>
 	<course semester="7" year="4" class="спец." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsa_prog_cpp_advanced">
-		<name xml:lang="ru">Программирование и дискретные системы</name>
+		<name xml:lang="ru">Программирование моделей</name>
 		<prof id="pv_shpilev"/>
 	</course>
 	<course semester="7" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_communication">
 		<name xml:lang="ru">Современные средства и методы научной коммуникации в области статистического моделирования</name>
-	<prof id="ai_korobeynikov"/>
+	<prof id="ra_guchenko"/>
 	</course>
 	<course semester="7" year="4" class="спец." extras="" hours="4" exam="экз." year_equiv="1" alias="bsa_montecarlo">
 		<name xml:lang="ru">Численные методы Монте-Карло</name>
@@ -105,7 +105,7 @@
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="экз." year_equiv="1" alias="ball_statprogR">
 		<name xml:lang="ru">Выч. методы и пакеты в стат.исследованиях</name>
 		<part type="lect" hours="2">
-			<prof id="ai_korobeynikov"/>
+			<prof id="ra_guchenko"/>
 		</part>
 		<part type="pract" hours="2">
 			<prof id="nk_zvonarev"/>
@@ -138,7 +138,7 @@
 </course>
 <course semester="9" year="5" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_prog_data">
 		<name xml:lang="ru">Курс 1. Программирование для анализа данных</name>
-		<prof id="ai_korobeynikov"/>
+		<prof id="pv_shpilev"/>
 </course>
 <course semester="9" year="5" class="элект." extras="" hours="2" exam="зач." year_equiv="0.5" alias="sa_real_stat">
 		<name xml:lang="ru">Курс 2. Применение статистических методов к реальным данным</name>
@@ -151,7 +151,7 @@
 	</course>
  <course semester="10" year="5" class="элект." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_stoch_comp">
 		<name xml:lang="ru">Курс 4. Метод Монте-Карло и параллельные вычисления</name>
-		<prof id="sm_ermakov"/>
+		<prof id="tm_tovstik"/>
 </course>
 <course semester="10" year="5" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_random_fields">
 		<name xml:lang="ru"> Курс 3. Случайные поля и динамические методы Монте-Карло</name>
@@ -167,7 +167,7 @@
 		<prof id="vb_melas"/>
 </course>
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_fin_prog">
-		<name xml:lang="ru">Курс 1. Параллельное программирование вероятностных задач</name>
+		<name xml:lang="ru">Курс 1. Программные средства для многомерной классификации и регрессии</name>
 		<prof id="pv_shpilev"/>
 </course>
 <course semester="11" year="6" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_histmath">
@@ -176,7 +176,7 @@
 </course>
 <course semester="11" year="6" class="проф." extras="" hours="2" exam="экз." year_equiv="0.5" alias="sa_communication">
 		<name xml:lang="ru">Статистическое и машинное обучение</name>
-		<prof id="ai_korobeynikov"/>
+		<prof id="ne_golyandina"/>
 </course>
 
 <course semester="11" year="6" class="элект." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="sa_optim">

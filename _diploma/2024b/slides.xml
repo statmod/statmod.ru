@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2023">
+	<person spec="sm">
+		<fn>Никита</fn>
+		<mn>Андреевич</mn>
+		<ln>Хромов</ln>
+		<name>Тензорный анализ сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Усевич К.Д.</reviewer>
+		<slides>11_01_Khromov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Егор</fn>
+		<mn>Павлович</mn>
+		<ln>Потешкин</ln>
+		<name>Метод Монте-Карло SSA для одномерных и
+многомерных временных рядов</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Шлемов А.Ю.</reviewer>
+		<slides>11_02_Poteshkin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Дарья</fn>
+		<mn>Сергеевна</mn>
+		<ln>Булгакова</ln>
+		<name>Вероятности разорения страховой компании
+для некоторой стохастической модели риска</name>
+		<advisor id="tm_tovstik" />
+		<reviewer>Солев В.Н.</reviewer>
+		<slides>11_03_Bulgakova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Яна</fn>
+		<mn>Алексеевна</mn>
+		<ln>Салова</ln>
+		<name>Исследование одного алгоритма метода главных компонент</name>
+		<advisor id="ms_ermakov" />
+		<reviewer> Солев В.Н. </reviewer>
+		<slides>11_04_Salova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Арина</fn>
+		<mn>Алексеевна</mn>
+		<ln>Филатова</ln>
+		<name>Исследование одной робастной оценки</name>
+		<advisor id="ms_ermakov" />
+		<reviewer> Солев В.Н. </reviewer>
+		<slides>11_05_Filatova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Михаил</fn>
+		<mn>Михайлович</mn>
+		<ln>Киселев</ln>
+		<name>Некоторые задачи анализа сингулярного спектра</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer>Иванова Е.В.</reviewer>
+		<slides>11_06_Kiselev.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Ирина</fn>
+		<mn></mn>
+		<ln>Ярославцева </ln>
+		<name>Применение функционального подхода для построения локально-оптимальных планов эксперимента</name>
+		<advisor id="vb_melas" />
+		<reviewer>Пепелышев А.Н.</reviewer>
+		<slides>11_07_Yaroslavtseva.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Михаил</fn>
+		<mn>Владимирович</mn>
+		<ln>Олейник</ln>
+		<name>Оценка параметров сложных распределений с
+применением в радиобиологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer> Белоусов Ю.С. </reviewer>
+		<slides>11_08_Oleynik.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Яков</fn>
+		<mn>Сергеевич</mn>
+		<ln>Подлеснов  </ln>
+		<name>Блок-схемы и их применение в анализе неполных данных</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>11_09_Podlesnov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Антон</fn>
+		<mn>Павлович</mn>
+		<ln>Манохин </ln>
+		<name>Задача ранжирования синонимов
+с учётом контекс</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Ершов В.А.</reviewer>
+		<slides>11_10_Manokhin.pdf</slides>
+  </person>
+  <person spec="sa">
+		<fn>Роман</fn>
+		<mn>Дмитриевич</mn>
+		<ln>Мальков</ln>
+		<name>Исследование D-оптимального плана для CES-функций</name>
+		<advisor id="pv_shpilev" />
+		<reviewer> Пепелышев А.Н. </reviewer>
+		<slides>11_11_Malkov.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn>Игорь</fn>
+		<mn>Андреевич</mn>
+		<ln>Глушков</ln>
+		<name>Разработка приложения для решения
+многокритериальных задач принятия решений</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Губанов С. А.</reviewer>
+		<slides>11_12_Glushkov.pdf</slides>
+	</person>
+  <person spec="sa">
+		<fn>Георгий</fn>
+		<mn></mn>
+		<ln>Милюшков</ln>
+		<name>Применение стохастических методов в
+машинном обучении для решения финансовых
+задач</name>
+		<advisor id="pv_shpilev" />
+		<reviewer> Пепелышев А.Н. </reviewer>
+		<slides>11_13_Milyushkov.pdf</slides>
+	</person>
+  <person spec="sa">
+		<fn>Виктория</fn>
+		<mn>Максимовна,</mn>
+		<ln>Балинова</ln>
+		<name>Адаптивные стохастические методы обучения
+нейронных сетей</name>
+		<advisor id="pv_shpilev" />
+		<reviewer> Пепелышев А.Н. </reviewer>
+		<slides>11_14_Balinova.pdf</slides>
+	</person>
+  <person spec="sa">
+		<fn>Диана</fn>
+		<mn>Алексеевна</mn>
+		<ln>Пуговкина</ln>
+		<name>Применение машинного обучения в задачах
+теории игр</name>
+		<advisor id="pv_shpilev" />
+		<reviewer> Пепелышев А.Н. </reviewer>
+		<slides>11_15_Pugovkina.pdf</slides>
+	</person>
+</diploma>

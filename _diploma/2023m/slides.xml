@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2023">
+	<person spec="sm">
+		<fn>Павел</fn>
+		<mn>Владимирович</mn>
+		<ln>Мехнин</ln>
+		<name>Метод зацепления в задачах Метода Монте-Карло на Марковских Цепях</name>
+		<advisor id="ai_korobeynikov" />
+		<advisor id="pv_shpilev"/>
+		<reviewer>Гуревич А.А.</reviewer>
+		<slides>01m_Mekhnin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Владимир</fn>
+		<mn>Витальевич</mn>
+		<ln>Попов</ln>
+		<name>Анализ групп метагеномных образцов с использованием графовых признаков для решения задач сравнительной метагеномики</name>
+		<advisor id="ai_korobeynikov" />
+		<advisor id="pv_shpilev"/>
+		<reviewer>Ульянцев В.И.</reviewer>
+		<slides>02m_Popov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Егор</fn>
+		<mn>Анатольевич</mn>
+		<ln>Шаповал</ln>
+		<name>Обнаружение разладки в частоте колебания методом анализа сингулярного спектра</name>
+		<advisor id="ne_golyandina" />
+		<reviewer> Пепелышев А.Н.</reviewer>
+		<slides>03m_Shapoval.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Роман</fn>
+		<mn>Александрович</mn>
+		<ln>Леонович</ln>
+		<name>Симптомно-синдромальный подход к решению многофакторных задач с приложением в медицине</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Скурат Е.П.</reviewer>
+		<slides>04m_Leonovich.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Норжинсурэн</fn>
+		<mn></mn>
+		<ln>Мунхтогоо  </ln>
+		<name>Сравнительный анализ разных методов классификации с приложением в кардиологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Ананьевская П.В.</reviewer>
+		<slides>05m_Munkhtogoo.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Полина</fn>
+		<mn>Юрьевна</mn>
+		<ln>Лобанова</ln>
+		<name>Численное и аналитическое исследование мощности «энергетического» теста проверки
+гипотез</name>
+		<advisor id="vb_melas" />
+		<reviewer>Григорьев Ю.Д.</reviewer>
+		<slides>06m_Lobanova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Шкурат</fn>
+		<mn>Евгеньевич</mn>
+		<ln>Данил </ln>
+		<name>Разработка программных средств визуализации и анализа тропических многочленов Пьюзо</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Губанов С.А.</reviewer>
+		<slides>07m_Shkurat.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Кирилл</fn>
+		<mn>Игоревич</mn>
+		<ln>Редкокош  </ln>
+		<name>Статистические модели анализа повторных наблюдений</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>08m_Redkokosh.pdf</slides>
+	</person>
+</diploma>

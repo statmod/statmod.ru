@@ -138,7 +138,7 @@
 			<name>Выпускники</name>
 		</item>
 	</item>
-	<item href="http://statmod.ru/forum/" hreftype="special">
-		<name>Форум</name>
+	<item href="http://statmod.ru/" hreftype="special">
+		<name>Форум отключен</name>
 	</item>
 </item>
