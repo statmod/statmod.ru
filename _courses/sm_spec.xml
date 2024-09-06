@@ -82,6 +82,10 @@
 		<name xml:lang="ru">Современные средства и методы научной коммуникации в области статистического моделирования</name>
 	<prof id="ra_guchenko"/>
 	</course>
+	<course semester="7" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="ball_communication2">
+		<name xml:lang="ru">Современные средства и методы научной коммуникации в области статистического моделирования</name>
+	<prof id="pv_shpilev"/>
+	</course>
 
 		<course semester="7" year="4" class="спец." extras="" hours="2" exam="" year_equiv="1" alias="bsm_statmod">
 		<name xml:lang="ru">Статистическое моделирование-1</name>

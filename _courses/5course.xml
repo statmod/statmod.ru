@@ -1,46 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2024" semester="10">
+<timetable year="2024" semester="9">
     <weekday id="mon">
         <two_hours no="1"/>
-        <two_hours no="2"/>
-        <two_hours no="3"/>
-        <two_hours no="4">
+        <two_hours no="2">
             <lesson type="dep" spec="all">
                 <location></location>
                 <course>
-                    <name>Англ.яз., Нем.яз.</name>
-                    <prof>Акимова, Новикова</prof>
+                    <name>Ин.яз.  (по выбору)</name>
+                    <prof></prof>
                 </course>
             </lesson>
         </two_hours>
+        <two_hours no="3"/>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
-        <two_hours no="1">
-            <lesson type="chair" spec="sm">
-                <location>4399,  до 21.05</location>
-                <course id="sm_ts_comp"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="1"/>
         <two_hours no="2">
-            <lesson type="chair" spec="sm">
-                <location>4399, до 21.05</location>
-                <course id="sm_timeseries_ssa"/>
+            <lesson type="dep" spec="all">
+                <location>4399</location>
+                <course id="all_models"/>
             </lesson>
         </two_hours>
-        <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location>(не реализуется?)</location>
-                <course id="sa_stoch_comp"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="chair" spec="sm">
-                <location>где-то, когда-то</location>
-                <course id="sm_simulation"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
@@ -52,31 +37,53 @@
     </weekday>
     <weekday id="thu">
         <two_hours no="1"/>
-        <two_hours no="2"/>
-        <two_hours no="3"/>
-        <two_hours no="4"/>
-        <two_hours no="5"/>
-    </weekday>
-    <weekday id="fri">
-        <two_hours no="1"/>
         <two_hours no="2">
-            <lesson type="chair" spec="sa">
-                <location>(не реализуется?)</location>
-                <course id="sa_parallel_comp"/>
+            <lesson type="dep" spec="all">
+                <location>3384</location>
+                <course>
+                    <name>Основы искусственного интеллекта и машинного обучения</name>
+                    <prof>Мокаев Т.Н., Бухвалова В.В.</prof>
+                </course>
+                <fortnightly type="1"/>
+            </lesson>
+            <lesson type="dep" spec="all">
+                <location>2502</location>
+                <course id="all_ml_pract"/>
+                <fortnightly type="2"/>
             </lesson>
         </two_hours>
         <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location>(не реализуется?)</location>
-                <course id="sa_adv_stat"/>
+            <lesson type="dep" spec="all">
+                <location>4399</location>
+                <course id="all_mva"/>
             </lesson>
         </two_hours>
         <two_hours no="4">
+            <lesson type="chair" spec="sa">
+                <location>2503</location>
+                <course id="sa_real_stat"/>
+            </lesson>
             <lesson type="chair" spec="sm">
-                <location>где-то, когда-то</location>
-                <course id="sm_statlearning"/>
+                <location>4399</location>
+                <course id="sm_mva_comp"/>
             </lesson>
         </two_hours>
+        <two_hours no="5">
+            <lesson type="chair" spec="sa">
+                <location>2446</location>
+                <course id="sa_prog_data"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>4399</location>
+                <course id="all_adv_design"/>
+            </lesson>
+        </two_hours>
+    </weekday>
+    <weekday id="fri">
+        <two_hours no="1"/>
+        <two_hours no="2"/>
+        <two_hours no="3"/>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="sat">

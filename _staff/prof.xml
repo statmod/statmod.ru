@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
 <staff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://statmod.ru/staff" xsi:schemaLocation="http://statmod.ru/staff staff.xsd">
+	<person id="ne_golyandina" degree="phd_d" academic_rank="assoc_prof" image="neg">
+		<fn>Нина</fn>
+		<mn>Эдуардовна</mn>
+		<ln>Голяндина</ln>
+		<duty academic_rank="prof">
+			<name>И.о. заведующего кафедрой</name>
+			<shortname>Зав. кафедрой</shortname>
+			<shortname/>
+		</duty>
+		<image name="neg.jpg" w="178" h="217" tw="84" th="103"/>
+		<field>
+ прикладная статистика
+(анализ временных рядов, построение моделей реальных данных,
+статистическая обработка данных), решение дифференциальных и
+интегральных уравнений методом Монте Карло.
+</field>
+	</person>
 	<person id="sm_ermakov" degree="phd_d" academic_rank="prof">
 		<fn>Сергей</fn>
 		<mn>Михайлович</mn>
 		<ln>Ермаков</ln>
 		<duty academic_rank="prof">
-			<name>Заведующий кафедрой</name>
-			<shortname>Зав. кафедрой</shortname>
 		</duty>
 		<image name="ermakov.gif" w="178" h="204" tw="89" th="103"/>
 		<field>
@@ -85,22 +100,6 @@
 эконометрики). 
 		</field>
 	</person>
-	<person id="ne_golyandina" degree="phd" academic_rank="assoc_prof" image="neg">
-		<fn>Нина</fn>
-		<mn>Эдуардовна</mn>
-		<ln>Голяндина</ln>
-		<duty academic_rank="assoc_prof">
-			<name>ученый секретарь кафедры</name>
-			<shortname/>
-		</duty>
-		<image name="neg.gif" w="178" h="217" tw="84" th="103"/>
-		<field>
- прикладная статистика
-(анализ временных рядов, построение моделей реальных данных,
-статистическая обработка данных), решение дифференциальных и
-интегральных уравнений методом Монте Карло.
-</field>
-	</person>
 <person id="tm_tovstik" degree="phd" academic_rank="assoc_prof" image="tovstik">
 		<fn>Татьяна</fn>
 		<mn>Михайловна</mn>
@@ -137,11 +136,21 @@
 		</field>
 		<extlink href="http://mystatbook.narod.ru/" target="_blank">Материалы к занятиям по статистике</extlink>
 	</person>
+	
+<person id="pv_shpilev" degree="phd" academic_rank="">
+		<fn>Пётр</fn>
+		<mn>Валерьевич</mn>
+		<ln>Шпилёв</ln>
+		<duty academic_rank="assoc_prof"><name/><shortname/></duty>
+  <image name="shpilev.gif" w="178" h="213" tw="86" th="103"/>
+  <field/>
+	</person>
+	
 	<person id="eg_burnaeva" degree="phd" academic_rank="" image="burnaeva">
 		<fn>Эльфия</fn>
 		<mn>Гарифовна</mn>
 		<ln>Бурнаева</ln>
-		<duty academic_rank="assoc_prof">
+		<duty academic_rank="senior_prep">
 			<!-- academic_rank:  (доцент/профессор/ст.научн. сотрудник) в должности ->  (accos_prof/prof/senior_rf)-->
 			<name/>
 			<!-- Имя должности в скобках -->
@@ -154,7 +163,8 @@
 			численное решение уравнения Навье-Стокса; информационные технологии
 		</field>
 	</person>
-	
+
+<!--
 <person id="ai_korobeynikov" degree="phd" academic_rank="">
 <fn>Антон</fn>
 <mn>Иванович</mn>
@@ -163,27 +173,9 @@
 <image name="aik.jpg" w="178" h="212" tw="84" th="100"/>
 <field> программирование, R, прикладная статистика</field>
 </person>
+-->
 
-<person id="pv_shpilev" degree="phd" academic_rank="">
-		<fn>Пётр</fn>
-		<mn>Валерьевич</mn>
-		<ln>Шпилёв</ln>
-		<duty academic_rank="assoc_prof"><name/><shortname/></duty>
-  <image name="shpilev.gif" w="178" h="213" tw="86" th="103"/>
-  <field/>
-	</person>
 	
-
-<person id="ay_ponomareva" degree="phd" academic_rank="assoc_prof">
-<fn>Aлександра</fn>
-<mn>Юрьевна</mn>
-<ln>Пономарева</ln>
-<duty academic_rank="assoc_prof"><name/><shortname/></duty>
-<image name="ponomareva.jpg" w="178" h="203" tw="89" th="103"/>
-<field>дискретная математика, математическое моделирование дискретных систем, теория и приложения автоматных моделей, сети Петри и параллельные алгоритмы, нечеткая логика и системы нечеткого вывода</field>
-</person>
-
-
 	<person id="ag_bart" degree="phd" academic_rank="assoc_prof" image="bart">
 		<fn>Александр</fn>
 		<mn>Георгиевич</mn>
@@ -215,11 +207,12 @@
 	</person>
 -->
 
+
 		<person id="ra_guchenko" degree="phd" academic_rank="">
-		<fn>Роман</fn>
-		<mn>Александрович</mn>
-		<ln>Гученко</ln>
-    <duty academic_rank="assoc_prof"><name/><shortname/></duty>
+		<fn>Темирлан</fn>
+		<mn/>
+		<ln>Абильдаев</ln>
+    <duty academic_rank=""><name/><shortname/></duty>
  	<field/>
 	</person>
 
@@ -231,6 +224,24 @@
     <duty academic_rank="assoc_prof"><name/><shortname/></duty>
  	<field/>
 	</person>
+	
+<person id="ay_ponomareva" degree="phd" academic_rank="assoc_prof">
+<fn>Aлександра</fn>
+<mn>Юрьевна</mn>
+<ln>Пономарева</ln>
+<duty academic_rank="assoc_prof"><name/><shortname/></duty>
+<field/>
+</person>
+
+	
+	<person id="ai_korobeynikov" degree="phd" academic_rank="">
+<fn>Антон</fn>
+<mn>Иванович</mn>
+<ln>Коробейников</ln>
+<field/>
+</person>
+
+
 	
 	<person id="ya_sushkov" degree="phd_d" academic_rank="prof" image="sushkov">
 		<fn>Юрий</fn>

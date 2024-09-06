@@ -48,6 +48,7 @@
 				<xsl:when test="duty/@academic_rank = 'prof'">Профессор</xsl:when>
 				<xsl:when test="duty/@academic_rank = 'assoc_prof'">Доцент</xsl:when>
 				<xsl:when test="duty/@academic_rank = 'assist_prof'">Ассистент</xsl:when>
+				<xsl:when test="duty/@academic_rank = 'senior_prep'">Ст.преп.</xsl:when>
 				<xsl:when test="duty/@academic_rank = 'senior_rf'">Cт.научн.сотр.</xsl:when>
 			</xsl:choose>
 			<br/>
