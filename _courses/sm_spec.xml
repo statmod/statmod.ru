@@ -127,10 +127,10 @@
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="экз." year_equiv="1" alias="ball_statprogR">
 		<name xml:lang="ru">Выч. методы и пакеты в стат.исследованиях</name>
 		<part type="lect" hours="2">
-			<prof id="ra_guchenko"/>
+			<prof id="nk_zvonarev"/>
 		</part>
 		<part type="pract" hours="2">
-			<prof id="nk_zvonarev"/>
+			<prof id="ra_guchenko"/>
 		</part>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__all_prog_r.pdf">
 			<co:file_name>2015/2016</co:file_name>
@@ -138,7 +138,7 @@
 	</course>
 	<course semester="8" year="4" class="спец." extras="" hours="4" exam="экз." year_equiv="1" alias="bsm_stoch_processes">
 		<name xml:lang="ru">Основы теории случайных процессов</name>
-		<prof id="vv_nekrutkin"/>
+		<prof id="ms_ermakov"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sm_stoch_processes.pdf">
 			<co:file_name>2015/2016</co:file_name>
 		</co:questions>

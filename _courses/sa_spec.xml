@@ -104,15 +104,15 @@
 	</course>
 	 <course semester="8" year="4" class="проф." extras="" hours="2" exam="зачет" year_equiv="0.5" alias="bsa_prediploma">
 		<name xml:lang="ru">Подготовка и оформление научных исследований</name>
-		<prof id="nk_krivulin"/>
+		<prof id="vb_melas"/>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="экз." year_equiv="1" alias="ball_statprogR">
 		<name xml:lang="ru">Выч. методы и пакеты в стат.исследованиях</name>
 		<part type="lect" hours="2">
-			<prof id="ra_guchenko"/>
+			<prof id="nk_zvonarev"/>
 		</part>
 		<part type="pract" hours="2">
-			<prof id="nk_zvonarev"/>
+			<prof id="ra_guchenko"/>
 		</part>
 	</course>
 	<course semester="8" year="4" class="спец." extras="" hours="4" exam="экз." year_equiv="1" alias="bsa_system_model">

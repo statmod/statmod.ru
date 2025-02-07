@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="timetable.xsl"?>
-<timetable year="2024" semester="11">
+<timetable year="2025" semester="12">
     <weekday id="mon">
         <two_hours no="1"/>
         <two_hours no="2"/>
@@ -9,43 +9,69 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="tue">
-        <two_hours no="1"/>
-        <two_hours no="2">
+        <two_hours no="1">
             <lesson type="dep" spec="all">
-                <location>1512</location>
+                <location>2406, до 02.05</location>
                 <course>
-                    <name>Современная философия и методология науки</name>
-                    <prof></prof>
+                    <name>История развития вычислительной техники</name>
+                    <prof>Мирошниченко</prof>
                 </course>
             </lesson>
         </two_hours>
+        <two_hours no="2">
+            <lesson type="chair" spec="sa">
+                <location>где-то, когда-то</location>
+                <course id="sa_communication2"/>
+            </lesson>
+            <lesson type="chair" spec="sm">
+                <location>где-то, когда-то</location>
+                <course id="sm_communication2"/>
+            </lesson>
+        </two_hours>
         <two_hours no="3">
-            <lesson type="dep" spec="all">
-                <location>4503</location>
-                <course id="sm_histmath"/>
+            <lesson type="chair" spec="sa">
+                <location>(не реализуется)</location>
+                <course id="sa_tropical"/>
             </lesson>
         </two_hours>
-        <two_hours no="4">
-            <lesson type="dep" spec="all">
-                <location>4399</location>
-                <course id="sm_communication"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
     <weekday id="wed">
         <two_hours no="1"/>
         <two_hours no="2"/>
         <two_hours no="3"/>
-        <two_hours no="4"/>
-        <two_hours no="5"/>
+        <two_hours no="4">
+            <lesson type="chair" spec="sm">
+                <location>?</location>
+                <course id="sm_biostat"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="5">
+            <lesson type="chair" spec="sm">
+                <location>?</location>
+                <course id="sm_biostat"/>
+            </lesson>
+        </two_hours>
     </weekday>
     <weekday id="thu">
         <two_hours no="1"/>
         <two_hours no="2"/>
         <two_hours no="3"/>
-        <two_hours no="4"/>
-        <two_hours no="5"/>
+        <two_hours no="4">
+            <lesson type="dep" spec="all">
+                <location>4399</location>
+                <course id="sm_science_approach"/>
+                <fortnightly type="1"/>
+            </lesson>
+        </two_hours>
+        <two_hours no="5">
+            <lesson type="dep" spec="all">
+                <location>4399</location>
+                <course id="sm_science_approach"/>
+                <fortnightly type="1"/>
+            </lesson>
+        </two_hours>
     </weekday>
     <weekday id="fri">
         <two_hours no="1"/>
@@ -55,29 +81,26 @@
         <two_hours no="5"/>
     </weekday>
     <weekday id="sat">
-        <two_hours no="1"/>
+        <two_hours no="1">
+            <lesson type="dep" spec="all">
+                <location>3512, до ?</location>
+                <course>
+                    <name>Современная философия и методология науки</name>
+                    <prof>Сидоров</prof>
+                </course>
+            </lesson>
+        </two_hours>
         <two_hours no="2">
-            <lesson type="chair" spec="sa">
-                <location>? (не реализуется?)</location>
-                <course id="sa_stoch_comp2"/>
+            <lesson type="dep" spec="all">
+                <location>2512, до ?</location>
+                <course>
+                    <name>Современная философия и методология науки</name>
+                    <prof>Сидоров</prof>
+                </course>
             </lesson>
         </two_hours>
-        <two_hours no="3">
-            <lesson type="chair" spec="sa">
-                <location></location>
-                <course id="sa_fin_prog"/>
-            </lesson>
-            <lesson type="chair" spec="sm">
-                <location>(не реализуется?)</location>
-                <course id="sm_markov_chains"/>
-            </lesson>
-        </two_hours>
-        <two_hours no="4">
-            <lesson type="chair" spec="sm">
-                <location></location>
-                <course id="sm_optim"/>
-            </lesson>
-        </two_hours>
+        <two_hours no="3"/>
+        <two_hours no="4"/>
         <two_hours no="5"/>
     </weekday>
 </timetable>
