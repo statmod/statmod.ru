@@ -59,10 +59,6 @@
     <weekday id="thu">
         <two_hours no="1"/>
         <two_hours no="2">
-            <lesson type="chair" spec="sa">
-                <location>2406, до 22.04</location>
-                <course id="bmm_stat_pract"/>
-            </lesson>
             <lesson type="chair" spec="sm">
                 <location>4399, до 09.05</location>
                 <course id="bsm_stat_pract"/>
@@ -78,7 +74,12 @@
                 <course id="bsm_stat_pract"/>
             </lesson>
         </two_hours>
-        <two_hours no="4"/>
+        <two_hours no="4">
+            <lesson type="chair" spec="sa">
+                <location>2406, до 22.04</location>
+                <course id="bmm_stat_pract"/>
+            </lesson>
+        </two_hours>
         <two_hours no="5"/>
     </weekday>
     <weekday id="fri">
