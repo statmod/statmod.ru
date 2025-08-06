@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2025">
+	<person spec="sm">
+		<fn> Игорь</fn>
+		<mn>Александрович</mn>
+		<ln>Самарин</ln>
+		<name>Статистические модели для анализа
+категоризированных финансовых
+последовательностей</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Аль Джубури Ф.С.</reviewer>
+		<slides>06m_01_Samarin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Роман</fn>
+		<mn>Олегович</mn>
+		<ln>Оленев</ln>
+		<name>Применение метода SSA для анализа и
+прогноза параметров вращения Земли</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer>Малкин З.М.</reviewer>
+		<slides>06m_02_Olenev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn> Павел </fn>
+		<mn>Дмитриевич</mn>
+		<ln>Дудник</ln>
+		<name>Идентификация компонент временных рядов в
+методе SSA</name>
+		<advisor id="ne_golyandina" />
+		<reviewer> Шлемов А.Ю.</reviewer>
+		<slides>06m_03_Dudnik.pdf</slides>
+	</person>
+</diploma>

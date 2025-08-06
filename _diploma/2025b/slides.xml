@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2025">
+	<person spec="sm">
+		<fn> Евгений </fn>
+		<mn>Маркович</mn>
+		<ln>Поликанин</ln>
+		<name>Один стохастический метод нахождения собственных чисел и векторов матрицы</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Солев В.Н.</reviewer>
+		<slides>06_01_Polikanin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn> Николай </fn>
+		<mn>Вадимович</mn>
+		<ln>Погребников</ln>
+		<name>Модификации метода анализа сингулярного спектра для анализа временных рядов</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Пепелышев А.Н.</reviewer>
+		<slides>06_02_Pogrebnikov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn> Денис </fn>
+		<mn>Михайлович</mn>
+		<ln>Яковлев</ln>
+		<name>Некоторые задачи асимптотической теории
+метода «Анализ Сингулярного Спектра»</name>
+		<advisor id="vv_nekrutkin" />
+		<reviewer>Иванова Е.В.</reviewer>
+		<slides>06_03_Yakovlev.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn> Вадим </fn>
+		<mn>Викторович</mn>
+		<ln>Симоненко</ln>
+		<name>Решение двухкритериальных задач
+планирования проектов с временными
+ограничениями</name>
+		<advisor id="nk_krivulin" />
+		<reviewer>Губанов С. А. </reviewer>
+		<slides>06_04_Simonenko.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn> Полина </fn>
+		<mn>Роиновна</mn>
+		<ln>Гогидзе</ln>
+		<name>Вычислительные методы финансовой
+математики</name>
+		<advisor id="sm_ermakov" />
+		<reviewer> Владимирова Л.В. </reviewer>
+		<slides>06_05_Gogidze.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn> Майя </fn>
+		<mn>Владимировна</mn>
+		<ln>Чебакова</ln>
+		<name>Статистические модели на основе
+гамма-распределения в анализе
+медико-психологических данных</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Белякова Л.А.</reviewer>
+		<slides>06_06_Chebakova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn> Айдар </fn>
+		<mn>Зуфарович</mn>
+		<ln>Назиров </ln>
+		<name>Структурирование многофакторных статистических моделей на основе полиномов Жегалкина с приложением в медицине</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Скурат Е.П.</reviewer>
+		<slides>06_07_Nazirov.pdf</slides>
+	</person>
+		<person spec="sa">
+		<fn> Дмитрий </fn>
+		<mn>Сергеевич</mn>
+		<ln>Ли</ln>
+		<name>Методы оптимизации глубокого обучения при
+ограниченных данных</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Пепелышев А.Н.</reviewer>
+		<slides>06_08_Lee.pdf</slides>
+	</person>
+	</diploma>
