@@ -107,7 +107,7 @@
 		<prof id="vb_melas"/>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="экз." year_equiv="1" alias="ball_statprogR">
-		<name xml:lang="ru">Выч. методы и пакеты в стат.исследованиях</name>
+		<name xml:lang="ru">Современные методы статистических исследований</name>
 		<part type="lect" hours="2">
 			<prof id="nk_zvonarev"/>
 		</part>
@@ -120,7 +120,7 @@
 		<prof id="ay_ponomareva"/>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="зачет" year_equiv="1" alias="bmm_stat_pract">
-		<name xml:lang="ru">Анализ данных на компьютере</name>
+		<name xml:lang="ru">Многомерные линейные методы в статистическом обучении и прогнозировании</name>
 		<prof id="np_alekseeva"/>
 	<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__sa_stat_pract.pdf">
 									<co:file_name>2012/2013</co:file_name>

@@ -125,7 +125,7 @@
 		<prof id="vv_nekrutkin"/>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="экз." year_equiv="1" alias="ball_statprogR">
-		<name xml:lang="ru">Выч. методы и пакеты в стат.исследованиях</name>
+		<name xml:lang="ru">Современные методы статистических исследований</name>
 		<part type="lect" hours="2">
 			<prof id="nk_zvonarev"/>
 		</part>
@@ -144,7 +144,7 @@
 		</co:questions>
 	</course>
 	<course semester="8" year="4" class="проф." extras="" hours="4" exam="зачет" year_equiv="1" alias="bsm_stat_pract">
-		<name xml:lang="ru">Анализ данных на компьютере</name>
+		<name xml:lang="ru">Регрессионный анализ в статистической теории обучения</name>
 		<prof id="ne_golyandina"/>
 		<co:questions xmlns:co="http://statmod.ru/courses" file="4_8__bsm_stat_analysis.pdf">
 			<co:file_name>2015/2016</co:file_name>
