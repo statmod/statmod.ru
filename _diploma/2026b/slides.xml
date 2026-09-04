@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2026">
+	<person spec="sm">
+		<fn>Александр</fn>
+		<mn>Павлович</mn>
+		<ln>Храмов</ln>
+		<name>О зависимости ошибки восстановления комплексного сигнала
+от ранга при возмущении в виде выброса</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Гирдюк Д.В.</reviewer>
+		<slides>05_01_Khramov.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn> Юрий </fn>
+		<mn>Каренович</mn>
+		<ln>Григорян</ln>
+		<name>Модель отрицательного биномиального распределения в анализе
+категориальных последовательностей</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Скурат Е.П.</reviewer>
+		<slides>05_02_Grigoryan.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn> Мария </fn>
+		<mn>Александровна</mn>
+		<ln>Запорожченко</ln>
+		<name>Дисперсионный анализ для повторных измерений в условиях
+неполных данных</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Леонович Р.А.</reviewer>
+		<slides>05_03_Zaporozhchenko.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn> Алексей </fn>
+		<mn>Дмитриевич</mn>
+		<ln>Фалин</ln>
+		<name>Решение двухкритериальных задач
+планирования проектов с временными
+ограничениями</name>
+		<advisor id="ne_golyandina" />
+		<reviewer>Абрамова А.Н. </reviewer>
+		<slides>05_04_Falin.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn> Евгения </fn>
+		<mn>Денисовна</mn>
+		<ln>Иванова</ln>
+		<name>Методы улучшения классификации с
+приложением в медицине</name>
+		<advisor id="np_alekseeva" />
+		<reviewer> Белякова Л.А. </reviewer>
+		<slides>05_05_Ivanova.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn> Анастасия </fn>
+		<mn>Игоревна</mn>
+		<ln>Дивногорская</ln>
+		<name>Обобщенное обращение матриц в
+дисперсионном анализе медико-биологических
+данных</name>
+		<advisor id="np_alekseeva" />
+		<reviewer>Барт В.А.</reviewer>
+		<slides>05_06_Divnogorskaya.pdf</slides>
+	</person>
+	<person spec="sa">
+		<fn> Сергей </fn>
+		<mn>Сергеевич</mn>
+		<ln>Андреев </ln>
+		<name>Исследование усеченных Ds-оптимальных
+планов для моделей без свободных членов</name>
+		<advisor id="pv_shpilev" />
+		<reviewer>Ананьевский  М.С.</reviewer>
+		<slides>05_07_Andreev.pdf</slides>
+	</person>
+		<person spec="sa">
+		<fn> Артем </fn>
+		<mn>Валерьевич</mn>
+		<ln>Сыткин</ln>
+		<name>Один робастный алгоритм оценивания главных компонент</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Проурзин  В.А.</reviewer>
+		<slides>05_08_Sytkin.pdf</slides>
+	</person>
+	</diploma>

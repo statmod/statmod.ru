@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diploma year="2026">
+	<person spec="sm">
+		<fn> Арина</fn>
+		<mn>Алексеевна</mn>
+		<ln>Филатова</ln>
+		<name>Исследование и развитие робастного
+стохастического алгоритма оценки
+многомерного параметра положения
+распределения</name>
+		<advisor id="ms_ermakov" />
+		<reviewer>Проурзин В.А.</reviewer>
+		<slides>05m_01_Filatova.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Егор</fn>
+		<mn>Павлович</mn>
+		<ln>Потешкин</ln>
+		<name>Алгоритмы извлечения сигнала из временных
+рядов с использованием метода Monte Carlo
+SSA</name>
+		<advisor id="ne_golyandina"/>
+		<reviewer>Лунев И.С.</reviewer>
+		<slides>05m_02_Poteshkin.pdf</slides>
+	</person>
+	<person spec="sm">
+		<fn>Никита </fn>
+		<mn>Андреевич</mn>
+		<ln>Хромов</ln>
+		<name>Тензорные модификации анализа сингулярного спектра на основе разложений
+Такера</name>
+		<advisor id="ne_golyandina" />
+		<reviewer> Попов В.В.</reviewer>
+		<slides>05m_03_Khromov.pdf</slides>
+	</person>
+<person spec="sm">
+		<fn> Михаил </fn>
+		<mn>Вдадимирович</mn>
+		<ln>Олейник</ln>
+		<name>Модели сложных распределений с
+приложением в радиобиологии</name>
+		<advisor id="np_alekseeva" />
+		<reviewer> Вербицкая E. В.</reviewer>
+		<slides>05m_04_Oleynik.pdf</slides>
+	</person>
+</diploma>
